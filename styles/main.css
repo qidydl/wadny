@@ -1,0 +1,295 @@
+/******************************************************************************
+ * Global layout styles
+ *****************************************************************************/
+html {
+    background: white url(/graphics/body_back.gif) repeat-x top;
+    margin: 0;
+    padding: 20px 0 0 0;
+    color: #333;
+    font-family: 'Lucida Grande', Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    text-align: center;
+}
+
+body {
+    margin: 0 auto 0 auto;
+    width: 65em;
+    text-align: left;
+}
+
+/******************************************************************************
+ * Heading styles
+ *****************************************************************************/
+header {
+    /* for winter: head-winter.jpg, #FFC700
+     * for early spring: head-earlyspring.jpg, #5E97CC
+     * for spring: head-spring.jpg, #5887B1
+     */
+    background: #5E97CC url(/graphics/head-earlyspring.jpg) no-repeat right center;
+    border: 1px solid #333;
+    padding: 25px;
+}
+
+div#line {
+    height: 10px;
+    border-width: 0 1px 1px 1px;
+    border-style: solid;
+    border-color: #333;
+    background: #FFC700;
+}
+
+header h1 {
+    background: url(/graphics/logo.gif) no-repeat top right;
+    height: 0;
+    margin: 0;
+    overflow: hidden;
+    padding-top: 40px;
+    width: 189px;
+}
+
+header h2 {
+    color: black;
+    margin: 0;
+    font-size: medium;
+    font-weight: normal;
+}
+
+header a img {
+    float: left;
+    border: 0;
+}
+
+/******************************************************************************
+ * Sidebar styles
+ *****************************************************************************/
+nav {
+    float: right;
+    width: 18em;
+    padding: 0 10px 10px 10px;
+    border-left: 1px solid #333;
+    border-bottom: 1px solid #333;
+    border-right: 1px solid #333;
+    /* for winter: #EBEFF5
+     * for early spring, spring: #F6F4EC
+     */
+    background-color: #F6F4EC;
+    margin-bottom: 1em;
+}
+
+nav h2 {
+    height: 0;
+    overflow: hidden;
+}
+
+nav h3 {
+    border-top: 1px dotted #333;
+    padding-top: 10px;
+    margin: 20px 0 5px 0;
+}
+
+nav h3#menuhead {
+    border: 0;
+    height: 0;
+    overflow: hidden;
+    margin-top: -20px;
+    padding-top: 0;
+}
+
+nav ul#mainmenu {
+    font-size: 120%;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 5px;
+}
+
+nav ul ul {
+    margin-left: 8px;
+    padding-left: 8px;
+    border-left: 1px solid gray;
+}
+
+/* Fix buttons so they just look like buttons */
+nav ul#buttons { margin-top: 10px; }
+nav ul#buttons li { display: inline; }
+nav ul#buttons a img { border: 0; }
+nav ul#buttons a {
+	background: none;
+	padding-left: 0;
+}
+
+/******************************************************************************
+ * Content styles
+ *****************************************************************************/
+main {
+    /* total real width: 750-222=528 */
+    float: left;
+    clear: left;
+    width: 45em;
+    margin-bottom: 1em;
+    line-height: 150%;
+}
+
+main h1 { line-height: 110%; }
+main h2 + h3 { padding-top: 3px; }
+
+b.big {
+    font-weight: bold;
+    font-size: large;
+}
+
+table#archive caption { visibility: collapse; }
+
+table#listing td { vertical-align: bottom; }
+
+form.post tr td:first-child {
+    text-align: right;
+    vertical-align: middle;
+}
+
+ul#duringnav {
+    border-top: 1px solid black;
+    list-style: none;
+    padding: 3px 0 0 0;
+}
+
+ul#duringnav li {
+    display: inline;
+    border-left: 1px solid black;
+    padding: 0 1px 0 4px;
+}
+
+ul#duringnav li:first-child {
+    border-left: 0;
+    padding-left: 0;
+}
+
+div.designthumb {
+    float: left;
+    background: url(/graphics/shadowAlpha.png) no-repeat bottom right;
+    margin: 10px 0 10px 10px;
+}
+
+div.designthumb + p {
+    clear: both;
+}
+
+div.designthumb img {
+    display: block;
+    position: relative;
+    background-color: white;
+    border: 1px solid #A9A9A9;
+    margin: -6px 6px 6px -6px;
+    padding: 4px;
+}
+
+div.designthumb a {
+    background: none;
+    padding-left: 0;
+}
+div.designthumb a:hover { background: none; }
+div.designthumb a:link img { border: 1px solid #1C298C; }
+div.designthumb a:visited img { border: 1px solid #8D1B20; }
+div.designthumb a:hover img { border: 1px solid #A9A9A9; }
+
+h3 + h3:first-letter {
+    margin-top: 0;
+    font-weight: normal;
+}
+
+p.footnote {
+    border-top: 1px solid #555555;
+    color: #555555;
+}
+
+/******************************************************************************
+ * Footer styles
+ *****************************************************************************/
+footer {
+    clear: both;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    color: #666;
+}
+
+/******************************************************************************
+ * Global appearance styles
+ *****************************************************************************/
+h1, h2, h3, h4, h5, h6 { font-family: 'Palatino Linotype', 'Times New Roman', Times, serif; }
+h1 { font-size: 200%; }
+h2 {
+     margin-bottom: 5px;
+     margin-top: 1em;
+     font-size: 150%;
+}
+h3 {
+    font-size: 120%;
+    margin-top: 0;
+}
+
+a { text-decoration: underline; }
+a:link {
+    color: #1C298C;
+    background-color: transparent;
+}
+a:visited {
+    color: #8D1B20;
+    background-color: transparent;
+}
+a.hidden { display: none; }
+a.currentpage { font-weight: bold; }
+a:hover { text-decoration: none; }
+
+a[id] { text-decoration: none; } /* remove text decoration from link anchors */
+
+a[rel~="external"] {
+    background-image: url(/graphics/extern.gif);
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 9px;
+}
+a[rel~="external"]:hover { background-image: url(/graphics/extern-over.gif); }
+
+a.noex {
+    background: none;
+    padding-left: 0;
+}
+a.noex:hover { background: none; }
+
+blockquote code {
+    border-left: 1px solid #ddd;
+    display: block;
+    white-space: pre;
+    overflow: auto;
+    margin: 0 -12px 0 -20px;
+    padding-left: 3px;
+    line-height: 125%;
+}
+div#comments blockquote code {
+    border: none;
+    display: inline;
+    white-space: normal;
+    overflow: visible;
+    margin: 0;
+    padding: 0;
+    line-height: 120%;
+}
+code { font-size: 120%; }
+
+label>em {
+    font-style: normal;
+    text-decoration: underline;
+}
+form table caption { display: none; }
+
+span.reqField { color: red; }
+form input.error { border: 1px solid red; }
+form textarea.error { border: 1px solid red; }
+form select.error { border: 1px solid red; }
+
+q { quotes: '\201C' '\201D' '\2018' '\2019'; }
+q:before { content: open-quote; }
+q:after { content: close-quote; }
