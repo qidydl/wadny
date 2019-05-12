@@ -1,4 +1,7 @@
-exclude: ["azure-pipelines.yml"]
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "azure-pipelines.yml"
 permalink: /:categories/:title/
 defaults:
   -

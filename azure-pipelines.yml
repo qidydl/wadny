@@ -20,8 +20,15 @@ steps:
     bundle install --retry=3 --jobs=4
   displayName: 'bundle install'
 
-- script: bundle exec jekyll build -d $(Build.ArtifactStagingDirectory)
+- script: bundle exec jekyll build -d $(Build.BinariesDirectory)
   displayName: 'jekyll build'
+
+- task: ArchiveFiles@2
+  inputs:
+    rootFolderOrFile: '$(Build.BinariesDirectory)'
+    includeRootFolder: false
+    archiveType: 'zip' # Options: zip, 7z, tar, wim
+    archiveFile: '$(Build.ArtifactStagingDirectory)/site.zip' 
 
 - task: PublishBuildArtifacts@1
   inputs:
