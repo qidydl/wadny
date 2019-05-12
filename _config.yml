@@ -1,1 +1,9 @@
+exclude: ["azure-pipelines.yml"]
 permalink: /:categories/:title/
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
