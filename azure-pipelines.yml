@@ -20,7 +20,11 @@ steps:
     bundle install --retry=3 --jobs=4
   displayName: 'bundle install'
 
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+- script: bundle exec jekyll build -d $(Build.ArtifactStagingDirectory)
+  displayName: 'jekyll build'
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    pathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    artifactName: 'site'
+    publishLocation: 'Container' # Options: container, filePath
