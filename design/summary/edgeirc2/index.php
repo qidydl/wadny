@@ -2,7 +2,7 @@
   include("common.php");
 
   if (!isset($page)) { $page = "news"; }
-  elseif (!ereg("^[a-zA-Z]+$",$page)) { edgedie("Invalid page specified - try the menu, haxur."); }
+  elseif (!preg_match('/^[a-zA-Z]+$/',$page)) { edgedie("Invalid page specified - try the menu, haxur."); }
   elseif (!stristr($pages," $page ")) { edgedie("Invalid page specified - try the menu, haxur."); }
   elseif (!file_exists($page . ".html")) { edgedie("Oopsie, page does not exist - email qid@edgeirc.net and tell me what happened."); }
   
