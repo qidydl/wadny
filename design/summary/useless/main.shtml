@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>WEGM - STUFF</title>
+<link rel="fontdef" src="http://qid.stals.com/useless/CENTURY0.eot">
+<style type="text/css">
+<!--
+@font-face {
+  font-family: Century Gothic;
+  font-style:  normal;
+  font-weight: normal;
+  src: url(http://qid.stals.com/useless/CENTURY0.eot);
+}
+
+body {
+  font-family: Century Gothic, Times New Roman, Arial, sans-serif;
+  font-size:   10px;
+}
+// -->
+</style>
+</head>
+<body bgcolor="#202020" text="#707070" link="#FFFFFF" alink="#FFFFFF" vlink="#909090">
+<center><img src="wegm.gif">
+<p>THIS PAGE HAS NO ACTUAL PURPOSE.  I WAS BORED.
+<p><a href="squares.php">FUNKY &nbsp; SQUARES</a>
+<br><a href="orange.shtml">ORANGE</a>
+<br><a href="mailto:old@email.address">@</a>
+<p>THIS STUFF WAS INSPIRED BY <a href="http://www.assembler.org/" target="_blank">ASSEMBLER.ORG</a>.
+<br><font color="#8200AC">PURPLE </font><font color="#FFCC00">MONKEY </font><font color="#007E70">DISHWASHER</font></center>
+</body>
+</html>

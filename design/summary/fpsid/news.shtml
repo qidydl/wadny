@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>fpsid 3.0 :: news</title>
+<meta name="Author" content="David Osolkowski">
+<meta name="description" content="Your one stop source for FPS information, from enemies to gameplay tips to walkthroughs.  We've also got some funny stuff, in case you're a human like me. :-)">
+<meta name="keywords" content="Quake2, QuakeII, Unreal, Shogo, Sin, Half-Life, Duke4ever, Duke Forever, FPSID, games, 3D, gameplay, walkthrough, secrets, humor, enemies, console, items, tutorials, weapons, id, news, humor">
+<link rel=stylesheet href="main.css">
+</head>
+<body bgcolor="#000000" text="#FFFFFF" link="#980C0C" alink="#FFFFFF" vlink="11780E">
+<!--#include virtual="menu.shtml" -->
+
+<table border="0" cellspacing="1" cellpadding="2" width="98%">
+<tr><td class="heading"><center><img src="bullet2.gif"> <b> Latest FPSID News:</b></center></td>
+<tr><td>
+<font color="#087318"><center><img src="dot2.gif" height=6 width=6> September 30, 2000 <b>::</b> 11:50am</center></font>
+<br>It's been a week, so I've put up the other humor article and another log that I forgot to post the first time.  They're both pretty funny, so go do some reading.
+</td>
+<tr><td class="heading"><center><img src="bullet2.gif"> <b> Current FPSID status:</b></center></td>
+<tr><td><b>Added:</b> one new humor article
+<br><b>In planning:</b> programming section for YDL
+<p><b>Help wanted:</b> If anyone out there can gather up information on various games, such as weapon/enemy statistics &amp; pictures, general gameplay tips, walkthroughs, secrets, console stuff, and so forth, please send me an <a href="mailto:qid(at)phoenixdsl(dot)com?subject=FPSID help">e-mail.</a>  I'm also interested in reviews, previews, and articles to add to the site; if I ever get any of those, I'll make a section for them.</td>
+<tr><td class="heading"><center><img src="bullet2.gif"> <b> Quicklinks:</b></center></td>
+<tr><td valign="top"><center><a href="http://www.netscape.com" target="_blank"><img src="misc/getnetscape.gif" border="0" width="90" alt="Get Netscape, the best web browser."></a>
+<img src="spacer.gif"><a href="http://grc.quake2.com/" target="_blank"><img src="misc/q2grc.gif" border="0" width="46" alt="The Quake Community Green Ribbon Campaign - iLER"></a>
+<img src="spacer.gif"><a href="#"><img src="ydl.gif" border="0" alt="Visit YDL Technologies, and up-and-coming computer company."></a>
+<img src="spacer.gif"><a href="http://www.texturizer.net/" target="_blank"><img src="texturizer.gif" alt="Powered by Texturizer" border="0" width="88" height="31"></a>
+</center></td>
+</table>
+
+</center></td></tr>
+<tr valign="bottom"><td width="171" height="182" background="menubg.gif"><img src="bottom.gif" style="margin-right: -5px"></td>
+</table></center>
+</body>
+</html>

@@ -1,0 +1,5 @@
+ErrorDocument 400 /design/edgeirc3/errordocs/400.php
+ErrorDocument 401 /design/edgeirc3/errordocs/401.php
+ErrorDocument 403 /design/edgeirc3/errordocs/403.php
+ErrorDocument 404 /design/edgeirc3/errordocs/404.php
+ErrorDocument 500 /design/edgeirc3/errordocs/500.php

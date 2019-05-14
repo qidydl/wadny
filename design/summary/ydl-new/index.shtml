@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+<head>
+<title>YDL Development - News</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="ydl.css">
+<!--#include virtual="imgpreload.html" -->
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" link="#FFFF00" vlink="#00FF00" alink="#000000">
+<!--#include virtual="menu.html" -->
+<table border="0" cellspacing="0" cellpadding="2" width="100%">
+  <tr>
+    <td rowspan="999" valign="top" class="menu">
+      <img src="shape1.gif" width="260" height="546" border="0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </td>
+    <td class="menu"><h1>news</h1></td>
+  </tr>
+  <tr><td><center><b>January 18, 2001 - 8:52pm</b></center>
+    <br>First of all, there's a new version of IDTScript out, with a few small updates and an interesting new system.  Also, I finally got around to
+        updating the programming section - the C++ page is up, and the PHP page has been edited to be more up-to-date.  There's a sample program in the C++
+        section, go check it out (it's DOS-only, though, so NT and ME users might have problems).
+    <p><center><b>November 6, 2000 - 10:55pm</b></center>
+    <br>I realized there was a ton of stuff in qid.mrc that I've been using that hasn't been put anywhere else, so I cleaned up a new version and put it out
+        - give it a look if you'd like some interesting and useful extra functions.
+    <p><center><b>October 13, 2000 - 11:25pm</b></center>
+    <br>Just a note for anyone looking for help with IDTScript or blink, the support channel is now hosted on irc.edgeirc.net, so don't bother with the old
+        network.  Email and everything else is the same.
+    <p><center><b>September 22, 2000 - 6:23pm</b></center>
+    <br>Well, I completely forgot how to go about releasing IDTScript, and as a result, a bunch of stuff got forgotten or mispacked or whatever.  I added a
+        couple small features, mostly theme stuff and distribution/configuration changes to make the script work properly with itself.  I recommend getting
+        1.5.2 immediately, especially if you had problems getting previous versions to work.  I'm going to have to see if I can get the scripting sites I
+        submitted 1.5.1a to to use this version instead. &nbsp;:-|
+    <p><center><b>September 17, 2000 - 1:30pm</b></center>
+    <br>I found a bug in IDTScript that prevented you from receiving DCC's - it's been fixed with version 1.5.1a.  All you have to do is replace script.mrc,
+        nothing needs to be done to any other files.
+    <p><center><b>September 16, 2000 - 10:43pm</b></center>
+    <br>I remembered that I needed to make an update on the site, and since I had some stuff to post anyways, I figured I'll try to remember what I deleted.
+        Anyways, both blink and idtscript have been updated.  Blink has a small bugfix that prevents people from putting commands in quit messages and
+        having them executed when you do a seen.  IDTScript has a lot more, though, including MP3 updates for mIRC 5.8, new theming aliases, help fixes, and
+        a new theme that's far better than the old default.  If you use either of those, I highly recommend you get the new versions, and if you've never
+        tried IDTScript or gave up on it, you should try it now.
+    <p>The other thing besides script updates concerns blink.  As you may have noticed if you run a copy of blink, mIRC does not handle certain things well,
+        if it manages to handle them at all (the EAL starts giving stupid "line too long" errors far too quickly - mIRC has serious limitations).  A while
+        ago, I tried to write an irc client/port of blink in C++, but it didn't work too well.  Recently, we got a linux computer and I started screwing
+        around with perl.  Someone else on Inside3D has a perl bot, and eventually I wound up working on a perl port of blink.  Being the incredibly
+        creative (hah) person that I am, it's named "plink".  Right now it has a few basic features and some stuff that you can only really do with perl on
+        linux, but I'll eventually get just about everything in there and (hopefully) release it.  If you want to see it or whatever, come to
+        irc.inside3d.net #gloom (I'm usually in there as QID|YDL, if not, look for me in #coders).
+    <p><center><b>July 24, 2000 - 5:51pm</b></center>
+    <br>Well, the site somehow managed to fuck itself up, and I lost the huge update I just made, and I don't feel like rewriting it now.  I'll fix it later.
+    <p><center><b>April 19, 2000 - 12:29am</b></center>
+    <br>This is sort of the same day, but I don't feel like inventing what to do when I do updates on the same day with this site. Anyways,
+        I've updated the <a href="samples.shtml">samples</a> page with a bunch of new designs and new screenshots of all the old ones, so check it out and
+        gasp in awe at my ability to waste huge amounts of time.&nbsp; :-D
+    <p><center><b>April 18, 2000 - 11:20pm</b></center>
+    <br>I finally managed to get some Javascript functions working that let me pass only the layer name, so the page is now IE-compatible.  Congratulations.
+        I don't know why, but IE ignores some of the CSS in my menu (and people say NS sucks for CSS - yeah, riiight) so the text links are really hard to
+        see unless you put the cursor over them.
+    <p><center><b>March 26, 2000 - 9:20pm</b></center>
+    <br>I finally got the programming section started.  Currently, it only has a basic description of PHP, but I'll get the samples section put up as soon
+        as I can.  After that, I'll put up the C++ section.  There isn't really much programming I do besides C++ and PHP, but I may come up with some other
+        stuff to add later on.
+    <p><center><b>March 7, 2000 - 7:55pm</b></center>
+    <br>Well, for some unknown reason, the menu for this page refuses to work in IE.  I've tried a ton of different ways to reference layers, most of which
+        work fine in Netscape, and none of which work in IE.&nbsp; &gt;:-| &nbsp;So, if you're using IE, you're basically screwed unless you can show me how
+        to change the visibility and positioning of a layer with IE.
+    <p><center><b>March 1, 2000 - 10:06pm</b></center>
+    <br>I remembered the IRC Development Team Addons page, and added that to the mIRC menu.  The site is currently fully converted, and the design is being
+        uploaded.  As soon as that's finished, it will officially replace the old YDL design.  So, without further ado, welcome to the new YDL!
+    <p><center><b>March 1, 2000 - 4:54pm</b></center>
+    <br>I got the webdesign menu item in place, I'm porting the last pages of the old YDL design over now.  Note that the "packages" page will disappear -
+        I'm going to charge based on time &amp; effort, although I don't have a specific amount or rate yet.
+    <p><center><b>February 29, 2000 - 7:43pm</b></center>
+    <br>Welcome to the all-new YDL Development website.  I'm still converting stuff over - website design stuff doesn't exist yet, and blink isn't here
+        either.  However, there's a lot of change along with this redesign.  The main difference: YDL Webdesign and the IRC Development Team no longer exist;
+        everything's been merged into a single company.  Assuming this ever becomes an actual company, that should save me a ton of hassle.  Also, I can
+        broaden my horizons - previously, all I had set up was stuff for website design and scripting for IRC.  If I decided to make a standalone program of
+        some sort, it didn't fall into any of the existing companies.  Now, however, all I have to do is add a menu item.&nbsp; :-D &nbsp;Anyways, there's a
+        bunch of stuff on the <a href="about.shtml">about</a> page, explaining everything, so take a look there.
+  </td></tr>
+  <tr><td class="menu"><p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;</td></tr>
+</table>
+</body>
+</html>

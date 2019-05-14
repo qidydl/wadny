@@ -1,0 +1,44 @@
+div.boxor {
+	border: 1px dashed black;
+	margin-bottom: 10px;
+}
+
+div.text { padding: 2px; }
+
+div.headbar {
+	padding: 5px;
+	color: #FFFFFF;
+	background-color: #4FA1BB;
+	background-image: url(background2.png);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-weight: bold;
+	text-align: center;
+	border-bottom: 1px dashed black;
+}
+
+p { margin-bottom: 0px; }
+
+pre {
+	padding: 2px;
+	margin: 0px;
+}
+
+body {
+	font-family: Verdana, Tahoma, Arial, sans-serif;
+	font-size: 8pt;
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	max-width: 800px;
+}
+
+A { text-decoration: none; }
+A:hover { text-decoration: underline; }
+
+A.menu {
+	padding: 1px;
+	font-size: 7pt;
+}
+A:hover.menu { background-color: #81E3FF; }

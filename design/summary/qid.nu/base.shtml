@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>qid.nu design #2 - irc logs</title>
+<!--#include virtual="header.shtml" -->
+
+<span id="lyrNews" style="position:absolute;
+                         left:125px;
+                         top:10px;
+                         background-color:#004A84;
+                         z-index:2;
+                         visibility: visible">
+  <table border="0" cellspacing="0" cellpadding="0" background="bg.gif">
+    <tr>
+      <td background="top.gif"><img src="ul.gif"></td>
+      <td background="top.gif"> - <b>irc logs</b> - </td>
+      <td background="top.gif"><img src="ur.gif"></td>
+    </tr>
+    <tr>
+      <td background="left.gif"><img src="left.gif"></td>
+      <td background="bg.gif" bgcolor="#046AB1">
+      </td>
+      <td background="right.gif"><img src="right.gif"></td>
+    </tr>
+    <tr>
+      <td background="bottom.gif"><img src="bl.gif"></td>
+      <td background="bottom.gif">&nbsp;</td>
+      <td background="bottom.gif"><img src="br.gif"></td>
+    </tr>
+  </table>
+</span>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+<head>
+<title>YDL Development - About</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="ydl.css">
+<!--#include virtual="imgpreload.html" -->
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" link="#FFFF00" vlink="#00FF00" alink="#000000">
+<!--#include virtual="menu.html" -->
+<table border="0" cellspacing="0" cellpadding="2">
+  <tr>
+    <td rowspan="999" valign="top" class="menu">
+      <img src="shape1.gif" width="260" height="546" border="0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </td>
+    <td class="menu"><h1>about</h1></td>
+  </tr>
+  <tr><td><b>HISTORY</b>
+    <br>YDL Development used to be a combination of two companies: YDL Webdesign and the IRC Development Team.  I decided that really didn't buy us
+      anything, so the two companies are basically one now.  This basically lets me design whatever I want, and not have to worry about where it fits in
+      with either company; since I'm getting into C++ programming, at home and at school, it makes things easier when I come up with a cool new idea that
+      doesn't have anything to do with IRC or website design.
+    <p><b>WHAT WE DO</b>
+    <br>YDL Development basically makes whatever is useful for me, but I'll take suggestions for things to create, because I like tinkering with a new idea
+      and getting it to work just right.  I've got a script and bot for mIRC as well as a number of existing website designs, and since I'm getting into C++
+      and PHP, I'm also creating things like simple console games, news updating scripts, and an easily customizeable script for browsing directories.  If
+      you have an idea for something interesting, or something that's normally boring that you want to put a new spin on, give me a shout.
+    <p><b>HOW TO JOIN US</b>
+    <br>There are instructions for joining YDL Development in the people section.  Bascially, you must have a background in
+      programming of some sort - mIRC scripting, HTML, C++, PHP, Perl, Java, or any other language that's relatively modern (no, COBOL doesn't count).  C++
+      and HTML are the most important, with web languages (Java, PHP, Perl) following shortly behind, so if you know any of those really well, and can prove
+      it, there's a good chance you'll get in.
+  </td></tr>
+  <tr><td class="menu"><p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;</td></tr>
+</table>
+</body>
+</html>

@@ -172,7 +172,7 @@ div.designthumb {
     margin: 10px 0 10px 10px;
 }
 
-div.designthumb + p {
+div.designthumb + p, div.designthumb + h3 {
     clear: both;
 }
 

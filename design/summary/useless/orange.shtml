@@ -1,0 +1,84 @@
+<html>
+<head>
+<title>orange</title>
+<style type="text/css">
+<!--
+td {
+  font-family: Century Gothic, Times New Roman, Arial, sans-serif;
+  font-size: 10px;
+}
+th {
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 10px;
+  color: #000000;
+  text-align: left;
+}
+body {
+  font-family: Century Gothic, Times New Roman, Arial, sans-serif;
+  font-size: 10px;
+}
+.title {
+  font-family: Arial, sans-serif;
+  color: #F78C00;
+  font-weight: bold;
+  font-size: 48pt;
+}
+// -->
+</style>
+<script src="orange2.js" language="Javascript1.2" type="text/javascript"></script>
+<style>
+<!--
+.drag{position:relative;cursor:hand}
+-->
+</style>
+</head>
+<body bgcolor="#202020" text="#707070" onLoad="setTimers()">
+<div id="word0" class="title" style="position: absolute; top: -80px; left: 168px">O</div>
+<div id="word1" class="title" style="position: absolute; top: -80px; left: 218px">R</div>
+<div id="word2" class="title" style="position: absolute; top: -80px; left: 268px">A</div>
+<div id="word3" class="title" style="position: absolute; top: -80px; left: 318px">N</div>
+<div id="word4" class="title" style="position: absolute; top: -80px; left: 363px">G</div>
+<div id="word5" class="title" style="position: absolute; top: -80px; left: 413px">E</div>
+<div id="adven" style="position: absolute; top: -60px; left: 239px;"><img src="adventure.gif" alt="Adventures in boring DHTML"></div>
+<div id="mtext" class="drag" style="id: mtext; position: absolute; top: 100px; left: 100px; width: 430px; visibility: visible; z-index: 15">
+<table border="0" cellspacing="0" cellpadding="0" width="430">
+<tr><td background="dot_yellow.gif"><img src="dot_yellow.gif"></td>
+    <th background="dot_yellow.gif" colspan="2">WELCOME TO ORANGE - 8/27/00@4:04pm EST</th>
+    <td background="dot_yellow.gif" align="right"><script language="Javascript" type="text/javascript">
+        <!--
+        if (navigator.appName != "Microsoft Internet Explorer") {
+          document.write("<a href=\"javascript:realign('mtext')\"><img src=\"center.gif\" border=\"0\"></a>");
+        }
+        else { document.write("&nbsp;"); }
+        // -->
+        </script></td>
+    <td background="dot_yellow.gif"><img src="dot_yellow.gif"></td></tr>
+<tr><td background="dot_yellow.gif"><img src="dot_yellow.gif"></td><td>&nbsp;</td>
+    <td>This page is supposedly a place for me to showcase my DHTML stuff, but right now it's just a few moving things.  In a bit I'll add some more stuff,
+        although I can't guarantee any of it will be better than what's already here.  Oh, by the way, this page requires javascript and a recent browser,
+        if you didn't guess already.
+        <p>If you can't guess why this page is called "orange", you're colorblind.
+    </td>
+    <td>&nbsp;</td><td background="dot_yellow.gif"><img src="dot_yellow.gif"></td></tr>
+<tr><td background="dot_yellow.gif"><img src="dot_yellow.gif"></td>
+    <th background="dot_yellow.gif" colspan="4">WHAT YOU CAN DO</th></tr>
+<tr><td background="dot_yellow.gif"><img src="dot_yellow.gif"></td><td>&nbsp;</td>
+    <td>Right now, there's not a whole lot to do on orange.  You can reload and watch the letters and image thingy fall back down (NO LONGER WORKS - WRITTEN IN PROPRIETARY
+        JAVASCRIPT, NOT WORTH FIXING), 
+        <script language="Javascript" type="text/javascript">
+        <!--
+        if (navigator.appName == "Microsoft Internet Explorer") { document.write("but that's about it."); }
+        else {
+          document.write("or you can grab this box and drag it around the screen.  You can also hit the little \"X\" in the top of a box to put it back");
+          document.write(" where it started.");
+        }
+        // -->
+        </script>
+        I might have some actual content later, but I made this site to goof off, not to make content. &nbsp; :-)
+    </td>
+    <td>&nbsp;</td><td background="dot_yellow.gif"><img src="dot_yellow.gif"></td></tr>
+<tr><td background="dot_yellow.gif" colspan="5"><img src="dot_yellow.gif"></td></tr>
+</table>
+</div></div> <!-- I'm not sure why I need two </div>'s here, but I do -->
+</body>
+</html>

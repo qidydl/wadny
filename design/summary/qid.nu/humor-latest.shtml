@@ -1,0 +1,175 @@
+<html>
+<head>
+<title>qid.nu design #2 - latest humor</title>
+<!--#include virtual="header.shtml" -->
+
+<span id="lyrNews" style="position:absolute;
+                         left:125px;
+                         top:10px;
+                         background-color:#004A84;
+                         z-index:2;
+                         visibility: visible">
+  <table border="0" cellspacing="0" cellpadding="0" background="bg.gif">
+    <tr>
+      <td background="top.gif"><img src="ul.gif"></td>
+      <td background="top.gif"> - <b>January 25, 1999 - Things it takes most of us 50 years to learn</b> - </td>
+      <td background="top.gif"><img src="ur.gif"></td>
+    </tr>
+    <tr>
+      <td background="left.gif"><img src="left.gif"></td>
+      <td background="bg.gif" bgcolor="#046AB1">
+	<ol>
+	<li>The badness of a movie is directly proportional to the number of helicopters in it.
+	<li>You will never find anybody who can give you a clear and compelling reason why we observe daylight savings time.
+	<li>You should never say anything to a woman that even remotely suggests you think she's pregnant unless you can see an actual baby
+	    emerging from her at that moment.
+	<li>The most powerful force in the universe is gossip.
+	<li>The one thing that unites all human beings, regardless of age, gender, religion, economic status or ethnic background, is that,
+            deep down inside, we ALL believe that we are above-average drivers.
+	<li>There comes a time when you should stop expecting other people to make a big deal about your birthday. That time is age 11.
+	<li>There is a  fine line between "hobby" and "mental illness."
+	<li>People who want to share their religious views with you almost never want you to share yours with them.
+	<li>If you had to identify, in one word, the reason why the human race has not achieved, and never will achieve, its full potential,
+            that word would be "meetings."
+	<li>The main accomplishment of almost all organized protests is to annoy people who are not in them.
+	<li>If there really is a God who created the entire universe with all of its glories, and he decides to deliver a message to
+            humanity, he will NOT use as his messenger a person on cable TV with a bad hairstyle (or, in some cases, really bad makeup too).
+	<li>You should not confuse your career with your life.
+	<li>A person who is nice to you, but rude to the waiter or janitor, is not a nice person.
+	<li>No matter what happens, somebody will find a way to take it too seriously
+	<li>When trouble arises and things look bad, there is always one individual who perceives a solution and is willing to take command.
+            Very often, that individual is crazy.
+	</ol>
+      </td>
+      <td background="right.gif"><img src="right.gif"></td>
+    </tr>
+    <tr>
+      <td background="left.gif"><img src="left.gif"></td>
+      <td background="bg2.gif"> - <b>January 25, 1999 - State mottos</b> - </td>
+      <td background="right.gif"><img src="right.gif"></td>
+    </tr>
+    <tr>
+      <td background="left.gif"><img src="left.gif"></td>
+      <td background="bg.gif" bgcolor="#046AB1">
+	<ul>
+	<li>Alabama: At Least We're not Mississippi
+	<li>Alaska: 11,623 Eskimos Can't be Wrong!
+	<li>Arizona: But It's a Dry Heat
+	<li>Arkansas: Literacy Ain't Everthing
+	<li>California: As Seen on TV
+	<li>Colorado: If You Don't Ski, Don't Bother
+	<li>Connecticut: Like Massachusetts, Only Dirtier and With Less Character
+	<li>Delaware: We Really Do Like the Chemicals in our Water
+	<li>Florida: Ask Us About Our Grandkids
+	<li>Georgia: We Put the "Fun" in Fundamentalist Extremism
+	<li>Hawaii: Haka Tiki Mou Sha'ami Leeki Toru (Death to Mainland Scum, But Leave Your Money)
+	<li>Idaho: More Than Just Potatoes... Well Not Really, But The Potatoes Sure Are Good
+	<li>Illinois: Please Don't Pronounce the "S"
+	<li>Indiana: 2 Billion Years Tidal Wave Free
+	<li>Iowa: We Do Amazing Things With Corn
+	<li>Kansas: First Of The Rectangle States
+	<li>Kentucky: Five Million People; Fifteen Last Names
+	<li>Louisiana: We're Not All Drunk Cajun Wackos, But That's Our Tourism Campaign
+	<li>Maine: We're Really Cold, But We Have Cheap Lobster
+	<li>Maryland: A Thinking Man's Delaware
+	<li>Massachusetts: Our Taxes Are Lower Than Sweden's (For Most Tax Brackets)
+	<li>Michigan: First Line of Defense From the Canadians
+	<li>Minnesota: 10,000 Lakes and 10,000,000 Mosquitoes
+	<li>Mississippi: Come Feel Better About Your Own State
+	<li>Missouri: Your Federal Flood Relief Tax Dollars at Work
+	<li>Montana: Land of the Big Sky, the Unabomber, Right-Wing Crazies, Very Little Else
+	<li>Nebraska: Ask About Our State Motto Contest
+	<li>Nevada: Whores and Poker!
+	<li>New Hampshire: Go Away and Leave Us Alone
+	<li>New Jersey: You Want a ##$%##! Motto? I Got Yer ##$%##! Motto Right Here!
+	<li>New Mexico: Lizards Make Excellent Pets
+	<li>New York: You Have the Right to Remain Silent, You Have the Right to an Attorney...
+	<li>North Carolina: Tobacco is a Vegetable
+	<li>North Dakota: We Really are One of the 50 States!
+	<li>Ohio: We Wish We Were In Michigan
+	<li>Oklahoma: Like the Play, only No Singing
+	<li>Oregon: Spotted Owl... It's What's For Dinner
+	<li>Pennsylvania: Cook With Coal
+	<li>Rhode Island: We're Not REALLY An Island
+	<li>South Carolina: Remember the Civil War? We Didn't Actually Surrender
+	<li>South Dakota: Closer Than North Dakota
+	<li>Tennessee: The Educashun State
+	<li>Texas: Si, Hablo Ing'les (Yes, I speak English)
+	<li>Utah: Our Jesus Is Better Than Your Jesus
+	<li>Vermont: Yep
+	<li>Virginia: Who Says Government Stiffs and Slackjaw Yokels Don't Mix?
+	<li>Washington: Help! We're Overrun By Nerds and Slackers!
+	<li>Washington, D.C.: Wanna Be Mayor?
+	<li>West Virginia: One Big Happy Family -- Really!
+	<li>Wisconsin: Come Cut Our Cheese
+	<li>Wyoming: Wynot?
+	</ul>
+      </td>
+      <td background="right.gif"><img src="right.gif"></td>
+    </tr>
+    <tr>
+      <td background="left.gif"><img src="left.gif"></td>
+      <td background="bg2.gif"> - <b>January 25 - Disorder in the court</b> - </td>
+      <td background="right.gif"><img src="right.gif"></td>
+    </tr>
+    <tr>
+      <td background="left.gif"><img src="left.gif"></td>
+      <td background="bg.gif" bgcolor="#046AB1">These are from a book called "Disorder in the Court". These are things people actually said
+        in court, word for word, taken down and now published by court reporters - who had the torment of staying calm while these exchanges
+        were actually taking place:
+	<p>Q: What is your date of birth?
+	<br>A: July fifteenth.
+	<br>Q: What year?
+	<br>A: Every year.
+	<p>Q: What gear were you in at the moment of the impact?
+	<br>A: Gucci sweats and Reeboks.
+	<p>Q: What was the first thing your husband said to you when he woke
+	<br>A: He said, "Where am I, Cathy?"
+	<br>Q: And why did that upset you?
+	<br>A: My name is Susan.
+	<p>Q: And where was the location of the accident?
+	<br>A: Approximately milepost 499.
+	<br>Q: And where is milepost 499?
+	<br>A: Probably between milepost 498 and 500.
+	<p>Q: Now doctor, isn't it true that when a person dies in his sleep, he doesn't know about it until the next morning?
+	<p>Q: The youngest son, the twenty-year old, how old is he?
+	<p>Q: Were you present when your picture was taken?
+	<p>Q: So the date of conception (of the baby) was August 8th?
+	<br>A: Yes.
+	<br>Q: And what were you doing at that time?
+	<p>Q: How was your first marriage terminated?
+	<br>A: By death.
+	<br>Q: And by whose death was it terminated?
+	<p>Q: Doctor, how many autopsies have you performed on dead people?
+	<br>A: All my autopsies are performed on dead people.
+	<p>Q: All your responses must be oral, OK?  What school did you go to?
+	<br>A: Oral.
+	<p>Q: Do you recall the time that you examined the body?
+	<br>A: The autopsy started around 8:30 p.m.
+	<br>Q: And Mr. Dennington was dead at the time?
+	<br>A: No, he was sitting on the table wondering why I was doing an autopsy.
+	<p>Q: Are you qualified to give a urine sample?
+	<p>Q: Doctor, before you performed the autopsy, did you check for a pulse?
+	<br>A: No.
+	<br>Q: Did you check for blood pressure?
+	<br>A: No.
+	<br>Q: Did you check for breathing?
+	<br>A: No.
+	<br>Q: So, then it is possible that the patient was alive when you began the autopsy?
+	<br>A: No.
+	<br>Q: How can you be so sure, Doctor?
+	<br>A: Because his brain was sitting on my desk in a jar.
+	<br>Q: But could the patient have still been alive nevertheless?
+	<br>A: Yes, it is possible that he could have been alive and practicing law somewhere.
+      <td background="right.gif"><img src="right.gif"></td>
+    </tr>
+    <tr>
+      <td background="bottom.gif"><img src="bl.gif"></td>
+      <td background="bottom.gif">&nbsp;</td>
+      <td background="bottom.gif"><img src="br.gif"></td>
+    </tr>
+  </table>
+</span>
+
+</body>
+</html>

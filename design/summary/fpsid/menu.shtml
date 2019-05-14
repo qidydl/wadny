@@ -1,0 +1,23 @@
+<center>
+<table border="0" cellspacing="0" cellpadding="0" width="100%" style="background-color: #DDDDDD">
+<tr><td><img src="/design/summary/fpsid/corner.gif" width="171" style="margin-right: -5px"></td>
+    <td background="/design/summary/fpsid/menubgtop.gif" width="100%"><center><img src="/design/summary/fpsid/logo.gif"></center></td>
+    <td class="menu"><img src="/design/summary/fpsid/right.gif"></td>
+</tr>
+<tr valign="top"><td background="/design/summary/fpsid/menubg.gif">
+<br><center><b>:: site-related ::</b>
+<p><a href="/design/summary/fpsid/news.shtml">news</a>
+<br><a href="#">archives</a>
+<br><a href="#">links</a>
+<br><a href="mailto:qid(at)edgeirc.net">e-mail</a>
+<br><a href="/design/summary/fpsid/misc/siteinfo.shtml">site information</a>
+<br><a href="#">search FPSID</a>
+<br><a href="#">WoR review</a>
+<p><b>:: other ::</b>
+<p><a href="#">latest humor</a>
+<br><a href="#">humor archives</a>
+<br><a href="#">weird IRC logs</a>
+<br><a href="#">IRC stuff</a>
+<!--#include virtual="/design/summary/fpsid/games.shtml" -->
+</center></td>
+<td class="menu" colspan="2" rowspan="2" valign="top"><center>

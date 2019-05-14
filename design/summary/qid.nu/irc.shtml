@@ -1,0 +1,84 @@
+<html>
+<head>
+<title>qid.nu design #2 - news</title>
+<!--#include virtual="header.shtml" -->
+
+<span id="lyrStuff" style="position:absolute;
+                         left:125px;
+                         top:10px;
+                         background-color:#004A84;
+                         z-index:3;
+                         visibility: visible">
+  <table border="0" cellspacing="0" cellpadding="0" background="bg.gif">
+    <tr>
+      <td background="top.gif"><img src="ul.gif"></td>
+      <td background="top.gif"> - <b>IRC stuff</b> - </td>
+      <td background="top.gif"><img src="ur.gif"></td>
+    </tr>
+    <tr>
+      <td background="left.gif"><img src="left.gif"></td>
+      <td background="bg.gif" bgcolor="#046AB1"><b>How to get on irc:</b>
+        <p>In order to get on IRC, you need an IRC client. If you're on a PC, I reccomend mIRC. It's simple and easy to use, yet very
+           powerful when combined with a good script like IDTScript. Once you're all set up, simply pick a server, such as
+           thepeel.inside3d.net, and you're off.
+      </td>
+      <td background="right.gif"><img src="right.gif"></td>
+    </tr>
+    <tr>
+      <td background="left.gif"><img src="left.gif"></td>
+      <td background="bg2.gif">&nbsp;</td>
+      <td background="right.gif"><img src="right.gif"></td>
+    </tr>
+    <tr>
+      <td background="left.gif"><img src="left.gif"></td>
+      <td background="bg.gif" bgcolor="#046AB1"><b>Good channels to visit:</b>
+        <p>There are a lot of cool channels to visit. All of the ones I'm mentioning are on Inside3D (server thepeel.inside3d.net). Some of
+           the popular hangouts are #gloom, the official channel for Gloom, a quake2 mod made by Team Reaction (they're based on Inside3D),
+           #jailbreak, the official chan for another Team Reaction mod, and #coders, a channel for general coding discussion. You might also
+           want to check are #3ddr (my channel :-) ), #AQ2General (an Action Quake2 channel, I believe), or #eggdrop, for help with eggdrop bots.
+      </td>
+      <td background="right.gif"><img src="right.gif"></td>
+    </tr>
+    <tr>
+      <td background="left.gif"><img src="left.gif"></td>
+      <td background="bg2.gif">&nbsp;</td>
+      <td background="right.gif"><img src="right.gif"></td>
+    </tr>
+    <tr>
+      <td background="left.gif"><img src="left.gif"></td>
+      <td background="bg.gif" bgcolor="#046AB1"><b>#3ddr:</b>
+        <p>#3ddr is a channel that I had Q access in for some reason. Q was 3DNet's channel bot, but even when I moved to Inside3D, I kept
+           the channel around. It's a general gaming chat channel, nothing especially unique. It's populated by me (QID|YDL), ChanServ, my
+           bot (blink), and shinji (a coding guy I know).  Other people stop by occasionally, mostly asking for help with my script or bot,
+           since the discussion is mostly in #coders or #gloom.
+      </td>
+      <td background="right.gif"><img src="right.gif"></td>
+    </tr>
+    <tr>
+      <td background="left.gif"><img src="left.gif"></td>
+      <td background="bg2.gif">&nbsp;</td>
+      <td background="right.gif"><img src="right.gif"></td>
+    </tr>
+    <tr>
+      <td background="left.gif"><img src="left.gif"></td>
+      <td background="bg.gif" bgcolor="#046AB1"><b>#3ddr and #coders rules:</b>
+        <ol>
+          <li>no abusing the bot 
+          <li>no flooding 
+          <li>no advertising 
+          <li>no general lameness (you'll know when you're violating this rule) 
+          <li>no op begging
+        </ol>
+      </td>
+      <td background="right.gif"><img src="right.gif"></td>
+    </tr>
+    <tr>
+      <td background="top.gif"><img src="bl.gif"></td>
+      <td background="bottom.gif">&nbsp;</td>
+      <td background="top.gif"><img src="br.gif"></td>
+    </tr>
+  </table>
+</span>
+
+</body>
+</html>

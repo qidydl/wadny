@@ -1,0 +1,16 @@
+A { text-decoration: none;
+    font-family: Verdana, Arial, Helvetica, sans-serif; }
+A:link { color: #FF0000; }
+A:visited { color: #087318; }
+A:active { color: #000000; }
+A:hover { color: #000000; }
+
+body { font-size: 8pt;
+       font-family: Verdana, Arial, Helvetica, sans-serif; }
+td { font-size: 8pt; }
+th { font-size: 8pt;
+     color: #000000;
+     font-weight: bold;
+     text-align: left;
+     background-color: #808080; }
+h1 { font-size: 16pt; }

@@ -1,0 +1,29 @@
+pre {
+  font-family: Lucida Console, Terminal, monospace;
+  font-size: 9pt;
+}
+body {
+  font-family: Verdana, Tahoma, Arial, sans-serif;
+  font-size: 8pt;
+  color: #FFFFFF;
+}
+
+td {
+  font-family: Verdana, Tahoma, Arial, sans-serif;
+  font-size: 8pt;
+  color: #FFFFFF;
+  background-color: #606060;
+}
+
+th {
+  font-family: Verdana, Tahoma, Arial, sans-serif;
+  font-size: 8pt;
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: #505050;
+}
+
+A:link { color: #B0B0B0; }
+A:visited { color: #FFFFFF; }
+A:active { color: #FFFFFF; }
+A:hover { color: #FFFFFF; }

@@ -1,0 +1,20 @@
+<center>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr><td width="171"><img src="../corner.gif" style="margin-right: -5px"></td>
+<td background="../menubgtop.gif" width="100%"><center><img src="../logo.gif"></center></td>
+<td class="menu" width="82"><img src="../right.gif"></td></tr>
+<tr valign="top"><td background="/fpsid/menubg.gif">
+<br><center><a href="../news.shtml">:: main ::</a>
+<p><b>:: quake2 ::</b>
+<p><a href="#">cheat codes</a>
+<br><a href="#">console scripting</a>
+<br><a href="#">enemies</a>
+<br><a href="#">gameplay tips</a>
+<br><a href="#">items</a>
+<br><a href="#">level design</a>
+<br><a href="#">secrets</a>
+<br><a href="#">walkthroughs</a>
+<br><a href="#">weapons</a>
+<!--#include virtual="../games.shtml" -->
+</center></td>
+<td class="menu" colspan="2" rowspan="2" valign="top"><center>

@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>qid.nu design #2 - news</title>
+<!--#include virtual="header.shtml" -->
+
+<span id="lyrNews" style="position:absolute;
+                         left:125px;
+                         top:10px;
+                         background-color:#004A84;
+                         z-index:2;
+                         visibility: visible">
+  <table border="0" cellspacing="0" cellpadding="0" background="bg.gif">
+    <tr>
+      <td background="top.gif"><img src="ul.gif"></td>
+      <td background="top.gif"> - <b>nu news</b> - </td>
+      <td background="top.gif"><img src="ur.gif"></td>
+    </tr>
+    <tr>
+      <td background="left.gif"><img src="left.gif"></td>
+      <td background="bg.gif" bgcolor="#046AB1"><b>1/31/00 2:22pm</b>
+        <p>Well, it appears ironkite is shutting down and taking all of their hosted sites with them... that means I need a new place to host
+           me, and I'm having a hell of a time finding something decent.  All of the free places want ghey banner ads, and I don't exactly have
+           a lot of money to blow on hosting... oh well.
+	<p>In personal news, I got a sore throat on saturday, so I didn't go to school today... this sucks.
+      </td>
+      <td background="right.gif"><img src="right.gif"></td>
+    </tr>
+    <tr>
+      <td background="left.gif"><img src="left.gif"></td>
+      <td background="bg2.gif">&nbsp;</td>
+      <td background="right.gif"><img src="right.gif"></td>
+    </tr>
+    <tr>
+      <td background="left.gif"><img src="left.gif"></td>
+      <td background="bg.gif" bgcolor="#046AB1"><b>1/26/00 12:24pm</b>
+        <p>Welcome to the new qid.nu design.  The previous one had a funky graphical menu, but after finding looroll.com, I got inspired to
+           do something with layers.  Originally, I tried making a site with just one HTML page that just turned layers on and off, but it
+           didn't work, so I just went to normal pages.
+      </td>
+      <td background="right.gif"><img src="right.gif"></td>
+    </tr>
+    <tr>
+      <td background="bottom.gif"><img src="bl.gif"></td>
+      <td background="bottom.gif">&nbsp;</td>
+      <td background="bottom.gif"><img src="br.gif"></td>
+    </tr>
+  </table>
+</span>
+
+</body>
+</html>

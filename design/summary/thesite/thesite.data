@@ -1,0 +1,6 @@
+mainmenu=news¦games¦bah
+indextitle=welcome
+news=.&content=news
+newstitle=news
+games=%path%/games&content=index
+bah=.&content=index
