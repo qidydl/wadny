@@ -4,8 +4,8 @@
 
   $thispage = "index.php";
 
-  if (isset($GLOBALS["show"]))
-    $path = $GLOBALS["show"];
+  if (isset($_GET["show"]))
+    $path = $_GET["show"];
   else
     $path = ".";
 
@@ -34,7 +34,7 @@
     $newline = explode("=",$newline);
     $newline[1] = str_replace("\r\n","",$newline[1]);
     if ($newline[0] == "mainmenu")
-      $menulist = explode("¦",$newline[1]);
+      $menulist = explode("ï¿½",$newline[1]);
     else if (substr($newline[0],-5,5) == "title")
     {
       $templen = strlen($newline[0]) - 5;
@@ -49,8 +49,8 @@
   }
   fclose($datafilehandle);
 
-  if (isset($GLOBALS["content"]))
-    $content = $GLOBALS["content"];
+  if (isset($_GET["content"]))
+    $content = $_GET["content"];
   else
     $content = "index";
   $contentfile = $fullpath . $content . ".html";

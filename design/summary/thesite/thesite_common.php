@@ -30,7 +30,7 @@
 ?>
 </td>
 <td bgcolor="#3D7891">&nbsp;</td></tr>
-<tr><td background="images/menubottom.gif"><a href="viewsource.php?script=<?php echo $thispage; ?>">view source</a></td>
+<tr><td background="images/menubottom.gif">thesite</td>
   <td background="images/menubottom.gif" colspan="2"><img src="images/menubottom.gif"></td></tr>
 </table>
 </body>
@@ -75,7 +75,7 @@
       $newline[1] = str_replace("\r","",$newline[1]);
       $newline[1] = str_replace("\n","",$newline[1]);
       if ($newline[0] == "mainmenu")
-        $menulist = explode("¦",$newline[1]);
+        $menulist = explode("ï¿½",$newline[1]);
       else
       {
         $urllist[$newline[0]] = "";
