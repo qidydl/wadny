@@ -1,7 +1,7 @@
 <html>
 <head>
 <title>qid.nu design #2 - individual</title>
-<!--#include virtual="header.shtml" -->
+<!--#include file="header.shtml" -->
 
 <span id="lyrIndividual" style="position:absolute;
                          left:125px;

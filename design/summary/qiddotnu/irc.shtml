@@ -1,7 +1,7 @@
 <html>
 <head>
 <title>qid.nu design #2 - news</title>
-<!--#include virtual="header.shtml" -->
+<!--#include file="header.shtml" -->
 
 <span id="lyrStuff" style="position:absolute;
                          left:125px;

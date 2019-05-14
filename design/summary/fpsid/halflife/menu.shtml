@@ -9,6 +9,6 @@
 <p><a href="#">cheat codes</a>
 <br><a href="#">life forms</a>
 <br><a href="#">weapons</a>
-<!--#include virtual="../games.shtml" -->
+<!--#include file="../games.shtml" -->
 </center></td>
 <td class="menu" colspan="2" rowspan="2" valign="top"><center>

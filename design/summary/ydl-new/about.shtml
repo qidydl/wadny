@@ -4,11 +4,11 @@
 <title>YDL Development - About</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <link rel="stylesheet" href="ydl.css">
-<!--#include virtual="imgpreload.html" -->
+<!--#include file="imgpreload.html" -->
 </head>
 
 <body bgcolor="#FFFFFF" text="#000000" link="#FFFF00" vlink="#00FF00" alink="#000000">
-<!--#include virtual="menu.html" -->
+<!--#include file="menu.html" -->
 <table border="0" cellspacing="0" cellpadding="2">
   <tr>
     <td rowspan="999" valign="top" class="menu">

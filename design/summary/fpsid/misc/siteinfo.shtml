@@ -5,7 +5,7 @@
 <link rel=stylesheet href="../main.css">
 </head>
 <body bgcolor="#000000" text="#FFFFFF" link="#F4390B" vlink="#FFFF00" alink="#FFFFFF">
-<!--#include virtual="../menu.shtml" -->
+<!--#include file="../menu.shtml" -->
 
 <table border="0" cellspacing="1" cellpadding="2" width="98%">
 <tr><td class="heading"><center><img src="../bullet2.gif"> <b> FPSID info:</b></center></td>
@@ -19,9 +19,9 @@
 </ul>
 <p>I guess that's it for now.  If I think of anything else I'll put it up.</td>
 <tr><td class="heading"><center><img src="../bullet2.gif"> <b> Copyright info</b></center></td>
-<tr><td>Unreal and its logos are ©Epic MegaGames.  The weapon pictures are from the <a href="http://www.planetunreal.com/index.asp?game/weapons.shtm" target="_blank">Unreal weapons guide</a> on <a href="http://www.planetunreal.com" target="_blank">PlanetUnreal.</a>
-<p>Half-Life and its logos are ©Valve Software.  The weapon pictures are from the <a href="http://www.planethalflife.com/half-life/weapons.shtm" target="_blank">Half-Life - Weapons</a> page on <a href="http://www.planethalflife.com" target="_blank">PlanetHalf-Life.</a>
-<p>All of the weapon, item, and enemy pictures for Quake2 are from the Quake2 manual, which comes with the game in the /docs directory.  They are ©1997 <a href="http://www.idsoftware.com" target="_blank">id software.</a>
+<tr><td>Unreal and its logos are ï¿½Epic MegaGames.  The weapon pictures are from the <a href="http://www.planetunreal.com/index.asp?game/weapons.shtm" target="_blank">Unreal weapons guide</a> on <a href="http://www.planetunreal.com" target="_blank">PlanetUnreal.</a>
+<p>Half-Life and its logos are ï¿½Valve Software.  The weapon pictures are from the <a href="http://www.planethalflife.com/half-life/weapons.shtm" target="_blank">Half-Life - Weapons</a> page on <a href="http://www.planethalflife.com" target="_blank">PlanetHalf-Life.</a>
+<p>All of the weapon, item, and enemy pictures for Quake2 are from the Quake2 manual, which comes with the game in the /docs directory.  They are ï¿½1997 <a href="http://www.idsoftware.com" target="_blank">id software.</a>
 </td>
 </table>
 
