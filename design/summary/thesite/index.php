@@ -34,7 +34,7 @@
     $newline = explode("=",$newline);
     $newline[1] = str_replace("\r\n","",$newline[1]);
     if ($newline[0] == "mainmenu")
-      $menulist = explode("�",$newline[1]);
+      $menulist = explode("|",$newline[1]);
     else if (substr($newline[0],-5,5) == "title")
     {
       $templen = strlen($newline[0]) - 5;

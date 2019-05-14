@@ -1,4 +1,4 @@
-mainmenu=quake 2¦half-life¦fps
+mainmenu=quake 2|half-life|fps
 indextitle=games
 quake 2=%path%&content=quake2
 half-life=%path%&content=halflife

@@ -75,7 +75,7 @@
       $newline[1] = str_replace("\r","",$newline[1]);
       $newline[1] = str_replace("\n","",$newline[1]);
       if ($newline[0] == "mainmenu")
-        $menulist = explode("�",$newline[1]);
+        $menulist = explode("|",$newline[1]);
       else
       {
         $urllist[$newline[0]] = "";
