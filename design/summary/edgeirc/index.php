@@ -3,7 +3,7 @@
 
   if (!isset($_GET["page"])) { $page = "news"; }
   else { $page = $_GET["page"]; }
-  if (!ereg("^[a-zA-Z]+$",$page)) { edgedie("Invalid page specified - try the menu, haxur."); }
+  if (!preg_match('/^[a-zA-Z]+$/',$page)) { edgedie("Invalid page specified - try the menu, haxur."); }
   elseif (!stristr($pages," $page ")) { edgedie("Invalid page specified - try the menu, haxur."); }
   elseif (!file_exists($page . ".html")) { edgedie("Oopsie, page does not exist - email qid@phoenixdsl.com and tell me what happened."); }
   
