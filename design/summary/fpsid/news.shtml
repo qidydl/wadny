@@ -7,7 +7,7 @@
 <link rel=stylesheet href="main.css">
 </head>
 <body bgcolor="#000000" text="#FFFFFF" link="#980C0C" alink="#FFFFFF" vlink="11780E">
-<!--#include virtual="menu.shtml" -->
+<!--#include file="menu.shtml" -->
 
 <table border="0" cellspacing="1" cellpadding="2" width="98%">
 <tr><td class="heading"><center><img src="bullet2.gif"> <b> Latest FPSID News:</b></center></td>

@@ -18,6 +18,6 @@
 <br><a href="#">humor archives</a>
 <br><a href="#">weird IRC logs</a>
 <br><a href="#">IRC stuff</a>
-<!--#include virtual="games.shtml" -->
+<!--#include file="games.shtml" -->
 </center></td>
 <td class="menu" colspan="2" rowspan="2" valign="top"><center>
