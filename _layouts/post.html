@@ -1,0 +1,23 @@
+---
+layout: default
+---
+        <h2>― {{ page.date | date: "%B %-d, %Y" }}</h2>
+{{ content }}
+
+        <p>TODO: Nav by post, not by day</p>
+        <ul id="duringnav">
+            {%- assign days = site.posts | group_by_exp: "item", "item.date | date: '%B %-d, %Y^%Y/%m/%d'" | map: "name" | sort -%}
+            {%- assign currentDay = page.date | date: "%B %-d, %Y^%Y/%m/%d" -%}
+            {%- assign prevDay = "start" -%}
+            {%- for day in days -%}
+                {%- if day == currentDay %}
+                    {%- if prevDay != "start" %}
+            <li><a href="/news/during/{{ prevDay | split: '^' | last }}/" title="View posts from {{ prevDay | split: '^' | first }}">← {{ prevDay | split: '^' | first }}</a></li>
+                    {%- endif %}
+            <li><a href="/news/during/{{ page.date | date: "%Y" }}/{{ page.date | date: "%m" }}/">&#8593; Up to {{ page.date | date: "%B, %Y" }}</a></li>
+                {%- elsif prevDay == currentDay %}
+            <li><a href="/news/during/{{ day | split: '^' | last }}/" title="View posts from {{ day | split: '^' | first }}">{{ day | split: '^' | first }} →</a></li>
+                {%- endif -%}
+                {%- assign prevDay = day -%}
+            {%- endfor %}
+        </ul>
