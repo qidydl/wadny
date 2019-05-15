@@ -118,7 +118,7 @@ module Jekyll
                                 elsif page.type == "month" then
                                     entry.title = "Archives for " + page.date.strftime("%B %Y")
                                 elsif page.type == "day" then
-                                    entry.title = "Archives for " + page.date.strftime("%B %e, %Y")
+                                    entry.title = "Archives for " + page.date.strftime("%B %-d, %Y")
                                 end
                             end
 

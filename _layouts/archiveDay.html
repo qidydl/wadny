@@ -1,11 +1,13 @@
 ---
 layout: default
 ---
-<ul class="posts">
-    {% for post in page.posts %}
-    <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </li>
-    {% endfor %}
-</ul>
+
+        <h1>Post archives for {{ page.date | date: "%B %-d, %Y" }}</h1>
+        {% for post in page.posts %}
+        <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+        <h3>― {{ post.date | date: "%B %-d, %Y" }}</h3>
+        <p>{{ post.excerpt }}</p>
+        {% endfor %}
+        <ul id="duringnav">
+            <li><a href="/news/during/{{ page.date | date: "%Y" }}/{{ page.date | date: "%m" }}/">&#8593; Up to {{ page.date | date: "%B, %Y" }}</a></li>
+        </ul>

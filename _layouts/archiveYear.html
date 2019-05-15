@@ -1,11 +1,30 @@
 ---
 layout: default
 ---
-<ul class="posts">
-    {% for post in page.posts %}
-    <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </li>
-    {% endfor %}
-</ul>
+
+        <h1>Post archives for {{ page.date | date: "%Y" }}</h1>
+        <p>Select a month:</p>
+        {%- assign postsByMonth = page.posts | group_by_exp: "item", "item.date | date: '%B, %Y'" -%}
+        <ul class="posts">
+            {%- for group in postsByMonth %}
+            <li><a href="/news/during/{{ group.items[0].date | date: "%Y" }}/{{ group.items[0].date | date: "%m" }}/">{{ group.name }}</a> ({{ group.items.size | pluralize: 'post' }})</li>
+            {%- endfor %}
+        </ul>
+        <ul id="duringnav">
+            {%- assign years = site.posts | group_by_exp: "item", "item.date | date: '%Y'" | map: "name" | sort -%}
+            {%- assign currentYear = page.date | date: "%Y" -%}
+            {%- assign prevYear = "start" -%}
+            <!-- {{ years | inspect }} current {{ currentYear }} -->
+            {%- for year in years -%}
+            <!-- it {{ year }} prev {{ prevYear }} -->
+                {%- if year == currentYear %}
+                    {%- if prevYear != "start" %}
+            <li><a href="/news/during/{{ prevYear }}/" title="View posts from the year {{ prevYear }}">← {{ prevYear }}</a></li>
+                    {%- endif %}
+            <li><a href="/news/during/">&#8593; Up to archives home</a></li>
+                {%- elsif prevYear == currentYear %}
+            <li><a href="/news/during/{{ year }}" title="View posts from the year {{ year }}">{{ year }} →</a></li>
+                {%- endif -%}
+                {%- assign prevYear = year -%}
+            {%- endfor %}
+        </ul>
