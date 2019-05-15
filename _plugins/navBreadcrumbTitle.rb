@@ -66,6 +66,17 @@ module Jekyll
 
                             entry.title = page.data["title"]
 
+                            # Generated date-based archive pages from jekyll-archives have no title
+                            if entry.title == nil then
+                                if page.type == "year" then
+                                    entry.title = "Archives for " + page.date.strftime("%Y")
+                                elsif page.type == "month" then
+                                    entry.title = "Archives for " + page.date.strftime("%B %Y")
+                                elsif page.type == "day" then
+                                    entry.title = "Archives for " + page.date.strftime("%B %e, %Y")
+                                end
+                            end
+
                             if page.url == thispage["url"] then
                                 # We've found the current page, this is the path to walk to build the navigation text
                                 activePath = segments

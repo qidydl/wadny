@@ -1,55 +1,11 @@
 ---
 title: Index
 ---
-<h1>Index page</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et tempor nulla. In justo massa, accumsan
-    ut viverra sit amet, sollicitudin eu metus. Mauris fermentum ante ac lectus tristique, vulputate
-    condimentum libero ultricies. Donec eleifend porta leo sed dignissim. Vivamus congue, turpis ac
-    vestibulum pretium, lectus dui suscipit arcu, vel tincidunt urna neque ac erat. Vestibulum ornare metus
-    justo, vel pulvinar nibh elementum at. Aliquam tempus, nibh non molestie consectetur, erat ipsum
-    tristique eros, vel porttitor justo tellus in sapien. Nam gravida sapien vitae justo lacinia, at
-    ullamcorper arcu vestibulum. Proin et odio nibh. Lorem ipsum dolor sit amet, consectetur adipiscing
-    elit. Vestibulum imperdiet eros nibh, non eleifend sem rutrum vitae. Praesent ultrices leo augue, non
-    porta felis consequat et. Phasellus a tincidunt sem. Vestibulum tortor tellus, dictum eget vehicula a,
-    cursus sollicitudin quam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed nec turpis
-    pharetra mauris scelerisque molestie non et tellus.</p>
-
-<h1>Site history</h1>
-<p>Ut sit amet egestas ipsum. Proin in dignissim arcu. Curabitur commodo bibendum augue, eleifend gravida
-    nibh molestie quis. Maecenas ultricies pellentesque rhoncus. Duis purus eros, feugiat sit amet pharetra
-    eget, tristique eu orci. Vivamus ornare ante urna, non blandit arcu commodo sed. Nam dignissim accumsan
-    purus, ac luctus neque pretium id. Fusce vulputate odio augue, at posuere lorem pulvinar ac. Vestibulum
-    sit amet venenatis justo. Nunc commodo posuere neque ac placerat.</p>
-
-<h1>Code and standards</h1>
-<p>Phasellus in gravida sapien, interdum feugiat sem. Mauris vulputate felis eu lacus pellentesque mollis.
-    Donec lobortis volutpat odio, fermentum laoreet lectus. In in libero vel tellus iaculis molestie.
-    Integer venenatis lectus in efficitur egestas. Pellentesque vehicula varius lacus, in venenatis mi
-    lobortis sit amet. Etiam diam turpis, faucibus in arcu eget, pretium pulvinar nibh. Fusce vehicula, est
-    ut posuere convallis, ante est iaculis mi, id sodales leo urna eget lacus. Suspendisse varius et velit
-    eu interdum. Cras quam turpis, consequat a diam sed, porta euismod purus.</p>
-
-<h1>Typography</h1>
-<p>Fusce vitae massa bibendum, sagittis libero ac, volutpat nisi. Etiam pulvinar varius finibus. Vivamus at
-    finibus mi. Quisque finibus augue lacus, vel commodo nisl blandit at. Quisque in magna malesuada, porta
-    elit et, auctor sapien. Etiam sit amet aliquet dui. Nullam mollis, eros sit amet finibus egestas, lacus
-    purus finibus mi, sed volutpat nulla enim vel tellus. Pellentesque consequat placerat commodo. Ut est
-    erat, imperdiet convallis rhoncus eget, placerat et justo. Vivamus placerat metus sed metus lobortis
-    interdum. Ut eleifend augue non augue pretium, quis luctus augue viverra. Nam facilisis tortor id urna
-    varius volutpat. Maecenas ut eros in nunc ultrices porta in in dui. Pellentesque pellentesque, arcu sit
-    amet egestas facilisis, orci est congue eros, sed egestas urna mi sed purus. Sed dictum eros libero, a
-    mollis quam rhoncus in.</p>
-
-<h1>Production</h1>
-<p>Mauris molestie, quam et tincidunt condimentum, magna elit aliquam orci, quis venenatis mauris odio
-    varius sapien. Aliquam at eros ut leo tempus elementum eget et sapien. Integer rhoncus sagittis dui, id
-    rutrum felis tristique tempor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur
-    ridiculus mus. Phasellus rhoncus turpis quis est suscipit, eu mollis nibh fermentum. Donec bibendum,
-    libero ut tincidunt ullamcorper, turpis eros tincidunt mauris, at sagittis enim nisi sed orci. Nam
-    pharetra nisl id viverra egestas. Quisque at justo porttitor, venenatis mauris et, imperdiet ligula. In
-    mauris justo, mollis vel sem non, condimentum dignissim mi. Nulla varius lectus sit amet purus
-    elementum, ac pulvinar nibh dictum. Nunc eu sollicitudin tortor, eu iaculis ante. Duis vitae risus arcu.
-    Nam faucibus est id mi aliquet, at luctus lorem dictum. Aliquam suscipit, lectus sit amet dictum
-    vehicula, mauris lectus feugiat nulla, varius convallis ex nisi eu libero. Vivamus mi mi, eleifend et
-    euismod vel, rutrum vel sapien. </p>
-</p>
+<ul>
+    {% for post in site.posts %}
+    <li>
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <p>{{ post.excerpt }}</p>
+    </li>
+    {% endfor %}
+</ul>

@@ -37,7 +37,17 @@ module Jekyll
                 keys.each do |child|
                     childEntry = entry.children[child]
 
-                    ret << "<li><a href=\"#{childEntry.url}\"#{childEntry.description.length > 0 ? (" title=\"" + childEntry.description + "\"") : ""}#{childEntry.active ? " class=\"currentpage\"" : ""}>" + childEntry.title + "</a>"
+                    ret << "<li><a href=\"#{childEntry.url}\""
+                    if childEntry.description.length > 0 then
+                        ret << " title=\"" + childEntry.description + "\""
+                    end
+                    if childEntry.active then
+                        ret << " class=\"currentpage\""
+                    end
+                    if childEntry.title == nil then
+                        puts childEntry.inspect
+                    end
+                    ret << ">" + childEntry.title + "</a>"
 
                     # Recurse if we're following the path and there's more to do
                     # We won't recurse if we're rendering immediate children because we've run out of path at that point and target is nil
@@ -62,7 +72,7 @@ module Jekyll
             thispage = context.registers[:page]
 
             root = NavigationEntry.new("root", "/")
-            activePath = ["/"]
+            activePath = nil
 
             site.pages.each do |page|
                 parent = root
@@ -101,6 +111,17 @@ module Jekyll
                                 entry.description = page.data["navDescription"]
                             end
 
+                            # Generated date-based archive pages from jekyll-archives have no title
+                            if entry.title == nil then
+                                if page.type == "year" then
+                                    entry.title = "Archives for " + page.date.strftime("%Y")
+                                elsif page.type == "month" then
+                                    entry.title = "Archives for " + page.date.strftime("%B %Y")
+                                elsif page.type == "day" then
+                                    entry.title = "Archives for " + page.date.strftime("%B %e, %Y")
+                                end
+                            end
+
                             if page.url == thispage["url"] then
                                 entry.active = true
 
@@ -129,6 +150,16 @@ module Jekyll
 
                         entry.children[linkEntry.url] = linkEntry
                     end
+                end
+            end
+
+            if activePath == nil then
+                if thispage["url"] == "/" then
+                    activePath = ["/"]
+                else
+                    # Our active URL wasn't found anywhere--we're probably on a post, not a page
+                    activePath = ["news", "during"]
+                    root.children["news"].children["during"].active = true
                 end
             end
 

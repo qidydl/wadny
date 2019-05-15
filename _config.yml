@@ -1,3 +1,5 @@
+plugins:
+  - jekyll-archives
 exclude:
   - "Gemfile"
   - "Gemfile.lock"
@@ -7,6 +9,22 @@ defaults:
   -
     scope:
       path: ""
-      type: "pages"
+      #type: "pages"
     values:
       layout: "default"
+jekyll-archives:
+  enabled:
+    - year
+    - month
+    - day
+  layouts:
+    year: archiveYear
+    month: archiveMonth
+    day: archiveDay
+  permalinks:
+    year: '/news/during/:year/'
+    month: '/news/during/:year/:month/'
+    day: '/news/during/:year/:month/:day/'
+collections:
+  posts:
+    permalink: '/news/during/:year/:month/:day/:title'
