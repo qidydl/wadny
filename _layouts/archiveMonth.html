@@ -7,9 +7,27 @@ layout: default
         {%- assign postsByDay = page.posts | group_by_exp: "item", "item.date | date: '%B %-d, %Y'" -%}
         <ul class="posts">
             {%- for group in postsByDay %}
-            <li><a href="/news/during/{{ group.items[0].date | date: "%Y" }}/{{ group.items[0].date | date: "%m" }}/{{ group.items[0].date | date: "%d" }}/">{{ group.name }}</a> ({{ group.items.size | pluralize: 'post' }})</li>
+            <li><a href="/news/during/{{ group.items[0].date | date: "%Y" }}/{{ group.items[0].date | date: "%m" }}/{{ group.items[0].date | date: "%d" }}/">{{ group.name }}</a> - {{ group.items.size | pluralize: 'post' }} (
+                {%- for post in group.items -%}
+                {%- if forloop.length > 1 -%}{% if forloop.last %} and {% elsif forloop.first %}{% else %}, {% endif %}{%- endif -%}
+                <em>{{ post.title }}</em>
+                {%- endfor -%}
+            )</li>
             {%- endfor %}
         </ul>
         <ul id="duringnav">
+            {%- assign months = site.posts | group_by_exp: "item", "item.date | date: '%B, %Y^%Y/%m'" | map: "name" | sort -%}
+            {%- assign currentMonth = page.date | date: "%B, %Y^%Y/%m" -%}
+            {%- assign prevMonth = "start" -%}
+            {%- for month in months -%}
+                {%- if month == currentMonth %}
+                    {%- if prevMonth != "start" %}
+            <li><a href="/news/during/{{ prevMonth | split: '^' | last }}/" title="View posts from {{ prevMonth | split: '^' | first }}">← {{ prevMonth | split: '^' | first }}</a></li>
+                    {%- endif %}
             <li><a href="/news/during/{{ page.date | date: "%Y" }}/">&#8593; Up to {{ page.date | date: "%Y" }}</a></li>
+                {%- elsif prevMonth == currentMonth %}
+            <li><a href="/news/during/{{ month | split: '^' | last }}/" title="View posts from {{ month | split: '^' | first }}">{{ month | split: '^' | first }} →</a></li>
+                {%- endif -%}
+                {%- assign prevMonth = month -%}
+            {%- endfor %}
         </ul>

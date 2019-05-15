@@ -14,16 +14,14 @@ layout: default
             {%- assign years = site.posts | group_by_exp: "item", "item.date | date: '%Y'" | map: "name" | sort -%}
             {%- assign currentYear = page.date | date: "%Y" -%}
             {%- assign prevYear = "start" -%}
-            <!-- {{ years | inspect }} current {{ currentYear }} -->
             {%- for year in years -%}
-            <!-- it {{ year }} prev {{ prevYear }} -->
                 {%- if year == currentYear %}
                     {%- if prevYear != "start" %}
             <li><a href="/news/during/{{ prevYear }}/" title="View posts from the year {{ prevYear }}">← {{ prevYear }}</a></li>
                     {%- endif %}
             <li><a href="/news/during/">&#8593; Up to archives home</a></li>
                 {%- elsif prevYear == currentYear %}
-            <li><a href="/news/during/{{ year }}" title="View posts from the year {{ year }}">{{ year }} →</a></li>
+            <li><a href="/news/during/{{ year }}/" title="View posts from the year {{ year }}">{{ year }} →</a></li>
                 {%- endif -%}
                 {%- assign prevYear = year -%}
             {%- endfor %}
