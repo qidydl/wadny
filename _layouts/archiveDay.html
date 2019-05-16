@@ -2,9 +2,11 @@
 {% include header.html title=thistitle %}
         <h1>{{ thistitle }}</h1>
         {% for post in page.posts %}
-        <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+        <article>
+        <h2><a href="{{ post.url | prepend: site.baseurl }}" rel="bookmark">{{ post.title }}</a></h2>
         <h3>― {{ post.date | date: "%B %-d, %Y" }}</h3>
         {{ post.excerpt }}
+        </article>
         {%- endfor %}
         <ul id="duringnav">
             {%- assign days = site.posts | group_by_exp: "item", "item.date | date: '%B %-d, %Y^%Y/%m/%d'" | map: "name" | sort -%}
@@ -13,11 +15,11 @@
             {%- for day in days -%}
                 {%- if day == currentDay %}
                     {%- if prevDay != "start" %}
-            <li><a href="/news/during/{{ prevDay | split: '^' | last }}/" title="View posts from {{ prevDay | split: '^' | first }}">← {{ prevDay | split: '^' | first }}</a></li>
+            <li><a href="/news/during/{{ prevDay | split: '^' | last }}/" rel="prev" title="View posts from {{ prevDay | split: '^' | first }}">← {{ prevDay | split: '^' | first }}</a></li>
                     {%- endif %}
-            <li><a href="/news/during/{{ page.date | date: "%Y/%m" }}/">&#8593; Up to {{ page.date | date: "%B, %Y" }}</a></li>
+            <li><a href="/news/during/{{ page.date | date: "%Y/%m" }}/" rel="up">&#8593; Up to {{ page.date | date: "%B, %Y" }}</a></li>
                 {%- elsif prevDay == currentDay %}
-            <li><a href="/news/during/{{ day | split: '^' | last }}/" title="View posts from {{ day | split: '^' | first }}">{{ day | split: '^' | first }} →</a></li>
+            <li><a href="/news/during/{{ day | split: '^' | last }}/" rel="next" title="View posts from {{ day | split: '^' | first }}">{{ day | split: '^' | first }} →</a></li>
                 {%- endif -%}
                 {%- assign prevDay = day -%}
             {%- endfor %}

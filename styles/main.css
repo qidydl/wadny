@@ -124,7 +124,6 @@ nav ul#buttons a {
  * Content styles
  *****************************************************************************/
 main {
-    /* total real width: 750-222=528 */
     float: left;
     clear: left;
     width: 45em;
@@ -138,15 +137,6 @@ main h2 + h3 { padding-top: 3px; }
 b.big {
     font-weight: bold;
     font-size: large;
-}
-
-table#archive caption { visibility: collapse; }
-
-table#listing td { vertical-align: bottom; }
-
-form.post tr td:first-child {
-    text-align: right;
-    vertical-align: middle;
 }
 
 ul#duringnav {
@@ -166,33 +156,19 @@ ul#duringnav li:first-child {
     padding-left: 0;
 }
 
-div.designthumb {
-    float: left;
-    background: url(/graphics/shadowAlpha.png) no-repeat bottom right;
-    margin: 10px 0 10px 10px;
-}
-
-div.designthumb + p, div.designthumb + h3 {
-    clear: both;
-}
-
-div.designthumb img {
-    display: block;
-    position: relative;
-    background-color: white;
+figure img {
     border: 1px solid #A9A9A9;
-    margin: -6px 6px 6px -6px;
-    padding: 4px;
+    box-shadow:5px 5px 5px #999;
 }
 
-div.designthumb a {
+figure a {
     background: none;
     padding-left: 0;
 }
-div.designthumb a:hover { background: none; }
-div.designthumb a:link img { border: 1px solid #1C298C; }
-div.designthumb a:visited img { border: 1px solid #8D1B20; }
-div.designthumb a:hover img { border: 1px solid #A9A9A9; }
+figure a:hover { background: none; }
+figure a:link img { border: 2px solid #1C298C; }
+figure a:visited img { border: 2px solid #8D1B20; }
+figure a:hover img { border: 2px solid #A9A9A9; }
 
 h3 + h3:first-letter {
     margin-top: 0;

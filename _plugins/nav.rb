@@ -155,7 +155,8 @@ module Jekyll
 
             if activePath == nil then
                 if thispage["url"] == "/" then
-                    activePath = ["/"]
+                    # Expand the news menu but don't highlight an active page
+                    activePath = ["news", "during"]
                 else
                     # Our active URL wasn't found anywhere--we're probably on a post, not a page
                     activePath = ["news", "during"]

@@ -20,11 +20,11 @@
             {%- for month in months -%}
                 {%- if month == currentMonth %}
                     {%- if prevMonth != "start" %}
-            <li><a href="/news/during/{{ prevMonth | split: '^' | last }}/" title="View posts from {{ prevMonth | split: '^' | first }}">← {{ prevMonth | split: '^' | first }}</a></li>
+            <li><a href="/news/during/{{ prevMonth | split: '^' | last }}/" rel="prev" title="View posts from {{ prevMonth | split: '^' | first }}">← {{ prevMonth | split: '^' | first }}</a></li>
                     {%- endif %}
-            <li><a href="/news/during/{{ page.date | date: "%Y" }}/">&#8593; Up to {{ page.date | date: "%Y" }}</a></li>
+            <li><a href="/news/during/{{ page.date | date: "%Y" }}/" rel="up">&#8593; Up to {{ page.date | date: "%Y" }}</a></li>
                 {%- elsif prevMonth == currentMonth %}
-            <li><a href="/news/during/{{ month | split: '^' | last }}/" title="View posts from {{ month | split: '^' | first }}">{{ month | split: '^' | first }} →</a></li>
+            <li><a href="/news/during/{{ month | split: '^' | last }}/" rel="next" title="View posts from {{ month | split: '^' | first }}">{{ month | split: '^' | first }} →</a></li>
                 {%- endif -%}
                 {%- assign prevMonth = month -%}
             {%- endfor %}

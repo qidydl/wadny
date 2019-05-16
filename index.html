@@ -4,7 +4,9 @@ layout: noheading
 ---
 
         {% for post in site.posts limit:7 %}
-        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        <article>
+        <h2><a href="{{ post.url | relative_url }}" rel="bookmark">{{ post.title }}</a></h2>
         <h3>― {{ post.date | date: "%B %-d, %Y" }}</h3>
         {{ post.excerpt }}
+        </article>
         {% endfor %}
