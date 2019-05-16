@@ -3,21 +3,22 @@ layout: default
 ---
         <h2>― {{ page.date | date: "%B %-d, %Y" }}</h2>
 {{ content }}
-
-        <p>TODO: Nav by post, not by day</p>
         <ul id="duringnav">
-            {%- assign days = site.posts | group_by_exp: "item", "item.date | date: '%B %-d, %Y^%Y/%m/%d'" | map: "name" | sort -%}
-            {%- assign currentDay = page.date | date: "%B %-d, %Y^%Y/%m/%d" -%}
-            {%- assign prevDay = "start" -%}
-            {%- for day in days -%}
-                {%- if day == currentDay %}
-                    {%- if prevDay != "start" %}
-            <li><a href="/news/during/{{ prevDay | split: '^' | last }}/" title="View posts from {{ prevDay | split: '^' | first }}">← {{ prevDay | split: '^' | first }}</a></li>
+            {%- assign revposts = site.posts | reverse -%}
+            {%- assign prevPost = "start" -%}
+            {%- assign prevTitle = "start" -%}
+            {%- assign prevDate = "start" -%}
+            {%- for post in revposts -%}
+                {%- if post.url == page.url %}
+                    {%- if prevPost != "start" %}
+            <li><a href="{{ prevPost }}" title="View “{{ prevTitle }}” from {{ prevDate }}">← {{ prevTitle }} ({{ prevDate }})</a></li>
                     {%- endif %}
-            <li><a href="/news/during/{{ page.date | date: "%Y" }}/{{ page.date | date: "%m" }}/">&#8593; Up to {{ page.date | date: "%B, %Y" }}</a></li>
-                {%- elsif prevDay == currentDay %}
-            <li><a href="/news/during/{{ day | split: '^' | last }}/" title="View posts from {{ day | split: '^' | first }}">{{ day | split: '^' | first }} →</a></li>
+            <li><a href="/news/during/{{ page.date | date: "%Y/%m/%d" }}/">&#8593; Up to {{ page.date | date: "%B %d, %Y" }}</a></li>
+                {%- elsif prevPost == page.url %}
+            <li><a href="{{ post.url }}" title="View “{{ post.title }}” from {{ post.date | date: "%B %-d, %Y" }}">{{ post.title }} ({{ post.date | date: "%B %-d, %Y" }}) →</a></li>
                 {%- endif -%}
-                {%- assign prevDay = day -%}
+                {%- assign prevPost = post.url -%}
+                {%- assign prevTitle = post.title -%}
+                {%- assign prevDate = post.date | date: "%B %-d, %Y" -%}
             {%- endfor %}
         </ul>
