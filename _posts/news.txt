@@ -1,4 +1,3 @@
-pid	date	title	text
 1	2000-09-06 19:52:50	First post!	This is the first test of the new news posting system. I hope this thing works correctly. &nbsp; :-D
 2	2000-09-06 20:00:33	Second post!	Well, I got this news script working correctly, so check in here every once in a while to get news. Don’t try to add or delete posts, it requires a password which you can’t get even with a copy of the script because it’s encrypted. Nyah.
 \n<p>The <a href="/about/desktop/">desktop section</a> was updated today with two new wallpapers and where you can get them. Some of those are really good, you should download them.</p>
@@ -316,7 +315,7 @@ pid	date	title	text
 \n          }
 \n       }
 \n    }
-\n\t
+\n
 \n10  window.onload = setExternalLinks;</code></p></blockquote>
 \n<p>So, how does this work?  First, we create a function (line 1) to do the work.  Then we check (line 2) to make sure that the script is being run in a <acronym title="Document Object Model">DOM</acronym>-capable browser.  If it’s not, then just abort (line 3).  Otherwise, we continue on to line 4 and get an array of every link in the page.  We loop through every link (line 5).  For each link (line 6), we check to make sure it’s actually a link and not an anchor (line 7), and also that it’s an external link (line 8).  If it is, then we set the <code>target</code> attribute to “_blank” (line 9).  Finally, on line 10, we set it up so that this function gets called after the page has finished loading.  Please note that if you have any other scripts that need to be run after the page has finished loading, you’ll need to replace line 8 with code to make all of the scripts run.</p>
 \n<p>If you don’t know much about CSS or JavaScript, this may be a little over your head.  However, with a little work, it’s not too difficult to figure out.  Feel free to experiment and play with the system; my JavaScript is distributed under the same <a href="http://creativecommons.org/licenses/by-nc-sa/1.0/" rel="external" title="Opens in a new window">Creative Commons license</a> that I use for my website.  If you have any questions, feel free to leave a comment.</p>
