@@ -1,51 +1,5 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="UTF-8">
-    <title>wadny.com - {% navBreadcrumbTitle %}</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="/styles/main.css" />
-    <script src="/scripts/randomizer.js" defer></script>
-</head>
-
-<body>
-    <header>
-        <a href="/" title="Return to the front page of wadny.com" accesskey="1">
-            <img id="icon" src="/icons/tupperware.gif" width="32" height="32" alt="Go back to the front page of wadny.com" />
-            <h1>wadny.com by qid</h1>
-        </a>
-        <h2 id="quote">— this is where I’d put my random quote… IF I HAD ONE!</h2>
-    </header>
-    <div id="line"></div>
-    <main>
-        <h1>{{ page.title }}</h1><!-- TODO: conditional, blog skips this -->
+---
+layout: noheading
+---
+        <h1>{{ page.title }}</h1>
 {{ content }}
-    </main>
-    <nav>
-        <h2>Sidebar</h2>
-        <h3 id="menuhead">Main menu</h3>
-        {% nav %}
-        <h3>Site info</h3>
-        <ul>
-            <li><a href="/about/accessibility/" title="Accessibility features of this site" accesskey="0">Accessibility statement</a></li>
-            <li><a href="/about/blogroll/" title="A list of weblogs I read often">Blogroll</a></li>
-            <li><a href="/misc/playlist.html">My playlist</a></li>
-            <li><a href="/misc/schedule.html">My daily schedule</a></li>
-        </ul>
-
-        <ul id="buttons">
-            <li><a href="/blog/everything.atom" title="Syndicate this site using Atom with full posts and summaries together">
-                <img src="/graphics/atom.gif" width="80" height="15" alt="Syndicate this site using Atom with full posts and summaries together" /></a>
-            </li>
-            <li><a href="https://creativecommons.org/licenses/by-nc-sa/1.0/" rel="external license" title="Opens in a new window - Creative Commons License">
-                <img src="/graphics/cclicense.gif" width="80" height="15" alt="Creative Commons License" /></a>
-            </li>
-            <li><a href="http://no-www.org/" rel="external" title="Opens in a new window - www. is deprecated">
-                <img src="/graphics/nowww.gif" width="80" height="15" alt="www. is deprecated" /></a>
-            </li>
-        </ul>
-    </nav>
-    <footer>This site <abbr title="Copyright">©</abbr>2000-2019 qid, <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" rel="external license" title="Opens in a new window - Creative Commons License">some rights reserved</a>.</footer>
-</body>
-
-</html>

@@ -1,8 +1,6 @@
----
-layout: default
----
-
-        <h1>Post archives for {{ page.date | date: "%Y" }}</h1>
+{%- capture thistitle -%}Post archives for {{ page.date | date: "%Y" }}{%- endcapture -%}
+{% include header.html title=thistitle %}
+        <h1>{{ thistitle }}</h1>
         <p>Select a month:</p>
         {%- assign postsByMonth = page.posts | group_by_exp: "item", "item.date | date: '%B, %Y'" -%}
         <ul class="posts">
@@ -26,3 +24,4 @@ layout: default
                 {%- assign prevYear = year -%}
             {%- endfor %}
         </ul>
+{% include footer.html %}

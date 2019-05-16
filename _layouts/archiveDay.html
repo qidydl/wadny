@@ -1,13 +1,11 @@
----
-layout: default
----
-
-        <h1>Post archives for {{ page.date | date: "%B %-d, %Y" }}</h1>
+{%- capture thistitle -%}Post archives for {{ page.date | date: "%B %-d, %Y" }}{%- endcapture -%}
+{% include header.html title=thistitle %}
+        <h1>{{ thistitle }}</h1>
         {% for post in page.posts %}
         <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
         <h3>― {{ post.date | date: "%B %-d, %Y" }}</h3>
-        <p>{{ post.excerpt }}</p>
-        {% endfor %}
+        {{ post.excerpt }}
+        {%- endfor %}
         <ul id="duringnav">
             {%- assign days = site.posts | group_by_exp: "item", "item.date | date: '%B %-d, %Y^%Y/%m/%d'" | map: "name" | sort -%}
             {%- assign currentDay = page.date | date: "%B %-d, %Y^%Y/%m/%d" -%}
@@ -24,3 +22,4 @@ layout: default
                 {%- assign prevDay = day -%}
             {%- endfor %}
         </ul>
+{% include footer.html %}
