@@ -1,0 +1,1823 @@
+---
+title: gloom-trying-to-hack.log
+---
+Session Start: Fri Jun 29 11:54:18 2001
+[11:54:18] 14[joining14/#gloom]
+[11:54:19] <@bitch> QID|YDL is someone in need of factoids
+[11:54:20] <ghost-brb> thats like, the lag time between dss harddrive and his monitor
+[11:54:29] <Keitek> ping me??
+[11:54:29] <@bitch> Keitek ping reply: 0.0730090141296387secs.
+[11:54:36] <QID|YDL> www.try2hack.nl <-- this is fun, up until level 3 when it stops working
+[11:54:44] <ghost-brb> hehe
+[11:54:48] <DSlicer-w0rking> Actually, Ghost, it's the lag across my LAN
+[11:54:48] <Satannum> its dutch!
+[11:55:43] <ghost-brb> whats the password?
+[11:55:54] 14[join14/#gloom] DS!root@overthe.edgeirc.net
+[11:55:57] <ghost-brb> i dont get it.
+[11:55:57] <QID|YDL> ghost-brb: duh, it's javascript...
+[11:56:03] <ghost-brb> oh, i see
+[11:56:05] <DS> bitch, ping me
+[11:56:06] <@bitch> DS ping reply: 0.00727403163909912secs.
+[11:56:18] <QID|YDL> ping me??
+[11:56:18] <@bitch> QID|YDL ping reply: 0.0973900556564331secs.
+[11:56:23] <DS> That's the lag within the server
+[11:56:26] 14[quit14/DS!root@overthe.edgeirc.net] Quit: using sirc version 2.211+4KSIRC/1.1
+[11:57:10] <DSlicer-w0rking> I definitely need to fix the gravity algorithm for RandomQ3
+[11:57:24] <DSlicer-w0rking> The gravity on my server right now is 0
+[11:57:34] <ghost-brb> whats wrong with that?
+[11:57:39] <DaddyDeath> ghost, the first page is easy, now, messing with flash, i dunno
+[11:57:49] <Skype> QID|YDL how do people find out passwords do you just guess?
+[11:57:50] <ghost-brb> whats the password?!
+[11:57:52] <DaddyDeath> ghost, you don't fall down at all with 0 gravity
+[11:57:55] <ghost-brb> im not l33t!
+[11:57:55] <QID|YDL> you should make it where if you touch a wall it bounces you off
+[11:57:56] <ghost-brb> ahashsdh
+[11:57:58] <QID|YDL> like in pinball
+[11:57:59] <DaddyDeath> the password on the first page is .. hackerzzz
+[11:58:10] <QID|YDL> Skype: in that page, it's easy
+[11:58:20] <Skype> the word is on the page?
+[11:58:24] <DaddyDeath> function Try(passwd){
+[11:58:24] <DaddyDeath> 	if (passwd =="hackerzzz"){
+[11:58:24] <DaddyDeath> 		alert("Alright ! On to level 2 ...");
+[11:58:27] <Skype> I'm on level 1
+[11:58:29] <Keitek> gravity 1 is the best gravity!
+[11:58:33] <Keitek> your falling
+[11:58:33] <DaddyDeath> its in the source code
+[11:58:41] <Keitek> but your going sooooooooooooo slow
+[11:58:42] <Skype> lol
+[11:58:45] <QID|YDL> Skype: it's scary that DD is so much smarter than you
+[11:58:50] <Skype> So
+[11:58:53] <Skype> he's older...
+[11:58:57] <QID|YDL> silly freshman
+[11:59:04] <DaddyDeath> how old are you Skype?
+[11:59:09] 14� QID|YDL shoves Skype the freshman into a tablecloth full of salt shakers
+[11:59:14] <Dread> har
+[11:59:16] <Keitek> im 15, tun 16 in august
+[11:59:19] <Skype> im 14
+[11:59:26] <Dread> i turn 16 july 22nd >_<
+[11:59:28] <Skype> 15 in november
+[11:59:32] <Keitek> is r1ch 19 or still 18?
+[11:59:37] <DaddyDeath> ok, i'm about 1 year older.. exactly
+[11:59:38] <Skype> 60
+[11:59:44] <DaddyDeath> r1ch doesn't age :P
+[11:59:50] <Skype> DD you're 15?
+[11:59:54] <Keitek> chrono doesn't age DD
+[11:59:56] <DaddyDeath> yeah, heh
+[12:00:01] 14[quit14/Satannum!BotHelper@e79006.upc-e.chello.nl] Connection reset by peer
+[12:00:02] <DaddyDeath> he has been 10 forever?
+[12:00:04] <Keitek> r1ch does
+[12:00:05] <DaddyDeath> ;)
+[12:00:05] <Skype> see he's older
+[12:00:06] <Dread> chrono doesnt age, he just upgrades =o
+[12:00:11] <Keitek> hehe
+[12:00:26] 14[join14/#gloom] Chrono!chrono@cm-24-142-237-98.benton.mediacom.ispchannel.com
+[12:00:26] 14[mode14/#gloom] +o Chrono 15by ChanServ
+[12:00:26] <@bitch> 9,2T2,9h9,2e2,9 9,2B2,9e9,2s2,9t9,2e2,9s9,2t2,9 9,2C2,9a9,2p2,9p9,2e2,9r9,2 2,9O9,2f2,9 9,2D2,9e9,2m2,9 9,2a2,9l9,2l2,9!
+[12:00:29] 14[join14/#gloom] Satannum!BotHelper@e79006.upc-e.chello.nl
+[12:00:30] <@bitch> I'm the best lover he's ever had
+[12:00:31] <Keitek> ...
+[12:00:32] <QID|YDL> chrono.height++;
+[12:00:41] <@R1CH> yes
+[12:00:43] <@R1CH> level3 is fubar
+[12:00:53] <@Chrono> hrm?
+[12:00:58] <Keitek> how old are you chrono?
+[12:00:59] <DaddyDeath> R1CH: how do you get past level 2?
+[12:01:02] <QID|YDL> actually, he's probably a class, so Chrono.IncreaseHeight();
+[12:01:06] <@R1CH> heh
+[12:01:10] <@R1CH> hexedit the flash
+[12:01:12] <Keitek> 20? 13? 44? 72?
+[12:01:13] <DaddyDeath> ah
+[12:01:16] <QID|YDL> notepad works fine
+[12:01:22] <@Chrono> 20
+[12:01:31] <Keitek> 20...
+[12:01:38] <@R1CH> ahhh
+[12:01:40] <@R1CH> im on level 4
+[12:01:42] <@R1CH> very clever
+[12:01:49] <Keitek> i thought you'd be at least 21 or higher...
+[12:01:57] <@R1CH> that is pretty evil
+[12:02:13] <QID|YDL> R1CH: did you get to an actual level 4 or just the page that says "level 4, not!"
+[12:02:17] <DaddyDeath> R1CH: this guy has retarded passwords!
+[12:02:18] <@R1CH> actual level 4
+[12:02:22] <@R1CH> it has a java applet
+[12:02:32] <ghost-brb> bah
+[12:02:34] <Skype> QID|YDL so how would you find out the password in level2?
+[12:02:38] <ghost-brb> the source for level 2 helps not at all
+[12:02:41] <QID|YDL> Skype: notepad
+[12:02:42] <DaddyDeath> i opened level2 in notepad
+[12:02:48] <Skype> I have it opened
+[12:02:49] <DaddyDeath> he has retarded shit
+[12:02:50] <Skype> Mouse_key
+[12:02:50] <ghost-brb> or just go to the tool bar...
+[12:02:55] <DaddyDeath> its in plain english skype..
+[12:02:56] <ghost-brb> as in, view source...
+[12:02:56] <DaddyDeath> in notepad
+[12:03:05] <Skype> I have been veiwing source
+[12:03:18] <Keitek> whoa, that new bro grimm model looks sw33t...
+[12:03:20] <QID|YDL> R1CH: can you get to the actual level 4 from the level 3 page?
+[12:03:24] <@R1CH> yup
+[12:03:27] <DaddyDeath> IT SHOWS THE PASS IN PLAIN ENGLISH SKYPE!
+[12:03:30] <DaddyDeath> i just messsaged you!
+[12:03:31] <Skype> oh
+[12:03:35] <Skype> what about user name?
+[12:03:43] <DaddyDeath>  �
+[12:03:48] <DaddyDeath> are you that dense?
+[12:04:12] <@R1CH> hm
+[12:04:15] <@R1CH> level 4 is tricky
+[12:04:29] <QID|YDL> R1CH: ok, what was the url you had for level 3?
+[12:04:38] <@R1CH> lllevel3.htm
+[12:04:39] <@R1CH> or something
+[12:04:44] <ghost-brb> what did you do for level 2?
+[12:04:47] <QID|YDL> ...
+[12:04:50] <@R1CH> QID|YDL, we're on the same page
+[12:04:51] <ghost-brb> did you download the swf?
+[12:04:54] <@R1CH> its just i hax0red it better :P
+[12:05:06] <Skype> ghost-brb view source
+[12:05:14] <ghost-brb> im looking at it assface
+[12:05:17] <Keitek> q2info onecall??
+[12:05:17] <@bitch> Server:216.37.2.25:27910 Game:gloom Players:0314/40 Map:hangar3a Ping:53 
+[12:05:19] <Skype> lol
+[12:05:21] <Skype> retard
+[12:05:27] <Keitek> ...
+[12:05:28] <Skype> then don't ask dumb questions
+[12:05:32] <ghost-brb> it doesnt help on level 2
+[12:05:35] <Keitek> people just have no taste...
+[12:06:05] <Skype>  if ( keycode == mouse_key )
+[12:06:13] <LostAngel> hey skype
+[12:06:27] <LostAngel> i searched for your mirc script on internet
+[12:06:28] <Skype> I still can't find username and password for level 2
+[12:06:34] <Skype> Yeah
+[12:06:38] <Skype> It's only for me
+[12:06:39] <LostAngel> but didnt found it
+[12:06:41] <LostAngel> k
+[12:06:43] <Skype> =p
+[12:06:46] <DaddyDeath> r1ch..
+[12:06:47] <LostAngel> : )
+[12:06:50] <DaddyDeath> how did you get level 3?
+[12:06:51] <LostAngel> i dont mind
+[12:06:52] <Skype> it'll be on my site one day though
+[12:06:55] <DaddyDeath> PASSWORD="AbCdE";
+[12:06:55] <@R1CH> i was l33t
+[12:07:01] <LostAngel> you url?
+[12:07:01] <+Pylon> you url?
+[12:07:04] <LostAngel> lol
+[12:07:17] <@R1CH> dd will take a while to get it
+[12:07:18] <DaddyDeath> if (pwd==PASSWORD){
+[12:07:18] <DaddyDeath> 	alert("Alright !\nEntering Level 4 ...");
+[12:07:18] <DaddyDeath> 	location.href = CORRECTSITE;
+[12:07:49] <Skype> What's the username to level 2 how do you find it?
+[12:07:53] <Keitek> you know...chrono
+[12:07:56] <DaddyDeath> its Try2Hack
+[12:08:00] <DaddyDeath> skype
+[12:08:05] <LostAngel> what is the url of your site skype
+[12:08:05] <DaddyDeath> its in plain english, i showed you earlier
+[12:08:05] <Keitek> that topic isn't funny
+[12:08:24] <DaddyDeath> the password was.. NokiaIsGood i think
+[12:08:24] <+Pylon> nokiaisgood i think it was ww2
+[12:08:36] <DaddyDeath> boo!
+[12:09:11] <Skype> DaddyDeath but how did you find it out?
+[12:09:18] <Skype> I looked in the source it's not there
+[12:09:23] <@Chrono> is a bit more accurate though.. >:0
+[12:09:26] <DaddyDeath> open the flash file in notepad
+[12:09:26] <DaddyDeath>  �
+[12:09:37] <Skype> flsh in note pad?
+[12:09:38] <Skype> lol
+[12:09:42] <Skype> WHAT?!
+[12:09:44] <LostAngel> i found your web site skype
+[12:09:49] <Skype> Oh
+[12:09:50] <Skype> =p
+[12:09:51] <DaddyDeath> its not that hard skype
+[12:09:51] <+Pylon> hard
+[12:09:54] <DaddyDeath> lol
+[12:09:59] <@R1CH> hmmmm
+[12:10:01] <Skype> pylon says it is
+[12:10:02] <@R1CH> level 4 is a bitch
+[12:10:05] <DaddyDeath> r1ch!
+[12:10:09] <DaddyDeath> help meh here :)
+[12:10:11] <@R1CH> nah
+[12:10:14] <DaddyDeath> skype is dense..
+[12:10:17] <Skype> Yeah
+[12:10:18] <DaddyDeath> i have the ability to learn at least
+[12:10:19] <Skype> so
+[12:10:27] 14[join14/#gloom] ValouR!valour@ppp-2-34.5800-11.access.uk.worldonline.com
+[12:10:27] 14[mode14/#gloom] +o ValouR 15by ChanServ
+[12:10:37] <Skype> I do too
+[12:10:42] <QID|YDL> R1CH: did you try viewing the class?
+[12:10:48] <@R1CH> yeah
+[12:10:52] <DaddyDeath> QID|YDL: did you get level3?
+[12:10:56] <DaddyDeath> i'm sure you did :)
+[12:11:10] <QID|YDL> DaddyDeath: yes, look VERY carefully at ALL script stuff
+[12:11:32] <Skype> DaddyDeath how do you open flash in note pad?
+[12:11:39] <DaddyDeath> drag and drop
+[12:11:42] <Skype> oh
+[12:11:50] <DaddyDeath> any real man has a notepad shortcut on his desktop
+[12:11:52] <DaddyDeath> ;)
+[12:12:06] 14[quit14/Satannum!BotHelper@e79006.upc-e.chello.nl] Ping timeout: 180 seconds
+[12:12:17] <QID|YDL> I never use the desktop
+[12:12:21] <Skype> ���� JFIF  H H  �� C 
+			
+
+  ""$$"".....0000000000�� C$$)#    #)&($$$(&++))++000000000000000��  Xj ��               �� P 		    !1AQ"2aq�#
+[12:12:23] <QID|YDL> it's always covered
+[12:12:24] <DSlicer-w0rking> TextPad is better
+[12:12:26] <Skype> I get that syuff
+[12:12:30] <DaddyDeath> umm
+[12:12:32] <DaddyDeath> its near the bottom
+[12:12:33] <QID|YDL> but texturizer is on quicklaunch
+[12:12:34] <ghost-brb> you cant drag and drop flash...
+[12:12:59] <DaddyDeath> i knew what i was looking for, so it was quite easy to pick out
+[12:13:25] <DaddyDeath> QID|YDL: i'm not a JS person if you want to clue me into something.
+[12:13:47] <Skype> I still on level 2
+[12:13:50] <DaddyDeath> i'm on 3
+[12:13:54] <Skype> 2 is hard
+[12:13:54] <DaddyDeath> its odd :)
+[12:14:08] 14[quit14/Murray!~Bot@d65217.upc-d.chello.nl] Ping timeout: 180 seconds
+[12:14:10] <Skype> You can't drag the flash movie thing
+[12:14:11] <LostAngel> ....
+[12:14:23] <ghost-brb> no, you cant
+[12:14:28] <DaddyDeath> QID|YDL: initially i type  PASSWORD into the box
+[12:14:31] <DaddyDeath> skype
+[12:14:32] <@ValouR> hint, save the .swf and drag it...
+[12:14:36] <DaddyDeath> duh.
+[12:14:40] <ghost-brb> how
+[12:14:48] <DaddyDeath> QID|YDL: then i type that abcde shit
+[12:14:50] <ghost-brb> nm
+[12:14:53] <Skype> how do you save
+[12:15:15] <DaddyDeath> its in your temporary internet files directory
+[12:15:15] <Keitek> q2info onecall??
+[12:15:16] <@bitch> Server:216.37.2.25:27910 Game:gloom Players:0316/40 Map:hangar3a Ping:1062 
+[12:15:18] <Keitek> bah
+[12:15:20] <@ValouR> use a download manager
+[12:15:21] <+Pylon> it's a download manager
+[12:15:22] <Keitek> still that gay map
+[12:15:34] 14[quit14/ghost-brb!sdg@66-61-17-246.mv.cox.rr.com] Quit: Leaving
+[12:15:38] <DaddyDeath> ValouR: can you help me on level3?
+[12:15:55] <@ValouR> what you playin?
+[12:16:05] <DaddyDeath> http://www.try2hack.nl/index.html
+[12:16:30] <@ValouR> no I cant help
+[12:16:34] <DaddyDeath> hehe
+[12:16:40] <DaddyDeath> its javascript.
+[12:16:45] <DaddyDeath> and qid and r1 are bein' mean
+[12:17:17] <Skype> It's not in my temporary internet files
+[12:17:31] <DaddyDeath> yes it is..
+[12:17:39] <Skype> under what name?
+[12:17:40] <@ValouR> it should be... try windows/temp/
+[12:17:40] <DaddyDeath> fucking shit, i'll send you the file!
+[12:17:46] <Skype> lol
+[12:17:47] <Skype> ok
+[12:18:09] <DaddyDeath> accept the file?
+[12:18:09] <+Pylon> bitch, spork is proftpd's conf file?
+[12:18:09] <@bitch> OK Pylon
+[12:18:10] <Skype> send it
+[12:18:20] <DaddyDeath> rofl!
+[12:18:22] <Dread> !
+[12:18:26] <Dread> pylon made a factoid!?
+[12:18:30] <DaddyDeath> pylon just wrote a fact, ahhahahah
+[12:18:38] <DaddyDeath> spork got owned.
+[12:18:39] <Skype> lol
+[12:18:50] <Keitek> count spork??
+[12:18:51] <@bitch> There are 129 factoids for 'spork' (0.842% of the total)
+[12:18:54] <Skype> lol
+[12:18:55] 14[kick14/#gloom] Skype 15by R1CH 15for Repeating (sponsored by Sul)
+[12:18:56] 14[join14/#gloom] Skype!Skype9@port-47.iron-ts1.cloh.net
+[12:18:56] <@bitch> [19:23] <Skype> bitch, I'm gay!
+[12:18:59] <Keitek> spork:128??
+[12:18:59] <@bitch> spork is proftpd's conf file?
+[12:19:01] <Keitek> hehe
+[12:19:10] <Skype> whoadded that??
+[12:19:10] <@bitch> That factoid was added by Pylon
+[12:19:15] <@ValouR> hmm could you use cheat o matic on the flash?
+[12:19:22] <QID|YDL> info pyborg??
+[12:19:23] <@bitch> pyborg has added 9 factoids (0.058% of the total)
+[12:19:32] <DaddyDeath> QID|YDL: please help me.
+[12:19:37] <LostAngel> info Lost Angel
+[12:19:39] <QID|YDL> DaddyDeath: on 3?
+[12:19:40] <LostAngel> info Lost Angel??
+[12:19:41] <@bitch> Lost Angel has not added any factoids.
+[12:19:43] <Keitek> well im gonna install starcraft
+[12:19:43] <+Pylon> i saw that, fresh install starcraft
+[12:19:58] <DaddyDeath> does it have to do with password="blahahahahfklaf" being after where it says pwd=passwrod ?
+[12:20:10] <QID|YDL> no, look at the first <script> tag
+[12:20:24] <QID|YDL> and then look at the second <script> tag
+[12:20:24] <LostAngel> NO! Me the angel is lost again!
+[12:20:28] <QID|YDL> and see what's different
+[12:20:41] <DaddyDeath> src?
+[12:20:42] <DaddyDeath> source?
+[12:20:52] <Skype> level 2 is hardest
+[12:20:56] <DaddyDeath> no its not :)
+[12:21:01] <LostAngel> what are you talking about
+[12:21:01] <QID|YDL> Skype: no, you're just stupid
+[12:21:11] <DaddyDeath> hheheh
+[12:21:12] <LostAngel> about a flash game?
+[12:21:17] <DaddyDeath> at least qid said it :)
+[12:21:19] <LostAngel> wich one
+[12:21:22] <Skype> I can't figure out how to get the flash in notepad
+[12:21:24] <@ValouR> bah flash wont open
+[12:21:26] <DaddyDeath> http://www.try2hack.nl/index.html
+[12:21:30] 14[join14/#gloom] Satannum!BotHelper@e79006.upc-e.chello.nl
+[12:21:30] <@bitch> <Satannum> 13GAY POWER 6!13!6!13!
+[12:21:31] <QID|YDL> Skype: turn off js, grab the filename, go to that url, File > Save as..., view with notepad...
+[12:21:45] <Skype> turn JS off?
+[12:21:48] <Skype> how
+[12:21:51] <QID|YDL> ugh
+[12:21:53] <Skype> lol
+[12:21:56] <@ValouR> its not opening in notepad :(
+[12:21:58] 14� QID|YDL cuts Skype with his l33t voice command skillz
+[12:22:16] <Skype> just tell me how
+[12:22:17] <DaddyDeath> oh my god... Skype forget it :)
+[12:22:23] <Skype> NOOOO
+[12:22:25] <@ValouR> aha ok
+[12:22:30] <Skype> I just need a LITTLE help
+[12:22:31] 14[join14/#gloom] Murray!~Bot@d65217.upc-d.chello.nl
+[12:22:31] <@bitch> Murray is 0wn0rd by Satan
+[12:22:37] <DaddyDeath> i GOT IT QID, hehehahhaahahhah
+[12:22:53] <DaddyDeath> that was fubar!
+[12:22:58] <QID|YDL> DaddyDeath: good luck with level 4
+[12:23:00] <DaddyDeath> if you think skype had problems with 2 :P
+[12:23:11] <QID|YDL> r1ch is attempting to decompile, not working well
+[12:23:16] <@ValouR> yay level 3, me is l33t hax0r
+[12:23:26] 14[quit14/Satannum!BotHelper@e79006.upc-e.chello.nl] Connection reset by peer
+[12:23:28] <Skype> Level it is imposible
+[12:23:35] <DaddyDeath> they have tons of decompilers for class files
+[12:24:26] 14[join14/#gloom] Satannum!BotHelper@e79006.upc-e.chello.nl
+[12:24:26] <@bitch> <Satannum> bitch, bend over | * bitch bends over and takes it in the ass from Satannum | <Satannum> bitch, bend over | * bitch bends over and takes it in the ass from Satannum | <Satannum> bitch, bend over | * bitch bends over and takes it in the ass from Satannum | <Satannum> bitch, bend over | * bitch bends over and takes it in the ass from Satannum | <Satannum> YES | <Satannum UNF UNF UNF BOYAAH!
+[12:24:31] <Skype> just tell me how to dissable JavaS
+[12:24:42] <LostAngel> lol
+[12:25:01] <Skype> Please?
+[12:25:04] 14[join14/#gloom] ghost-!sdg@66-61-17-246.mv.cox.rr.com
+[12:25:04] <@bitch> <ghost-> speaking of, someone scan my computer
+[12:25:15] <DaddyDeath> qid
+[12:25:21] <Keitek> q2info onecall??
+[12:25:21] <@bitch> Server:216.37.2.25:27910 Game:gloom Players:0318/40 Map:hangar3a Ping:63 
+[12:25:23] <Keitek> dammit!
+[12:25:27] <Keitek> still that gay map!
+[12:25:29] <DaddyDeath> its even more fun when the page accesses a database to retrieve the user and pass i bet :)
+[12:25:34] <@ValouR> "requires reboot" fuck hax0ring :P
+[12:25:43] 14[quit14/LostAngel!pierre.pau@HSE-Montreal-ppp333582.sympatico.ca] Quit:
+[12:25:47] <DaddyDeath> Skype: go on to level 3..
+[12:25:57] <Skype> I can't
+[12:26:01] <Skype> I don't know how
+[12:26:04] <DaddyDeath> level2 - user: Try2Hack pass: NokiaIsGood
+[12:26:37] <DaddyDeath> level4 is a "noodle scratcher" heh
+[12:26:51] <Skype> Please enter password for level 3
+[12:27:07] <@ValouR> you could just give him URL and save the rest of us the spoiler of knowing the answer :)
+[12:27:23] 14[join14/#gloom] LostAngel!pierre.pau@HSE-Montreal-ppp333582.sympatico.ca
+[12:27:45] <Skype> is sent me to disney land
+[12:27:47] <DaddyDeath> he wouldn't figure out how to put it in :P
+[12:27:54] <DaddyDeath> skype, you don't know the password, thats why, hehe
+[12:27:54] <ghost-> bah
+[12:27:58] <ghost-> why did you tell him dd?
+[12:28:02] <Skype> =p
+[12:28:03] <ghost-> i had to figure it out on my own
+[12:28:07] <DaddyDeath> it was getting stupid, lol
+[12:28:10] <ghost-> whats the url again?
+[12:28:16] <LostAngel> http://www.try2hack.nl/
+[12:28:19] <ghost-> skype, face it, your not l33t
+[12:28:20] <DaddyDeath> yah
+[12:28:26] <LostAngel> im not too
+[12:28:28] <Skype> At hacking no
+[12:28:29] <Skype> =\
+[12:28:30] <DaddyDeath> even i'm more l33r than skype, hehe
+[12:28:30] <+Pylon> i'm more l33r than the trigger is
+[12:28:37] <DaddyDeath> ...
+[12:28:38] <DaddyDeath> heheh
+[12:28:40] <Skype> I MADE IT TO LEVEL 3 I L33t HACKER
+[12:28:55] 14[quit14/Satannum!BotHelper@e79006.upc-e.chello.nl] Ping timeout: 180 seconds
+[12:29:05] <DaddyDeath> skype
+[12:29:06] <ghost-> because people told you the password
+[12:29:06] <ghost-> heh
+[12:29:11] <DaddyDeath> i had to tell you how to get past level 1..
+[12:29:14] <Skype> so how do you figure level 3 out?
+[12:29:14] <ghost-> =P
+[12:29:25] <DaddyDeath> level1 was... for the children :)
+[12:29:27] <Skype> I knew level 1
+[12:29:29] <LostAngel> but i need to know how to download the .swf
+[12:29:31] <ghost-> the most annoying part about level 3 is i cant close my window =P
+[12:29:33] <Skype> its in the navgation bar
+[12:29:36] <QID|YDL> waiting for R1CH to decompile class...
+[12:29:40] <DaddyDeath> ghost
+[12:29:45] <@R1CH> nope
+[12:29:47] <@R1CH> no use QID|YDL
+[12:29:49] <QID|YDL> ghost-: just hit esc really fast
+[12:29:50] <@R1CH> no string constants
+[12:30:00] <DaddyDeath> you have to open the file in temporary internet files ghost
+[12:30:01] <QID|YDL> R1CH: any files it accesses?
+[12:30:05] 14[quit14/Murray!~Bot@d65217.upc-d.chello.nl] Ping timeout: 180 seconds
+[12:30:06] <@ValouR> Lostangel, its your temp internet files
+[12:30:09] <Skype> how do I figure level 3 out?
+[12:30:10] <@R1CH> not that i can see
+[12:30:11] <LostAngel> kool
+[12:30:12] <LostAngel> thx
+[12:30:13] <ghost-> dd: im on level 3
+[12:30:13] <Skype> There is nothing there to use?
+[12:30:18] <DaddyDeath> i know
+[12:30:25] <DaddyDeath> you have to open it to see the source :P
+[12:30:25] <DaddyDeath> duh
+[12:30:31] <QID|YDL> R1CH: does it get something out of env vars or http stuff (referrer, useragent), etc.?
+[12:30:41] <@R1CH> dunno
+[12:30:46] <@R1CH> it doesn't really decompile to sourdce
+[12:30:47] <Skype> how do you open up that?
+[12:30:52] <@R1CH> just shows classes, constants, methods, etc
+[12:30:55] <DaddyDeath> i see the word txtusername :P
+[12:30:56] <QID|YDL> ah
+[12:31:00] <DaddyDeath> but the rest is encoded
+[12:31:20] <Skype> level 3 is hard
+[12:31:27] <Skype> what do I do?
+[12:31:34] <ghost-> bah begone skype
+[12:31:36] 14[quit14/Kai!Jinzoninge@dialup-209.244.178.69.Dial1.NewYork2.Level3.net] Ping timeout: 180 seconds
+[12:31:38] <DaddyDeath> view the source skype
+[12:31:40] <Skype> No
+[12:31:53] <QID|YDL> R1CH: can you see a url?
+[12:31:57] <@R1CH> nope
+[12:32:01] <DaddyDeath> level5.html 
+[12:32:02] <DaddyDeath> ?
+[12:32:02] <QID|YDL> eh...
+[12:32:02] <DaddyDeath> heh
+[12:32:20] <QID|YDL> DaddyDeath: n'existez pas
+[12:32:25] <Skype> How do you veiw source on a explorer user prompt
+[12:32:30] <ghost-> ok, looking at the sourse
+[12:32:33] <ghost-> source, im l33t.
+[12:32:37] <QID|YDL> Skype: what's the level 3 url?
+[12:32:51] <Skype> Its just a explorer box
+[12:32:52] <DaddyDeath> llevell3.html i think
+[12:32:52] <+Pylon> llevell3.html i know is saved!
+[12:32:59] <@ValouR> god lvl 3 really isnt that easy is it
+[12:33:05] 14� @ValouR slaps self sideways
+[12:33:11] <DaddyDeath> it is after qid told me the clue
+[12:33:37] <Skype> I don't see how you can veiw the source
+[12:33:37] <QID|YDL> ValouR: look very carefully at ALL parts of the js stuff
+[12:33:53] 14[chanstats14/#gloom/12:33pm] Ops: 5 (23%) Voice: 4 (18%) Regular: 13 (59%) Total: 22
+[12:34:05] <ghost-> hmm
+[12:34:06] <Skype> how do you look at the JS stuff in 3?
+[12:34:11] 14[join14/#gloom] Kai!Jinzoninge@dialup-209.246.92.81.Dial1.NewYork1.Level3.net
+[12:34:11] 14[mode14/#gloom] +o Kai 15by ChanServ
+[12:34:11] <@bitch> Polaris = poo
+[12:34:33] <QID|YDL> R1CH: is it possible the applet gets info out of the html document?
+[12:34:44] <@R1CH> it doesn't appear to
+[12:34:52] <QID|YDL> I saw something like getFont, maybe it's getting something from the <font> tag...
+[12:35:08] <ghost-> hmm
+[12:35:15] <ghost-> how is the password not AbCdE
+[12:35:17] <ghost-> ?
+[12:35:18] <LostAngel> this is cool
+[12:35:18] <+Pylon> dont just wing it to gloom maps are way cool kung fu flash game?
+[12:35:22] <@Kai> whoadded that??
+[12:35:23] <@bitch> That factoid was added by Llurk
+[12:35:26] <QID|YDL> ghost-: look closer
+[12:35:27] <@Kai> kill Llurk??
+[12:35:28] <@bitch> Denied.
+[12:35:32] <@Kai> DIE??
+[12:35:32] 14� @bitch dies
+[12:35:32] <@R1CH> argh
+[12:35:38] <@R1CH> that is l33t
+[12:35:44] <@R1CH> i just fired up links from a ssh session
+[12:35:47] <Skype> DaddyDeath how do I veiw the source?
+[12:35:50] <@R1CH> and my mouse works there
+[12:35:53] <Skype> to level 3
+[12:35:56] <LostAngel> im instaling flash 5 because of you now
+[12:36:00] <Skype> I can only get to the box
+[12:36:25] <QID|YDL> Skype: hit esc really fast after it "sends you to disneyland"
+[12:36:31] <DaddyDeath> qid, i'm going to use an online decompiler, or try :P
+[12:36:34] <DaddyDeath> lol
+[12:37:27] 14[join14/#gloom] EVILbitch!~Bot@e79006.upc-e.chello.nl
+[12:37:28] <@bitch> EVILbitch is evil
+[12:37:33] <ghost-> hmm
+[12:37:40] <Skype> if (pwd==PASSWORD){
+[12:37:49] <Skype> PASSWORD="AbCdE";
+[12:37:52] <QID|YDL> Skype: nope
+[12:38:07] <@ValouR> ,"" significance?
+[12:38:13] 14[join14/#gloom] Satannum!BotHelper@e79006.upc-e.chello.nl
+[12:38:14] <@bitch> Satannum is  Usage: 666.6/1000 TB (66.66%) [66666666]
+[12:38:14] <EVILbitch> Satannum rulez
+[12:38:14] <ghost-> bah stop telling him everything step by step!
+[12:38:18] <QID|YDL> ValouR: that's what goes in the editbox
+[12:38:23] <DaddyDeath> ValouR: "" that the default text
+[12:38:24] <@ValouR> thx
+[12:38:35] <DaddyDeath> pfft :)
+[12:38:44] <@ValouR> ok what am I missing (dont tell)
+[12:38:56] <QID|YDL> look more carefully
+[12:39:04] <@R1CH> look very carefully
+[12:39:12] <EVILbitch> if (pwd == PASWORD) {
+[12:39:15] <EVILbitch> ?
+[12:39:24] <Skype> level 3 is hard do you just type level4.html in navagation bar?
+[12:39:28] <DaddyDeath> no
+[12:39:30] <@R1CH> Read 1236 KB of data, 292 KB/sec.
+[12:39:33] <@R1CH> downloading java sdk
+[12:39:37] <Skype> CORRECTSITE="level4.html";
+[12:39:47] <Skype> do i just type that in?
+[12:39:49] <DaddyDeath> no
+[12:39:51] 14[join14/#gloom] Murray!~Bot@d65217.upc-d.chello.nl
+[12:39:51] <@bitch> Murray is Satan's property
+[12:39:51] <@R1CH> try it
+[12:39:52] <EVILbitch> is an EVIL bot
+[12:39:53] <Skype> Oh
+[12:39:53] 14[kick14/#gloom] DaddyDeath 15by R1CH 15for Repeating (sponsored by Sul)
+[12:39:54] 14[join14/#gloom] DaddyDeath!none@martinm75-4.mylinuxisp.com
+[12:39:54] <@bitch> DaddyDeath is an un-trustworthy, gay ass fake H4x0r who cant play Gloom worth shit.
+[12:40:00] <+Timbo> what exactly are you lot rambling about?
+[12:40:00] <DaddyDeath> grr..
+[12:40:10] <DaddyDeath> http://www.try2hack.nl
+[12:40:19] <DaddyDeath> timbo, they are on level 3, it willl take you no time to catch up
+[12:41:14] <LostAngel> i finnaly found level 3
+[12:41:16] <LostAngel> i finnaly found level 2
+[12:41:30] <Skype> Level 3 is hard
+[12:41:35] <Satannum> what is this try2hack stuff?
+[12:41:39] <@R1CH> level4 is harder
+[12:41:39] <+Pylon> then the 1 remaining is harder
+[12:41:40] <Skype> How is it not AbCdE
+[12:41:45] <@ValouR> its frustrating
+[12:41:56] <Skype> It has to be AbCdE
+[12:42:04] <Satannum> why?
+[12:42:12] <Skype> PASSWORD="AbCdE";
+[12:42:20] <Satannum> why?
+[12:42:21] 14[kick14/#gloom] Satannum 15by R1CH 15for Repeating (sponsored by Sul)
+[12:42:22] 14[join14/#gloom] Satannum!BotHelper@e79006.upc-e.chello.nl
+[12:42:22] <@bitch> <Satannum> 13GAY POWER 6!13!6!13!
+[12:42:22] <EVILbitch> Satannum Rulez DA WHOLE FUCKING WORLD!!!
+[12:42:30] <DaddyDeath> Skype: not looking close enough..
+[12:42:41] <QID|YDL> Skype: look at more than just that part
+[12:42:43] <Satannum> looking at what?
+[12:42:44] <Skype> I'll look closer
+[12:42:58] <QID|YDL> and don't give away the answer if you get it
+[12:43:02] <DaddyDeath> it uses that password="word"; to direct your attention away from where it should be.
+[12:43:12] <@Kai> ^__
+[12:43:16] <@Kai> oops
+[12:43:17] <@Kai> ^_-
+[12:43:18] <DaddyDeath> ^_^
+[12:43:31] <@Kai> ~_~
+[12:43:35] <DaddyDeath> o_O
+[12:43:38] <@Kai> !
+[12:43:40] <Satannum> what are you doing!?!?
+[12:43:46] <DaddyDeath> you got stoled :)
+[12:43:47] <QID|YDL> %_Y
+[12:43:58] <DaddyDeath> (   Y   )
+[12:43:59] <Keitek> downloading the starcraft patches w00t
+[12:43:59] <+Pylon> time im gonna install starcraft patches w00t
+[12:44:03] <@Kai> :7
+[12:44:06] <QID|YDL> DaddyDeath: forgot the periods
+[12:44:08] <Keitek> >_<
+[12:44:08] <DaddyDeath> ( o Y o )
+[12:44:11] <DaddyDeath> :P
+[12:44:14] <Skype> ,"");
+[12:44:17] <Keitek> i see nipples
+[12:44:18] <DaddyDeath> skype
+[12:44:18] <@Kai> this mud rox
+[12:44:20] <QID|YDL> &$?%&!
+[12:44:21] <+Pylon> &$?%&!
+[12:44:21] <Skype> ?
+[12:44:23] <@Kai> I got a 2000 power level now
+[12:44:23] <DaddyDeath> thats the default text in the box
+[12:44:24] <@Kai> !
+[12:44:30] <Skype> Oh
+[12:44:32] <DaddyDeath> its blank, as you can see, heh
+[12:44:34] <@Kai> only need 8 million to go SSJ
+[12:44:35] <@Kai> !
+[12:44:37] <Skype> AbCdE should work
+[12:44:40] <Skype> it's broken
+[12:44:45] <Skype> ITS BROKEN I TELL YA
+[12:44:46] 14� QID|YDL hasn't had win98 crash for 4days 2hrs 21mins 57secs.
+[12:44:55] <QID|YDL> I think I've about reached the stability limit
+[12:45:07] <QID|YDL> Skype: no, YOU NEED TO LOOK IN OTHER PLACES
+[12:45:08] 14[nick14/Murray]15 to Murrat-brb
+[12:45:16] <Skype> like in which place?
+[12:45:17] <QID|YDL> *reboot*
+[12:45:18] <Skype> bottom
+[12:45:18] 14[part14/#gloom] QID|YDL!none@ny-ntonawanda1a-195.buf.adelphia.net
+Session Close: Fri Jun 29 12:45:18 2001
+
+
+Session Start: Fri Jun 29 12:48:48 2001
+[12:48:48] 14[joining14/#gloom]
+[12:48:48] <@bitch> QID|YDL is someone in need of factoids
+[12:48:49] 14[joinsync14/#gloom/complete] Total: 26
+[12:48:56] <DaddyDeath> QID|YDL: you want the source code to level 4?
+[12:48:57] <Skype> I've been eating lunch
+[12:49:04] <DaddyDeath> it decompiled in like 2 seconds or less
+[12:49:06] <QID|YDL> DaddyDeath: sure
+[12:49:11] <@R1CH> none of the decompilers i've tried work
+[12:49:31] <Satannum> hmm
+[12:49:32] <+Pylon> hmm to shotgun whore
+[12:49:41] <Satannum> level2?
+[12:49:41] <DaddyDeath> this one worked perfect
+[12:49:47] <DaddyDeath> as far as i can tell
+[12:50:01] <DaddyDeath> lame geocities website, and it worked, heheh
+[12:50:02] <DaddyDeath> http://www.geocities.com/SiliconValley/Bridge/8617/jad.html
+[12:50:39] <@ValouR> hmm
+[12:50:43] <Skype> PASSWORD="AbCdE";
+[12:51:04] <DaddyDeath> perdy, aint it r1ch :P
+[12:51:10] <DaddyDeath> skype, no
+[12:51:11] <DaddyDeath> ..
+[12:51:16] <Skype> level 3 is a bitch
+[12:51:19] <DaddyDeath> IGNORE that.. completely
+[12:52:08] <Satannum> any tips for level2?
+[12:52:15] <ghost-> ...
+[12:52:18] <ghost-> download the movie
+[12:52:30] <Satannum> bah
+[12:52:34] <Skype> So what's the password for ir?
+[12:52:43] <Skype> t
+[12:53:33] <DaddyDeath> r1ch or qid, you figure out what it was?
+[12:53:35] <QID|YDL> R1CH: ok, I'm working through the source...
+[12:53:38] <@ValouR> ok someone PM yes or no, is 
+[12:53:46] <Skype> BYE
+[12:53:47] <DaddyDeath> msg me
+[12:53:58] 14� Skype is now away. Reason 4(3 Away 4) 12S4kype12S4crip
+[12:54:07] <QID|YDL> I think it's getting data from "inURL"
+[12:54:21] <@R1CH> yeah
+[12:54:28] <@R1CH> inurl=level4
+[12:54:37] <@R1CH> then it uses inuser array
+[12:54:43] <@R1CH> and adds/subtracts to get ascii codes
+[12:54:43] <DaddyDeath> ValouR: no.
+[12:54:53] <@ValouR> *cries*
+[12:54:56] <DaddyDeath> heheh
+[12:55:13] <@ValouR> doh
+[12:56:25] <QID|YDL> I think it's using level4.html...
+[12:56:28] <DaddyDeath> ghost, lol
+[12:56:45] <QID|YDL> oops, no
+[12:56:48] <DaddyDeath> hmm... at least it got decoded :P
+[12:56:57] <ghost-> =P
+[12:56:57] <DaddyDeath> decompiled * :P
+[12:57:02] <QID|YDL> DaddyDeath: download level4
+[12:57:07] <ghost-> hell its worth a try
+[12:57:10] <@ValouR> :) found it eventually
+[12:57:19] <ghost-> valour, you on level 4?
+[12:57:25] <@ValouR> yeah
+[12:57:37] <Satannum> how did you get past 2?
+[12:57:48] <ghost-> i think my complete unfamiliarity with java and html is slowing me down a bit
+[12:58:06] <@ValouR> me too, I know very very very basic C and guessed the rest :P
+[12:58:06] <+Pylon> probably a very basic c and guessed the rest :p
+[12:58:39] <ghost-> i know some c too
+[12:58:45] <ghost-> not helping
+[12:58:57] <DaddyDeath> heh
+[12:59:11] <DaddyDeath> QID|YDL: why?
+[12:59:14] 14� @ValouR gives up immediately upon seeing level 4
+[12:59:19] <ghost-> heh
+[12:59:42] <DaddyDeath> lol ValouR
+[12:59:49] <QID|YDL> ok, everyone on level 4, tell DD so he can send you the src
+[12:59:56] <DaddyDeath> yeah
+[13:00:02] <@ValouR> my desktop is full of crap already and Ive only done 3 levels
+[13:00:16] <DaddyDeath> then delete it, hehe
+[13:00:25] <DaddyDeath> woah, heheheh
+[13:01:35] <QID|YDL> who where was the VB whore? hob?
+[13:01:40] <DaddyDeath> wow wow
+[13:01:42] <DaddyDeath> i do VB
+[13:01:42] <QID|YDL> where->here
+[13:01:48] <DaddyDeath> QID|YDL: vb3 can be decompiled as well
+[13:01:58] <DaddyDeath> vb5 and up can't so far
+[13:02:11] <QID|YDL> get started then :-D
+[13:02:16] <DaddyDeath> :)
+[13:02:21] <DaddyDeath> i have to find a vb3 decompiler
+[13:02:34] <@R1CH> bleh
+[13:02:37] <@R1CH> i can do level 4
+[13:02:46] <DaddyDeath> r1ch, you didn't get it yet?
+[13:02:46] <+Pylon> you got it yet?
+[13:02:51] <@R1CH> but i can't be assed to sit here and calculate 21 individual ascii characters
+[13:02:59] <Satannum> :0
+[13:03:04] <ghost-> hehe
+[13:03:17] 14� ghost- pulls out his l33t c++ program that calculates ascii value of words
+[13:03:20] <Satannum> ill do the for you
+[13:03:24] <DaddyDeath> *cough*qidsmarterthanr1ch*cough*
+[13:03:34] <DaddyDeath> i didn't say that :P
+[13:03:36] 14� @ValouR goes back to playing dance dance karnov
+[13:03:38] <@R1CH> QID didn't get level 3 though :P
+[13:03:45] <ghost-> heh
+[13:03:48] <ghost-> neither have i
+[13:03:52] 14� +Timbo is on level 5
+[13:03:54] <QID|YDL> no, adsubtract b0rked it
+[13:03:55] <Satannum> i cant pas level 2!
+[13:03:55] <ghost-> how bout you just tell me the password
+[13:03:58] 14[join14/#gloom] Defiler|ZzZzZ!wmvnuclear@ip-20-245-123.la-l3.navipath.net
+[13:04:10] <ghost-> so i can ownz0r level 4
+[13:04:10] <+Pylon> i can ownz0r level 3?
+[13:04:18] 14[nick14/Defiler|ZzZzZ]15 to Defiler
+[13:04:19] <ghost-> then tell me the password, you damned furby!
+[13:04:22] <QID|YDL> R1CH: YOU DON'T HAVE TO CALCULATE JACK FOR LEVEL 4
+[13:04:23] <Defiler> yawn
+[13:04:37] <Defiler> time??
+[13:04:37] <@bitch> Fri Jun 29 13:04:29 2001
+[13:04:37] <QID|YDL> you just get the url and go there
+[13:04:40] <DaddyDeath> qid, downloaded a vb3 decompiler
+[13:04:52] 14� ghost- starts severly beating pylon
+[13:04:58] <DaddyDeath> damn this thing is large, taking more than 10 seconds at 30kb/sec lol
+[13:05:07] <Defiler> morning....
+[13:05:08] <DaddyDeath> 860kb :P
+[13:05:37] <QID|YDL> DaddyDeath: what, you found one?
+[13:05:59] <@R1CH> heh
+[13:06:01] <@R1CH> didn't spot that
+[13:06:09] <DaddyDeath> trying to install it..
+[13:06:32] 14� ghost- has resorted to just guessing the url
+[13:06:48] <Defiler> anyone know what the average cable connect runs at (kbps)?
+[13:06:56] <Satannum> 200?
+[13:06:57] <Satannum> 100?
+[13:07:21] <DSlicer-w0rking> Download is usually 1MB/sec, upload is usually 256 KB/sec
+[13:07:29] <Satannum> oh
+[13:07:30] <Satannum> yep
+[13:07:38] <Defiler> ok
+[13:08:10] <Defiler> 128kbps wireless ricoquette, I would probally be better of with a straight cable connect right?
+[13:08:19] <DaddyDeath> got it qid
+[13:08:24] 14[chanstats14/#gloom/1:08pm] Ops: 6 (22%) Voice: 4 (15%) Regular: 17 (63%) Total: 27
+[13:08:33] <DSlicer-w0rking> Yup, much
+[13:08:36] <DaddyDeath> heheh
+[13:08:39] <DaddyDeath> i'm l33t :P
+[13:08:39] <QID|YDL> DaddyDeath: I got the .bas
+[13:08:42] <Defiler> kewl thanks
+[13:08:47] <Satannum> .bas?
+[13:08:48] <+Pylon> .bas?
+[13:08:48] <DaddyDeath> is that work?
+[13:08:48] <DSlicer-w0rking> 128 kbps is only about twice as fast as a regular modem
+[13:08:48] <+Pylon> 128 kbps is only about as low level 4, not!
+[13:08:49] <Satannum> lol
+[13:08:49] <+Pylon> timbo: lol the one of them...
+[13:08:51] <Defiler> pricing new connect
+[13:09:22] 14[nick14/Murrat-brb]15 to Murray
+[13:09:25] <Defiler> ok
+[13:09:30] <DaddyDeath> doh
+[13:09:43] <DSlicer-w0rking> My cable modem is better than most, though, since we have a small user base
+[13:10:06] <DSlicer-w0rking> And we were one of the first places to get it
+[13:10:09] <Defiler> so that is  a factor also....
+[13:10:14] <@R1CH> i got the username anyway
+[13:10:38] <DSlicer-w0rking> Yeah, cable modem is a shared connection
+[13:11:05] <DSlicer-w0rking> So some idiot running a p0rn server in your area will kill your connection
+[13:11:25] <ghost-> yeah
+[13:11:36] <ghost-> i have a feeling like 10 people are doing that on my node...
+[13:11:38] <Defiler> oh, DUH 56k 2x is 128
+[13:11:38] <DaddyDeath> damn..
+[13:11:38] <DaddyDeath> its making you pick out numbers from that shit qid
+[13:11:38] 14� Defiler slack Defiler to awakeness
+[13:11:38] <Defiler> lol
+[13:11:38] <Defiler> I can't spell
+[13:11:51] <@R1CH> DaddyDeath send
+[13:11:59] <Defiler> DSL is shared also
+[13:12:05] <ghost-> no it isnt
+[13:12:05] <@R1CH> no it isn't
+[13:12:12] <Defiler> hmmm
+[13:12:17] <DaddyDeath> hold on r1ch
+[13:12:21] <DaddyDeath> are you on linux ?
+[13:12:22] <ghost-> if you get a decent bw dsl, it is so much better than cable...
+[13:12:24] <@R1CH> no
+[13:12:27] <DaddyDeath> hell, i'm zipping it, heh
+[13:12:34] <Defiler> really....
+[13:12:43] <ghost-> yes
+[13:12:49] <Defiler> what is decent? # wize
+[13:12:52] <ghost-> i bought a 758/758 dsl
+[13:12:58] <ghost-> 768 i mean
+[13:12:59] <+Pylon> 768 i still lub you damned furby!
+[13:13:17] <DaddyDeath> thats all the level5 files i have
+[13:13:18] <Defiler> whats the # refer too?
+[13:13:20] <ghost-> but the DSL company failed to mention it wasnt ACTUALLY available in my area
+[13:13:29] <DSlicer-w0rking> DSL usually has slightly less download bandwidth, but a lot more upload bandwidth
+[13:13:29] <+Pylon> daddydeath: download bandwidth, but a url?
+[13:13:30] <DaddyDeath> i have 768/128kbit dsl
+[13:13:31] <Defiler> that sucks
+[13:13:31] <+Pylon> but i'll be added there shelf life sucks
+[13:13:34] <ghost-> so they just took my down payment
+[13:13:47] <ghost-> $250 installation fee
+[13:13:48] <ghost-> and laughed
+[13:13:52] <QID|YDL> got to level 6
+[13:13:52] <+Pylon> no guns out the origianl 6 is the tallest gloom model?
+[13:13:53] <DaddyDeath> DSlicer-w0rking: thats right, i download less than 768kbit and upload faster than 128kbit, heh
+[13:14:05] <Defiler> grrr
+[13:14:12] <DaddyDeath> qid, what about level 5?
+[13:14:17] <QID|YDL> DaddyDeath: easy
+[13:14:22] <DSlicer-w0rking> Cable modem is usually better if you're just downloading stuff
+[13:14:26] <DaddyDeath> i don't know what mid( is
+[13:14:29] <ghost-> year
+[13:14:29] <+Pylon> a year old
+[13:14:29] <QID|YDL> alias getchar { echo eh: $mid(0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.`:;-*+=~|&!_$#@()[]{}<\/>,$$1,1) }
+[13:14:33] <ghost-> my cable can download well
+[13:14:34] <@ValouR> QID|YDL it says lvl 6 cant be completed on front page
+[13:14:36] <QID|YDL> I just ran all the numbers through
+[13:14:39] <DaddyDeath> { echo eh: $mid(0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.`:;-*+=~|&!_$#@()[]{}<\/>,$$1,1) }
+[13:14:40] <+Timbo> where did you get the source?
+[13:14:41] <DaddyDeath> heh
+[13:14:47] <DSlicer-w0rking> If you're running a game server, DSL would be better
+[13:14:51] <QID|YDL> Timbo: got a decompiler
+[13:14:54] <@R1CH> hmm
+[13:14:58] <@R1CH> level 6 is gonna be hard
+[13:15:01] <@R1CH> vb6 isn't so decompilable.
+[13:15:03] <QID|YDL> yep
+[13:15:05] <DaddyDeath> nope.
+[13:15:11] <QID|YDL> well, either vb5 or vb6
+[13:15:14] <ghost-> heh
+[13:15:19] <DaddyDeath> thats not good.
+[13:15:25] <DaddyDeath> qid, msg me the user and pass :P
+[13:15:32] <DaddyDeath> for level 5... hell, i'll just type in the url
+[13:15:37] <@ValouR> read the front page it says you cannot complete level 6 at the moment
+[13:15:38] <+Timbo> somebody send me source
+[13:15:43] <QID|YDL> no, the one it has doesn't work
+[13:15:50] <Defiler> what alnguage is this:  { echo eh: $mid(0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.`:;-*+=~|&!_$#@()[]{}<\/>,$$1,1) }
+[13:15:56] <QID|YDL> Defiler: mirc
+[13:15:56] <Defiler> jesus
+[13:15:57] <DaddyDeath> thats VB
+[13:16:00] <Defiler> language
+[13:16:02] <DaddyDeath> mixed with mirc :P
+[13:16:08] <QID|YDL> DaddyDeath: um, no
+[13:16:13] <DaddyDeath> heh
+[13:16:15] <QID|YDL> Defiler: it's mirc scripting, ignore DD
+[13:16:18] <DaddyDeath> :)
+[13:16:25] <DaddyDeath> i'm st00pid, despite what i'm doing, hehe
+[13:16:28] <Satannum> grr
+[13:16:33] <DaddyDeath> it doesn't echo me anything..
+[13:16:41] <Satannum> i got the  url to level3 but not the password
+[13:16:43] <QID|YDL> it's an alias
+[13:16:52] <QID|YDL> you use /getchar <number>
+[13:17:03] <QID|YDL> and it'll echo "eh: <character>"
+[13:17:04] <DaddyDeath> omfg, this is hard
+[13:17:14] <DaddyDeath> ah
+[13:17:14] <+Pylon> ah yes
+[13:17:21] <ghost-> satan: did you download the .smf file?
+[13:17:23] <ghost-> swf
+[13:17:28] <Satannum> yes
+[13:17:43] <DSlicer-w0rking> Dude, Ghost, 'm' and 'w' aren't even close to each other
+[13:18:00] <DaddyDeath> qid, this is a joke.. hehe
+[13:18:08] <DaddyDeath> does this guy think he could hack them?
+[13:18:09] 14[join14/#gloom] Gumby!gumby@ppp-4-213.5800-4.access.uk.worldonline.com
+[13:18:10] 14[mode14/#gloom] +v Gumby 15by ChanServ
+[13:18:10] <@bitch> Gumby is VTMR's bitch, but doesn't know it
+[13:18:41] <ghost-> heh
+[13:18:51] <ghost-> DSlicer-w0rking: yeah but they kinda look the same
+[13:19:33] <ghost-> my head just randomly replaces letters because they look similiar
+[13:19:43] <ghost-> i think its a result of my idiocy
+[13:19:49] <DSlicer-w0rking> Dyslexia for Cure Found!
+[13:19:51] <+Gumby> hrmmm
+[13:19:59] <ghost-> really?!
+[13:20:01] <+Gumby> what does dna stand for?
+[13:20:17] <DSlicer-w0rking> DeoxyriboNucleic Acid
+[13:20:18] <Dread> dioxiribonucleuc acid
+[13:20:18] <+Gumby> national dyslexic association
+[13:20:19] <ghost-> dioxyribos nucleic acid
+[13:20:22] <ghost-> bah
+[13:20:25] <ghost-> clos
+[13:20:26] <+Gumby> :P
+[13:20:26] <ghost-> e
+[13:20:31] 14[join14/#gloom] [PeSTiCiDE]!~wooppp@HSE-Sudbury-ppp197248.sympatico.ca
+[13:20:31] <@bitch> "* [PeSTiCiDE] fucks GoaT  |   <[PeSTiCiDE]> YES  |  <[PeSTiCiDE]> OHHHHHHH YES"
+[13:20:41] <ghost-> wha?
+[13:20:53] <+Gumby> dammit if you ask that to any normal people, they say 'I dunno'
+[13:20:53] 14[quit14/Defiler!wmvnuclear@ip-20-245-123.la-l3.navipath.net] Ping timeout: 180 seconds
+[13:20:59] <Dread> hehe
+[13:21:00] <DaddyDeath> i think level6 is my stopping point, hehe
+[13:21:09] <ghost-> then TELL ME THE PASSOWRD
+[13:21:09] <ghost-> wer
+[13:21:15] <[PeSTiCiDE]> Anyone got the d2 exp pak?
+[13:21:23] <Dread> noplz
+[13:21:28] <Dread> diablo 2 was annoying 
+[13:21:29] <ghost-> thats what i get for being a shitastic typerist
+[13:21:29] <Satannum> yep
+[13:21:32] <Satannum> I get it
+[13:21:35] <Satannum> got
+[13:21:41] <[PeSTiCiDE]> payed for it?
+[13:21:43] <Satannum> yes
+[13:21:44] <ghost-> satan: you finally on level 3?
+[13:21:46] 14� [PeSTiCiDE] laughs
+[13:21:48] <Dread> chump
+[13:21:50] <Satannum> ghost, yes
+[13:21:53] <Satannum> i didnt pay
+[13:21:54] <ghost-> heh
+[13:21:55] <LostAngel> im at level3
+[13:21:56] <Satannum> myy dad did
+[13:21:56] <+Pylon> im finishing myy 2nd
+[13:21:57] <DaddyDeath> ghost; level 6 would make you cry :)
+[13:21:59] <+Gumby> gloom forums??
+[13:21:59] <+Pylon> forums??
+[13:21:59] <@bitch> 12http://forum.teamreaction.com
+[13:21:59] <@bitch> forums is <see> gloom forums
+[13:22:05] <[PeSTiCiDE]> It's a let down..
+[13:22:06] <ghost-> =P
+[13:22:08] <[PeSTiCiDE]> :P
+[13:22:10] <ghost-> level 3 sucks
+[13:22:17] <[PeSTiCiDE]> i'm a lvl 22 druid :P
+[13:22:17] <Dread> i wouldnt pay for diablo 2 crap
+[13:22:18] <DaddyDeath> its easy... oh man is it easy, lol
+[13:22:28] <ghost-> NO ITS HARD!
+[13:22:31] 14� ghost- kicks DaddyDeath
+[13:22:43] <ghost-> well, for skype anyways. im on level 7
+[13:22:53] <[PeSTiCiDE]> what are you talking about?!
+[13:22:55] <@Kai> lazy gumby
+[13:23:06] <DaddyDeath> qid
+[13:23:13] <+Gumby> dont make me come round there kai
+[13:23:18] <@Kai> hah
+[13:23:21] <@Kai> what you gonna do
+[13:23:24] <@Kai> type Kai??
+[13:23:28] <ghost-> the password for level 6 is bill gates
+[13:23:29] <@Kai> lazy
+[13:23:29] <@Kai> !
+[13:23:37] <@Kai> Kai's house??
+[13:23:38] <@Kai> !
+[13:23:38] <+Gumby> smack you up. Lucky for you I dont know where you live
+[13:23:51] <DaddyDeath> you have to use something to record the hex in your net packets, it uses a website or something to check your pass to theirs.. so just see what the packets are trying to compare it to :P
+[13:23:52] <+Pylon> and it uses a website or something to kor
+[13:23:52] <QID|YDL> ghost-: suuure it is
+[13:23:52] <[PeSTiCiDE]> Kai, bitch is not here :P
+[13:24:04] <@Kai> bitch, Kai's house is <reply> He has his own planet above heaven!
+[13:24:05] <@bitch> OK Kai
+[13:24:07] <DaddyDeath> QID|YDL: can't j00 do that :)
+[13:24:10] <[PeSTiCiDE]> what the
+[13:24:10] 14[join14/#gloom] Defiler!wmvnuclear@ip-20-245-176.la-l3.navipath.net
+[13:24:17] <[PeSTiCiDE]> oh :P not used to seeing it op'd
+[13:24:19] <ghost-> wouldnt it be funny if i just kinda guessed the answer?
+[13:24:19] <DaddyDeath> i don't have network loggers that work like that :P
+[13:24:21] <[PeSTiCiDE]> ping me??
+[13:24:22] <+Gumby> kai, Im not lazy, Im energy efficient
+[13:24:22] <@bitch> [PeSTiCiDE] ping reply: 0.613282918930054secs.
+[13:24:25] <QID|YDL> DaddyDeath: I still need the network, fool
+[13:24:26] <DaddyDeath> ping me??
+[13:24:26] <@bitch> DaddyDeath ping reply: 0.461954951286316secs.
+[13:24:28] <@R1CH> http://www.try2hack.nl/p.lv6
+[13:24:29] <[PeSTiCiDE]> :P
+[13:24:34] <Defiler> grrr mirc bailed my keyboard
+[13:24:44] <DaddyDeath> eh r1ch?
+[13:24:49] <@R1CH> thats the password
+[13:24:55] <@R1CH> gotta figure how to decrypt it now
+[13:25:04] <QID|YDL> R1CH: found it in hex editing?
+[13:25:06] <ghost-> r1ch: blank screen = password?
+[13:25:07] <@R1CH> no
+[13:25:13] <@R1CH> dumped http request
+[13:25:15] <DaddyDeath> what kind of encryption is it r1?
+[13:25:17] <@R1CH> saw it tried to go there
+[13:25:38] <DaddyDeath> r1ch, next think you know, he will use some pgp encrypted shit, hehe
+[13:25:43] <ghost-> a=0
+[13:25:44] <ghost-> b=1
+[13:25:53] <ghost-> ascii values
+[13:25:53] <QID|YDL> lemme guess, ascii values
+[13:26:07] <ghost-> thank you, thank you very much
+[13:26:20] <DaddyDeath> thats fugged up. hhe
+[13:26:20] <QID|YDL> eh, no
+[13:26:31] <QID|YDL> ascii 10 != valid character
+[13:26:32] <LostAngel> hey im bad, i need help for level 3
+[13:26:43] 14[quit14/Skype!Skype9@port-47.iron-ts1.cloh.net] Ping timeout: 180 seconds
+[13:26:48] <ghost-> you dont need help lost angel
+[13:26:51] <ghost-> you need the password
+[13:27:01] <LostAngel> i need help
+[13:27:04] <LostAngel> not the pass
+[13:27:04] <+Pylon> skype, that's a q2admin pass to theirs.
+[13:27:06] <ghost-> ive deduced that level 3 is actually impossible
+[13:27:12] <@R1CH> lol
+[13:27:13] <LostAngel> lol
+[13:27:15] <QID|YDL> ghost-: we're on 6, fool
+[13:27:18] <ghost-> all these people got past it by sleeping with the creators
+[13:27:22] <LostAngel> level 3 is easy
+[13:27:30] <LostAngel> but i dont find why it doesnt work
+[13:27:34] <ghost-> heh
+[13:27:43] <ghost-> lost angel: AbCdE isnt the password
+[13:27:44] <@ValouR> Due to the move level 6 cannot be completed, as the VB files need to be recompiled with the correct url.
+[13:27:49] <LostAngel> i know
+[13:27:49] <@ValouR> damnit pay attention
+[13:27:58] <ghost-> valour: lies?
+[13:28:04] <LostAngel> : )
+[13:28:04] <@ValouR> no, on front page
+[13:28:07] <LostAngel> yeha
+[13:28:08] <LostAngel> i saw it
+[13:28:09] <LostAngel> too
+[13:28:10] <ghost-> maybe lies
+[13:28:11] <ghost-> ...
+[13:28:14] <LostAngel> maybe
+[13:28:20] <ghost-> to deter the non-l33t h4x0rs
+[13:28:28] <@R1CH> ValouR
+[13:28:30] <@R1CH> that's irrelevant
+[13:28:34] <@R1CH> i dumped the URL request
+[13:28:57] <LostAngel> I FOUND IT!
+[13:28:59] <@ValouR> perhaps the url request is a decoy :�
+[13:29:02] <ghost-> what is it?
+[13:29:03] <LostAngel> but i didnt found the pass
+[13:29:06] <LostAngel> lol
+[13:29:07] <ghost-> heh
+[13:29:15] <LostAngel> no i maybe found level3
+[13:29:24] <Defiler> found some links to scripting on the Mirc website....  worth checking out?
+[13:29:35] <LostAngel> you see? "<SCRIPT src="JavaScript"></SCRIPT>"
+[13:29:37] <Satannum> try the help file
+[13:29:39] <LostAngel> it load a script
+[13:29:47] <LostAngel> so it not in the source
+[13:29:49] <QID|YDL> Defiler: sure
+[13:29:51] <DaddyDeath> you guys will never get past level 4 :P
+[13:30:07] 14� Defiler likes to learn
+[13:30:07] <QID|YDL> ValouR: level6 will probably dump you to www.try2hack.f2s.com/<some url>
+[13:30:13] <QID|YDL> and you can just change the url
+[13:30:24] <@ValouR> not that I know what im doing... :)
+[13:30:28] <DaddyDeath> valour is on level 6?
+[13:30:38] <QID|YDL> level 5 tried to do that
+[13:30:38] <@ValouR> no I gave up on level 4
+[13:30:46] <DaddyDeath> heh
+[13:30:49] <Defiler> uh, level 6 of what
+[13:30:50] <@R1CH> ah well im off to code now
+[13:30:51] <DaddyDeath> i have the source to level4, lol
+[13:30:51] <+Pylon> hob, its fun to level4, lol
+[13:30:53] <QID|YDL> ValouR: you have to decompile the class for level 4, DD has src
+[13:30:56] <@ValouR> go go super hardcore karnov, get ready to dance! yeah
+[13:31:33] <DaddyDeath> now qid, about hacking those websites that access a db for the the user and pass :P
+[13:32:24] 14[join14/#gloom] Kor!kahless@modem-252.new-york.dialup.pol.co.uk
+[13:32:24] <@bitch> <Darkblane> we just bring Kor to school - same effect - scares everyone off
+[13:32:25] <DaddyDeath> lets try the bonus tests qid
+[13:32:26] <DaddyDeath> hheeh
+[13:32:42] <Kor> lol @ topic
+[13:32:42] <QID|YDL> hope they're using an old db with documented bugs
+[13:32:52] <DaddyDeath> :P
+[13:33:06] <@ValouR> lets seen how long it takes kor
+[13:33:08] <Murray> Satannum!!!!!!!!!!!!!!!
+[13:33:18] 14[join14/#gloom] Rutger!BotHelper@e79006.upc-e.chello.nl
+[13:33:19] <@ValouR> www.try2hack.nl/
+[13:33:20] 14[quit14/EVILbitch!~Bot@e79006.upc-e.chello.nl] Connection reset by peer
+[13:33:22] 14[join14/#gloom] Satan!Dave@d65217.upc-d.chello.nl
+[13:33:22] 14� @bitch takes off satan's horns and tail and runs off with them
+[13:33:29] 14[quit14/Satannum!BotHelper@e79006.upc-e.chello.nl] Killed (NickServ (Nick kill enforced))
+[13:33:34] 14[nick14/Rutger]15 to Satannum
+[13:34:05] <DaddyDeath> ok
+[13:34:11] <Kor> what's this?
+[13:34:12] <DaddyDeath> i'm done with that crap qid, my brain hurts :P
+[13:34:16] <LostAngel> I FOUND THE PASSWORD OF LEVEL3!
+[13:34:20] <LostAngel> IM SO HAPPY!
+[13:34:22] <DaddyDeath> LostAngel: wow...
+[13:34:23] <ghost-> so whatsheh
+[13:34:25] <@ValouR> Kor, take the challenges (try to hack)
+[13:34:27] <+Gumby> what you talking aboot?
+[13:34:28] <DaddyDeath> now do level4, lol
+[13:34:30] <LostAngel> its TheCorrectAnswer
+[13:34:32] <LostAngel> lol
+[13:34:35] <LostAngel> its just that
+[13:34:37] <@ValouR> damnit lostangel
+[13:34:41] <DaddyDeath> don't tell everyon.. asshead
+[13:34:41] <ghost-> what did you do, just guess?
+[13:34:46] <LostAngel> no
+[13:34:53] <LostAngel> i said later
+[13:34:54] <DaddyDeath> ghost-: you knew the pass ;)
+[13:34:55] <ghost-> so dd, whats this i hear about a source you have?
+[13:34:57] <ghost-> =P
+[13:34:58] <+Pylon> its not either =p
+[13:34:59] <LostAngel> it load a script
+[13:35:01] <DaddyDeath> for level 4?
+[13:35:04] <ghost-> yedah
+[13:35:11] <+Gumby> level 4 of what/
+[13:35:12] <+Gumby> ?
+[13:35:23] <@ValouR> Gumby: www.try2hack.nl/
+[13:35:27] <DaddyDeath> open that file in notepad or whever you use for txt files
+[13:35:35] <+Gumby> wot is it?
+[13:35:42] <@ValouR> click on it and see...
+[13:35:42] <DaddyDeath> try to hack the passwords :P
+[13:36:01] <Kor> why did it go to disney.com?
+[13:36:08] <+Gumby> not sure if I can be arsed
+[13:36:10] <DaddyDeath> you got it wrong, hehe
+[13:36:13] <@ValouR> cos you got it wrong...
+[13:36:19] <DaddyDeath> gumby, even i got to level6 :)
+[13:36:30] <DaddyDeath> you don't want to be less l33t than DD :P
+[13:36:30] <+Pylon> in dd is you cannot adjust speed of a client that has the listy things are pretty bad at people who cleared the gline list..
+[13:36:50] <DaddyDeath> thank you for that useful info Pylon
+[13:37:46] 14[join14/#gloom] fatcat!iceplague@nic-163-c233-098.mw.mediaone.net
+[13:37:57] <Kor> is it me or is level 1 very easy?
+[13:38:02] <fatcat> 29 yrs?!
+[13:38:04] <Dread> very
+[13:38:18] <DaddyDeath> Kor: it is
+[13:38:20] <Satannum> OMG
+[13:38:24] <Satannum> check the gmd map poll
+[13:38:30] <QID|YDL> maybe if I knew assembly I could decompile level6 to that and figure it out
+[13:38:39] <DaddyDeath> dunno
+[13:38:40] <fatcat> q2info 216.37.2.25??
+[13:38:40] <@bitch> Server:216.37.2.25 Game:gloom Players:0319/40 Map:ore1 Ping:78 
+[13:38:46] <DaddyDeath> vb5 and 6 have strong protection
+[13:38:47] <fatcat> ping me??
+[13:38:47] <@bitch> fatcat ping reply: 0.0885679721832275secs.
+[13:38:50] <Satannum> assembly isnt hard
+[13:38:54] <QID|YDL> actually, my dad used to know assembly, he might be able to help
+[13:39:04] <DaddyDeath> my brother does, but he is at work, heh
+[13:39:13] <Defiler> sweet
+[13:39:21] <Satannum> check the gmd map poll!
+[13:39:28] <DaddyDeath> QID|YDL: and what do you think level7 will be like? heh
+[13:39:30] <Defiler> uh oh
+[13:39:33] <QID|YDL> dunno
+[13:39:40] <Satannum> :)
+[13:39:42] <DaddyDeath> an old database?
+[13:39:46] <DaddyDeath> and then 8 be a new one :P
+[13:39:51] <Defiler> level 7 of what?
+[13:40:04] <Kor> www.try2hack.nl
+[13:40:12] <Defiler> ahh
+[13:40:24] <Defiler> ty
+[13:40:43] 14� Defiler stops beating his head into keyboard
+[13:40:51] <QID|YDL> we have to know how to either encrypt or decrypt the password for level 6
+[13:40:58] <ghost-> yeah
+[13:41:05] <ghost-> did you try to ascii values crap?
+[13:41:10] <Kor> <-- stuck on level 2
+[13:41:16] <DaddyDeath> thats easy
+[13:41:16] <+Pylon> no it isnt that easy to pick out
+[13:41:17] <ghost-> hehe
+[13:41:21] <QID|YDL> if we can only encrypt, I could still throw together some mirc script to fake a proxy server and give it the replacement info
+[13:41:24] <ghost-> pylon is right
+[13:41:28] <DaddyDeath> is that the flash crapt
+[13:41:33] <ghost-> yeah
+[13:41:34] <Satan> ping me??
+[13:41:34] <+Pylon> ping me??
+[13:41:34] <@bitch> Pylon ping reply: 0.00248897075653076secs.
+[13:41:35] <@bitch> Satan ping reply: 0.17494797706604secs.
+[13:41:35] <[PeSTiCiDE]> yes.
+[13:41:35] <QID|YDL> ghost-: going straight to ascii doesn't work
+[13:41:50] <ghost-> find values for a and b that do
+[13:41:56] <DaddyDeath> ghost
+[13:42:01] <Satannum> ping me??
+[13:42:02] <QID|YDL> heh, Pylon has a good ping
+[13:42:04] <DaddyDeath> 2 a's or 3a's together might mean 1 letter
+[13:42:04] <@ValouR> hmm totalkarn has dissapeared from map poll
+[13:42:05] <@bitch> Satannum ping reply: 4.44976496696472secs.
+[13:42:14] <LostAngel> i have some diffilculties for the level4
+[13:42:14] <[PeSTiCiDE]> ping me??
+[13:42:15] <DaddyDeath> ping me??
+[13:42:15] 14[quit14/Kai!Jinzoninge@dialup-209.246.92.81.Dial1.NewYork1.Level3.net] Ping timeout: 180 seconds
+[13:42:15] <@bitch> [PeSTiCiDE] ping reply: 0.246960043907166secs.
+[13:42:15] <@bitch> DaddyDeath ping reply: 0.871343970298767secs.
+[13:42:18] <[PeSTiCiDE]> :P
+[13:42:20] <DaddyDeath> ping me??
+[13:42:21] <@bitch> DaddyDeath ping reply: 0.496825098991394secs.
+[13:42:25] <ghost-> ping me??
+[13:42:26] <[PeSTiCiDE]> >_<
+[13:42:26] <@bitch> ghost- ping reply: 0.532938003540039secs.
+[13:42:29] <Satannum> space bace is ruling you all
+[13:42:31] <ghost-> whoa thats crappy
+[13:42:36] 14[join14/#gloom] Kai!~jinzoning@dialup-209.246.91.158.Dial1.NewYork1.Level3.net
+[13:42:36] 14[mode14/#gloom] +o Kai 15by ChanServ
+[13:42:36] <@bitch> kai is [16:31] <Kai> HOB rox
+[13:42:42] <LostAngel> does i need a compilator?
+[13:42:47] <LostAngel> like the sdk 1.4?
+[13:42:49] <[PeSTiCiDE]> Kor
+[13:42:52] <QID|YDL> LostAngel: for level 4?
+[13:43:04] <Kor> [PeSTiCiDE]?
+[13:43:04] <+Pylon> [pesticide]?
+[13:43:06] <[PeSTiCiDE]> Did you get lvl2? :P
+[13:43:17] <Kor> got to level 2, not passed it
+[13:43:27] <Satan> jan, unban me hostmask
+[13:43:27] <+Pylon> jan, unban me :o
+[13:43:31] <LostAngel> level2 is not really easy
+[13:43:34] <[PeSTiCiDE]> 'get' as in finished.
+[13:43:38] <DaddyDeath> yes it is
+[13:43:39] <QID|YDL> Kor: download the .swf and look at it in notepad
+[13:43:41] <DaddyDeath> download the movie
+[13:43:51] <DaddyDeath> its in plain text, the user and pass..
+[13:43:53] <LostAngel> but you have to copy it elsewhere
+[13:43:55] <LostAngel> no?
+[13:43:59] <DaddyDeath> flash isn't made to encrypt things.
+[13:43:59] <@Kai> ping me??
+[13:43:59] <@bitch> Kai ping reply: 0.468739032745361secs.
+[13:44:10] <QID|YDL> level4 is the first one where you need outside programs
+[13:44:10] 14[quit14/Chrono!chrono@cm-24-142-237-98.benton.mediacom.ispchannel.com] Connection reset by peer
+[13:44:16] <LostAngel> ok
+[13:44:19] <LostAngel> like?
+[13:44:20] <DaddyDeath> level2 needs notepad :P
+[13:44:24] <LostAngel> the sdk?
+[13:44:26] <DaddyDeath> lostangle
+[13:44:29] <LostAngel> what?
+[13:44:34] <DaddyDeath> like a java class file decompiler
+[13:44:35] <DaddyDeath> heh
+[13:44:39] <LostAngel> ...
+[13:44:44] <LostAngel> i knew this but wich?
+[13:44:48] <DaddyDeath> and then you need a vb3 decompiler
+[13:44:48] <Kor> I managed to download the .swf file 103% :)
+[13:44:55] <DaddyDeath> lol
+[13:44:58] <LostAngel> : )
+[13:44:59] <ghost-> what is intern()?
+[13:45:00] <Satannum> :)
+[13:45:01] 14[join14/#gloom] Chrono!chrono@cm-24-142-237-98.benton.mediacom.ispchannel.com
+[13:45:01] 14[mode14/#gloom] +o Chrono 15by ChanServ
+[13:45:01] 14� @bitch watches chrono give denile head
+[13:45:03] <[PeSTiCiDE]> How do you download swf files :?
+[13:45:09] <ghost-> the rest i can kind of figure out
+[13:45:15] <DaddyDeath> ghost-, level4 is tricky
+[13:45:17] <@ValouR> just pull them out of temp internet files
+[13:45:21] <ghost-> or i know
+[13:45:23] <DaddyDeath> thats what i do
+[13:45:26] <ghost-> but intern() doesnt make any send
+[13:45:34] <DaddyDeath> i don't know java to help you
+[13:45:45] <QID|YDL> ghost-: ignore that, just download the password file
+[13:45:46] <ghost-> i dont know java at all
+[13:45:52] <LostAngel> same as me
+[13:45:56] <ghost-> but java is like, 90% similar to c
+[13:45:56] <LostAngel> but its fun :)
+[13:46:03] <LostAngel> really?
+[13:46:11] <ghost-> yeah...
+[13:46:18] <ghost-> isnt any of that looking familiar?
+[13:46:30] <Kor> level 2- got the file, just get crap when opened with notepad
+[13:46:38] <[PeSTiCiDE]> nm
+[13:46:41] <DaddyDeath> you want the source for level4 LostAngel?
+[13:46:41] <ghost-> kor
+[13:46:43] <ghost-> read it all
+[13:46:44] <@ValouR> look at the crap
+[13:46:44] <QID|YDL> ghost-: find where it sets the inuser or whatever it is
+[13:46:45] <LostAngel> yeha
+[13:46:49] <LostAngel> it would help
+[13:46:58] <QID|YDL> ghost-: it uses inURL, and that gets set somewhere
+[13:47:01] <LostAngel> because all these � � � � � � � � � � � � � � � � � � � � � � � � � � 
+[13:47:01] <LostAngel>   e
+[13:47:01] <LostAngel>   e
+[13:47:02] <LostAngel>   e
+[13:47:02] <LostAngel>   e
+[13:47:03] <LostAngel>  " e
+[13:47:05] <LostAngel>    f
+[13:47:07] 14� QID|YDL drops a space heater on LostAngel
+[13:47:07] <LostAngel>   g
+[13:47:09] <LostAngel>  ! h
+[13:47:11] <LostAngel>  " h
+[13:47:12] <LostAngel> are unreadable
+[13:47:13] <DaddyDeath> dude...
+[13:47:13] <ghost-> lost angel
+[13:47:15] <ghost-> shaddup
+[13:47:15] <+Pylon> shaddup bob
+[13:47:20] <ghost-> read it
+[13:47:20] <LostAngel> : )
+[13:47:22] <ghost-> its not all like that
+[13:47:25] <ghost-> ...
+[13:47:41] <QID|YDL> I need lunch
+[13:47:42] <@ValouR> q2info onecall p??
+[13:47:49] <DaddyDeath> but ghost-: you won't find anything you need in the text without decompiling it
+[13:48:17] <LostAngel> so i need the file after the decompiling prog as made his job :)
+[13:48:19] <ghost-> in level 2?
+[13:48:22] <LostAngel> no
+[13:48:24] <LostAngel> in level4
+[13:48:37] <LostAngel> level 2 is easy
+[13:48:37] 14[quit14/ValouR!valour@ppp-2-34.5800-11.access.uk.worldonline.com] Quit: http://www.breeder.worldonline.co.uk/fear.jpg
+[13:48:38] <LostAngel> : )
+[13:48:45] <ghost-> well so far ive figured that the password isnt case senitive and has no spaces
+[13:48:47] <LostAngel> ask me if oyu need help
+[13:49:31] <ghost-> private URL finalurl;    |     String inuser[];
+[13:50:43] <DaddyDeath> ghost-: level4 has the user and pass in the same place
+[13:51:15] <LostAngel> why dont you help me daddy?
+[13:51:17] <Defiler> ok obviously that url is why over my head
+[13:51:47] <Defiler> you write your own hax0r tools to do stuff like that 
+[13:51:51] <Defiler> ?
+[13:52:22] <Defiler> so obviously I need to learn a coding language first
+[13:52:23] <ghost-> where do all the imported files come from?
+[13:52:29] <DaddyDeath> LostAngel: i sent you the decompiled program!
+[13:52:30] <Dread> im on level 5
+[13:52:31] <QID|YDL> Defiler: so far the only tools we've used have been decompilers
+[13:52:36] <DaddyDeath> Dread: have fun
+[13:52:39] <Dread> =\
+[13:52:39] <LostAngel> really?
+[13:52:42] <Defiler> ahhh
+[13:52:43] <ghost-> im *assuming* that import is similar to #include
+[13:52:43] <+Pylon> im *assuming* that import is 'upload'
+[13:52:53] <DaddyDeath> lol
+[13:52:54] <ghost-> maybe pylon is right
+[13:52:54] <DaddyDeath> hahaha
+[13:52:56] <QID|YDL> ghost-: yes, but that's unimportant
+[13:52:57] <LostAngel> i dont know anything about mirc
+[13:53:01] <LostAngel> sorry
+[13:53:05] <DaddyDeath> we aren't using mirc
+[13:53:06] <LostAngel> where it is supposed ot be?
+[13:53:09] <LostAngel> i am
+[13:53:11] <Defiler> that type of stuff obviously takes some knoledge in lauguages
+[13:53:16] <DaddyDeath> oh, your downloads go to..
+[13:53:17] <LostAngel> sure
+[13:53:21] <QID|YDL> Defiler: yes
+[13:53:21] <DaddyDeath> mirc\downloads
+[13:53:30] <Defiler> so u decompile the page u need to have a grasp of html?
+[13:53:39] <DaddyDeath> no.
+[13:53:49] <DaddyDeath> you need to know java if i send you the source code to his applet
+[13:53:51] <ghost-> yay a for loop!
+[13:53:54] <ghost-> i know for loops!
+[13:53:56] <QID|YDL> you decompile the java class or vb program
+[13:54:19] <QID|YDL> ghost-: search the file for where it puts data into inuser
+[13:54:28] <ghost-> i have
+[13:54:29] <DaddyDeath> i showed him that section..
+[13:54:36] <Defiler> but u still need to understand java or vb to begin with
+[13:54:36] <DaddyDeath> he didn't catch it
+[13:54:46] <[PeSTiCiDE]> O b s o l e t e
+[13:55:09] *** Disconnected
+Session Close: Fri Jun 29 13:55:10 2001
+
+
+Session Start: Fri Jun 29 13:55:13 2001
+[13:55:13] 14[joining14/#gloom]
+[13:55:18] 14[quit14/QID|YDL!none@ny-ntonawanda1a-195.buf.adelphia.net] Connection reset by peer
+[13:55:33] <DaddyDeath> see what i just showed you?
+[13:55:40] 14[nick14/QID]15 to QID|YDL
+[13:55:42] 14� Defiler has alot of learning to do
+[13:55:43] <DaddyDeath> look at that line.. where is that pointing you to?
+[13:55:51] <DaddyDeath> "xxxxxxx"
+[13:56:01] <DaddyDeath> its pointing it to whats in the quotes.
+[13:56:02] <+Pylon> mutemode looked pretty but that to pick your ass and grab the quotes
+[13:56:12] <Dread> ...
+[13:56:24] <DSlicer-w0rking> Ummmm
+[13:56:24] <QID|YDL> Pylon: you're fucked up
+[13:56:38] <DSlicer-w0rking> bitch, Mutemode is <reply><Pylon> mutemode looked pretty but that to pick your ass and grab the quotes
+[13:56:38] <@bitch> OK DSlicer-w0rking
+[13:56:44] <DaddyDeath> lol
+[13:56:48] <Dread> hahah
+[13:57:04] <DaddyDeath> ghost-: understand what i'm telling you?
+[13:57:04] <QID|YDL> bitch, mutemode is <reply>Python enjoys molesting him
+[13:57:04] <+Pylon> and telling you?
+[13:57:04] <@bitch> OK QID|YDL
+[13:57:12] <@R1CH> python ?
+[13:57:17] <DaddyDeath> kik
+[13:57:18] <DaddyDeath> lol
+[13:57:45] <QID|YDL> Pylon??
+[13:57:46] <@bitch> <R1CH> pylon owns me | * Pylon owns j00
+[13:57:53] <DaddyDeath> lol
+[13:58:08] <DaddyDeath> thats 1 in a.. couple hundred :P
+[13:58:20] <DaddyDeath> pylon owns me
+[13:58:23] <@R1CH> im gonna go find out all the factoids it's added
+[13:58:23] <QID|YDL> Pylon should do try2hack
+[13:58:31] <DaddyDeath> lol
+[13:58:31] <QID|YDL> info Pylon??
+[13:58:31] <@bitch> Pylon has added 1 factoid (0.006% of the total)
+[13:58:40] <QID|YDL> whoadded pylon:0??
+[13:58:40] <@bitch> That factoid was added by R1CH
+[13:58:42] <DaddyDeath> LostAngel: open it in notepad
+[13:58:49] <LostAngel> but i didnt had it
+[13:59:02] <LostAngel> i opened the passwordlevel4
+[13:59:06] <DaddyDeath> open PasswordLevel4.jad in notepad
+[13:59:08] <LostAngel> but its scripted
+[13:59:09] <QID|YDL> pyborg still has more factoids than pylon
+[13:59:23] <DaddyDeath> damn qid, they won't ever be l33t :P
+[13:59:23] <LostAngel> i renamed my .class to .jad?
+[13:59:27] <DaddyDeath> no
+[13:59:30] <DaddyDeath> i sent you .jad
+[13:59:32] <LostAngel> no
+[13:59:36] <LostAngel> it was rejected
+[13:59:41] <DaddyDeath> DCC Send of PasswdLevel4.jad to LostAngel timed out...
+[13:59:42] <DaddyDeath> oh
+[13:59:43] <@R1CH> infp Pylon??
+[13:59:44] 14[quit14/Kor!kahless@modem-252.new-york.dialup.pol.co.uk] Ping timeout: 180 seconds
+[13:59:46] <@R1CH> info Pylon??
+[13:59:46] <@bitch> Pylon has added 1 factoid (0.006% of the total)
+[13:59:48] <@R1CH> aww
+[13:59:50] <@R1CH> thought more
+[14:00:04] <QID|YDL> R1CH: which one did pylon add?
+[14:00:08] <DaddyDeath> you need to accept the file, or find your own decompiler
+[14:00:09] 14[join14/#gloom] Acidic32!~Acidic32@AC95682C.ipt.aol.com
+[14:00:09] <@bitch> *** OPER sergio (sergio!spais@cloaked.dialsprint.net) is now operator (O) | *** sergio (spais@cloaked.dialsprint.net) has joined #gloom | *** Acid2|Coding (Acidic32@213.1.194.188) Quit (Quit: Leaving)
+[14:00:36] <LostAngel> how can i accept? (sorry i dont understad anything about mirc)
+[14:00:37] 14[join14/#gloom] Scull_Daggery!Dave@d65217.upc-d.chello.nl
+[14:00:43] <@R1CH> bitch, eval for ($i = 0; $i < $#facts; $i++) { if (lc($owners[$i]) eq 'pylon') { sndtxt("$objects[$i]$splitters[$i]$facts[$i]") } }
+[14:00:44] <DaddyDeath> click the accept button.
+[14:00:44] <@bitch> spork is proftpd's conf file?
+[14:00:45] <DSlicer-w0rking> bitch, whoadded that
+[14:00:45] <@bitch> That factoid was added by R1CH
+[14:01:06] <QID|YDL> count spork??
+[14:01:06] <@bitch> There are 129 factoids for 'spork' (0.842% of the total)
+[14:01:13] <QID|YDL> whoadded spork:128??
+[14:01:13] <@bitch> That factoid was added by Pylon
+[14:01:17] <DaddyDeath> there you go
+[14:01:21] <DaddyDeath> it was pretty funny, hehe
+[14:01:23] 14[quit14/Satan!Dave@d65217.upc-d.chello.nl] Ping timeout: 180 seconds
+[14:01:31] <DaddyDeath> proftpd, where did it get that linux dameon from?
+[14:01:39] <QID|YDL> count pyborg??
+[14:01:39] <@R1CH> me + DS were discussing it
+[14:01:39] <@bitch> There are 17 factoids for 'pyborg' (0.111% of the total)
+[14:01:41] <LostAngel> but its a java compiler?
+[14:01:45] <DaddyDeath> heh
+[14:01:46] <@R1CH> !known proftpd
+[14:01:46] <+Pylon> proftpd is known (2 contexts)
+[14:01:47] <QID|YDL> info pyborg??
+[14:01:47] <@bitch> pyborg has added 9 factoids (0.058% of the total)
+[14:01:52] 14[quit14/Murray!~Bot@d65217.upc-d.chello.nl] Ping timeout: 180 seconds
+[14:01:53] <Defiler> is there anyone with more factoids than spork?
+[14:01:57] <DaddyDeath> R1CH: do you prefer proftpd or wu-ftpd?
+[14:02:01] 14[join14/#gloom] Kor!kahless@modem-190.new-mexico.dialup.pol.co.uk
+[14:02:02] <@bitch> <Kor> I HATE that map *** Kor is now known as Kor|gloom
+[14:02:05] <@R1CH> wu-ftpd = walking hole
+[14:02:10] <DaddyDeath> heheh, ok
+[14:02:20] 14[nick14/Scull_Daggery]15 to Satan
+[14:02:26] <DaddyDeath> i have my linux box running :P
+[14:02:29] <Acidic32> R1CH
+[14:02:31] <QID|YDL> wu-ftpd = microsoft product
+[14:02:34] <DaddyDeath> ahhahaha
+[14:02:45] <QID|YDL> that's how bad it is
+[14:02:48] <DaddyDeath> microsoft product = hacker fun
+[14:03:03] <Dread> hrm
+[14:03:07] <DaddyDeath> i'm sure there are holes like mad in their online games
+[14:03:10] <Acidic32> R1CH
+[14:03:12] <Acidic32> uwho
+[14:03:14] <QID|YDL> iis = root access on 5 million computers
+[14:03:15] <Dread> DD
+[14:03:21] <@R1CH> what
+[14:03:30] <Acidic32> check in #edge
+[14:03:34] <Kor> level 4
+[14:03:48] <Defiler> so I can kinda learn this stuff by trial and error?
+[14:03:59] <Defiler> is there a recommended decompiler>
+[14:04:17] <QID|YDL> ask DD
+[14:04:27] <Defiler> ok
+[14:04:34] <LostAngel> Hey DD is there a good java decompiler?
+[14:04:41] <DaddyDeath> dread, no
+[14:04:49] <DaddyDeath> yeah
+[14:04:50] <Dread> ?
+[14:04:56] <DaddyDeath> i found a good one
+[14:05:03] <Defiler> ...
+[14:05:09] <ghost-> hehe
+[14:05:10] 14[quit14/Gumby!gumby@ppp-4-213.5800-4.access.uk.worldonline.com] Quit: Im the king of boggle, there is none higher I get 11 points off the word quagmire
+[14:05:31] <ghost-> this dude wants my halflife cd key, and i said i would only give it to him if he could get past level ONE
+[14:05:32] <DaddyDeath> http://www.geocities.com/SiliconValley/Bridge/8617/jad.html
+[14:05:42] <Defiler> ty
+[14:05:43] <DaddyDeath> ghost-: did he pass it?
+[14:05:51] <ghost-> not yet
+[14:05:53] <DaddyDeath> make him pass level5..
+[14:05:57] <DaddyDeath> its not that hard
+[14:05:58] <DaddyDeath> hehe
+[14:05:58] <ghost-> "Im not a hacker, how do you do this shit"
+[14:06:01] <QID|YDL> no, make him pass 3
+[14:06:06] <ghost-> heh
+[14:06:12] <DaddyDeath> yeah, 1 and 2 are too easy
+[14:06:16] <DaddyDeath> 2 is ok for a n00bie
+[14:06:17] <+Pylon> some n00bie
+[14:06:19] <DaddyDeath> lol
+[14:06:30] <DaddyDeath> 3 annoyed me
+[14:06:36] <ghost-> 3 took some thinking
+[14:06:37] <LostAngel> thx DD
+[14:06:43] <Dread> 5 is annoying me
+[14:06:45] <Dread> >_<
+[14:06:55] <Kor> how many levels r there?
+[14:06:55] <ghost-> i got 4 alot easier than i got 3...
+[14:06:55] <QID|YDL> Dread: you need a decompiler
+[14:06:56] <DaddyDeath> 5 is annoying
+[14:07:03] <DaddyDeath> i don't have the source for 5 anymore
+[14:07:10] <QID|YDL> Dread: go on google and search for "VB3 decompiler", there's one on the first page
+[14:07:17] <Dread> ...
+[14:07:20] <Dread> im far too lazy
+[14:07:23] 14� Defiler just took the first step into coding hell
+[14:07:43] <DaddyDeath> yeah
+[14:07:48] <DaddyDeath> the decompiler i had was a piece of shit
+[14:07:51] <QID|YDL> Dread: well, none of us has the src anymore
+[14:07:53] <DaddyDeath> but i figured it out
+[14:08:06] 14� ghost- opened the vbrun300.dll in notepad
+[14:08:13] 14� DaddyDeath laughs
+[14:08:18] <ghost-> that didnt help.
+[14:08:18] <QID|YDL> ghost-: that's the run-time library, fool
+[14:08:27] <DaddyDeath> rofl. honestly.
+[14:08:30] <QID|YDL> ghost-: go on google and search for "VB3 decompiler", there's one on the first page
+[14:08:30] <+Pylon> ghost-: go on google and search for download accelerator program
+[14:08:34] 14[quit14/Keitek!keitek@nic-c57-206.mw.mediaone.net] Quit:
+[14:08:43] <DaddyDeath> rofl
+[14:08:47] <DaddyDeath> for your dsl :P
+[14:08:49] 14� QID|YDL cuts Pylon with a 4x8 sheet of particle board
+[14:08:54] <ghost-> This program requires Microsoft Windows.
+[14:08:59] <DaddyDeath> lol
+[14:09:06] <ghost-> thats the only english in the in the whole thing =P
+[14:09:06] <+Pylon> maverick's irc-client 1.1 english :p
+[14:09:07] <Dread> pylon is smarter than skype
+[14:09:19] <DaddyDeath> he is, hehe
+[14:09:29] <+Timbo> you're not STILL doing this are you?
+[14:09:33] <ghost-> DLL
+[14:09:37] <Dread> pylon is <reply>smarter than Skype??
+[14:09:38] <@bitch> OK Dread
+[14:09:38] <DaddyDeath> timbo
+[14:09:40] <DaddyDeath> i'm done, heh
+[14:09:40] <+Pylon> can make a rough copy it done, heh
+[14:09:47] <DaddyDeath> level6 is hard ! >:(
+[14:09:55] 14[quit14/Acidic32!~Acidic32@AC95682C.ipt.aol.com] Quit:
+[14:10:04] <ghost-> omg
+[14:10:09] <DaddyDeath> what ghost?
+[14:10:10] <ghost-> i told the guy to LOOK AT THE SOURCE CODE
+[14:10:15] <ghost-> and he STILL cant get it
+[14:10:23] <DaddyDeath> he doesn't deserve your halflife key..
+[14:10:23] <+Pylon> me is open a tga from angry mob of halflife key.
+[14:10:24] <Kor> level 4 do you have to get the file: PasswdLevel4.class?
+[14:10:25] <Defiler> sounds like me
+[14:10:26] <Dread> lol
+[14:10:31] <DaddyDeath> kor, yes
+[14:10:33] <ghost-> i know
+[14:10:35] <Dread> er
+[14:10:35] <DaddyDeath> and you have to decompile it
+[14:10:37] <Dread> i didnt
+[14:10:39] <Dread> ...
+[14:10:45] <DaddyDeath> or i can send you the source
+[14:10:48] <Dread> DD
+[14:10:51] <Kor> please
+[14:10:52] <Dread> i just went into temp internet files
+[14:10:56] 14[join14/#gloom] Skype!Skype9@port-80.iron-ts1.cloh.net
+[14:10:56] <@bitch> <Millsy> Camper is SKYPES DAD!!!
+[14:10:56] <Dread> there was a 
+[14:11:01] <Dread> level4 
+[14:11:05] <Dread> that i opened
+[14:11:10] <Dread> that brought up a blank window in IE
+[14:11:14] <Skype> Whoa
+[14:11:15] <Dread> view source 
+[14:11:19] <Skype> I've been gone like an hour
+[14:11:24] <Dread> had the stuff
+[14:11:25] <Skype> How far have you all gotten?
+[14:11:30] <DaddyDeath> skype, we are on level6, and i stopped there
+[14:11:34] <Dread> level 5 
+[14:11:34] <Skype> !!!
+[14:11:35] <Dread> =\
+[14:11:37] <DaddyDeath> i'm helping the n00bs get to level5, eheh
+[14:11:38] <Skype> level 6
+[14:11:43] <LostAngel> : )
+[14:11:44] <Skype> oho
+[14:11:50] <Kor> level 4
+[14:11:53] <DaddyDeath> Skype: level6 is a vb6 or vb5 program
+[14:11:58] <Skype> www.try2hack.nl
+[14:11:59] <QID|YDL> Skype: you'll NEVER get to level 6
+[14:12:08] <Skype> lol
+[14:12:13] <QID|YDL> even if we tell you how
+[14:12:15] <Skype> I'll try level 3 again
+[14:12:18] <Skype> it'shard
+[14:12:19] <DaddyDeath> Skype: what level were you stuck on? 3?
+[14:12:22] <DaddyDeath> lol
+[14:12:25] <Skype> yeah 3
+[14:12:30] <Dread> har
+[14:12:35] <DaddyDeath> dread
+[14:12:38] <Dread> ?
+[14:12:42] <DaddyDeath> level5 doesn't need temp inet files..
+[14:12:46] <Dread> no
+[14:12:47] <QID|YDL> Skype: LOOK VERY CAREFULLY AT THE SOURCE. VERY CAREFULLY.
+[14:12:49] <DaddyDeath> it is all the in decompiled source
+[14:12:52] <Dread> i got past level 4 with that
+[14:12:53] <Skype> I have been
+[14:12:55] <Dread> without decompiling
+[14:12:57] <Skype> every single part
+[14:13:01] <Skype> I don't know javascript
+[14:13:07] <DaddyDeath> me either, heh
+[14:13:09] <Defiler> OK! defiler pops his cherry...On to level 2
+[14:13:10] <DaddyDeath> but i found it..
+[14:13:17] <QID|YDL> Skype: fine... look at the <script> tags
+[14:13:25] <Skype> ok
+[14:13:25] <DaddyDeath> when qid told me that, i figured it out
+[14:13:28] <QID|YDL> that's as much of a hint as I'm willing to give you
+[14:13:34] <Skype> ok
+[14:13:36] 14[kick14/#gloom] Skype 15by R1CH 15for Repeating (sponsored by Sul)
+[14:13:37] 14[join14/#gloom] Skype!Skype9@port-80.iron-ts1.cloh.net
+[14:13:37] <@bitch> <Skype> I'm a breeder <Skype> In real life <Dragonslicer> Ewwwwwwww
+[14:13:39] 14[nick14/Satannum]15 to JeSz
+[14:13:54] 14[part14/#gloom] JeSz!BotHelper@e79006.upc-e.chello.nl
+[14:13:54] <DaddyDeath> you know that there is something wrong when DS thinks your gross :P
+[14:13:59] <Kor> how do you decompile a VB program?
+[14:14:00] <ghost-> finally he got it...
+[14:14:00] 14[join14/#gloom] Satannum!BotHelper@e79006.upc-e.chello.nl
+[14:14:00] <@bitch> Satannum is Satannum ping reply: 6.58952593803406secs.
+[14:14:01] <Defiler> lol
+[14:14:06] <DaddyDeath> kor
+[14:14:10] <Kor> hmm
+[14:14:11] <+Pylon> hmm mine does anyway
+[14:14:15] <ghost-> i had to give him this HINT
+[14:14:16] <+Pylon> i'll go on google and put in the wall, clip brushes and hint
+[14:14:16] <DaddyDeath> search google for a "vb3 decompiler"
+[14:14:16] <+Pylon> is that a just in case someone forgot to mention it locked up on google for spamming, until testing it, and won't even though
+[14:14:18] <ghost-> if (passwd =="hackerzzz"){
+[14:14:18] <ghost-> 		alert("Alright ! On to level 2 ...");
+[14:14:18] <ghost-> 		location.href = "levvel2.html";
+[14:14:18] <ghost-> 	}
+[14:14:24] <DaddyDeath> lo
+[14:14:27] <DaddyDeath> level1
+[14:14:34] <ghost-> then he got it
+[14:14:35] <Kor> lol
+[14:14:41] <DaddyDeath> give him your key? heh
+[14:14:41] <ghost-> IS it hackerzzz?!!?
+[14:14:48] <DaddyDeath> roflmao
+[14:14:59] <DaddyDeath> qid
+[14:15:03] <QID|YDL> yes?
+[14:15:10] <DaddyDeath> i notice if i do.. ping -f -s 1000 ip 
+[14:15:20] <DaddyDeath> in linux, it DoS's myself along with the other person, heh
+[14:15:27] <QID|YDL> heh
+[14:15:38] <DaddyDeath> is that just because i have little upload speed?
+[14:15:45] <QID|YDL> probably
+[14:15:47] <Skype> <SCRIPT src="JavaScript"></SCRIPT>
+[14:15:47] <Skype> <SCRIPT language="JavaScript">
+[14:15:52] <DaddyDeath> good skype
+[14:15:55] <Skype> =p
+[14:15:59] <DaddyDeath> now whats different about those two?>
+[14:16:04] <QID|YDL> Skype: TOOK YOU FUXING LONG ENOUGH
+[14:16:06] 14[join14/#gloom] Keitek!keitek@nic-c57-206.mw.mediaone.net
+[14:16:06] <@bitch> <bitch> Keitek ping reply: 2139.03456778
+[14:16:06] <Skype> i'll just type in each of those words
+[14:16:12] <DaddyDeath> rofl!
+[14:16:15] <DaddyDeath> hahahahahahah
+[14:16:16] <Skype> I haven't figured it out yet...
+[14:16:20] <+Timbo> oh dear
+[14:16:21] <QID|YDL> ?!?!
+[14:16:22] <DaddyDeath> "src"
+[14:16:25] <Skype> I just type every word
+[14:16:27] <QID|YDL> dear god you're stupid
+[14:16:30] <Skype> lol
+[14:16:35] <Skype> I got it still didn't I
+[14:16:44] <DaddyDeath> Skype: KEY WORD IS "SRC"!!!!!!!!!!!!!!
+[14:16:54] <Keitek> whoadded that??
+[14:16:54] <@bitch> That factoid was added by Battle-Angel
+[14:16:55] <DaddyDeath> INSTEAD OF "LANGUAGE"
+[14:16:55] <QID|YDL> Skype: DO YOU KNOW WHAT "SRC" MEANS
+[14:17:01] <Skype> source
+[14:17:04] <Satannum> source
+[14:17:04] <DaddyDeath> good!
+[14:17:06] <QID|YDL> GOOD BOY
+[14:17:09] <Skype> lol
+[14:17:16] <Skype> Ok
+[14:17:18] 14� Kor gives Skype a cookie
+[14:17:18] <LostAngel> i found a "VB3 decompiler" (im downloading it)
+[14:17:19] <+Pylon> i found a vb3 decompiler
+[14:17:24] <DaddyDeath> ok LA
+[14:17:32] <Skype> So the password is JavaScript, right?
+[14:17:33] <LostAngel> : )
+[14:17:33] <QID|YDL> Pylon: good for you
+[14:17:33] <+Pylon> pylon: you're fucked up keep all
+[14:17:35] <ghost-> pylon: send
+[14:17:40] <QID|YDL> AAARRRGGHH
+[14:17:41] 14� QID|YDL bashes Skype's head in with an unsharpened lawnmower
+[14:17:43] <DaddyDeath> Skype: there is no hope.
+[14:17:44] <Keitek> im gonna play starcraft
+[14:17:49] <Skype> oh
+[14:17:50] <ghost-> lol
+[14:17:50] <Skype> umm
+[14:17:54] <Skype> keitek
+[14:17:57] <Keitek> ?
+[14:17:58] <DaddyDeath> qid, these logs should go on the forums..
+[14:17:58] <ghost-> skype: remember number 2?
+[14:17:59] <Skype> what's your name on it?
+[14:18:00] 14� Kor can't be bothered to download decompiler
+[14:18:05] <QID|YDL> DaddyDeath: probably
+[14:18:06] <Skype> ghost- yeah
+[14:18:08] <Keitek> have to register again
+[14:18:09] <ghost-> ...
+[14:18:14] <Keitek> i just reinstalled it...
+[14:18:19] <QID|YDL> DaddyDeath: I'll go through my log when it quiets down
+[14:18:19] <ghost-> now take that word you found...
+[14:18:25] <DaddyDeath> especially the part where i could decompile the class and r1ch couldn't :P
+[14:18:28] <Skype> I remember it. But DaddyDeath gave me the name and pass
+[14:18:41] <DaddyDeath> :rolleyes:
+[14:18:48] <Skype> <SCRIPT src="JavaScript"></SCRIPT>
+[14:18:48] <Skype> <SCRIPT language="JavaScript">
+[14:18:52] <DaddyDeath> yes..
+[14:18:54] <Skype> The password is in there somewhere
+[14:18:57] <DaddyDeath> SRC="JAVASCRIPT
+[14:18:59] <DaddyDeath> "
+[14:18:59] <ghost-> ...
+[14:19:05] <LostAngel> it load the javascript file
+[14:19:06] <DaddyDeath> source = "javascript"
+[14:19:08] <ghost-> skype
+[14:19:08] <Satannum> 2nd line doesnt have the end tag?
+[14:19:10] <LostAngel> check this file
+[14:19:16] <Skype> yeah
+[14:19:16] <DaddyDeath> it loads a file for more source code
+[14:19:22] <Kor> q2info onecall??
+[14:19:23] <@bitch> Server:216.37.2.25:27910 Game:gloom Players:0320/40 Map:crash_final_fix Ping:49 
+[14:19:27] <DaddyDeath> it loads a second file to get more source code.. 
+[14:19:35] 14[quit14/Satan!Dave@d65217.upc-d.chello.nl] Quit: X rulez!!!!! Hmmm pressing on it. Oops
+[14:19:38] <Skype> how do I read the other file?
+[14:19:39] <QID|YDL> the name of that file is "javascript"...
+[14:19:47] <ghost-> ...
+[14:19:53] <LostAngel> rename it javascript.css
+[14:19:54] <DaddyDeath> ... is right
+[14:19:57] <ghost-> its in your temperary internet files....
+[14:19:58] <LostAngel> and open it with notepad
+[14:20:02] <ghost-> god
+[14:20:06] <DaddyDeath> LA, don't rename it
+[14:20:11] <LostAngel> dont need to?
+[14:20:12] <DaddyDeath> your dropping to skypes level, hheeh
+[14:20:16] <LostAngel> i like to rename thing!
+[14:20:17] <DaddyDeath> just open it in notepad, hehe
+[14:20:25] <+Timbo> why bother
+[14:20:25] <Skype> What file is in my tem internet files?
+[14:20:27] <DaddyDeath> you don't change contents renaming i
+[14:20:29] <QID|YDL> bitch, LostAngel is <reply><LostAngel> i like to rename thing!
+[14:20:29] <@bitch> OK QID|YDL
+[14:20:32] <Skype> I only have like 2 in there
+[14:20:33] <+Timbo> just open it in your browser
+[14:20:37] <LostAngel> lol
+[14:20:59] <DaddyDeath> this is pathetic timbo
+[14:21:03] <Skype> How do I opoen it from browser?
+[14:21:09] <DaddyDeath> ...
+[14:21:09] <+Pylon> corrupted: ..
+[14:21:12] <QID|YDL> <LostAngel> oh boy! something shiny! this'll entertain me for the next 3 hours!
+[14:21:12] <DaddyDeath> lol
+[14:21:18] <DaddyDeath> it used my own name against me! heh
+[14:21:20] <ghost-> Skype: retarded halflife boy is gonna catch up to you...
+[14:21:32] <DaddyDeath> hahahahaah
+[14:22:03] *** Disconnected
+Session Close: Fri Jun 29 14:22:04 2001
+
+
+Session Start: Fri Jun 29 14:22:44 2001
+[14:22:44] 14[joining14/#gloom]
+[14:22:44] <DaddyDeath> and find a file called "JavaScript"
+[14:22:47] <Kor> what level is Skype on?
+[14:22:47] <+Pylon> is it back on?
+[14:22:49] <DaddyDeath> and open it in notepad..
+[14:22:49] <Skype> ok
+[14:22:53] <DaddyDeath> he is on 3 kor
+[14:23:12] <QID> DaddyDeath: did I miss anything?
+[14:23:14] 14[quit14/QID|YDL!none@ny-ntonawanda1a-195.buf.adelphia.net] Killed (NickServ (GHOST command used by QID))
+[14:23:19] 14[nick14/QID]15 to QID|YDL
+[14:23:23] <DaddyDeath> qid.. yes
+[14:23:23] <LostAngel> its strange, i download jad decompiler and it open up and closind
+[14:23:25] <Keitek> ok i got my account for battle.net, skype
+[14:23:25] <LostAngel> its strange, i download jad decompiler and it open up and closing
+[14:23:26] <+Pylon> you've corrupted it open up and closing
+[14:23:27] <DaddyDeath>  <DaddyDeath> Skype: i'm sorry, its hard to help you when i can't stop laughing at you...
+[14:23:28] <ghost-> QID|YDL: skype is making us cry
+[14:23:31] <Skype> PASSWORD = "TheCorrectAnswer";
+[14:23:31] <Skype> CORRECTSITE = "thelevel4.html";
+[14:23:31] <Skype> WRONGSITE = "http://www.disney.com";
+[14:23:34] <LostAngel> wanna play kietek?
+[14:23:39] <DaddyDeath> wow skype, good job!
+[14:23:42] <QID|YDL> Skype: FINALLY!!!!!!!!!!!
+[14:23:45] <Satannum> LOL
+[14:23:48] <Skype> I L33t HAx0r
+[14:23:49] <LostAngel> yeah finlaly
+[14:23:52] <Skype> lol
+[14:23:55] <QID|YDL> Skype: no you aren't
+[14:23:56] <DaddyDeath> the password = "TheCorrectAnswer"
+[14:23:59] <Keitek> i guess, but i'll probably suck cause i haven't playing in months
+[14:24:00] <QID|YDL> you're the shitties hacker ever
+[14:24:03] 14[quit14/LostAngel!pierre.pau@HSE-Montreal-ppp333582.sympatico.ca] Quit:
+[14:24:09] <DaddyDeath> QID|YDL: did you catch that?
+[14:24:10] <DaddyDeath>  <DaddyDeath> Skype: i'm sorry, its hard to help you when i can't stop laughing at you...
+[14:24:16] <Skype> OKOK
+[14:24:17] <QID|YDL> DaddyDeath: hehehe
+[14:24:17] <ghost-> heh
+[14:24:19] <Skype> enough
+[14:24:21] <Keitek> SKYPE!
+[14:24:23] <Dread> lolol
+[14:24:26] <Skype> ?
+[14:24:33] <QID|YDL> it'll take an hour for us to get him through level 4...
+[14:24:35] <Keitek> i've got my account
+[14:24:42] <Keitek> name is Keitek
+[14:24:43] 14� DaddyDeath has tears in his eyes now
+[14:24:46] <@R1CH> move it to #lamehackers
+[14:24:49] <Dread> lol
+[14:24:51] 14[join14/#gloom] LostAngel!pierre.pau@HSE-Montreal-ppp338068.sympatico.ca
+[14:24:51] <@bitch> <LostAngel> i like to rename thing!
+[14:24:56] <LostAngel> lol
+[14:24:58] <DaddyDeath> qid. its pointless to do level4 for him
+[14:24:58] <+Pylon> its pointless to do that ;)
+[14:25:01] <Keitek> whoadded that??
+[14:25:02] <@bitch> That factoid was added by Kor
+[14:25:02] <DaddyDeath> Skype: YOUR DONE!
+[14:25:06] <Skype> lol
+[14:25:09] <DaddyDeath> YOU ARE NOT EVEN ATTEMPTING LEVEL FOUR!
+[14:25:10] <Skype> I'lltry more later
+[14:25:10] <LostAngel> damn finally fucking connection
+[14:25:14] <Skype> Hacking is too hard
+[14:25:18] <ghost-> hehe
+[14:25:22] <Dread> har
+[14:25:23] <ghost-> level 4 i got...
+[14:25:26] <DaddyDeath> Skype: when people tell you the passowrds?
+[14:25:31] <Skype> lol yes
+[14:25:31] <Dread> lol
+[14:25:31] <DaddyDeath> ghost-: i told you level4 :P
+[14:25:31] <+Pylon> ghost-: did he is..
+[14:25:35] <ghost-> no you didnt
+[14:25:44] 14� Skype is now away. Reason 4(3 StarCraft 4) 12S4kype12S4crip
+[14:25:46] <ghost-> you told me the important part like 2 seconds after i did it
+[14:25:47] <DaddyDeath> well, the part of the source to look at, at least
+[14:25:58] <Kor> I got an email containg an attchment that contained an attachment that contain the email
+[14:25:58] <+Pylon> the email containg an attchment that contained an attachment that contain the javascript file
+[14:26:00] <ghost-> you sent me the source =P
+[14:26:03] <Keitek> SKYPE NO DAMN YOU!
+[14:26:03] <+Pylon> damn you!
+[14:26:08] <DaddyDeath> yeah, i helped everyone with level4 :P
+[14:26:13] <Skype> ?
+[14:26:14] <Keitek> i need to know which one star or brood!
+[14:26:19] <Skype> Brood
+[14:26:20] <ghost-> i would have figured it out eventually
+[14:26:23] <Keitek> mmmkay
+[14:26:24] <DaddyDeath> prolly
+[14:26:24] <Skype> keitek
+[14:26:29] <Skype> BROODWAR
+[14:26:30] <Keitek> eh?
+[14:26:33] <Keitek> OK!
+[14:26:39] <Skype> I see u there
+[14:26:41] <ghost-> i just looked past the important line to the "getCodeBase()"
+[14:26:45] <ghost-> which comes from another file
+[14:26:51] <DaddyDeath> yeah
+[14:26:51] <QID|YDL> DaddyDeath: we're too lazy to go find our own decompilers
+[14:27:10] <DaddyDeath> i typed "java decompile" in yahoo and got like 100 matches, heh
+[14:27:12] <DaddyDeath> or more
+[14:27:23] <DaddyDeath> the first couple links had decompilers...
+[14:27:30] <DaddyDeath> the word fast made me get the one i did :P
+[14:27:32] <Keitek> which channel are you in skype!
+[14:27:36] <ghost-> wow
+[14:27:45] <ghost-> retarded halflife boy is like, half way done with level 3
+[14:28:03] <DaddyDeath> if it takes less than 3 hours, he is smarter than Skype
+[14:28:03] <+Pylon> file ../pyborg/pyborg-irc.py, line 9, in less than 3 hours, he is lasting soo long as low power risc chip
+[14:28:14] <DaddyDeath> ...
+[14:28:14] <+Pylon> why do i keep putting ..
+[14:28:19] <DaddyDeath> ...
+[14:28:21] 14[kick14/#gloom] DaddyDeath 15by R1CH 15for Repeating (sponsored by Sul)
+[14:28:21] 14[join14/#gloom] DaddyDeath!none@martinm75-4.mylinuxisp.com
+[14:28:21] 14� @bitch gives DaddyDeath a swift kick in the balls
+[14:28:23] <Dread> lol
+[14:28:24] <DaddyDeath> heh
+[14:28:25] <+Pylon> thug = slacker heh
+[14:28:29] <Dread> !
+[14:28:34] <QID|YDL> eh
+[14:28:34] <Kor> ouch
+[14:28:34] <DaddyDeath> god damnit Pylon: lemme alone!
+[14:28:34] <+Pylon> leave me alone!
+[14:28:37] <Dread> lol!
+[14:28:42] <QID|YDL> slacker = shinji, stupid bot
+[14:28:43] <ghost-> "ok, tell me where i can get the "javascript" file"
+[14:28:43] <DaddyDeath> this is not cool, hehe
+[14:28:46] <ghost-> thats what he said
+[14:28:46] <Skype> keitek
+[14:28:49] <Skype> channel gloom
+[14:28:55] <Skype> I keep msging you
+[14:29:04] <DaddyDeath> stupid pylon is owning me more than xenoid, yuck1
+[14:29:09] <DaddyDeath> yuck!*
+[14:30:07] <LostAngel> damn fucking jad program
+[14:30:09] <Satannum> spacebace rulez in the gmd map poll
+[14:30:20] <DaddyDeath> LostAngel: has to be run thru ms-dos
+[14:30:26] <LostAngel> ...
+[14:30:30] <+Thug> ACK
+[14:30:35] <LostAngel> it is now you say it?
+[14:30:35] <+Pylon> im still saying that doesn't it?
+[14:30:35] <DaddyDeath> jad -stat <filename>
+[14:30:35] <+Thug> <Pylon> thug = slacker heh
+[14:30:38] <+Thug> damn that pylon
+[14:30:47] <DaddyDeath> damn that slacker
+[14:30:48] <DaddyDeath> :P
+[14:31:14] <DaddyDeath> i used -stat, you don't have to though
+[14:31:27] <ghost-> heh DaddyDeath: retarded halflife boy is on level 4
+[14:31:32] <+Thug> LOL
+[14:31:37] <+Thug> oops
+[14:31:40] <+Thug> caps lock :)
+[14:31:47] <Kor> get the retarded halflife boy in here
+[14:32:08] <Skype> KEITEK GOTO GAME "ArchonTag Best!"
+[14:32:31] <ghost-> i dont think he even has irc
+

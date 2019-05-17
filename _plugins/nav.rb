@@ -165,8 +165,15 @@ module Jekyll
                     activePath = ["news", "during"]
                 else
                     # Our active URL wasn't found anywhere--we're probably on a post, not a page
-                    activePath = ["news", "during"]
-                    root.children["news"].children["during"].active = true
+                    if thispage["url"].start_with?("/news/during") then
+                        activePath = ["news", "during"]
+                        root.children["news"].children["during"].active = true
+                    elsif thispage["url"].start_with?("/humor") then
+                        activePath = ["humor"]
+                        root.children["humor"].active = true
+                    else
+                        puts "No idea where page is: " + thispage["url"]
+                    end
                 end
             end
 

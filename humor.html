@@ -1,0 +1,17 @@
+---
+title: Humor
+---
+
+        <h1>Humor articles</h1>
+        <ul>
+        {%- for article in site.humor_articles %}
+            <li><a href="{{ article.url }}">{{ article.title }}</a></li>
+        {%- endfor %}
+        </ul>
+
+        <h1>Funny IRC logs</h1>
+        <ul>
+        {%- for log in site.humor_logs %}
+            <li><a href="{{ log.url }}">{{ log.title }}</a></li>
+        {%- endfor %}
+        </ul>

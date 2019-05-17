@@ -25,6 +25,12 @@ defaults:
   -
     scope:
       path: ""
+      type: "humor_articles"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
       type: "posts"
     values:
       layout: "post"
@@ -42,5 +48,11 @@ jekyll-archives:
     month: '/news/during/:year/:month/'
     day: '/news/during/:year/:month/:day/'
 collections:
+  humor_articles:
+    permalink: '/humor/article/:title/'
+    output: true
+  humor_logs:
+    permalink: '/humor/log/:title/'
+    output: true
   posts:
     permalink: '/news/during/:year/:month/:day/:title'
