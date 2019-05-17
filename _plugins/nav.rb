@@ -119,6 +119,12 @@ module Jekyll
                                     entry.title = "Archives for " + page.date.strftime("%B %Y")
                                 elsif page.type == "day" then
                                     entry.title = "Archives for " + page.date.strftime("%B %-d, %Y")
+                                else
+                                    #puts "Skipping page that was not understood:"
+                                    #puts page.inspect
+
+                                    parent.children.delete(segment)
+                                    next
                                 end
                             end
 
