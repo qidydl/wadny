@@ -13,7 +13,7 @@ html {
 
 body {
     margin: 0 auto 0 auto;
-    width: 65em;
+    width: 68em;
     text-align: left;
 }
 
@@ -64,7 +64,7 @@ header a img {
  *****************************************************************************/
 nav {
     float: right;
-    width: 18em;
+    width: 20em;
     padding: 0 10px 10px 10px;
     border-left: 1px solid #333;
     border-bottom: 1px solid #333;

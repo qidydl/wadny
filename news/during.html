@@ -5,7 +5,7 @@ navSectionTitle: News
 ---
 
         <p>Select a year:</p>
-        {%- assign postsByYear = site.posts | group_by_exp: "item", "item.date | date: '%Y'" -%}
+        {%- assign postsByYear = site.posts | reverse | group_by_exp: "item", "item.date | date: '%Y'" -%}
         <ul class="posts">
             {%- for group in postsByYear %}
             <li><a href="/news/during/{{ group.name }}/">{{ group.name }}</a> ({{ group.items.size | pluralize: 'post' }})</li>
