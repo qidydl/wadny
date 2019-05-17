@@ -616,7 +616,7 @@ Start of #hlediting buffer: Sat Jul 24 21:59:58 1999
 <Casper[CP]> damn, where do you come up with this shit?
 <Haunt> heh
 <Mal|q1> haha, leanr a new insult
-<Haunt> {{{{{{{ Mal|q1 }}}}}}}
+<Haunt> {% raw %}{{{{{{{ Mal|q1 }}}}}}}{% endraw %}
 <Casper[CP]> hahaha
 <Mal|q1> ooh..
 <Haunt> lol

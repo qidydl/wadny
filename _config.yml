@@ -55,4 +55,4 @@ collections:
     permalink: '/humor/log/:title/'
     output: true
   posts:
-    permalink: '/news/during/:year/:month/:day/:title'
+    permalink: '/news/during/:year/:month/:day/:title/'
