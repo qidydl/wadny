@@ -17,7 +17,7 @@
                     {%- if prevDay != "start" %}
             <li><a href="/news/during/{{ prevDay | split: '^' | first }}/" rel="prev" title="View posts from {{ prevDay | split: '^' | last }}">← {{ prevDay | split: '^' | last }}</a></li>
                     {%- endif %}
-            <li><a href="/news/during/{{ page.date | date: "%Y/%m" }}/" rel="up">&#8593; Up to {{ page.date | date: "%B, %Y" }}</a></li>
+            <li><a href="/news/during/{{ page.date | date: "%Y/%m" }}/" rel="parent">&#8593; Up to {{ page.date | date: "%B, %Y" }}</a></li>
                 {%- elsif prevDay == currentDay %}
             <li><a href="/news/during/{{ day | split: '^' | first }}/" rel="next" title="View posts from {{ day | split: '^' | last }}">{{ day | split: '^' | last }} →</a></li>
                 {%- endif -%}

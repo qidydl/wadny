@@ -12,7 +12,7 @@
                     {%- if prevPost != "start" %}
             <li><a href="{{ prevPost }}" rel="prev" title="View “{{ prevTitle }}” from {{ prevDate }}">← {{ prevTitle }} ({{ prevDate }})</a></li>
                     {%- endif %}
-            <li><a href="/news/during/{{ page.date | date: "%Y/%m/%d" }}/" rel="up">&#8593; Up to {{ page.date | date: "%B %d, %Y" }}</a></li>
+            <li><a href="/news/during/{{ page.date | date: "%Y/%m/%d" }}/" rel="parent">&#8593; Up to {{ page.date | date: "%B %d, %Y" }}</a></li>
                 {%- elsif prevPost == page.url %}
             <li><a href="{{ post.url }}" rel="next" title="View “{{ post.title }}” from {{ post.date | date: "%B %-d, %Y" }}">{{ post.title }} ({{ post.date | date: "%B %-d, %Y" }}) →</a></li>
                 {%- endif -%}

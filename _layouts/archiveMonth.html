@@ -22,7 +22,7 @@
                     {%- if prevMonth != "start" %}
             <li><a href="/news/during/{{ prevMonth | split: '^' | first }}/" rel="prev" title="View posts from {{ prevMonth | split: '^' | last }}">← {{ prevMonth | split: '^' | last }}</a></li>
                     {%- endif %}
-            <li><a href="/news/during/{{ page.date | date: "%Y" }}/" rel="up">&#8593; Up to {{ page.date | date: "%Y" }}</a></li>
+            <li><a href="/news/during/{{ page.date | date: "%Y" }}/" rel="parent">&#8593; Up to {{ page.date | date: "%Y" }}</a></li>
                 {%- elsif prevMonth == currentMonth %}
             <li><a href="/news/during/{{ month | split: '^' | first }}/" rel="next" title="View posts from {{ month | split: '^' | last }}">{{ month | split: '^' | last }} →</a></li>
                 {%- endif -%}
