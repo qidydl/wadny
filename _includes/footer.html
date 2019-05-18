@@ -11,19 +11,19 @@
         </ul>
 
         <ul id="buttons">
-            <li><a href="/news/atom.xml" title="Syndicate this site using Atom with full posts and summaries together">
+            <li><a href="/news/everything.atom" title="Syndicate this site using Atom with full posts and summaries together">
                 <img src="/graphics/atom.gif" width="80" height="15" alt="Syndicate this site using Atom with full posts and summaries together"></a>
             </li>
-            <li><a href="https://www.feedvalidator.org/check?url={{ "/news/atom.xml" | absolute_url }}" rel="external" title="Opens in a new window - Atom validator">
-                <img src="/graphics/validsyndication.gif" width="80" height="15" alt="Valid Atom 0.3 feed" /></a>
+            <li><a href="https://www.feedvalidator.org/check?url={{ "/news/everything.atom" | absolute_url | uri_escape }}" rel="external" title="Opens in a new window - Atom validator">
+                <img src="/graphics/validsyndication.gif" width="80" height="15" alt="Valid Atom feed" /></a>
             </li>
             <li><a href="https://creativecommons.org/licenses/by-nc-sa/1.0/" rel="external license" title="Opens in a new window - Creative Commons License">
                 <img src="/graphics/cclicense.gif" width="80" height="15" alt="Creative Commons License"></a>
             </li>
-            <li><a href="https://validator.w3.org/check/referer" referrerpolicy="unsafe-url" rel="external" title="Opens in a new window - W3C validator for websites">
+            <li><a href="https://validator.w3.org/nu/?doc={{ page.url | absolute_url | uri_escape }}" rel="external" title="Opens in a new window - W3C validator for websites">
                 <img src="/graphics/validhtml5.gif" width="80" height="15" alt="Valid HTML5" /></a>
             </li>
-            <li><a href="https://jigsaw.w3.org/css-validator/check/referer" referrerpolicy="unsafe-url" rel="external" title="Opens in a new window - W3C validator for CSS">
+            <li><a href="https://jigsaw.w3.org/css-validator/validator?uri={{ page.url | absolute_url | uri_escape }}" rel="external" title="Opens in a new window - W3C validator for CSS">
                 <img src="/graphics/validcss.gif" width="80" height="15" alt="Valid CSS" /></a>
             </li>
             <li><a href="http://no-www.org/" rel="external" title="Opens in a new window - www. is deprecated">

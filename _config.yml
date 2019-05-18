@@ -14,7 +14,7 @@ author:
 timezone: "America/New_York"
 url: "https://wadny-test.azurewebsites.net"
 feed:
-  path: "/news/atom.xml"
+  path: "/news/everything.atom"
 defaults:
   -
     scope:
