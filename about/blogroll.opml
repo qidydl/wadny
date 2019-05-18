@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+    <head>
+        <title>wadny.com blogroll</title>
+        <ownerName>David Osolkowski</ownerName>
+    </head>
+    <body>
+        <outline type="rss" text="A Whole Lotta Nothing" title="A Whole Lotta Nothing" xmlUrl="http://feeds.feedburner.com/AWholeLottaNothing" htmlUrl="https://a.wholelottanothing.org"/>
+        <outline type="rss" text="Airbag International" title="Airbag International" xmlUrl="http://feeds.feedburner.com/airbag" htmlUrl="http://www.airbagindustries.com/"/>
+        <outline type="rss" text="All that Malarkey" title="All that Malarkey" xmlUrl="https://stuffandnonsense.co.uk/blog/feed" htmlUrl="https://stuffandnonsense.co.uk"/>
+        <outline type="rss" text="Anil Dash" title="Anil Dash" xmlUrl="http://feeds.dashes.com/AnilDash" htmlUrl="https://anildash.com/"/>
+        <outline type="rss" text="BitWorking" title="BitWorking" xmlUrl="http://bitworking.org/news/feed/" htmlUrl="https://bitworking.org/"/>
+        <outline type="rss" text="Coding Horror" title="Coding Horror" xmlUrl="http://feeds.feedburner.com/codinghorror/" htmlUrl="https://blog.codinghorror.com/"/>
+        <outline type="rss" text="Fabulous adventures in coding" title="Fabulous adventures in coding" xmlUrl="http://ericlippert.com/feed/" htmlUrl="https://ericlippert.com"/>
+        <outline type="rss" text="Hypercritical" title="Hypercritical" xmlUrl="http://hypercritical.co/feeds/main" htmlUrl="http://hypercritical.co/"/>
+        <outline type="rss" text="Joe Duffy's Blog" title="Joe Duffy's Blog" xmlUrl="http://joeduffyblog.com/feed.xml" htmlUrl="http://joeduffyblog.com/"/>
+        <outline type="rss" text="Joel on Software" title="Joel on Software" xmlUrl="http://www.joelonsoftware.com/rss.xml" htmlUrl="https://www.joelonsoftware.com"/>
+        <outline type="rss" text="Jon Skeet's coding" title="Jon Skeet's coding" xmlUrl="http://feeds.feedburner.com/JonSkeetCodingBlog" htmlUrl="https://codeblog.jonskeet.uk"/>
+        <outline type="rss" text="Julia Evans" title="Julia Evans" xmlUrl="http://jvns.ca/atom.xml" htmlUrl="http://jvns.ca"/>
+        <outline type="rss" text="Mads Kristensen" title="Mads Kristensen" xmlUrl="http://feeds.feedburner.com/netslave" htmlUrl="https://madskristensen.net/"/>
+        <outline type="rss" text="Martin Fowler" title="Martin Fowler" xmlUrl="http://martinfowler.com/feed.atom" htmlUrl="https://martinfowler.com"/>
+        <outline type="rss" text="The Morning Brew" title="The Morning Brew" xmlUrl="http://feeds.feedburner.com/ReflectivePerspective" htmlUrl="http://blog.cwa.me.uk"/>
+        <outline type="rss" text="mnot’s blog" title="mnot’s blog" xmlUrl="http://www.mnot.net/blog/index.atom" htmlUrl="https://www.mnot.net/blog/"/>
+        <outline type="rss" text="OdeToCode by K. Scott Allen" title="OdeToCode by K. Scott Allen" xmlUrl="http://feeds.feedburner.com/OdeToCode" htmlUrl="https://odetocode.com/"/>
+        <outline type="rss" text="The Old New Thing" title="The Old New Thing" xmlUrl="https://blogs.msdn.microsoft.com/oldnewthing/feed" htmlUrl="https://devblogs.microsoft.com/oldnewthing"/>
+        <outline type="rss" text="ongoing by Tim Bray" title="ongoing by Tim Bray" xmlUrl="http://www.tbray.org/ongoing/ongoing.atom" htmlUrl="https://www.tbray.org/ongoing/"/>
+        <outline type="rss" text="Paragon Initiative" title="Paragon Initiative" xmlUrl="https://paragonie.com/rss/" htmlUrl="https://paragonie.com/"/>
+        <outline type="rss" text="plasmasturm.org" title="plasmasturm.org" xmlUrl="http://plasmasturm.org/feeds/plasmasturm/" htmlUrl="http://plasmasturm.org/"/>
+        <outline type="rss" text="Programming in the 21st Century" title="Programming in the 21st Century" xmlUrl="http://prog21.dadgum.com/atom.xml" htmlUrl="http://prog21.dadgum.com/"/>
+        <outline type="rss" text="Rachel by the Bay" title="Rachel by the Bay" xmlUrl="http://rachelbythebay.com/w/atom.xml" htmlUrl="http://rachelbythebay.com/w/"/>
+        <outline type="rss" text="Scott Hanselman's Blog" title="Scott Hanselman's Blog" xmlUrl="http://feeds.feedburner.com/ScottHanselman" htmlUrl="https://www.hanselman.com/blog/"/>
+        <outline type="rss" text="Slashdot" title="Slashdot" xmlUrl="http://rss.slashdot.org/slashdot/classic" htmlUrl="https://slashdot.org/"/>
+        <outline type="rss" text="Slate Star Codex" title="Slate Star Codex" xmlUrl="http://slatestarcodex.com/feed/" htmlUrl="https://slatestarcodex.com"/>
+        <outline type="rss" text="Stephen Mann" title="Stephen Mann" xmlUrl="https://stephenmann.io/index.xml" htmlUrl="https://stephenmann.io/"/>
+        <outline type="rss" text="Thoughts From Eric" title="Thoughts From Eric" xmlUrl="https://meyerweb.com/eric/thoughts/rss2/full" htmlUrl="https://meyerweb.com/eric/thoughts"/>
+        <outline type="rss" text="Troy Hunt's Blog" title="Troy Hunt's Blog" xmlUrl="http://feeds.feedburner.com/TroyHunt" htmlUrl="https://www.troyhunt.com/"/>
+        <outline type="rss" text="unethical blogger" title="unethical blogger" xmlUrl="https://brokenco.de/atom.xml" htmlUrl="http://unethicalblogger.com/"/>
+        <outline type="rss" text="Worse Than Failure" title="Worse Than Failure" xmlUrl="http://syndication.thedailywtf.com/TheDailyWtf" htmlUrl="http://thedailywtf.com/"/>
+        <outline type="rss" text="Zeldman on Web &amp; Interaction Design" title="Zeldman on Web &amp; Interaction Design" xmlUrl="http://www.zeldman.com/feed/zeldman.xml" htmlUrl="http://www.zeldman.com"/>
+    </body>
+</opml>
