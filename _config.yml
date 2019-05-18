@@ -31,6 +31,12 @@ defaults:
   -
     scope:
       path: ""
+      type: "humor_logs"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
       type: "posts"
     values:
       layout: "post"
