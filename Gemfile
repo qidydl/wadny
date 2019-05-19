@@ -8,3 +8,6 @@ gem "jekyll"
 gem "jekyll-archives"
 gem "jekyll-feed"
 gem "liquid_pluralize"
+
+gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
+gem "tzinfo-data", "~> 1.2", :install_if => Gem.win_platform?
