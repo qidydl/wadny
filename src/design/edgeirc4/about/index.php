@@ -1,0 +1,20 @@
+<?php
+    $title = "About";
+    include( "../head.php" );
+?>
+<h3>about EdgeIRC</h3>
+<p>EdgeIRC is a privately owned and operated IRC network focused on computing and computer gaming.  It is a rather small network, averaging about 150 users
+   and 80 channels, but with a solid core user base and a fair number of servers.  Although some of the users can be immature at times, the network has few
+   problems and opers rarely have to take action.</p>
+<h3>the history of EdgeIRC</h3>
+<p>Founded in May of 2000 by qid and Cyber_Ass, EdgeIRC was originally formed as a home for #gloom, the IRC channel for a Quake II multiplayer mod.  It has
+   since gained (and lost) many servers, and increased in size quite a bit.  At one point, EdgeIRC was going to become the official IRC network for the Edge
+   Gaming Network, but they have since moved to GamesNET.  Our only real problem to date was a <acronym title="Distributed Denial of Service">DDoS</acronym>
+   attack that never really hurt any of the servers but did scare off some users.</p>
+<h3>the future of EdgeIRC</h3>
+<p>EdgeIRC is fairly stable at this point, but also becoming stagnant.  We would be happy to gain more users or servers, or link with other networks, but we
+   do not want to give up our domain and the name we have established.</p>
+<p>At the moment, we are beginning development on our own IRC daemon.  Cyclone has worked well for us for many years now, but it is lacking features we would
+   like, and developing our own daemon should be a worthwile exercise.  We intend to release the daemon under the GPL license, and welcome any assistance in
+   developing or testing.  The development channel is #edgeircd if you want to stop by.</p>
+<?php include( "../foot.php" ); ?>

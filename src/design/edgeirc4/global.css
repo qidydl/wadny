@@ -1,0 +1,89 @@
+body {
+	font-family: 'Lucida Grande', Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: black;
+	background-color: #C2CEDA;
+	margin: 0 0 15px 0;
+}
+
+div#heading {
+	background-color: #85A98C;
+	color: black;
+	border-bottom: 1px solid black;
+	padding: 45px 15% 10px 15%;
+}
+
+div#content { margin: 0 15% 0 15%; }
+
+div#content p { margin-top: 0.5em; }
+
+div#newscontrols {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+h1 {
+	margin: 0 0 10px 0;
+	text-indent: -5000px;
+	height: 21px;
+	width: 155px;
+	background-image: url("/edgeirc.png");
+	background-repeat: no-repeat;
+}
+
+h2 {
+	margin: 0;
+	font-size: 8pt;
+	font-weight: normal;
+}
+
+h3 {
+	font-size: 10pt;
+	color: #17812B;
+	margin: 25px auto 0 auto;
+}
+
+ul#menu {
+	margin: 0 auto 5px 0;
+	padding: 10px 15% 26px 15%;
+	border-bottom: 1px solid black;
+	background-color: #B4CCB9;
+}
+
+ul#menu ul, ul#menu li {
+	margin: 0;
+	padding: 0;
+	display: inline;
+	list-style-type: none;
+}
+	
+ul#menu a:link, ul#menu a:visited {
+	float: left;
+	font-weight: bold;
+	margin: 0 10px 4px 10px;
+}
+
+body#news ul#menu a#lnews, body#servers ul#menu a#lservers,
+body#ircops ul#menu a#lircops, body#channels ul#menu a#lchannels,
+body#socks ul#menu a#lsocks, body#other ul#menu a#lother,
+body#about ul#menu a#labout, body#edgeircd ul#menu a#lircd {
+	border-bottom: 7px solid black;
+	padding-bottom: 6px;
+	color: black;
+}
+
+ul#menu a:hover {
+	border-bottom: 7px solid #B40206;
+	padding-bottom: 6px;
+	color: #B40206;
+}
+
+a:hover { color: #B40206; }
+
+acronym { border-bottom: 1px dotted black; }
+
+th { text-align: right; }
+
+th, td { font-size: 8pt; }
+
+caption { display: none; }

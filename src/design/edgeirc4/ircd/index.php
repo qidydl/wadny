@@ -1,0 +1,9 @@
+<?php
+    $title = "EdgeIRCD";
+    include( "../head.php" );
+?>
+<h3>about EdgeIRCD</h3>
+<p>EdgeIRCD is a brand-new, built-from-scratch IRC daemon currently under development on our network.  Several of the server admins decided that, although
+   Cyclone had served us well for several years, it was lacking some features we would like to have.  Also, we have been having some issues with our services,
+   and we are interested in building a server with integrated, improved services.</p>
+<?php include( "../foot.php" ); ?>
