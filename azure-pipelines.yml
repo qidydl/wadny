@@ -19,9 +19,11 @@ steps:
     gem install bundler
     bundle install --retry=3 --jobs=4
   displayName: 'bundle install'
+  workingDirectory: $(Build.SourcesDirectory)/src/
 
 - script: bundle exec jekyll build -d $(Build.BinariesDirectory)
   displayName: 'jekyll build'
+  workingDirectory: $(Build.SourcesDirectory)/src/
 
 - task: ArchiveFiles@2
   inputs:
