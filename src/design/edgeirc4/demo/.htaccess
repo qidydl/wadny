@@ -1,4 +1,0 @@
-php_flag register_globals off
-php_flag zlib.output_compression on
-
-ErrorDocument 404 errordocs/404.php
