@@ -82,6 +82,8 @@ module Jekyll
                 if page.url == "/" then
                     # this is the overall root - it might be just a pointer? not sure
                     # overall root doesn't get rendered in nav
+                elsif page.data.has_key?("navIgnore") && page.data["navIgnore"] then
+                    # this page is being deliberately hidden from the navigation menu
                 else
                     # Walk the path to reach the page and ensure the hierarchy exists
                     segments = page.url.split('/').select { |seg| seg.length > 0 }
@@ -163,17 +165,17 @@ module Jekyll
                 if thispage["url"] == "/" then
                     # Expand the news menu but don't highlight an active page
                     activePath = ["news", "during"]
+                elsif thispage["url"].start_with?("/news/during") then
+                    activePath = ["news", "during"]
+                    root.children["news"].children["during"].active = true
+                elsif thispage["url"].start_with?("/humor") then
+                    activePath = ["humor"]
+                    root.children["humor"].active = true
+                elsif thispage.has_key?("navIgnore") && thispage["navIgnore"] then
+                    activePath = []
                 else
-                    # Our active URL wasn't found anywhere--we're probably on a post, not a page
-                    if thispage["url"].start_with?("/news/during") then
-                        activePath = ["news", "during"]
-                        root.children["news"].children["during"].active = true
-                    elsif thispage["url"].start_with?("/humor") then
-                        activePath = ["humor"]
-                        root.children["humor"].active = true
-                    else
-                        puts "No idea where page is: " + thispage["url"]
-                    end
+                    puts "No idea where page is: " + thispage["url"]
+                    puts thispage.inspect
                 end
             end
 
