@@ -20,7 +20,9 @@ var quotes = [
     "and the dragon comes in the NIIIIIGHHT!",
     "now with 30 percent more burnination",
     "wang pong—it’s like a covalent bond",
-    "in addition, there will be pie"
+    "in addition, there will be pie",
+    "pork chop sandwiches!",
+    "hey kid, I’m a computer"
 ];
 var icons = [
     "beapp.gif",
