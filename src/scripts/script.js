@@ -22,6 +22,6 @@ for (var i = 0; i < headings.length; i++) {
 
 // Preload external link images
 over = new Image();
-over.src = "/extern-over.gif";
+over.src = "/graphics/extern-over.gif";
 norm = new Image();
-norm.src = "/extern.gif";
+norm.src = "/graphics/extern.gif";
