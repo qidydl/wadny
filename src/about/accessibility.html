@@ -3,59 +3,72 @@ title: Accessibility
 ---
 <p>Wadny.com includes many accessibility features, most of which I learned from Mark Pilgrim on <a
         href="http://diveintoaccessibility.org/" rel="external" title="Opens in a new window">DiveIntoAccessibility</a>.
-    If you have any questions or comments, you can send me an e-mail—a link is in the sidebar.</p>
+    If you have any questions or comments, you can send me an e-mail—information is on <a href="/about/author">the
+        author page</a>.</p>
 
-<h2>Access keys</h2>
-<p>Many browsers support jumping to links or form elements by using key combinations defined on a website. On Windows or
-    Unix/BSD-based systems, the normal key combination is <code>ALT + accesskey</code>; on Macs, the usual combination
-    is <code>Control + accesskey</code>. Wadny.com includes the following access keys:</p>
-<ul>
-    <li>Access key “0”: This page</li>
-    <li>Access key “1”: Home page</li>
-</ul>
+<section>
+    <h2 id="access-keys">Access keys</h2>
+    <p>Many browsers support jumping to links or form elements by using key combinations defined on a website. On
+        Windows or Unix/BSD-based systems, the normal key combination is <code>ALT + accesskey</code>; on Macs, the
+        usual combination is <code>Control + accesskey</code>. Wadny.com includes the following access keys:</p>
+    <ul>
+        <li>Access key “0”: This page</li>
+        <li>Access key “1”: Home page</li>
+    </ul>
+</section>
 
-<h2>Standards compliance</h2>
-<ul>
-    <li>All pages on wadny.com should validate as <abbr title="HyperText Markup Language">HTML</abbr>5. The <abbr
-            title="Cascading Style Sheets">CSS</abbr> of wadny.com is also validated. Validator links are provided in
-        the sidebar to check this—if you find non-validating pages, please tell me.</li>
-    <li>Wadny.com is <a href="http://bobby.watchfire.com/" rel="external"
-            title="Opens in a new window - Bobby validator for accessibility">Bobby</a> approved for U.S. Section 508
-        and should also be approved for Web Content Accessibility Guidelines version 1.0, except that the Bobby
-        validator incorrectly believes that the <code>onclick</code> event handler is mouse-only—in every browser
-        I have tested it with, it works using either a keyboard or mouse. Thus, my site is <abbr
-            title="Web Content Accessibility Guidelines">WCAG</abbr>-compliant, although Bobby does not validate it.
-    </li>
-    <li>I have attempted to use structured semantic markup and CSS-based aesthetics whenever possible. This means all
-        headings should be marked up with <code>&lt;h#&gt;</code> tags, tabular data (and ONLY tabular data) is marked
-        up with summarized, captioned tables, and so forth.</li>
-</ul>
+<section>
+    <h2 id="standards">Standards compliance</h2>
+    <ul>
+        <li>All pages on wadny.com should validate as <abbr title="HyperText Markup Language">HTML</abbr>5. The <abbr
+                title="Cascading Style Sheets">CSS</abbr> of wadny.com is also validated. Validator links are provided
+            in the sidebar to check this—if you find non-validating pages, please tell me.</li>
+        <li>Wadny.com is <a href="http://bobby.watchfire.com/" rel="external"
+                title="Opens in a new window - Bobby validator for accessibility">Bobby</a> approved for U.S. Section
+            508 and should also be approved for Web Content Accessibility Guidelines version 1.0, except that the Bobby
+            validator incorrectly believes that the <code>onclick</code> event handler is mouse-only—in every browser
+            I have tested it with, it works using either a keyboard or mouse. Thus, my site is <abbr
+                title="Web Content Accessibility Guidelines">WCAG</abbr>-compliant, although Bobby does not validate it.
+        </li>
+        <li>I have attempted to use structured semantic markup and CSS-based aesthetics whenever possible. This means
+            all headings should be marked up with <code>&lt;h#&gt;</code> tags, tabular data (and ONLY tabular data) is
+            marked up with summarized, captioned tables, and so forth.</li>
+    </ul>
+</section>
 
-<h2>Naviation aids</h2>
-<p>All pages have <code>&lt;link&gt;</code> tags pointing to the wadny.com home page and the Atom version of my news
-    page. These links should already be usable in text-only browsers and screen readers, and users of the latest version
-    of Mozilla (and possibly Netscape) can use these links by enabling the Site Navigation Bar (View, Show/Hide, Site
-    Navigation Bar, Show Only As Needed or Show Always). There is also a seach box which allows you to search all of
-    wadny.com using Google or perfom general searches with dozens of different search engines.</p>
+<section>
+    <h2 id="navigation">Naviation aids</h2>
+    <p>All pages have <code>&lt;link&gt;</code> tags pointing to the wadny.com home page and the Atom version of my news
+        page. These links should already be usable in text-only browsers and screen readers, and they may be exposed in
+        other browsers as well.</p>
+</section>
 
-<h2>Links</h2>
-<p>Many links include title attributes to provide further information about the link or to indicate if the link opens in
-    a new window. This helps links make sense out of context. Also, there are no <code>javascript:</code> pseudo-links,
-    even though some links will open in new windows in browsers that support them. In addition, links that open in new
-    windows are indicated by a small red arrow to the left of the link and the phrase “Opens in a new window” in the
-    link title.</p>
+<section>
+    <h2 id="links">Links</h2>
+    <p>Many links include title attributes to provide further information about the link or to indicate if the link
+        opens in a new window. This helps links make sense out of context. Also, there are no <code>javascript:</code>
+        pseudo-links, even though some links will open in new windows in browsers that support them. In addition, links
+        that open in new windows are indicated by a small red arrow to the left of the link and the phrase “Opens in a
+        new window” in the link title.</p>
+</section>
 
-<h2>Images</h2>
-<p>Wadny.com uses a minimum of images to cut down on download time and improve accessibility. All images used on this
-    site have descriptive alt attributes so users of text-only browsers are not prevented from using them. For users
-    that are displaying images, there is usually also a title for the image to display as a tooltip.</p>
+<section>
+    <h2 id="images">Images</h2>
+    <p>Wadny.com uses a minimum of images to cut down on download time and improve accessibility. All images used on
+        this site have descriptive alt attributes so users of text-only browsers are not prevented from using them. For
+        users that are displaying images, there is usually also a title for the image to display as a tooltip.</p>
+</section>
 
-<h2>Visual design</h2>
-<p>This site uses CSS for visual layout. When the page is read in a screen reader, it should work properly due to the
-    simple and standards-compliant markup; however, this is untested. If you are aware of any issues with my site when
-    it is handled by a screen reader, please let me know.</p>
+<section>
+    <h2 id="design">Visual design</h2>
+    <p>This site uses CSS for visual layout. When the page is read in a screen reader, it should work properly due to
+        the simple and standards-compliant markup; however, this is untested. If you are aware of any issues with my
+        site when it is handled by a screen reader, please let me know.</p>
+</section>
 
-<h2>Wrapup</h2>
-<p>This site and its accessibility features are a work in progress. If you would like to suggest changes to make to the
-    site or this page, or have comments of any kind, feel free to contact me; information is on <a
-        href="/about/author">the author page</a>.</p>
+<section>
+    <h2 id="summary">Wrap-up</h2>
+    <p>This site and its accessibility features are a work in progress. If you would like to suggest changes to make to
+        the site or this page, or have comments of any kind, feel free to contact me; information is on <a
+            href="/about/author">the author page</a>.</p>
+</section>

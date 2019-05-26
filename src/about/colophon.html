@@ -9,68 +9,78 @@ navSectionTitle: About
 <p>More information, including the history of the site, is available on the <a href="/design/wadny/">wadny.com design
         portfolio page</a>.</p>
 
-<h1 id="code">Code and standards</h1>
-<p>Wadny.com is entirely hand-written <abbr title="HyperText Markup Language">HTML</abbr>5, <abbr
-        title="Cascading Style Sheets">CSS</abbr>, and JavaScript, all rendered ahead of time using <a
-        href="https://jekyllrb.com/" rel="external" title="Opens in a new window">Jekyll</a>. Jekyll is a <a
-        href="https://davidwalsh.name/introduction-static-site-generators" rel="external"
-        title="Opens in a new window - Basic explanation of static site generators">static site
-        generator</a>, which is a tool that renders content using templates and layouts to produce simple HTML files
-    that require no special processing to serve. This is much simpler and cheaper to host than a site that runs as a
-    program and renders dynamically. The content and styles for all pages should be valid, and the buttons in the
-    sidebar can be used to validate any page.</p>
-<p>I try to make extensive use of semantic elements, including proper headings, acronyms, code markup, and the like.
-    Tables are only used to mark up tabular data. Layout is done entirely with CSS. A standards-compliant browser such
-    as <a href="https://www.mozilla.org/" rel="external" title="Opens in a new window">Firefox</a> is highly
-    encouraged.</p>
-<p>Some info on understanding this site: unvisited links are blue, visited links are red. Any modern CSS-compliant
-    browser will show some links with a little red arrow next to them (<a href="#" rel="external">example</a>)—these
-    links point to a url outside of this site, and usually open in a new browser window. There are non-external links
-    that open in new windows, and there might be unmarked external links, but the arrows should help.</p>
+<section>
+    <h1 id="code">Code and standards</h1>
+    <p>Wadny.com is entirely hand-written <abbr title="HyperText Markup Language">HTML</abbr>5, <abbr
+            title="Cascading Style Sheets">CSS</abbr>, and JavaScript, all rendered ahead of time using <a
+            href="https://jekyllrb.com/" rel="external" title="Opens in a new window">Jekyll</a>. Jekyll is a <a
+            href="https://davidwalsh.name/introduction-static-site-generators" rel="external"
+            title="Opens in a new window - Basic explanation of static site generators">static site
+            generator</a>, which is a tool that renders content using templates and layouts to produce simple HTML files
+        that require no special processing to serve. This is much simpler and cheaper to host than a site that runs as a
+        program and renders dynamically. The content and styles for all pages should be valid, and the buttons in the
+        sidebar can be used to validate any page.</p>
+    <p>I try to make extensive use of semantic elements, including proper headings, acronyms, code markup, and the like.
+        Tables are only used to mark up tabular data. Layout is done entirely with CSS. A standards-compliant browser
+        such as <a href="https://www.mozilla.org/" rel="external" title="Opens in a new window">Firefox</a> is highly
+        encouraged.</p>
+    <p>Some info on understanding this site: unvisited links are blue, visited links are red. Any modern CSS-compliant
+        browser will show some links with a little red arrow next to them (<a href="#" rel="external">example</a>)—these
+        links point to a url outside of this site, and usually open in a new browser window. There are non-external
+        links that open in new windows, and there might be unmarked external links, but the arrows should help.</p>
+</section>
 
-<h1 id="typography">Typography</h1>
-<p>Typography on the web is difficult—there’s no guarantee your readers will have even one of the fonts you
-    want to use, and if they’re using <a href="https://lynx.browser.org/" rel="external"
-        title="Opens in a new window - The lynx web browser">lynx</a> you might as well not even bother. As such, I have
-    kept wadny.com’s typography fairly simple.</p>
-<p>The body text should be a simple sans-serif font (probably Verdana on Windows, and Lucida Grande on Macintosh OS X).
-    The headings are hopefully Palatino Linotype, which I think is absolutely gorgeous; if you’re unlucky enough
-    not to have it, the fallback is Times New Roman (*shudder*) or plain Times (which I believe is a font on some
-    Unixes).
-    The images in the sidebar may be hand-rendered text; I didn’t make them, so I don’t know.</p>
-<p>I have also tried to ensure that all punctuation is correct, by using alternate Unicode characters for quotes,
-    dashes, ellipses, and other special characters. The effect is subtle, but I believe it is a worthwhile enhancement.
-</p>
+<section>
+    <h1 id="typography">Typography</h1>
+    <p>Typography on the web is difficult—there’s no guarantee your readers will have even one of the fonts you
+        want to use, and if they’re using <a href="https://lynx.browser.org/" rel="external"
+            title="Opens in a new window - The lynx web browser">lynx</a> you might as well not even bother. As such, I
+        have kept wadny.com’s typography fairly simple.</p>
+    <p>The body text should be a simple sans-serif font (probably Verdana on Windows, and Lucida Grande on Macintosh OS
+        X). The headings are hopefully Palatino Linotype, which I think is absolutely gorgeous; if you’re unlucky enough
+        not to have it, the fallback is Times New Roman (*shudder*) or plain Times (which I believe is a font on some
+        Unixes). The images in the sidebar may be hand-rendered text; I didn’t make them, so I don’t know.</p>
+    <p>I have also tried to ensure that all punctuation is correct, by using alternate Unicode characters for quotes,
+        dashes, ellipses, and other special characters. The effect is subtle, but I believe it is a worthwhile
+        enhancement.</p>
+</section>
 
-<h1 id="production">Production</h1>
-<p>Virtually everything on this site is hand-made by me (the icons and sidebar link images being notable exceptions). I
-    currently use <a href="https://code.visualstudio.com/" rel="external" title="Opens in a new window">Visual Studio
-        Code</a> for editing text and <a href="https://www.gimp.org/" rel="external" title="Opens in a new window"><abbr
-            title="GNU Image Manipulation Program">GIMP</abbr></a> for editing images. Many of the icons in the header
-    are from <a href="https://www.kottke.org/" rel="external" title="Opens in a new window">Jason Kottke’s weblog</a>.
-</p>
-<p>The site content is managed in <a href="https://dev.azure.com/" rel="external" title="Opens in a new window">Azure
-        DevOps</a>. Files are stored in a git repository, processed through Jekyll using an automated build pipeline,
-    and deployed to <a href="https://azure.microsoft.com/en-us/services/app-service/" rel="external"
-        title="Opens in a new window">Azure App Service</a> using an automated release pipeline. I’ll have to write a
-    blog post explaining this system in more detail. It’s pretty technical to understand and set up the automation, but
-    the end result is I can make changes on my desktop (or easily set up an environment on any computer with a couple
-    standard tools), and deploy those changes with literally two or three clicks.</p>
-<figure class="clean">
-    <figcaption>Build status:</figcaption>
-    <img src="https://dev.azure.com/wadny/wadny/_apis/build/status/wadny?branchName=master" alt="Current build status">
-</figure>
-<figure class="clean">
-    <figcaption>Release status:</figcaption>
-    <img src="https://vsrm.dev.azure.com/wadny/_apis/public/Release/badge/8422a199-a964-4494-a347-f2393eeed862/1/1"
-        alt="Current release status">
-</figure>
+<section>
+    <h1 id="production">Production</h1>
+    <p>Virtually everything on this site is hand-made by me (the icons and sidebar link images being notable
+        exceptions). I currently use <a href="https://code.visualstudio.com/" rel="external"
+            title="Opens in a new window">Visual Studio Code</a> for editing text and <a href="https://www.gimp.org/"
+            rel="external" title="Opens in a new window"><abbr title="GNU Image Manipulation Program">GIMP</abbr></a>
+        for editing images. Many of the icons in the header are from <a href="https://www.kottke.org/" rel="external"
+            title="Opens in a new window">Jason Kottke’s weblog</a>.
+    </p>
+    <p>The site content is managed in <a href="https://dev.azure.com/" rel="external"
+            title="Opens in a new window">Azure DevOps</a>. Files are stored in a git repository, processed through
+        Jekyll using an automated build pipeline, and deployed to <a
+            href="https://azure.microsoft.com/en-us/services/app-service/" rel="external"
+            title="Opens in a new window">Azure App Service</a> using an automated release pipeline. I’ll have to write
+        a blog post explaining this system in more detail. It’s pretty technical to understand and set up the
+        automation, but the end result is I can make changes on my desktop (or easily set up an environment on any
+        computer with a couple standard tools), and deploy those changes with literally two or three clicks.</p>
+    <figure class="clean">
+        <figcaption>Build status:</figcaption>
+        <img src="https://dev.azure.com/wadny/wadny/_apis/build/status/wadny?branchName=master"
+            alt="Current build status">
+    </figure>
+    <figure class="clean">
+        <figcaption>Release status:</figcaption>
+        <img src="https://vsrm.dev.azure.com/wadny/_apis/public/Release/badge/8422a199-a964-4494-a347-f2393eeed862/1/1"
+            alt="Current release status">
+    </figure>
+</section>
 
-<h1 id="rights">Rights and Administrivia</h1>
-<p>This site is <abbr title="Copyright">©</abbr>2000-2019 by me, David Osolkowski. Some rights are
-    reserved—see my chosen <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" rel="external"
-        title="Opens in a new window">Creative Commons license</a> for more information. You are free to link to my site
-    however you wish. In fact, you have that right on every website, despite what some foolish companies may claim.
-    However, please do not link directly to large (more than 100KB) files on my site; bandwidth hijacking isn’t
-    nice. A button is provided below if you want to use it; please save your own copy.</p>
-<p><img src="/graphics/button.png" width="88" height="31" alt="The wadny.com link button"></p>
+<section>
+    <h1 id="rights">Rights and Administrivia</h1>
+    <p>This site is <abbr title="Copyright">©</abbr>2000-2019 by me, David Osolkowski. Some rights are
+        reserved—see my chosen <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" rel="external"
+            title="Opens in a new window">Creative Commons license</a> for more information. You are free to link to my
+        site however you wish. In fact, you have that right on every website, despite what some foolish companies may
+        claim. However, please do not link directly to large (more than 100KB) files on my site; bandwidth hijacking
+        isn’t nice. A button is provided below if you want to use it; please save your own copy.</p>
+    <figure><img src="/graphics/button.png" width="88" height="31" alt="The wadny.com link button"></figure>
+</section>
