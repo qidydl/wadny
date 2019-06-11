@@ -4,9 +4,12 @@ var anchors = document.querySelectorAll('a[rel~="external"]');
 for (var i = 0; i < anchors.length; i++) {
     var anchor = anchors[i];
 
-    // Probably overkill, but just in case
+    // Probably overkill check, but just in case
     if (anchor.getAttribute('href')) {
         anchor.setAttribute('target', '_blank');
+
+        var currentRel = anchor.getAttribute('rel');
+        anchor.setAttribute('rel', currentRel + ' noopener');
     }
 }
 
