@@ -1,8 +1,3 @@
-# Starter pipeline
-# Start with a minimal pipeline that you can customize to build and deploy your code.
-# Add steps that build, run tests, deploy, and more:
-# https://aka.ms/yaml
-
 trigger:
 - master
 
@@ -25,7 +20,9 @@ stages:
     - script: bundle exec jekyll build -d $(Build.BinariesDirectory)
       displayName: 'jekyll build'
       workingDirectory: $(Build.SourcesDirectory)/src/
-    - task: ArchiveFiles@2
+    - # Azure App Service wants a zip file, so we zip here for convenience
+      # If we just wanted an artifact we would publish the binaries folder directly
+      task: ArchiveFiles@2
       inputs:
         rootFolderOrFile: '$(Build.BinariesDirectory)'
         includeRootFolder: false
@@ -38,10 +35,12 @@ stages:
   - job: deploy
     pool:
       vmImage: 'ubuntu-latest'
+    environment: 'wadny-test'
     steps:
     - download: current
       artifact: site
-    - task: AzureRmWebAppDeployment@4
+    - # Subscription authorized via web UI on first use
+      task: AzureRmWebAppDeployment@4
       displayName: 'Deploy Azure App Service'
       inputs:
         azureSubscription: 'Visual Studio Enterprise (4c7ca380-c70c-49ed-a8f5-6886e40653fa)'
