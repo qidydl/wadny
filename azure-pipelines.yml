@@ -32,19 +32,24 @@ stages:
       artifact: site
 - stage: deploy
   jobs:
-  - job: deploy
+  - deployment: deploy
     pool:
       vmImage: 'ubuntu-latest'
     environment: 'wadny-test'
-    steps:
-    - download: current
-      artifact: site
-    - # Subscription authorized via web UI on first use
-      task: AzureRmWebAppDeployment@4
-      displayName: 'Deploy Azure App Service'
-      inputs:
-        azureSubscription: 'Visual Studio Enterprise (4c7ca380-c70c-49ed-a8f5-6886e40653fa)'
-        appType: 'Web App on Windows'
-        WebAppName: 'wadny-test'
-        packageForLinux: '$(Pipeline.Workspace)/**/site.zip'
-      timeoutInMinutes: 10
+    strategy:
+      runOnce:
+        preDeploy:
+          steps:
+          - download: current
+            artifact: site
+        deploy:
+          steps:
+          - # Subscription authorized via web UI on first use
+            task: AzureRmWebAppDeployment@4
+            displayName: 'Deploy Azure App Service'
+            inputs:
+              azureSubscription: 'Visual Studio Enterprise (4c7ca380-c70c-49ed-a8f5-6886e40653fa)'
+              appType: 'Web App on Windows'
+              WebAppName: 'wadny-test'
+              packageForLinux: '$(Pipeline.Workspace)/**/site.zip'
+            timeoutInMinutes: 10
