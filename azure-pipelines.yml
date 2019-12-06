@@ -6,34 +6,38 @@
 trigger:
 - master
 
-pool:
-  vmImage: 'ubuntu-latest'
-
-steps:
-- task: UseRubyVersion@0
-  inputs:
-    versionSpec: '>= 2.5'
-    addToPath: true
-
-- script: |
-    gem install bundler
-    bundle install --retry=3 --jobs=4
-  displayName: 'bundle install'
-  workingDirectory: $(Build.SourcesDirectory)/src/
-
-- script: bundle exec jekyll build -d $(Build.BinariesDirectory)
-  displayName: 'jekyll build'
-  workingDirectory: $(Build.SourcesDirectory)/src/
-
-- task: ArchiveFiles@2
-  inputs:
-    rootFolderOrFile: '$(Build.BinariesDirectory)'
-    includeRootFolder: false
-    archiveType: 'zip' # Options: zip, 7z, tar, wim
-    archiveFile: '$(Build.ArtifactStagingDirectory)/site.zip' 
-
-- task: PublishBuildArtifacts@1
-  inputs:
-    pathtoPublish: '$(Build.ArtifactStagingDirectory)'
-    artifactName: 'site'
-    publishLocation: 'Container' # Options: container, filePath
+stages:
+- stage: build
+  jobs:
+  - job: build
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+    - task: UseRubyVersion@0
+      inputs:
+        versionSpec: '>= 2.5'
+        addToPath: true
+    - script: |
+        gem install bundler
+        bundle install --retry=3 --jobs=4
+      displayName: 'bundle install'
+      workingDirectory: $(Build.SourcesDirectory)/src/
+    - script: bundle exec jekyll build -d $(Build.BinariesDirectory)
+      displayName: 'jekyll build'
+      workingDirectory: $(Build.SourcesDirectory)/src/
+    - task: ArchiveFiles@2
+      inputs:
+        rootFolderOrFile: '$(Build.BinariesDirectory)'
+        includeRootFolder: false
+        archiveType: 'zip' # Options: zip, 7z, tar, wim
+        archiveFile: '$(Build.ArtifactStagingDirectory)/site.zip'
+    - publish: $(Build.ArtifactStagingDirectory)
+      artifact: site
+- stage: deploy
+  jobs:
+  - job: deploy
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+    - download: current
+      artifact: site
