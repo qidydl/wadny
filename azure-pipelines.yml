@@ -44,7 +44,7 @@ stages:
     - task: AzureRmWebAppDeployment@4
       displayName: 'Deploy Azure App Service'
       inputs:
-        azureSubscription: '4c7ca380-c70c-49ed-a8f5-6886e40653fa'
+        azureSubscription: 'Visual Studio Enterprise (4c7ca380-c70c-49ed-a8f5-6886e40653fa)'
         appType: 'Web App on Windows'
         WebAppName: 'wadny-test'
         packageForLinux: '$(Pipeline.Workspace)/**/site.zip'
