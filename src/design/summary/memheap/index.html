@@ -1,0 +1,111 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+
+<head>
+  <title>the memory heap -&gt; news</title>
+  <link rel="stylesheet" href="global.css">
+  <script type="text/javascript">
+    // Image preloading
+    var imgSrc = ["menu/news-on.gif", "menu/allocate-on.gif"];
+    var imgList = [];
+    for (counter in imgSrc) {
+      imgList[counter] = new Image();
+      imgList[counter].src = imgSrc[counter];
+    }
+
+    function randnum(lower, upper) {
+      return (Math.floor(Math.random() * (upper - lower)) + lower);
+    }
+
+    var titles = [
+      "dynamic memory, aww yeah",
+      "purple monkey dishwasher",
+      "it 0wns shinji",
+      "oh no, I spilled HTML!",
+      "beware pickpockets and loose icons",
+      "would it help to confuse it if we run away more?",
+      "boringalicious!",
+      "\"Potatoe\" - Dan Quayle",
+      "have some CHEESE!",
+      "\"MONKAH\" - Saig",
+      "tiny psychotic french elves!",
+      "can you say \"super-l33t\"?"
+    ];
+  </script>
+</head>
+
+<body>
+  <table cellspacing="0" cellpadding="0" width="100%">
+    <tr style="height: 83px">
+      <td><img src="images/logo.gif" width="541" height="83" alt="the memory heap"></td>
+      <td bgcolor="#FFFFFF" width="99%"></td>
+      <td><img src="images/topright.gif" width="28" height="83" alt=""></td>
+    </tr>
+  </table>
+  <table cellspacing="0" cellpadding="0" width="100%">
+    <tr>
+      <td bgcolor="#FFFFFF" valign="top">
+        <font face="serif" size="1">
+          <a href="index.html" target="_top" onMouseOver="news.src='menu/news-on.gif'"
+            onMouseOut="news.src='menu/news-off.gif'">
+            <img name="news" src="menu/news-off.gif" width="150" height="31" border="0" alt="news"></a><br>
+          <a href="index.html" target="_top" onMouseOver="allocate.src='menu/allocate-on.gif'"
+            onMouseOut="allocate.src='menu/allocate-off.gif'">
+            <img name="allocate" src="menu/allocate-off.gif" width="150" height="34" border="0"
+              alt="create a new node"></a>
+      </td>
+      <td width="100%" bgcolor="#FFFFFF" valign="top">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#B2B2B2">
+          <tr>
+            <td><img src="images/ul.gif" width="25" height="25" alt=""></td>
+            <td width="99%" align="center">news ::
+              <script type="text/javascript">
+                var titleindex = randnum(0, titles.length);
+                document.write(titles[titleindex]);
+              </script>
+            </td>
+            <td><img src="images/ur.gif" width="25" height="25" alt=""></td>
+            <td width="10" bgcolor="#FFFFFF">&nbsp;</td>
+          </tr>
+          <tr>
+            <td width="10">&nbsp;</td>
+            <td width="99%" height="100%" colspan="2">
+              <table cellspacing="2" cellpadding="1" border="0" width="98%" align="center">
+                <tr>
+                  <th>new site layout created and finished [4/18/2001 7:09pm]</th>
+                </tr>
+                <tr>
+                  <td>After further inspiration, I decided to change to this new layout, which looks much nicer and has
+                    an actual logo. Now I need to do some menu work.</td>
+                </tr>
+                <tr>
+                  <th>site layout finished [4/17/2001 12:18pm]</th>
+                </tr>
+                <tr>
+                  <td>This is looking ok so far, I need to do menus though...</td>
+                </tr>
+              </table>
+            </td>
+            <td width="10" bgcolor="#FFFFFF">&nbsp;</td>
+          </tr>
+          <tr>
+            <td><img src="images/ll.gif" width="25" height="25" alt=""></td>
+            <td width="99%" align="center">©2001 YDL Development and David O. <a href="mailto:qid(at)edgeirc.net">@</a>
+            </td>
+            <td><img src="images/lr.gif" width="25" height="25" alt=""></td>
+            <td width="10" bgcolor="#FFFFFF">&nbsp;</td>
+          </tr>
+          <tr height="10">
+            <td colspan="4" bgcolor="#FFFFFF">&nbsp;</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr bgcolor="#FFFFFF">
+      <td><img src="images/bottomleft.gif" width="26" height="26" alt=""></td>
+      <td align="right"><img src="images/bottomright.gif" width="26" height="26" alt=""></td>
+    </tr>
+  </table>
+</body>
+
+</html>

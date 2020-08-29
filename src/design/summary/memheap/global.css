@@ -5,12 +5,35 @@ A:visited { color: #087318; }
 A:active { color: #000000; }
 A:hover { color: #000000; }
 
-body { font-size: 8pt;
-       font-family: Verdana, Arial, Helvetica, sans-serif; }
-td { font-size: 8pt; }
-th { font-size: 8pt;
-     color: #000000;
-     font-weight: bold;
-     text-align: left;
-     background-color: #808080; }
+body {
+    background-color: black;
+    color: black;
+    font-size: 8pt;
+    font-family: Verdana, Arial, Helvetica, sans-serif; 
+}
+table {
+    border: 0;
+}
+tr {
+    margin: 0;
+    padding: 0;
+}
+td {
+    font-size: 8pt;
+    margin: 0;
+    padding: 0;
+}
+th {
+    margin: 0;
+    padding: 0;
+    font-size: 8pt;
+    color: #000000;
+    font-weight: bold;
+    text-align: left;
+    background-color: #808080; 
+}
+img {
+    margin: 0;
+    padding: 0;
+}
 h1 { font-size: 16pt; }
