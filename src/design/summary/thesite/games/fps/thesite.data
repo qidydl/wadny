@@ -1,5 +1,0 @@
-mainmenu=fps1|fps2|fps3
-indextitle=games - fps
-fps1=%path%&content=index
-fps2=%path%&content=index
-fps3=%path%&content=index
