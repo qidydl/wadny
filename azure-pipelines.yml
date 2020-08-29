@@ -1,47 +1,46 @@
 trigger:
 - master
 
+pool:
+  vmImage: 'ubuntu-latest'
+
 stages:
 - stage: build
   jobs:
   - job: build
-    pool:
-      vmImage: 'ubuntu-latest'
     steps:
     - task: UseRubyVersion@0
       inputs:
         versionSpec: '>= 2.5'
         addToPath: true
+
     - script: |
         gem install bundler
         bundle install --retry=3 --jobs=4
-      displayName: 'bundle install'
+      displayName: bundle install
       workingDirectory: $(Build.SourcesDirectory)/src/
+
     - script: bundle exec jekyll build -d $(Build.BinariesDirectory)
-      displayName: 'jekyll build'
+      displayName: jekyll build
       workingDirectory: $(Build.SourcesDirectory)/src/
+
     - # Azure App Service wants a zip file, so we zip here for convenience
       # If we just wanted an artifact we would publish the binaries folder directly
       task: ArchiveFiles@2
       inputs:
         rootFolderOrFile: '$(Build.BinariesDirectory)'
         includeRootFolder: false
-        archiveType: 'zip' # Options: zip, 7z, tar, wim
+        archiveType: zip # Options: zip, 7z, tar, wim
         archiveFile: '$(Build.ArtifactStagingDirectory)/site.zip'
+
     - publish: $(Build.ArtifactStagingDirectory)
       artifact: site
 - stage: deploy
   jobs:
   - deployment: deploy
-    pool:
-      vmImage: 'ubuntu-latest'
     environment: 'wadny-test'
     strategy:
       runOnce:
-        preDeploy:
-          steps:
-          - download: current
-            artifact: site
         deploy:
           steps:
           - # Subscription authorized via web UI on first use
