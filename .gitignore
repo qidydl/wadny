@@ -1,2 +1,5 @@
 # Ignore the compiled site
 _site/
+
+# Ignore the Jekyll cache
+.jekyll-cache/
