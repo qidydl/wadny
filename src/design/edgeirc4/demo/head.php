@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
 	<title>EdgeIRC Network - <?=$title?></title>
-	<meta name="author" content="David Osolkowski" />
 	<link rel="stylesheet" type="text/css" media="screen" href="/design/edgeirc4/demo/global.css" />
 </head>
 <body id="<?php echo strtolower($title); ?>">

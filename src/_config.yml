@@ -6,7 +6,7 @@ permalink: /:categories/:title/
 title: wadny.com
 description: "it looks good in yellow-that-Kottke-used-to-use-but-it’s-mine-now"
 author:
-  name: David Osolkowski
+  name: David
 timezone: "America/New_York"
 url: "https://wadny-test.azurewebsites.net"
 feed:
