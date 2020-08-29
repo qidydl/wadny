@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>funky squares</title>
+
+    <style type="text/css">
+        body {
+            background-color: #202020;
+        }
+
+        table {
+            border: 0;
+            width: 100%;
+            text-align: center;
+        }
+
+        tr, td, a, img {
+            margin: 0;
+            padding: 0;
+            vertical-align: top;
+        }
+    </style>
+
+    <script type="text/javascript">
+        var rows = 30;
+        var cols = 30;
+        var images = ["square_blue.gif", "square_yellow.gif", "square_black.gif", "square_red.gif", "square_green.gif"];
+
+        function randnum(lower, upper) {
+            return (Math.floor(Math.random() * (upper - lower)) + lower);
+        }
+
+        function swap() {
+            var totalSwaps = randnum(15, 45);
+
+            for (var i = 1; i <= totalSwaps; i++) {
+                var image = document.getElementById("img_" + randnum(1, rows) + "_" + randnum(1, cols));
+                var newnum = randnum(0, images.length);
+                image.src = images[newnum];
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <table cellspacing="0" cellpadding="0" width="100%">
+        <script type="text/javascript">
+            for (var row = 1; row <= rows; row++) {
+                document.write("<tr><td>");
+
+                for (var col = 1; col <= cols; col++) {
+                    var index = randnum(0, images.length);
+                    document.write("<a href=\"#\" onmouseover=\"swap()\"><img id=\"img_" + row + "_" + col + "\" src=\"" + images[index] + "\"></a>");
+                }
+
+                document.write("</td></tr>");
+            }
+        </script>
+    </table>
+</body>
+
+</html>

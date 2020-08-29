@@ -1,6 +1,4 @@
-<!--
-
-//Generic Drag Script- © Dynamic Drive (www.dynamicdrive.com)
+//Generic Drag Script- ï¿½ Dynamic Drive (www.dynamicdrive.com)
 //For full source code and terms of usage,
 //visit http://www.dynamicdrive.com
 
@@ -41,4 +39,3 @@ function drags(e){
 
 document.onmousedown = drags;
 document.onmouseup   = new Function("dragapproved=false");
-//-->
