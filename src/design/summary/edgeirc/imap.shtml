@@ -1,7 +1,0 @@
-<map name="menu">
-<area shape="rect" coords="2,75,9,82" href="index.php?page=news" alt="news">
-<area shape="rect" coords="92,59,99,66" href="#" alt="servers">
-<area shape="rect" coords="178,77,185,84" href="#" alt="channels">
-<area shape="rect" coords="257,18,264,25" href="#" alt="ircops">
-<area shape="rect" coords="302,66,309,73" href="index.php?page=other" alt="other">
-</map>
