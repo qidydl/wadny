@@ -4,7 +4,7 @@
 <title>YDL Development - News</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <link rel="stylesheet" href="ydl.css">
-<!--#include file="imgpreload.html" -->
+<script type="text/javascript" src="imgpreload.js"></script>
 </head>
 
 <body bgcolor="#FFFFFF" text="#000000" link="#FFFF00" vlink="#00FF00" alink="#000000">
