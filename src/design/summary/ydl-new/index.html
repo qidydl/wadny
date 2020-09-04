@@ -8,7 +8,73 @@
 </head>
 
 <body bgcolor="#FFFFFF" text="#000000" link="#FFFF00" vlink="#00FF00" alink="#000000">
-<!--#include file="menu.html" -->
+<div id="newsImage" style="position:absolute; left:184px; top:65px; z-index:1">
+  <a href="/design/summary/ydl-new/index.html" onMouseOut="menuNews.src='/design/summary/ydl-new/news.gif'" onMouseOver="menuNews.src='/design/summary/ydl-new/news-sel.gif'">
+  <img name="menuNews" border="0" src="/design/summary/ydl-new/news.gif" width="100" height="21" alt="News"></a>
+</div>
+<div id="peopleImage" style="position:absolute; left:162px; top:95px; z-index:1">
+  <a href="#" onMouseOut="menuPeople.src='/design/summary/ydl-new/people.gif'" onMouseOver="menuPeople.src='/design/summary/ydl-new/people-sel.gif'">
+  <img name="menuPeople" border="0" src="/design/summary/ydl-new/people.gif" width="118" height="21" alt="People"></a>
+</div>
+<div id="aboutImage" style="position:absolute; left:145px; top:125px; z-index:1">
+  <a href="/design/summary/ydl-new/about.html" onMouseOut="menuAbout.src='/design/summary/ydl-new/about.gif'" onMouseOver="menuAbout.src='/design/summary/ydl-new/about-sel.gif'">
+  <img name="menuAbout" border="0" src="/design/summary/ydl-new/about.gif" width="108" height="21" alt="About"></a>
+</div>
+<div id="mircImage" style="position:absolute; left:135px; top:155px; z-index:1">
+  <a href="javascript:ToggleMenu('mirc')" onMouseOut="menuMirc.src='/design/summary/ydl-new/mirc.gif'" onMouseOver="menuMirc.src='/design/summary/ydl-new/mirc-sel.gif'">
+  <img name="menuMirc" border="0" src="/design/summary/ydl-new/mirc.gif" width="108" height="21" alt="mIRC Scripting"></a>
+</div>
+<div id="idtImage" style="position:absolute; left:125px; top:185px; z-index:1; visibility: hidden">
+  <a href="javascript:ToggleMircMenu('idtscript')" onMouseOut="menuIdt.src='/design/summary/ydl-new/idtscript.gif'" onMouseOver="menuIdt.src='/design/summary/ydl-new/idtscript-sel.gif'">
+  <img name="menuIdt" border="0" src="/design/summary/ydl-new/idtscript.gif" width="147" height="21" alt="IDTScript"></a>
+</div>
+  <div id="idtMenu" style="position:absolute; left:175px; top:205px; z-index:1; visibility: hidden">
+    <a href="#" class="menutxt">about</a>
+    <br><a href="#" class="menutxt">downloads</a>
+    <br><a href="#" class="menutxt">themes</a>
+    <br><a href="#" class="menutxt">scripting tips</a>
+  </div>
+<div id="qidbotImage" style="position:absolute; left:125px; top:215px; z-index:1; visibility: hidden">
+  <a href="javascript:ToggleMircMenu('qidbot')" onMouseOut="menuQID.src='/design/summary/ydl-new/qidbot.gif'" onMouseOver="menuQID.src='/design/summary/ydl-new/qidbot-sel.gif'">
+  <img name="menuQID" border="0" src="/design/summary/ydl-new/qidbot.gif" width="125" height="21" alt="QIDBot"></a>
+</div>
+  <div id="qidbotMenu" style="position:absolute; left:175px; top:240px; z-index:1; visibility: hidden">
+    <a href="#" class="menutxt">about</a>
+    <br><a href="#" class="menutxt">download</a>
+    <br><a href="#" class="menutxt">command list</a>
+  </div>
+<div id="blinkImage" style="position:absolute; left:130px; top:245px; z-index:1; visibility: hidden">
+  <a href="javascript:ToggleMircMenu('blink')" onMouseOut="menuBlink.src='/design/summary/ydl-new/blink.gif'" onMouseOver="menuBlink.src='/design/summary/ydl-new/blink-sel.gif'">
+  <img name="menuBlink" border="0" src="/design/summary/ydl-new/blink.gif" width="98" height="21" alt="Blink"></a>
+</div>
+  <div id="blinkMenu" style="position:absolute; left:180px; top:270px; z-index:1; visibility: hidden">
+    <a href="#" class="menutxt">about</a>
+    <br><a href="#" class="menutxt">download blink</a>
+    <br><a href="#" class="menutxt">command list</a>
+  </div>
+<div id="addonImage" style="position:absolute; left:135px; top:275px; z-index:1; visibility: hidden">
+  <a href="#" onMouseOut="menuAddon.src='/design/summary/ydl-new/addons.gif'" onMouseOver="menuAddon.src='/design/summary/ydl-new/addons-sel.gif'">
+  <img name="menuAddon" border="0" src="/design/summary/ydl-new/addons.gif" width="122" height="21" alt="mIRC Addons"></a>
+</div>
+<div id="emailImage" style="position:absolute; left:125px; top:185px; z-index:1; visibility: visible">
+  <a href="#" onMouseOut="menuEmail.src='/design/summary/ydl-new/email.gif'" onMouseOver="menuEmail.src='/design/summary/ydl-new/email-sel.gif'">
+  <img name="menuEmail" border="0" src="/design/summary/ydl-new/email.gif" width="104" height="21" alt="Email me"></a>
+</div>
+<div id="webImage" style="position:absolute; left:125px; top:215px; z-index:1; visibility: visible">
+  <a href="javascript:ToggleMenu('webdesign')" onMouseOut="menuWeb.src='/design/summary/ydl-new/webdesign.gif'" onMouseOver="menuWeb.src='/design/summary/ydl-new/webdesign-sel.gif'">
+  <img name="menuWeb" border="0" src="/design/summary/ydl-new/webdesign.gif" width="91" height="21" alt="Webdesign"></a>
+</div>
+<div id="webMenu" style="position:absolute; left:175px; top:240px; z-index:1; visibility: hidden">
+  <a href="#" class="menutxt">samples</a>
+</div>
+<div id="programImage" style="position:absolute; left:125px; top:245px; z-index:1; visibility: visible">
+  <a href="javascript:ToggleMenu('programming')" onMouseOut="menuProgram.src='/design/summary/ydl-new/programming.gif'" onMouseOver="menuProgram.src='/design/summary/ydl-new/programming-sel.gif'">
+  <img name="menuProgram" border="0" src="/design/summary/ydl-new/programming.gif" width="135" height="21" alt="Programming"></a>
+</div>
+<div id="programMenu" style="position:absolute; left:180px; top:265px; z-index:1; visibility: hidden">
+  <a href="#" class="menutxt">PHP</a>
+  <br><a href="#" class="menutxt">C++</a>
+</div>
 <table border="0" cellspacing="0" cellpadding="2" width="100%">
   <tr>
     <td rowspan="999" valign="top" class="menu">
