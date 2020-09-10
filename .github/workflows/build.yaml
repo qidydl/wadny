@@ -10,4 +10,6 @@ jobs:
         working-directory: src
         bundler-cache: true
     - run: bundle install
+      working-directory: src
     - run: bundle exec jekyll build
+      working-directory: src
