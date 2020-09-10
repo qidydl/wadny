@@ -1,0 +1,1 @@
+turn agile-thoughts.txt into a blog post
