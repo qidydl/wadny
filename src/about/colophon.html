@@ -52,25 +52,18 @@ navSectionTitle: About
             title="Opens in a new window">Visual Studio Code</a> for editing text and <a href="https://www.gimp.org/"
             rel="external" title="Opens in a new window"><abbr title="GNU Image Manipulation Program">GIMP</abbr></a>
         for editing images. Many of the icons in the header are from <a href="https://www.kottke.org/" rel="external"
-            title="Opens in a new window">Jason Kottke’s weblog</a>.
+            title="Opens in a new window">Jason Kottke’s weblog</a>, although he himself probably no longer uses them.
     </p>
-    <p>The site content is managed in <a href="https://dev.azure.com/" rel="external"
-            title="Opens in a new window">Azure DevOps</a>. Files are stored in a git repository, processed through
-        Jekyll using an automated build pipeline, and deployed to <a
-            href="https://azure.microsoft.com/en-us/services/app-service/" rel="external"
-            title="Opens in a new window">Azure App Service</a> using an automated release pipeline. I’ll have to write
-        a blog post explaining this system in more detail. It’s pretty technical to understand and set up the
-        automation, but the end result is I can make changes on my desktop (or easily set up an environment on any
-        computer with a couple standard tools), and deploy those changes with literally two or three clicks.</p>
+    <p>The site content is managed in <a href="https://github.com/" rel="external"
+            title="Opens in a new window">GitHub</a>. Files are stored in a git repository, processed through
+        Jekyll, and deployed to <a href="https://aws.amazon.com/s3/" rel="external" title="Opens in a new window">AWS
+            S3</a> using an automated release pipeline. I’ll have to write a blog post explaining this system in more
+        detail. It’s pretty technical to understand and set up the automation, but the end result is I can make changes
+        on my desktop (or easily set up an environment on any computer with a couple standard tools), and deploy those
+        changes with literally two or three clicks.</p>
     <figure class="clean">
         <figcaption>Build status:</figcaption>
-        <img src="https://dev.azure.com/wadny/wadny/_apis/build/status/wadny?branchName=master"
-            alt="Current build status">
-    </figure>
-    <figure class="clean">
-        <figcaption>Release status:</figcaption>
-        <img src="https://vsrm.dev.azure.com/wadny/_apis/public/Release/badge/8422a199-a964-4494-a347-f2393eeed862/1/1"
-            alt="Current release status">
+        <img src="https://github.com/qidydl/wadny/workflows/build/badge.svg" alt="Current build status">
     </figure>
 </section>
 

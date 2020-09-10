@@ -1,1 +1,1 @@
-This is the source for the redesigned wadny.com. The canonical repository and build pipeline is hosted on Azure DevOps.
+This is the source for the redesigned wadny.com. It is not expected to receive public contributions.
