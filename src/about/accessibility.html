@@ -7,29 +7,16 @@ title: Accessibility
         author page</a>.</p>
 
 <section>
-    <h2 id="access-keys">Access keys</h2>
-    <p>Many browsers support jumping to links or form elements by using key combinations defined on a website. On
-        Windows or Unix/BSD-based systems, the normal key combination is <code>ALT + access key</code>; on Macs, the
-        usual combination is <code>Control + access key</code>. Wadny.com includes the following access keys:</p>
-    <ul>
-        <li>Access key “0”: This page</li>
-        <li>Access key “1”: Home page</li>
-    </ul>
-</section>
-
-<section>
     <h2 id="standards">Standards compliance</h2>
     <ul>
         <li>All pages on wadny.com should validate as <abbr title="HyperText Markup Language">HTML</abbr>5. The <abbr
                 title="Cascading Style Sheets">CSS</abbr> of wadny.com is also validated. Validator links are provided
             in the sidebar to check this—if you find non-validating pages, please tell me.</li>
-        <li>Wadny.com is <a href="http://bobby.watchfire.com/" rel="external"
-                title="Opens in a new window - Bobby validator for accessibility">Bobby</a> approved for U.S. Section
-            508 and should also be approved for Web Content Accessibility Guidelines version 1.0, except that the Bobby
-            validator incorrectly believes that the <code>onclick</code> event handler is mouse-only—in every browser
-            I have tested it with, it works using either a keyboard or mouse. Thus, my site is <abbr
-                title="Web Content Accessibility Guidelines">WCAG</abbr>-compliant, although Bobby does not validate it.
-        </li>
+        <li>Wadny.com is <a href="https://wave.webaim.org/" rel="external"
+                title="Opens in a new window - WAVE validator for accessibility">WAVE</a> validated for web
+            accessibility. I have done my best to ensure my site is <abbr
+                title="Web Content Accessibility Guidelines">WCAG</abbr>-compliant, although this is not always
+            something that can be validated automatically.</li>
         <li>I have attempted to use structured semantic markup and CSS-based aesthetics whenever possible. This means
             all headings should be marked up with <code>&lt;h#&gt;</code> tags, tabular data (and ONLY tabular data) is
             marked up with summarized, captioned tables, and so forth.</li>
