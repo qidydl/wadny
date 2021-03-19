@@ -263,7 +263,13 @@ blockquote code {
     line-height: 125%;
 }
 
-code { font-size: 120%; }
+code {
+    background-color: #eee;
+    border-radius: 3px;
+    font-family: Consolas, courier, monospace;
+    font-size: 120%;
+    padding: 0 3px;
+}
 
 q { quotes: '\201C' '\201D' '\2018' '\2019'; }
 q:before { content: open-quote; }
