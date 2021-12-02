@@ -12,26 +12,22 @@ url: "https://wadny.com"
 feed:
   path: "/news/everything.atom"
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "pages"
     values:
       layout: "default"
-  -
-    scope:
+  - scope:
       path: ""
       type: "humor_articles"
     values:
       layout: "default"
-  -
-    scope:
+  - scope:
       path: ""
       type: "humor_logs"
     values:
       layout: "default"
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
