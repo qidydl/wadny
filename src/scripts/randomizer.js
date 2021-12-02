@@ -1,4 +1,4 @@
-var quotes = [
+const quotes = [
     "purple monkey dishwasher",
     "oh no, I spilled HTML!",
     "beware of pickpockets and loose icons",
@@ -24,7 +24,8 @@ var quotes = [
     "pork chop sandwiches!",
     "hey kid, I’m a computer"
 ];
-var icons = [
+
+const icons = [
     "beapp.gif",
     "bebatch.gif",
     "bebox.gif",
@@ -44,8 +45,8 @@ var icons = [
     "tupperware.gif" 
 ];
 
-var quoteIndex = Math.floor(Math.random() * quotes.length);
+const quoteIndex = Math.floor(Math.random() * quotes.length);
 document.getElementById("quote").innerText = "— " + quotes[quoteIndex];
 
-var iconIndex = Math.floor(Math.random() * icons.length);
+const iconIndex = Math.floor(Math.random() * icons.length);
 document.getElementById("icon").src = "/icons/" + icons[iconIndex];
