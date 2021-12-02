@@ -3,18 +3,19 @@
  *****************************************************************************/
 html {
     background: white url(/graphics/body_back.gif) repeat-x top;
-    margin: 0;
-    padding: 20px 0 0 0;
-    color: #333;
     font-family: 'Lucida Grande', Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
     font-size: 80%;
-    text-align: center;
 }
 
 body {
-    margin: 0 auto 0 auto;
-    width: 68em;
-    text-align: left;
+    margin: 20px auto 0 auto;
+    width: min(68em, 100vw);
+}
+
+div#content {
+    display: grid;
+    column-gap: 1em;
+    grid-template-columns: 2fr 1fr;
 }
 
 /******************************************************************************
@@ -30,50 +31,70 @@ header {
     padding: 25px;
 }
 
-div#line {
-    height: 10px;
-    border-width: 0 1px 1px 1px;
-    border-style: solid;
-    border-color: #333;
-    background: #FFC700;
+header h1 {
+    /* ensures logo is readable even if screen is squished */
+    background-color: #5E97CC;
+    /* default font size will make the h1 too tall and push the h2 quote away */
+    font-size: 0%;
+    /* but we do want at least a small gap to the h2 quote */
+    margin-bottom: 5px;
+    /* ensures background doesn't go beyond logo - image sizes are fixed so this can be fixed */
+    width: 230px;
 }
 
-header h1 {
-    background: url(/graphics/logo.gif) no-repeat top right;
-    height: 0;
-    margin: 0;
+header h1 img#icon {
+    /* push the icon up to align more with the logo test baseline */
+    margin-bottom: 5px;
+}
+
+header h1 img#logo {
+    /* space logo away from icon */
+    margin-left: 10px;
+}
+
+header h1 span {
+    /* this mess hides the text without removing it from the document, so hopefully it is there for text and readers */
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+
+    margin: -1px;
     overflow: hidden;
-    padding-top: 40px;
-    width: 189px;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
 }
 
 header h2 {
     color: black;
-    margin: 0;
     font-size: medium;
     font-weight: normal;
+    margin: 0;
 }
 
-header a img {
-    float: left;
-    border: 0;
+div#line {
+    background: #FFC700;
+    border-color: #333;
+    border-style: solid;
+    border-width: 0 1px 1px 1px;
+    height: 10px;
 }
 
 /******************************************************************************
  * Sidebar styles
  *****************************************************************************/
 nav {
-    float: right;
-    width: 20em;
-    padding: 0 10px 10px 10px;
-    border-left: 1px solid #333;
-    border-bottom: 1px solid #333;
-    border-right: 1px solid #333;
     /* for winter: #EBEFF5
      * for early spring, spring: #F6F4EC
      */
     background-color: #F6F4EC;
+    border-bottom: 1px solid #333;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+    /*float: right;*/
     margin-bottom: 1em;
+    padding: 0 10px 10px 10px;
+    /*width: 20em;*/
 }
 
 nav h2 {
@@ -83,15 +104,15 @@ nav h2 {
 
 nav h3 {
     border-top: 1px dotted #333;
+    margin: 15px 0 5px 0;
     padding-top: 10px;
-    margin: 20px 0 5px 0;
 }
 
 nav h3#menuhead {
     border: 0;
     height: 0;
-    overflow: hidden;
     margin-top: -20px;
+    overflow: hidden;
     padding-top: 0;
 }
 
@@ -106,9 +127,9 @@ nav ul {
 }
 
 nav ul ul {
+    border-left: 1px solid gray;
     margin-left: 8px;
     padding-left: 8px;
-    border-left: 1px solid gray;
 }
 
 nav a.currentpage { font-weight: bold; }
@@ -118,27 +139,27 @@ nav ul#buttons { margin-top: 10px; }
 nav ul#buttons li { display: inline; }
 nav ul#buttons a img { border: 0; }
 nav ul#buttons a {
-	background: none;
-	padding-left: 0;
+    background: none;
+    padding-left: 0;
 }
 
 /******************************************************************************
  * Content styles
  *****************************************************************************/
 main {
-    float: left;
-    clear: left;
-    width: 45em;
-    margin-bottom: 1em;
+    /*clear: left;
+    float: left;*/
     line-height: 150%;
+    margin-bottom: 1em;
+    /*width: 45em;*/
 }
 
 main h1 { line-height: 110%; }
 main h2 + h3 { padding-top: 3px; }
 
 b.big {
-    font-weight: bold;
     font-size: large;
+    font-weight: bold;
 }
 
 ul#duringnav {
@@ -148,6 +169,7 @@ ul#duringnav {
 }
 ul#duringnav li {
     display: inline;
+
     border-left: 1px solid black;
     padding: 0 1px 0 4px;
 }
@@ -180,10 +202,10 @@ main h3[id] a.heading-anchor,
 main h4[id] a.heading-anchor,
 main h5[id] a.heading-anchor,
 main h6[id] a.heading-anchor {
-    margin-left: 5px;
     font-size: 70%;
-    vertical-align: top;
+    margin-left: 5px;
     text-decoration: none;
+    vertical-align: top;
     visibility: hidden;
 }
 
@@ -201,10 +223,10 @@ main h6[id]:hover a.heading-anchor {
  *****************************************************************************/
 footer {
     clear: both;
+    color: #666;
     margin: 0;
     padding: 10px;
     text-align: center;
-    color: #666;
 }
 
 /******************************************************************************
@@ -213,9 +235,9 @@ footer {
 h1, h2, h3, h4, h5, h6 { font-family: 'Palatino Linotype', 'Times New Roman', Times, serif; }
 h1 { font-size: 200%; }
 h2 {
+    font-size: 150%;
     margin-bottom: 5px;
     margin-top: 1em;
-    font-size: 150%;
 }
 h3 {
     font-size: 120%;
@@ -224,12 +246,12 @@ h3 {
 
 a { text-decoration: underline; }
 a:link {
-    color: #1C298C;
     background-color: transparent;
+    color: #1C298C;
 }
 a:visited {
-    color: #8D1B20;
     background-color: transparent;
+    color: #8D1B20;
 }
 a:hover { text-decoration: none; }
 
@@ -256,11 +278,11 @@ a.noex:hover { background: none; }
 blockquote code {
     border-left: 1px solid #ddd;
     display: block;
-    white-space: pre;
-    overflow: auto;
-    margin: 0 -12px 0 -20px;
-    padding-left: 3px;
     line-height: 125%;
+    margin: 0 -12px 0 -20px;
+    overflow: auto;
+    padding-left: 3px;
+    white-space: pre;
 }
 
 code {

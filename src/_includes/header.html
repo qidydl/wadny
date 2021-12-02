@@ -8,18 +8,26 @@
     <link rel="home" title="Return to the wadny.com front page." href="/">
     <link rel="copyright license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" title="This website is Copyright (c) David Osolkowski; some rights are available under a Creative Commons license.">
     {% feed_meta %}
-    <link type="text/css" rel="stylesheet" media="screen" href="/styles/main.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/styles/main.css">
+    <link rel="stylesheet" type="text/css" media="only screen and (max-width: 700px)" href="/styles/mobile.css">
+    <link rel="preload" as="image" href="/graphics/extern.gif">
+    <link rel="preload" as="image" href="/graphics/extern-over.gif" media="only screen and (min-width: 701px)">
     <script src="/scripts/randomizer.js" defer></script>
     <script src="/scripts/script.js" defer></script>
 </head>
 
 <body>
     <header>
-        <a href="/" title="Return to the front page of wadny.com">
-            <img id="icon" src="/icons/tupperware.gif" width="32" height="32" alt="Go back to the front page of wadny.com">
-            <h1>wadny.com by qid</h1>
-        </a>
+        <h1>
+            <a href="/" title="Return to the front page of wadny.com">
+                <img id="icon" src="/icons/tupperware.gif" width="32" height="32" alt="Go back to the front page of wadny.com">
+                <img id="logo" src="/graphics/logo.gif" width="179" height="40">
+                <span>wadny.com by qid</span>
+            </a>
+        </h1>
         <h2 id="quote">— this is where I’d put my random quote… IF I HAD ONE!</h2>
     </header>
     <div id="line"></div>
-    <main>
+
+    <div id="content">
+        <main>

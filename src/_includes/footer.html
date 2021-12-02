@@ -1,33 +1,36 @@
-    </main>
-    <nav>
-        <h2>Sidebar</h2>
-        <h3 id="menuhead">Main menu</h3>
-        {% nav %}
-        <h3>Site info</h3>
-        <ul>
-            <li><a href="/about/accessibility/" title="Accessibility features of this site">Accessibility statement</a></li>
-            <li><a href="/about/blogroll/" title="A list of weblogs I read often">Blogroll</a></li>
-            <li><a href="/misc/playlist.html">My playlist</a></li>
-        </ul>
+        </main>
 
-        <ul id="buttons">
-            <li><a href="/news/everything.atom" title="Syndicate this site using Atom with full posts and summaries together">
-                <img src="/graphics/atom.gif" width="80" height="15" alt="Syndicate this site using Atom with full posts and summaries together"></a>
-            </li>
-            <li><a href="https://validator.w3.org/nu/?doc={{ page.url | absolute_url | uri_escape }}" rel="external" title="Opens in a new window - W3C validator for websites">
-                <img src="/graphics/validhtml5.gif" width="80" height="15" alt="Valid HTML5" /></a>
-            </li>
-            <li><a href="https://jigsaw.w3.org/css-validator/validator?uri={{ page.url | absolute_url | uri_escape }}" rel="external" title="Opens in a new window - W3C validator for CSS">
-                <img src="/graphics/validcss.gif" width="80" height="15" alt="Valid CSS" /></a>
-            </li>
-            <li><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external license" title="Opens in a new window - Creative Commons License">
-                <img src="/graphics/cclicense.gif" width="80" height="15" alt="Creative Commons License"></a>
-            </li>
-            <li><a href="http://no-www.org/" rel="external" title="Opens in a new window - www. is deprecated">
-                <img src="/graphics/nowww.gif" width="80" height="15" alt="www. is deprecated"></a>
-            </li>
-        </ul>
-    </nav>
+        <nav>
+            <h2>Sidebar</h2>
+            <h3 id="menuhead">Main menu</h3>
+            {% nav %}
+            <h3>Site info</h3>
+            <ul>
+                <li><a href="/about/accessibility/" title="Accessibility features of this site">Accessibility statement</a></li>
+                <li><a href="/about/blogroll/" title="A list of weblogs I read often">Blogroll</a></li>
+                <li><a href="/misc/playlist.html">My playlist</a></li>
+            </ul>
+
+            <ul id="buttons">
+                <li><a href="/news/everything.atom" title="Syndicate this site using Atom with full posts and summaries together">
+                    <img src="/graphics/atom.gif" width="80" height="15" alt="Syndicate this site using Atom with full posts and summaries together"></a>
+                </li>
+                <li><a href="https://validator.w3.org/nu/?doc={{ page.url | absolute_url | uri_escape }}" rel="external" title="Opens in a new window - W3C validator for websites">
+                    <img src="/graphics/validhtml5.gif" width="80" height="15" alt="Valid HTML5" /></a>
+                </li>
+                <li><a href="https://jigsaw.w3.org/css-validator/validator?uri={{ page.url | absolute_url | uri_escape }}" rel="external" title="Opens in a new window - W3C validator for CSS">
+                    <img src="/graphics/validcss.gif" width="80" height="15" alt="Valid CSS" /></a>
+                </li>
+                <li><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external license" title="Opens in a new window - Creative Commons License">
+                    <img src="/graphics/cclicense.gif" width="80" height="15" alt="Creative Commons License"></a>
+                </li>
+                <li><a href="http://no-www.org/" rel="external" title="Opens in a new window - www. is deprecated">
+                    <img src="/graphics/nowww.gif" width="80" height="15" alt="www. is deprecated"></a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
     <footer>This site <abbr title="Copyright">©</abbr>2000-{{ "now" | date: "%Y" }} qid, <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external license" title="Opens in a new window - Creative Commons License">some rights reserved</a>.</footer>
 </body>
 
