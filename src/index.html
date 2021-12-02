@@ -8,13 +8,16 @@ layout: noheading
             <li>Some of the programming section</li>
             <li>Convert HTML to Markdown for easier future editing</li>
             <li>Use liquid link tags instead of raw URLs</li>
+            <li>Use &lt;time&gt; elements for all news archives</li>
+            <li>Show full post content in archive pages and include separators like on the front page</li>
         </ul>
         <hr>
 
         {% for post in site.posts limit:7 %}
         <article>
         <h2><a href="{{ post.url | relative_url }}" rel="bookmark">{{ post.title }}</a></h2>
-        <h3>― {{ post.date | date: "%B %-d, %Y" }}</h3>
-        {{ post.excerpt }}
+        <h3>― <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %-d, %Y" }}</time></h3>
+        {{ post.content }}
         </article>
+        {% unless forloop.last %}<hr>{% endunless %}
         {% endfor %}
