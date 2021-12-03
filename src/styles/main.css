@@ -282,3 +282,5 @@ code {
 q { quotes: '\201C' '\201D' '\2018' '\2019'; }
 q:before { content: open-quote; }
 q:after { content: close-quote; }
+
+.center { text-align: center; }
