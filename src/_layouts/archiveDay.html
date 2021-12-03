@@ -5,8 +5,9 @@
         <article>
         <h2><a href="{{ post.url | prepend: site.baseurl }}" rel="bookmark">{{ post.title }}</a></h2>
         <h3>― {{ post.date | date: "%B %-d, %Y" }}</h3>
-        {{ post.excerpt }}
+        {{ post.content }}
         </article>
+        {% unless forloop.last %}<hr>{% endunless %}
         {%- endfor %}
         <ul id="duringnav">
             {%- assign days = site.posts | group_by_exp: "item", "item.date | date: '%Y/%m/%d^%B %-d, %Y'" | map: "name" | sort -%}
