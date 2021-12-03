@@ -48,7 +48,6 @@ header h1 img#logo {
 
 header h1 span {
     /* this mess hides the text without removing it from the document, so hopefully it is there for text and readers */
-    clip: rect(0 0 0 0);
     height: 1px;
     width: 1px;
 
