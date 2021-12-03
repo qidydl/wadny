@@ -1,11 +1,11 @@
 {%- capture thistitle -%}Post archives for {{ page.date | date: "%B %Y" }}{%- endcapture -%}
 {% include header.html title=thistitle %}
-        <h1>{{ thistitle }}</h1>
+        <h1>Post archives for <time datetime="{{ page.date | date: "%Y-%m" }}">{{ page.date | date: "%B %Y" }}</time></h1>
         <p>Select a day:</p>
-        {%- assign postsByDay = page.posts | reverse | group_by_exp: "item", "item.date | date: '%B %-d, %Y'" -%}
+        {%- assign postsByDay = page.posts | reverse | group_by_exp: "item", "item.date | date: '%B %-d, %Y'" %}
         <ul class="posts">
             {%- for group in postsByDay %}
-            <li><a href="/news/during/{{ group.items[0].date | date: "%Y/%m/%d" }}/">{{ group.name }}</a> - {{ group.items.size | pluralize: 'post' }} (
+            <li><a href="/news/during/{{ group.items[0].date | date: "%Y/%m/%d" }}/"><time datetime="{{ group.items[0].date | date: "%Y-%m-%d" }}">{{ group.name }}</time></a> - {{ group.items.size | pluralize: 'post' }} (
                 {%- for post in group.items -%}
                 {%- if forloop.length > 1 -%}{% if forloop.last %} and {% elsif forloop.first %}{% else %}, {% endif %}{%- endif -%}
                 <em>{{ post.title }}</em>
@@ -18,13 +18,17 @@
             {%- assign currentMonth = page.date | date: "%Y/%m^%B, %Y" -%}
             {%- assign prevMonth = "start" -%}
             {%- for month in months -%}
+                {%- assign monthCode = month | split: '^' | first -%}
+                {%- assign monthStr = month | split: '^' | last -%}
                 {%- if month == currentMonth %}
                     {%- if prevMonth != "start" %}
-            <li><a href="/news/during/{{ prevMonth | split: '^' | first }}/" rel="prev" title="View posts from {{ prevMonth | split: '^' | last }}">← {{ prevMonth | split: '^' | last }}</a></li>
+                        {%- assign prevMonthCode = prevMonth | split: '^' | first -%}
+                        {%- assign prevMonthStr = prevMonth | split: '^' | last %}
+            <li><a href="/news/during/{{ prevMonthCode }}/" rel="prev" title="View posts from {{ prevMonthStr }}">← <time datetime="{{ prevMonthCode | replace: '/', '-' }}">{{ prevMonthStr }}</time></a></li>
                     {%- endif %}
-            <li><a href="/news/during/{{ page.date | date: "%Y" }}/" rel="parent">&#8593; Up to {{ page.date | date: "%Y" }}</a></li>
+            <li><a href="/news/during/{{ page.date | date: "%Y" }}/" rel="parent">&#8593; Up to <time datetime="{{ page.date | date: "%Y" }}">{{ page.date | date: "%Y" }}</time></a></li>
                 {%- elsif prevMonth == currentMonth %}
-            <li><a href="/news/during/{{ month | split: '^' | first }}/" rel="next" title="View posts from {{ month | split: '^' | last }}">{{ month | split: '^' | last }} →</a></li>
+            <li><a href="/news/during/{{ monthCode }}/" rel="next" title="View posts from {{ monthStr }}"><time datetime="{{ monthCode | replace: '/', '-' }}">{{ monthStr }}</time> →</a></li>
                 {%- endif -%}
                 {%- assign prevMonth = month -%}
             {%- endfor %}

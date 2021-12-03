@@ -1,11 +1,11 @@
 {%- capture thistitle -%}Post archives for {{ page.date | date: "%Y" }}{%- endcapture -%}
 {% include header.html title=thistitle %}
-        <h1>{{ thistitle }}</h1>
+        <h1>Post archives for <time datetime="{{ page.date | date: "%Y" }}">{{ page.date | date: "%Y" }}</time></h1>
         <p>Select a month:</p>
-        {%- assign postsByMonth = page.posts | reverse | group_by_exp: "item", "item.date | date: '%B, %Y'" -%}
+        {%- assign postsByMonth = page.posts | reverse | group_by_exp: "item", "item.date | date: '%B, %Y'" %}
         <ul class="posts">
             {%- for group in postsByMonth %}
-            <li><a href="/news/during/{{ group.items[0].date | date: "%Y/%m" }}/">{{ group.name }}</a> ({{ group.items.size | pluralize: 'post' }})</li>
+            <li><a href="/news/during/{{ group.items[0].date | date: "%Y/%m" }}/"><time datetime="{{ group.items[0].date | date: "%Y-%m" }}">{{ group.name }}</time></a> ({{ group.items.size | pluralize: 'post' }})</li>
             {%- endfor %}
         </ul>
         <ul id="duringnav">
@@ -15,11 +15,11 @@
             {%- for year in years -%}
                 {%- if year == currentYear %}
                     {%- if prevYear != "start" %}
-            <li><a href="/news/during/{{ prevYear }}/" rel="prev" title="View posts from the year {{ prevYear }}">← {{ prevYear }}</a></li>
+            <li><a href="/news/during/{{ prevYear }}/" rel="prev" title="View posts from the year {{ prevYear }}">← <time datetime="{{ prevYear }}">{{ prevYear }}</time></a></li>
                     {%- endif %}
             <li><a href="/news/during/" rel="parent">&#8593; Up to archives home</a></li>
                 {%- elsif prevYear == currentYear %}
-            <li><a href="/news/during/{{ year }}/" rel="next" title="View posts from the year {{ year }}">{{ year }} →</a></li>
+            <li><a href="/news/during/{{ year }}/" rel="next" title="View posts from the year {{ year }}"><time datetime="{{ year }}">{{ year }}</time> →</a></li>
                 {%- endif -%}
                 {%- assign prevYear = year -%}
             {%- endfor %}

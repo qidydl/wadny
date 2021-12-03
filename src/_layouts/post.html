@@ -10,15 +10,16 @@
             {%- for post in revposts -%}
                 {%- if post.url == page.url %}
                     {%- if prevPost != "start" %}
-            <li><a href="{{ prevPost }}" rel="prev" title="View “{{ prevTitle }}” from {{ prevDate }}">← {{ prevTitle }} ({{ prevDate }})</a></li>
+            <li><a href="{{ prevPost }}" rel="prev" title="View “{{ prevTitle }}” from {{ prevDate }}">← {{ prevTitle }} (<time datetime="{{ prevDateCode }}">{{ prevDate }}</time>)</a></li>
                     {%- endif %}
-            <li><a href="/news/during/{{ page.date | date: "%Y/%m/%d" }}/" rel="parent">&#8593; Up to {{ page.date | date: "%B %d, %Y" }}</a></li>
+            <li><a href="/news/during/{{ page.date | date: "%Y/%m/%d" }}/" rel="parent">&#8593; Up to <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %d, %Y" }}</time></a></li>
                 {%- elsif prevPost == page.url %}
-            <li><a href="{{ post.url }}" rel="next" title="View “{{ post.title }}” from {{ post.date | date: "%B %-d, %Y" }}">{{ post.title }} ({{ post.date | date: "%B %-d, %Y" }}) →</a></li>
+            <li><a href="{{ post.url }}" rel="next" title="View “{{ post.title }}” from {{ post.date | date: "%B %-d, %Y" }}">{{ post.title }} (<time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %-d, %Y" }}</time>) →</a></li>
                 {%- endif -%}
                 {%- assign prevPost = post.url -%}
                 {%- assign prevTitle = post.title -%}
                 {%- assign prevDate = post.date | date: "%B %-d, %Y" -%}
+                {%- assign prevDateCode = post.date | date: "%Y-%m-%d" -%}
             {%- endfor %}
         </ul>
 {% include footer.html %}

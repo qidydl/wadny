@@ -1,10 +1,9 @@
 {%- capture thistitle -%}Post archives for {{ page.date | date: "%B %-d, %Y" }}{%- endcapture -%}
 {% include header.html title=thistitle %}
-        <h1>{{ thistitle }}</h1>
+        <h1>Post archives for <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %-d, %Y" }}</time></h1>
         {% for post in page.posts %}
         <article>
         <h2><a href="{{ post.url | prepend: site.baseurl }}" rel="bookmark">{{ post.title }}</a></h2>
-        <h3>― {{ post.date | date: "%B %-d, %Y" }}</h3>
         {{ post.content }}
         </article>
         {% unless forloop.last %}<hr>{% endunless %}
@@ -14,13 +13,17 @@
             {%- assign currentDay = page.date | date: "%Y/%m/%d^%B %-d, %Y" -%}
             {%- assign prevDay = "start" -%}
             {%- for day in days -%}
+                {%- assign dayCode = day | split: '^' | first -%}
+                {%- assign dayStr = day | split: '^' | last -%}
                 {%- if day == currentDay %}
                     {%- if prevDay != "start" %}
-            <li><a href="/news/during/{{ prevDay | split: '^' | first }}/" rel="prev" title="View posts from {{ prevDay | split: '^' | last }}">← {{ prevDay | split: '^' | last }}</a></li>
+                        {%- assign prevDayCode = prevDay | split: '^' | first -%}
+                        {%- assign prevDayStr = prevDay | split: '^' | last %}
+            <li><a href="/news/during/{{ prevDayCode }}/" rel="prev" title="View posts from {{ prevDayStr }}">← <time datetime="{{ prevDayCode | replace: '/', '-' }}">{{ prevDayStr }}</time></a></li>
                     {%- endif %}
-            <li><a href="/news/during/{{ page.date | date: "%Y/%m" }}/" rel="parent">&#8593; Up to {{ page.date | date: "%B, %Y" }}</a></li>
+            <li><a href="/news/during/{{ page.date | date: "%Y/%m" }}/" rel="parent">&#8593; Up to <time datetime="{{ page.date | date: "%Y-%m" }}">{{ page.date | date: "%B, %Y" }}</time></a></li>
                 {%- elsif prevDay == currentDay %}
-            <li><a href="/news/during/{{ day | split: '^' | first }}/" rel="next" title="View posts from {{ day | split: '^' | last }}">{{ day | split: '^' | last }} →</a></li>
+            <li><a href="/news/during/{{ dayCode }}/" rel="next" title="View posts from {{ dayStr }}"><time datetime="{{ dayCode | replace: '/', '-' }}">{{ dayStr }}</time> →</a></li>
                 {%- endif -%}
                 {%- assign prevDay = day -%}
             {%- endfor %}

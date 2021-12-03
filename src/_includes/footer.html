@@ -28,7 +28,8 @@
         </ul>
     </nav>
 
-    <footer>This site <abbr title="Copyright">©</abbr>2000-{{ "now" | date: "%Y" }} qid, <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external license" title="Opens in a new window - Creative Commons License">some rights reserved</a>.</footer>
+    <footer>This site <abbr title="Copyright">©</abbr><time datetime="2000">2000</time>-<time datetime="{{ "now" | date: "%Y" }}">{{ "now" | date: "%Y" }}</time> qid,
+        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external license" title="Opens in a new window - Creative Commons License">some rights reserved</a>.</footer>
 </body>
 
 </html>
