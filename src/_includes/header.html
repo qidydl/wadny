@@ -9,7 +9,7 @@
     <link rel="copyright license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" title="This website is Copyright (c) David Osolkowski; some rights are available under a Creative Commons license.">
     {% feed_meta %}
     <link rel="stylesheet" type="text/css" media="screen" href="/styles/main.css">
-    <link rel="stylesheet" type="text/css" media="only screen and (max-width: 700px)" href="/styles/mobile.css">
+    <link rel="stylesheet" type="text/css" media="only screen and (max-width: 65em)" href="/styles/mobile.css">
     <link rel="preload" as="image" href="/graphics/extern.gif">
     <link rel="preload" as="image" href="/graphics/extern-over.gif" media="only screen and (min-width: 701px)">
     <script src="/scripts/randomizer.js" defer></script>
@@ -18,6 +18,7 @@
 
 <body>
     <header>
+        <button id="menuToggle" onclick="toggleNav()" aria-label="Toggle main menu">☰</button>
         <h1>
             <a href="/" title="Return to the front page of wadny.com">
                 <img id="icon" src="/icons/tupperware.gif" width="32" height="32" alt="Go back to the front page of wadny.com">
@@ -29,5 +30,4 @@
     </header>
     <div id="line"></div>
 
-    <div id="content">
-        <main>
+    <main>

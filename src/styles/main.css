@@ -12,12 +12,6 @@ body {
     width: min(68em, 100vw);
 }
 
-div#content {
-    display: grid;
-    column-gap: 1em;
-    grid-template-columns: 2fr 1fr;
-}
-
 /******************************************************************************
  * Heading styles
  *****************************************************************************/
@@ -72,6 +66,11 @@ header h2 {
     margin: 0;
 }
 
+button#menuToggle {
+    /* only used for mobile */
+    display: none;
+}
+
 div#line {
     background: #FFC700;
     border-color: #333;
@@ -88,32 +87,19 @@ nav {
      * for early spring, spring: #F6F4EC
      */
     background-color: #F6F4EC;
-    border-bottom: 1px solid #333;
-    border-left: 1px solid #333;
-    border-right: 1px solid #333;
-    /*float: right;*/
+    border-color: #333;
+    border-style: solid;
+    border-width: 0 1px 1px 1px;
+    float: right;
     margin-bottom: 1em;
-    padding: 0 10px 10px 10px;
-    /*width: 20em;*/
-}
-
-nav h2 {
-    height: 0;
-    overflow: hidden;
+    padding: 10px;
+    width: 20em;
 }
 
 nav h3 {
     border-top: 1px dotted #333;
-    margin: 15px 0 5px 0;
+    margin: 15px 5px 5px 5px;
     padding-top: 10px;
-}
-
-nav h3#menuhead {
-    border: 0;
-    height: 0;
-    margin-top: -20px;
-    overflow: hidden;
-    padding-top: 0;
 }
 
 nav ul#mainmenu {
@@ -139,6 +125,7 @@ nav ul#buttons { margin-top: 10px; }
 nav ul#buttons li { display: inline; }
 nav ul#buttons a img { border: 0; }
 nav ul#buttons a {
+    /* undo external decorations */
     background: none;
     padding-left: 0;
 }
@@ -147,11 +134,11 @@ nav ul#buttons a {
  * Content styles
  *****************************************************************************/
 main {
-    /*clear: left;
-    float: left;*/
+    clear: left;
+    float: left;
     line-height: 150%;
     margin-bottom: 1em;
-    /*width: 45em;*/
+    width: 45em;
 }
 
 main h1 { line-height: 110%; }
@@ -166,11 +153,11 @@ ul#duringnav {
     border-top: 1px solid black;
     list-style: none;
     padding: 3px 0 0 0;
+    text-align: center;
 }
 ul#duringnav li {
-    display: inline;
-
     border-left: 1px solid black;
+    display: inline;
     padding: 0 1px 0 4px;
 }
 ul#duringnav li:first-child {

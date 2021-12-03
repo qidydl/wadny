@@ -20,3 +20,14 @@ for (const heading of headings) {
         "beforeend",
         `<a class="heading-anchor" href="#${heading.id}" aria-labelledby="${heading.id}">🔗</a>`);
 }
+
+// Support main menu toggle on mobile
+function toggleNav() {
+    const nav = document.querySelector("nav");
+
+    if (nav.classList.contains("open")) {
+        nav.classList.remove("open");
+    } else {
+        nav.classList.add("open");
+    }
+}

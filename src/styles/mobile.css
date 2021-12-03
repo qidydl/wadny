@@ -2,26 +2,36 @@
  * Mobile device (small screen) layout styles
  *****************************************************************************/
 
-html {
-    padding: 0;
+body {
+    margin: 0;
+    width: auto;
 }
 
-header a {
-    border: 1px solid green;
-}
-
-header h1, header h2 {
+header h2 {
+    /* ensure text is visible */
     background-color: #5E97CC;
 }
 
-body {
-    width: auto;
+button#menuToggle {
+    display: block;
+    float: right;
+    font-size: 150%;
 }
 
 main {
     width: auto;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 nav {
-    display: none; /* need a hamburger menu or something, temporarily just hide it */
+    display: none;
+    border-width: 1px;
+}
+
+nav.open {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 6em;
 }
