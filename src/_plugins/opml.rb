@@ -24,7 +24,7 @@ module Jekyll
                     title = CGI.escapeHTML(outline.attributes["title"])
                     text = CGI.escapeHTML(outline.attributes["text"])
 
-                    render << "    <li><a href=\"#{url}\" rel=\"external\" title=\"Opens in a new window - #{title}\">#{text}</a></li>\n"
+                    render << "    <li><a href=\"#{url}\" rel=\"external\" title=\"#{title}\">#{text}</a></li>\n"
                 end
             end
 

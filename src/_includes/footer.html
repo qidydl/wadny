@@ -4,8 +4,8 @@
         {% nav %}
         <h3>Site info</h3>
         <ul>
-            <li><a href="{% link about/accessibility.html %}" title="Accessibility features of this site">Accessibility statement</a></li>
-            <li><a href="{% link about/blogroll.html %}" title="A list of weblogs I read often">Blogroll</a></li>
+            <li><a href="{% link about/accessibility.md %}" title="Accessibility features of this site">Accessibility statement</a></li>
+            <li><a href="{% link about/blogroll.md %}" title="A list of weblogs I read often">Blogroll</a></li>
             <li><a href="{% link misc/playlist.html %}">My playlist</a></li>
         </ul>
 
@@ -13,23 +13,23 @@
             <li><a href="{% link news/everything.atom %}" title="Syndicate this site using Atom with full posts and summaries together">
                 <img src="{% link graphics/atom.gif %}" width="80" height="15" alt="Syndicate this site using Atom with full posts and summaries together"></a>
             </li>
-            <li><a href="https://validator.w3.org/nu/?doc={{ page.url | absolute_url | uri_escape }}" rel="external" title="Opens in a new window - W3C validator for websites">
+            <li><a href="https://validator.w3.org/nu/?doc={{ page.url | absolute_url | uri_escape }}" rel="external" title="W3C validator for websites">
                 <img src="{% link graphics/validhtml5.gif %}" width="80" height="15" alt="Valid HTML5" /></a>
             </li>
-            <li><a href="https://jigsaw.w3.org/css-validator/validator?uri={{ page.url | absolute_url | uri_escape }}" rel="external" title="Opens in a new window - W3C validator for CSS">
+            <li><a href="https://jigsaw.w3.org/css-validator/validator?uri={{ page.url | absolute_url | uri_escape }}" rel="external" title="W3C validator for CSS">
                 <img src="{% link graphics/validcss.gif %}" width="80" height="15" alt="Valid CSS" /></a>
             </li>
-            <li><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external license" title="Opens in a new window - Creative Commons License">
+            <li><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external license" title="Creative Commons License">
                 <img src="{% link graphics/cclicense.gif %}" width="80" height="15" alt="Creative Commons License"></a>
             </li>
-            <li><a href="http://no-www.org/" rel="external" title="Opens in a new window - www. is deprecated">
+            <li><a href="http://no-www.org/" rel="external" title="www. is deprecated">
                 <img src="{% link graphics/nowww.gif %}" width="80" height="15" alt="www. is deprecated"></a>
             </li>
         </ul>
     </nav>
 
     <footer>This site <abbr title="Copyright">©</abbr><time datetime="2000">2000</time>-<time datetime="{{ "now" | date: "%Y" }}">{{ "now" | date: "%Y" }}</time> qid,
-        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external license" title="Opens in a new window - Creative Commons License">some rights reserved</a>.</footer>
+        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external license" title="Creative Commons License">some rights reserved</a>.</footer>
 </body>
 
 </html>

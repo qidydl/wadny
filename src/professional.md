@@ -24,9 +24,9 @@ Additionally, my areas of expertise and career path have evolved since most of t
 produced. Designing and creating web sites is not something I do professionally any more; it’s just a hobby, and one I
 don’t even spend that much time on these days.
 
-So, what actually does reflect on me professionally? The [about - colophon]({% link about/colophon.html %}) page
+So, what actually does reflect on me professionally? The [about - colophon]({% link about/colophon.md %}) page
 contains some useful information on contacting me and some of the technologies I have employed in creating this website.
-The [accessibility statement]({% link about/accessibility.html %}) also contains information on accessibility practices
+The [accessibility statement]({% link about/accessibility.md %}) also contains information on accessibility practices
 I have made use of. The [design]({% link design/intro.html %}) section contains an archive of past website designs I
 have done; most of them are rather poor compared to my current abilities, but they may still prove useful. The
 [programming]({% link programming/about.html %}) section contains some information on programs I have created; at the

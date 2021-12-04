@@ -8,6 +8,13 @@ for (const anchor of anchors) {
 
         const currentRel = anchor.getAttribute("rel");
         anchor.setAttribute("rel", currentRel + " noopener");
+
+        const currentTitle = anchor.getAttribute("title");
+        let newTitle = "Opens in a new window";
+        if (currentTitle) {
+            newTitle = newTitle + " - " + currentTitle;
+        }
+        anchor.setAttribute("title", newTitle);
     }
 }
 
