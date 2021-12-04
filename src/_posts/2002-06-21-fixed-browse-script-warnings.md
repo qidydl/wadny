@@ -1,0 +1,8 @@
+---
+title: Fixed browse script warnings
+---
+Ok, just a quick update. There were some more problems with big piles of warnings and crap on a different page, so I went ahead and fixed the real cause of the problem instead of hacking on a fix like I did last time. Theoretically, everything works now.
+
+For anyone who cares, the problem was part of my browse script—there are some functions that other pages use to get a list of files in a directory, and those functions were depending on a variable that the browse page set but wasn’t getting set by the other pages. I fixed it so one of the functions sets a different variable and they all use that now.
+
+<ins datetime="2002-06-21T22:43:00-05:00">Update @11:43pm: Yay, [Dave Winer](http://scriptingnews.userland.com/backissues/2002/06/21){:rel='external'} is feeling better again. For those that don’t know, Dave was hospitalized about a week ago, but he’s back now. Also, I’ve got a [couple](http://boingboing.net/2002_06_01_archive.html#85185359 "Boing Boing: NPR's ombudsman is either a liar or a fool"){:rel='external'} of [updates](http://boingboing.net/2002_06_01_archive.html#85189946 "Boing Boing: NPR renews linking lies and strongarm tactics"){:rel='external'} on the NPR fiasco, courtesy of Boing Boing. Of course, if [British Telecom has their way](http://www.theregister.co.uk/content/6/25837.html "The Register: Ruling on BT hyperlink patent expected soon"){:rel='external'}, you might have to get permission from them to link to anything. \*snicker\* Yeah right, even if BT patents hyperlinks I can’t imagine them being able to do anything.</ins>

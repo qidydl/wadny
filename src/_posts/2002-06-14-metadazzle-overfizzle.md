@@ -5,7 +5,7 @@ HA! My weblog has more metadata stuff than your weblog!
 
 Seriously, I’ve got 5 meta tags, 6 link tags, a script tag, and the omnipresent title tag cluttering up my `<head>`. A couple of the metas might be useless (I found them in the [NYPL Style Guide](http://www.nypl.org/styleguide/ "New York Public Library Style Guide"){:rel='external'}) but I’ll leave them unless someone tells me otherwise. Complying to undefined standards, ooooo fun!
 
-lanpartylanpartylanpartylanpartylanpartylanpartylanparty! I have NO idea what tomorrow is gonna be like… that’s how it typically works with us (the local lan party kids)—next to zero preparation, just show up and hope people bring hubs.
+lanpartylanpartylanpartylanpartylanpartylanpartylanparty! I have *no* idea what tomorrow is gonna be like… that’s how it typically works with us (the local LAN party kids)—next to zero preparation, just show up and hope people bring hubs.
 
 Ugh, my ongoing cold thing has now mutated once again. It started out as a stuffy nose, then added a sore throat, then seemed to clear up, and now it’s changed into a cough and runny nose. Isn’t biology fun? *cough*
 
@@ -17,6 +17,10 @@ Attention [Jason Kottke](http://www.kottke.org/ "A very well-known blogger who k
 >
 > BTW, I’m sorry if this seems harsh or angry or anything. My thoughts aren’t very coherent after being up for almost 18 hours and all this text is just kinda running together. Bleh.
 
-*[BTW]: By The Way
-
 One last thing; it’s pretty customary for blogs to link to interesting articles or other blogs. Since I get all my articles off [Slashdot](http://slashdot.org/ "News for nerds, stuff that matters"){:rel='external'} and [Kuro5hin](http://www.kuro5hin.org/ "Technology and culture, from the trenches"){:rel='external'} anyways, you can just page through those sites. Here’s [a random blog link](http://www.pseudofamous.com/archives/00000444.htm "Oooh, there's... comments..."){:rel='external'}. Good night, everyone.
+
+*[BTW]: By The Way
+*[HTML]: HyperText Markup Language
+*[LAN]: Local Area Network
+*[W3C]: World Wide Web Consortium
+*[XHTML]: eXtensible HyperText Markup Language
