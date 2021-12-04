@@ -3,3 +3,4 @@ _site/
 
 # Ignore the Jekyll cache
 .jekyll-cache/
+.jekyll-metadata
