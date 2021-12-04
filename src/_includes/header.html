@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>wadny.com - {{ include.title }}</title>
+    <title>wadny.com - {{ include.title | strip_html }}</title>
     <link rel="home" title="Return to the wadny.com front page." href="{% link index.html %}">
     <link rel="copyright license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" title="This website is Copyright (c) David Osolkowski; some rights are available under a Creative Commons license.">
     {% feed_meta %}
