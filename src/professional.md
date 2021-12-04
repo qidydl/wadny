@@ -29,7 +29,7 @@ contains some useful information on contacting me and some of the technologies I
 The [accessibility statement]({% link about/accessibility.md %}) also contains information on accessibility practices
 I have made use of. The [design]({% link design/intro.md %}) section contains an archive of past website designs I
 have done; most of them are rather poor compared to my current abilities, but they may still prove useful. The
-[programming]({% link programming/about.html %}) section contains some information on programs I have created; at the
+[programming]({% link programming/about.md %}) section contains some information on programs I have created; at the
 time of this writing, it is unfinished, but it may have since been updated. Lastly, the news section does contain some
 useful articles. There are a [couple]({% post_url 2004-01-15-my-2-cents-on-postels-law %} "January 15, 2004: My 2¢ on Postel’s Law")
 of [articles]({% post_url 2004-01-29-how-external-links-work %} "January 29, 2004: How external links work") in
