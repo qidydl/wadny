@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>wadny.com - {{ include.title }}</title>
-    <link rel="home" title="Return to the wadny.com front page." href="/">
+    <link rel="home" title="Return to the wadny.com front page." href="{% link index.html %}">
     <link rel="copyright license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" title="This website is Copyright (c) David Osolkowski; some rights are available under a Creative Commons license.">
     {% feed_meta %}
     <link rel="stylesheet" type="text/css" media="screen" href="{% link styles/main.css %}">
@@ -20,7 +20,7 @@
     <header>
         <button id="menuToggle" onclick="toggleNav()" aria-label="Toggle main menu">☰</button>
         <h1>
-            <a href="/" title="Return to the front page of wadny.com">
+            <a href="{% link index.html %}" title="Return to the front page of wadny.com">
                 <img id="icon" src="{% link icons/tupperware.gif %}" width="32" height="32" alt="Go back to the front page of wadny.com">
                 <img id="logo" src="{% link graphics/logo.gif %}" width="179" height="40" alt=""><!-- alt text provided by span below -->
                 <span>wadny.com by qid</span>

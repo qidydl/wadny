@@ -5,7 +5,7 @@ navSectionTitle: About
 ---
 This page contains basic information about wadny.com itself: the markup and standards followed, the typography used, software and programming languages used, and rights and various administrivia.
 
-More information, including the history of the site, is available on the [wadny.com design portfolio page]({% link design/wadny.html %}).
+More information, including the history of the site, is available on the [wadny.com design portfolio page]({% link design/wadny.md %}).
 
 ## Code and standards
 Wadny.com is entirely hand-written HTML5, CSS, and JavaScript, all rendered ahead of time using [Jekyll](https://jekyllrb.com/){:rel='external'}. Jekyll is a [static site generator](https://davidwalsh.name/introduction-static-site-generators "Basic explanation of static site generators"){:rel='external'}, which is a tool that renders content using templates and layouts to produce simple HTML files that require no special processing to serve. This is much simpler and cheaper to host than a site that runs as a program and renders dynamically. The content and styles for all pages should be valid, and the buttons in the sidebar can be used to validate any page.

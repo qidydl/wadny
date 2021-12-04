@@ -19,7 +19,7 @@ Like all of my later designs, EdgeIRC version 4 was entirely standards-based, us
 *[XHTML]: eXtensible HyperText Markup Language
 
 ## Visual design
-Visually, version 4 represents a major evolution of the [previous design]({% link design/summary.html %}#edge3). A similar color scheme was chosen to ensure that the new site felt similar to the previous site, but the new design is much cleaner than the previous version and appears more open and calm, thanks to extensive use of whitespace, particularly in the heading and menu.
+Visually, version 4 represents a major evolution of the [previous design]({% link design/summary.md %}#edge3). A similar color scheme was chosen to ensure that the new site felt similar to the previous site, but the new design is much cleaner than the previous version and appears more open and calm, thanks to extensive use of whitespace, particularly in the heading and menu.
 
 ## Technology
 EdgeIRC was written on a simple PHP backend primarily to aid maintenance. Sections could be added, removed, and refactored by editing one menu file instead of having to change each page. This backend also allowed the use of a MySQL server to store the news along with a form allowing admins to post news from their browser. Pages are set up as directories, so the underlying technology is not exposed to the user and can be changed at will without impacting links.
