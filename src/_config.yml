@@ -3,6 +3,8 @@ plugins:
   - jekyll-feed
   - liquid_pluralize
 permalink: /:categories/:title/
+markdown: kramdown
+highlighter: rouge
 title: wadny.com
 description: "it looks good in yellow-that-Kottke-used-to-use-but-it’s-mine-now"
 author:

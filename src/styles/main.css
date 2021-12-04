@@ -261,22 +261,16 @@ a.noex {
 }
 a.noex:hover { background: none; }
 
-blockquote code {
-    border-left: 1px solid #ddd;
-    display: block;
-    line-height: 125%;
-    margin: 0 -12px 0 -20px;
-    overflow: auto;
-    padding-left: 3px;
-    white-space: pre;
+blockquote {
+    border-left: 5px solid #ddd;
+    margin-left: 0;
+    padding-left: 10px;
 }
 
 code {
-    background-color: #eee;
-    border-radius: 3px;
+    background-color: #f0f0f0;
     font-family: Consolas, courier, monospace;
     font-size: 120%;
-    padding: 0 3px;
 }
 
 q { quotes: '\201C' '\201D' '\2018' '\2019'; }
