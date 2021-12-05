@@ -4,23 +4,17 @@ navDescription: The history of Wadny and its members
 navIsSectionDefault: true
 navSectionTitle: Band
 navWithinPage:
-    -
-        title: Beginning of Time–1973
+    -   title: Beginning of Time–1973
         url: "#beginning"
-    -
-        title: "1973"
+    -   title: "1973"
         url: "#a1973"
-    -
-        title: "1974–1987: The WADNY Years"
+    -   title: "1974–1987: The WADNY Years"
         url: "#awadny"
-    -
-        title: "1987–1988"
+    -   title: "1987–1988"
         url: "#a8788"
-    -
-        title: "1988–1990"
+    -   title: "1988–1990"
         url: "#a8890"
-    -
-        title: "1990–present"
+    -   title: "1990–present"
         url: "#a90present"
 ---
 
@@ -45,7 +39,7 @@ We made it through the whole of 1973 as “Crossroads”, but then the inevitabl
 
 ## <time datetime="1974">1974</time>–<time datetime="1987">1987</time>: The WADNY Years {#awadny}
 
-This time, we decided to name the band after a little-known hero from the Shenandoah Valley—the semi-great Anselmo Wadny (for the real story, go to [The Real Story](http://webpages.charter.net/dickhull/wadny/thename.htm){:rel='external'}). And nobody stole it! It was our name! We had business cards to prove it!
+This time, we decided to name the band after a little-known hero from the Shenandoah Valley—the semi-great Anselmo Wadny (for the real story, go to [The Real Story]({% link band/name.md %}#the-truth-behind-the-name)). And nobody stole it! It was our name! We had business cards to prove it!
 
 We played all kinds of jobs, from junior high school and college dances to wedding receptions to private parties and things like that. We generally avoided playing in bars and clubs because we didn’t want to make the time commitment. Advertising was strictly word-of-mouth, but we kept as busy as we wanted most of the time.
 

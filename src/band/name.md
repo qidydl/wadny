@@ -1,0 +1,15 @@
+---
+title: Name
+navDescription: The story of the name Wadny
+---
+## The story behind the name
+Back in the late 19<sup>th</sup> Century, the little town of Basye, Virginia, was overrun with chickens. Hundreds and hundreds of chickens! They were everywhere. Large mobs (flocks?) of them would stampede through the center of town, which was pretty much the whole town, leaving a trail of destruction and chicken poop in their wake. (If you were chewing gum and accidentally dropped it, you left it right there!) What was the town to do? What? Oh my, what? Well, just read on to find out! Sheesh!
+
+<figure class="aside-left">
+    <img src="{% link band/pictures/Anselmo.jpg %}" width="370" height="277" alt="Anselmo Wadny">
+</figure>
+
+But just when things looked bleakest, and chicken poopiest (is that a word?), a savior appeared on the horizon. Basye being in the heart of the Virginia mountains, the horizon was only a half mile or so away, and before you could say “Don't pick up that gum!” the now great Anselmo Wadny was there. Like the Pied Piper of Hamlin, the strikingly handsome (in a weird sort of way) Mr. Wadny picked up his tympani and started playing. The chickens were entranced. They would follow him anywhere, except maybe to Col. Sanders' place. So Anselmo marched out of town, with all the chickens following him, and a half dozen townspeople running along in front of him carrying his tympani (not the best instrument for strolling as you play!). The town was saved! Anselmo was a hero! He became known in town as “Anselmo Wadny”, which was of course just his name, but the residents of Basye had very little imagination, and year of breathing chicken poop hadn't helped the situation. Wadny became a ski instructor in the area and spent the rest of his life in seclusion in the nearby town of Orkney Springs. He never ate chicken again. He never played the tympani again for fear of attracting chickens. And besides, he had left his tympani somewhere far away with the chickens before returning to town. No monument was ever erected in the town, but the appreciative citizens did name Lake Laura after their hero.
+
+## The truth behind the name
+After two unsuccessful attempts at naming the group (Catharsis and Crossroads) it was decided to look in as weird a place as possible to find a name. A comedy album by Gary Owens (of Laugh-In fame) proved to be the right source. In a routine about double talk he uttered a line that went something like “Boss, if you don't give me a raise I'm going to wotnik all over your carpet.” Months after actually listening to the record, we seemed to remember it as “…wadny all over your carpet.” We decided to use that word for our name, even though later listening to the record we discovered our mistake. We even had jackets made with the Wadny name on the back. One day, a friend of Polish extraction noted that our name was very similar to a Polish word (we really don't know what the word is) that means pretty or beautiful or something like that. So, for those of you who really need to know, “Wadny” means “something beautiful you do all over the carpet.” Now aren't you glad you followed this link?
