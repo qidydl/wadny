@@ -18,30 +18,30 @@ I used to be heavily into the desktop customizing scene on Windows for many year
 
 ### My current desktop
 <figure>
-    <figcaption><time datetime="2019-05-18">May 18, 2019</time></figcaption>
     <a href="screenshot.png"><img src="screenshot-thumb.png" alt="Screenshot of my current desktop"></a>
+    <figcaption><time datetime="2019-05-18">May 18, 2019</time></figcaption>
 </figure>
 
 ### Old desktops
 <figure>
-    <figcaption><time datetime="2010-09-03">September 3, 2010</time></figcaption>
     <a href="desktop-2010-09-03.png"><img src="desktop-2010-09-03-thumb.png" alt="Screenshot of my desktop from September 3, 2010"></a>
+    <figcaption><time datetime="2010-09-03">September 3, 2010</time></figcaption>
 </figure>
 <figure>
-    <figcaption><time datetime="2006-08-08">August 8, 2006</time></figcaption>
     <a href="desktop-2006-08-08.png"><img src="desktop-2006-08-08-thumb.png" alt="Screenshot of my desktop from August 8, 2006"></a>
+    <figcaption><time datetime="2006-08-08">August 8, 2006</time></figcaption>
 </figure>
 <figure>
-    <figcaption><time datetime="2006-07-25">July 25, 2006</time></figcaption>
     <a href="desktop-2006-07-25.jpg"><img src="desktop-2006-07-25-thumb.jpg" alt="Screenshot of my desktop from July 25, 2006"></a>
+    <figcaption><time datetime="2006-07-25">July 25, 2006</time></figcaption>
 </figure>
 <figure>
-    <figcaption><time datetime="2004-11-20">November 20, 2004</time></figcaption>
     <a href="desktop-2004-11-20.png"><img src="desktop-2004-11-20-thumb.png" alt="Screenshot of my desktop from November 20, 2004"></a>
+    <figcaption><time datetime="2004-11-20">November 20, 2004</time></figcaption>
 </figure>
 <figure>
-    <figcaption><time datetime="2000-09-10">September 10, 2000</time></figcaption>
     <a href="desktop-2000-09-10.png"><img src="desktop-2000-09-10-thumb.png" alt="Screenshot of my desktop from September 10, 2000"></a>
+    <figcaption><time datetime="2000-09-10">September 10, 2000</time></figcaption>
 </figure>
 
 ### Wallpaper

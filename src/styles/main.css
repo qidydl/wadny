@@ -164,6 +164,11 @@ ul#duringnav li:first-child {
     padding-left: 0;
 }
 
+figure {
+    margin-left: 0;
+    text-align: center;
+}
+
 figure img {
     border: 1px solid #A9A9A9;
     box-shadow: 5px 5px 5px #999;
