@@ -18,29 +18,29 @@ I used to be heavily into the desktop customizing scene on Windows for many year
 
 ### My current desktop
 <figure>
-    <a href="screenshot.png"><img src="screenshot-thumb.png" alt="Screenshot of my current desktop"></a>
+    <a href="{% link about/author/screenshot.png %}"><img src="{% link about/author/screenshot-thumb.png %}" alt="Screenshot of my current desktop"></a>
     <figcaption><time datetime="2019-05-18">May 18, 2019</time></figcaption>
 </figure>
 
 ### Old desktops
 <figure>
-    <a href="desktop-2010-09-03.png"><img src="desktop-2010-09-03-thumb.png" alt="Screenshot of my desktop from September 3, 2010"></a>
+    <a href="{% link about/author/desktop-2010-09-03.png %}"><img src="{% link about/author/desktop-2010-09-03-thumb.png %}" alt="Screenshot of my desktop from September 3, 2010"></a>
     <figcaption><time datetime="2010-09-03">September 3, 2010</time></figcaption>
 </figure>
 <figure>
-    <a href="desktop-2006-08-08.png"><img src="desktop-2006-08-08-thumb.png" alt="Screenshot of my desktop from August 8, 2006"></a>
+    <a href="{% link about/author/desktop-2006-08-08.png %}"><img src="{% link about/author/desktop-2006-08-08-thumb.png %}" alt="Screenshot of my desktop from August 8, 2006"></a>
     <figcaption><time datetime="2006-08-08">August 8, 2006</time></figcaption>
 </figure>
 <figure>
-    <a href="desktop-2006-07-25.jpg"><img src="desktop-2006-07-25-thumb.jpg" alt="Screenshot of my desktop from July 25, 2006"></a>
+    <a href="{% link about/author/desktop-2006-07-25.jpg %}"><img src="{% link about/author/desktop-2006-07-25-thumb.jpg %}" alt="Screenshot of my desktop from July 25, 2006"></a>
     <figcaption><time datetime="2006-07-25">July 25, 2006</time></figcaption>
 </figure>
 <figure>
-    <a href="desktop-2004-11-20.png"><img src="desktop-2004-11-20-thumb.png" alt="Screenshot of my desktop from November 20, 2004"></a>
+    <a href="{% link about/author/desktop-2004-11-20.png %}"><img src="{% link about/author/desktop-2004-11-20-thumb.png %}" alt="Screenshot of my desktop from November 20, 2004"></a>
     <figcaption><time datetime="2004-11-20">November 20, 2004</time></figcaption>
 </figure>
 <figure>
-    <a href="desktop-2000-09-10.png"><img src="desktop-2000-09-10-thumb.png" alt="Screenshot of my desktop from September 10, 2000"></a>
+    <a href="{% link about/author/desktop-2000-09-10.png %}"><img src="{% link about/author/desktop-2000-09-10-thumb.png %}" alt="Screenshot of my desktop from September 10, 2000"></a>
     <figcaption><time datetime="2000-09-10">September 10, 2000</time></figcaption>
 </figure>
 
@@ -53,7 +53,7 @@ Sadly, most of the sites in the customizing scene that I used to get wallpaper f
 
 I only have a few wallpaper images I use currently. I did not make any of these, I claim no ownership or copyright or license for them, and I’m not sure where they all came from, although a couple are watermarked and clearly from Desktopography.
 
-<figure><a href="city-in-the-sky.jpg"><img src="city-in-the-sky-thumb.jpg" alt="City in the Sky"></a></figure>
-<figure><a href="coast-town.jpg"><img src="coast-town-thumb.jpg" alt="Coast Town"></a></figure>
-<figure><a href="colour-explosion.jpg"><img src="colour-explosion-thumb.jpg" alt="Colour Explosion"></a></figure>
-<figure><a href="uncanny-valley.jpg"><img src="uncanny-valley-thumb.jpg" alt="Uncanny Valley"></a></figure>
+<figure><a href="{% link about/author/city-in-the-sky.jpg %}"><img src="{% link about/author/city-in-the-sky-thumb.jpg %}" alt="City in the Sky"></a></figure>
+<figure><a href="{% link about/author/coast-town.jpg %}"><img src="{% link about/author/coast-town-thumb.jpg %}" alt="Coast Town"></a></figure>
+<figure><a href="{% link about/author/colour-explosion.jpg %}"><img src="{% link about/author/colour-explosion-thumb.jpg %}" alt="Colour Explosion"></a></figure>
+<figure><a href="{% link about/author/uncanny-valley.jpg %}"><img src="{% link about/author/uncanny-valley-thumb.jpg %}" alt="Uncanny Valley"></a></figure>

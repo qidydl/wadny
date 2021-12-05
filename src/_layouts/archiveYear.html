@@ -17,7 +17,7 @@
                     {%- if prevYear != "start" %}
             <li><a href="/news/during/{{ prevYear }}/" rel="prev" title="View posts from the year {{ prevYear }}">← <time datetime="{{ prevYear }}">{{ prevYear }}</time></a></li>
                     {%- endif %}
-            <li><a href="/news/during/" rel="parent">&#8593; Up to archives home</a></li>
+            <li><a href="{% link news/during.html %}" rel="parent">&#8593; Up to archives home</a></li>
                 {%- elsif prevYear == currentYear %}
             <li><a href="/news/during/{{ year }}/" rel="next" title="View posts from the year {{ year }}"><time datetime="{{ year }}">{{ year }}</time> →</a></li>
                 {%- endif -%}
