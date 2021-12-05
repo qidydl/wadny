@@ -173,6 +173,11 @@ figure.clean img {
     box-shadow: 0 0 0;
 }
 
+figure + figure {
+    /* additional spacing between pictures helps clarify which one the caption belongs to */
+    margin-top: 25px;
+}
+
 figure a:link img { border: 2px solid #1C298C; }
 figure a:visited img { border: 2px solid #8D1B20; }
 figure a:hover img { border: 2px solid #A9A9A9; }
