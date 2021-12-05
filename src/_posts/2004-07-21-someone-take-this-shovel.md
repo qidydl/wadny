@@ -1,0 +1,10 @@
+---
+title: Someone Take This Shovel
+---
+So, I haven’t made a post in, what, three and a half weeks? And it turns out that 90% of the work I did for my job isn’t what my boss actually wanted me to do, so I get to scrap it and start over. Plus the design I created isn’t really that great anyways. And there’s a mistake I made this morning that I’m rapidly trying to erase from my memory. I seem to have dug myself quite a hole of self-despair (hence the title). Waking up at 6am to go work for eight hours just isn’t working for me; it seems like all I can do is catch up on what happened during the day, and then I have to go to sleep again. I’m a night owl, and this is a day job, and it’s just shot my mind to hell. Every day I think “well, tomorrow I can do things a little differently and it’ll work out much better” and then tomorrow is exactly like today… I guess I can slug it out for another two and a half weeks, when the co-op ends, and hopefully get credit for it, but what then? I seem to be cursed with a need for more sleep than most people, and I always have a hard time waking up in the morning, and a hard time falling asleep at night, so it seems like I’m always more tired than my parents, even though they get <del>more</del><ins datetime="2004-07-27T11:10:00-05:00">less (oops, must have been tired when I wrote this)</ins> sleep. How the hell can I do this all year for 30 years after I graduate? …
+
+Sorry to go all LiveJournal on you, but I just needed to vent some frustration. I’ve got a couple of fairly long posts sitting around that need to be cleaned up before I post them, and an OPML file for my blogroll (which has been slowly changing), and the About section is wrong, and the Programming section is all kinds of empty, but I need something to do when I retire.
+
+If I can make it to August 6th, I’ll live.
+
+*[OPML]: Outline Processor Markup Language

@@ -1,0 +1,37 @@
+---
+title: Best Practices
+---
+Warning: this is a big, long article, possibly the longest I’ve yet written. I also think it goes over some issues that are very important to the web design and development community, and I hope you’ll take the time to read it through.
+
+### Best Practices
+There seems to be a recent flurry of activity around the website development community. The first item is [Simon suggesting](http://simon.incutio.com/archive/2004/06/11/bestPractice "Simon Willison: Embracing Best Practice"){:rel='external'} that we adopt the term “best practice” when dealing with web development. I agree with him that we need to be thinking in broader terms, not just about validation or semantic-ness, but about usability and user interaction and client satisfaction. As a software engineer, I can look around my industry and see what the web development community may look like in a decade or two, and moving to the concept of best practices is an important one—although software engineers are still debating what, exactly, a best practice is. Web development needs to move from lower-level thinking, along the lines of fancy new CSS tricks, to higher-level thinking, dealing with the development process and website architecture, before the industry can mature.
+
+### State of the Industry
+The second item is [Dan Cederholm’s book contest](http://www.simplebits.com/notebook/2004/06/16/contest.html){:rel='external'} that resulted in 485 links to various articles and websites about web development. [Steve Smith](http://www.orderedlist.com/articles/simple_list "OrderedList - Simple List"){:rel='external'} and [Dan himself](http://www.simplebits.com/notebook/2004/06/21/bonanza.html "SimpleBits - Web Standards Link Bonanza"){:rel='external'} have compiled these links into lists, which may be the most comprehensive directory of web development articles out there right now. This is a good thing, because it clearly shows how active the web development community is, and it provides a great quantity of information to help developers, but there’s a problem.
+
+The problem, as [Dave Shea realized](http://www.mezzoblue.com/archives/2004/06/17/validation_m/ "mezzoblue - Validation, Moderation, Constipation"){:rel='external'}, is that there is very little centralization. The web development community is sort of sprawled about, and right now, the best way to keep track of it all is to read the weblogs of those at the forefront. This works now, but what happens when the industry expands? What happens if the third world leapfrogs traditional telecommunications and dives directly into the Internet, as some countries have already done? Someday, the number of people with Internet access will be measured in the billions, and web development could be a full-fledged international industry. When there are thousands or millions of web developers, reading everyone’s weblog isn’t going to work anymore.
+
+### Looking for Guidance
+How can we deal with this? This is where the community must reflect and choose a solution. I have a hard time believing there isn’t an existing organization that can rise up to become a central institution in the web development community, to help set best practices and drive maturation of web development. [The W3C](http://www.w3c.org/ "The World Wide Web Consortium"){:rel='external'} is a fairly obvious choice, although it requires them to expand beyond simply writing technical specifications to attack the problems of development process and the actual implementation and use of the standards they create.
+
+### A Central Repository
+I won’t say any more about this “future of the industry” business. I’m primarily a software engineer, not a web developer, so it’s not really my place to say. However, I also agree with Dave that in the short term, the community needs some sort of a central repository for web standards and best practices; a place for articles, tutorials, forums, code snippets, news, and so forth. There are already a variety of sites that do some of this, such as [A List Apart](http://www.alistapart.com/){:rel='external'}, [Cre8asite](http://www.cre8asite.net/){:rel='external'}, [CSS-Discuss](http://css-discuss.incutio.com/){:rel='external'}, [CSS Vault](http://www.cssvault.com/){:rel='external'}, [CSS Zen Garden](http://www.csszengarden.com/){:rel='external'}, [Digital Web Magazine](http://www.digital-web.com/){:rel='external'}, [Evolt](http://www.evolt.org/){:rel='external'}, [HiveMinds](http://www.hiveminds.info/phpBB/){:rel='external'}, and the [WDVL](http://www.wdvl.com/ "Web Developer’s Virtual Library"){:rel='external'}. The problem is, none of these sites seem to offer the complete package, none of them have very much info on server-side processing, and none of them is The Central Source.
+
+### How to Build It?
+In the comments to Dave’s article, many people expressed an interest in having one site where they can go for everything they need, including code samples for both front-end and back-end work. Well, the only way this will work is if there is only one site; otherwise, the entire purpose is defeated. And we need wide, serious support from the big movers and shakers: Jeffery Zeldman, Doug Bowman, Dan Cederholm, Paul Scrivens, Dave Shea, Andrei Herasimchuk, Shaun Inman, Cameron Moll, Mark Pilgrim, Didier Hilhorst, Matt Mullenweg, Jon Hicks, and the list goes on and on. Without a full lineup of big names focusing their effort, I doubt any one site can become a singular source for the web development community.
+
+Now, perhaps the community doesn’t want a single source; monopolies can be dangerous, after all. But then, how many sources should there be? 2? 3? 5? 10? A dozen? A hundred? I do have some discomfort about the idea, but web development needs a unified voice, and that is tough to accomplish when the community is fractured among different sites. Of course, to create a site like this requires organization; and the ideal organization would be a website like this, so we wind up in a Möbius strip of organizing the organization. The next best option would be to have one person set up temporary forums and/or a wiki to use for developing the eventual repository. I am willing to do this, but to simply nominate myself feels too egotistical, especially since I’ not a very big fish in the pond of web development.
+
+### The Issues
+Thus, we come back to the community, which must ask itself a few questions:
+
+- How important is the concept of best practices and the maturity of the industry?
+- Do we want a single website/organization to speak for and regulate the industry?
+- If so, is there an existing organization that will fit the bill? Or do we need a new organization?
+- Do we want a single website to be a repository of the community’s collective knowledge?
+- If so, is there an existing website that can fill this roll? Or do we need a new one?
+- If we need a new one, who will lead its development?
+
+I believe these are the issues that the community must reach consensus on, or risk stunting the growth of the industry. I have answered these questions as best I can, but I will not pretend my answers are the only ones, or even that “correct” answers exist. But I do believe the community needs to sort out these issues, and when it does, it will emerge stronger and more unified, with a clear path ahead of it.
+
+Then again, maybe I’m completely, utterly wrong. I leave it to the community to decide.
