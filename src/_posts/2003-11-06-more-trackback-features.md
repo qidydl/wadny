@@ -1,0 +1,4 @@
+---
+title: More TrackBack features
+---
+Ok, a few more changes to news stuff. The single-post page now has embedded TrackBack auto-discovery stuff (thanks shinji!) and the actual trackback page has been re-implemented slightly differently. You should now be able to add `?__mode=view` to the trackback ping URL and view a list of all trackbacks I’ve gotten for that post. However, this won’t be necessary for very long because I’m going to put a list of all TrackBacks on the single-post page, probably before the comments. I might also add a little (# TrackBacks) thing to the main news page so you can easily tell if a post has trackbacks. We’ll see.
