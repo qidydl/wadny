@@ -1,0 +1,6 @@
+---
+title: More on Lockergnome
+---
+[Matt Mullenweg](http://photomatt.net/ "Photo Matt - Unlucky In Cards"){:rel='external'} has written a couple of excellent posts on the Lockergnome scandal. The first, “[It’s Worse Than You Can Imagine](http://photomatt.net/archives/2004/03/09/worse/){:rel='external'},” mentions Simon’s post (see [my previous post]({% post_url 2004-03-09-busy-busy-busy %})) and explains how to unsubscribe from Lockergnome, which I would do if I had ever subscribed in the first place. His second post, “[Code is Food](http://photomatt.net/archives/2004/03/10/code-is-food/){:rel='external'},” explains why anyone should care about Lockergnome regressing into the Bronze Age of web design. It’s one of the best essays I’ve ever read on why you should care about web standards, not just on your own site but on every site.
+
+By the way, I do plan to have some new content in the near future, instead of just link posts to other people’s content. I’ve got some more design section stuff to do, the consistently-neglected programming section to work on, a couple technical things to work on, and a post idea rattling around somewhere. We’ll see how my weekend goes.
