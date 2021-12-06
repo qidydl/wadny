@@ -31,7 +31,9 @@ The site content is managed in [GitHub](https://github.com/){:rel='external'}. F
 
 <figure class="clean">
     <figcaption>Build status:</figcaption>
-    <img src="https://github.com/qidydl/wadny/workflows/build/badge.svg" alt="Current build status">
+    <a href="https://github.com/qidydl/wadny/actions" rel="external" class="noex">
+        <img src="https://github.com/qidydl/wadny/workflows/build/badge.svg" alt="Current build status">
+    </a>
 </figure>
 
 ## Rights and Administrivia
