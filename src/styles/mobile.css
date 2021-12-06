@@ -7,10 +7,12 @@ body {
     width: auto;
 }
 
-header h2 {
-    /* ensure text is visible */
-    background-color: #5E97CC;
-}
+/* ensure text is visible */
+header h2 { background-color: #5E97CC; }
+body.spring header h2 { background-color: #4f7ea8; }
+/* TODO: summer */
+/* TODO: fall */
+body.winter header h2 { background-color: #faf7e6; }
 
 button#menuToggle {
     display: block;

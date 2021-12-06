@@ -9,25 +9,40 @@ html {
 
 body {
     margin: 20px auto 0 auto;
-    width: min(68em, 100vw);
+    width: min(70em, 100vw);
 }
+
+/******************************************************************************
+ * Season styles
+ *****************************************************************************/
+
+/* Default is early spring */
+header { background: #5E97CC url(/graphics/head-earlyspring.jpg) no-repeat right center; }
+/* ensures logo is readable even if screen is squished */
+header h1 { background-color: #5E97CC; }
+nav { background-color: #F6F4EC; }
+
+body.spring header { background: #4f7ea8 url(/graphics/head-spring.jpg) no-repeat right center; }
+body.spring header h1 { background-color: #4f7ea8; }
+body.spring nav { background-color: #F6F4EC; }
+
+/* TODO: summer */
+
+/* TODO: fall */
+
+body.winter header { background: #faf7e6 url(/graphics/head-winter.jpg) no-repeat right center; }
+body.winter header h1 { background-color: #faf7e6; }
+body.winter nav { background-color: #EBEFF5; }
 
 /******************************************************************************
  * Heading styles
  *****************************************************************************/
 header {
-    /* for winter: head-winter.jpg, #FFC700
-     * for early spring: head-earlyspring.jpg, #5E97CC
-     * for spring: head-spring.jpg, #5887B1
-     */
-    background: #5E97CC url(/graphics/head-earlyspring.jpg) no-repeat right center;
     border: 1px solid #333;
     padding: 25px;
 }
 
 header h1 {
-    /* ensures logo is readable even if screen is squished */
-    background-color: #5E97CC;
     /* default font size will make the h1 too tall and push the h2 quote away */
     font-size: 0%;
     /* but we do want at least a small gap to the h2 quote */
@@ -36,15 +51,11 @@ header h1 {
     width: 230px;
 }
 
-header h1 img#icon {
-    /* push the icon up to align more with the logo test baseline */
-    margin-bottom: 5px;
-}
+/* push the icon up to align more with the logo test baseline */
+header h1 img#icon { margin-bottom: 5px; }
 
-header h1 img#logo {
-    /* space logo away from icon */
-    margin-left: 10px;
-}
+/* space logo away from icon */
+header h1 img#logo { margin-left: 10px; }
 
 header h1 span {
     /* this mess hides the text without removing it from the document, so hopefully it is there for text and readers */
@@ -63,12 +74,11 @@ header h2 {
     font-size: medium;
     font-weight: normal;
     margin: 0;
+    width: fit-content;
 }
 
-button#menuToggle {
-    /* only used for mobile */
-    display: none;
-}
+/* only used for mobile */
+button#menuToggle { display: none; }
 
 div#line {
     background: #FFC700;
@@ -82,10 +92,6 @@ div#line {
  * Sidebar styles
  *****************************************************************************/
 nav {
-    /* for winter: #EBEFF5
-     * for early spring, spring: #F6F4EC
-     */
-    background-color: #F6F4EC;
     border-color: #333;
     border-style: solid;
     border-width: 0 1px 1px 1px;
@@ -101,9 +107,7 @@ nav h3 {
     padding-top: 10px;
 }
 
-nav ul#mainmenu {
-    font-size: 120%;
-}
+nav ul#mainmenu { font-size: 120%; }
 
 nav ul {
     list-style: none;
@@ -137,7 +141,7 @@ main {
     float: left;
     line-height: 150%;
     margin-bottom: 1em;
-    width: 45em;
+    width: 47em;
 }
 
 main h1 { line-height: 110%; }
@@ -174,14 +178,12 @@ figure img {
     box-shadow: 5px 5px 5px #999;
 }
 figure.clean img {
-    border: 0;
+    border: 0 !important;
     box-shadow: 0 0 0;
 }
 
-figure + figure {
-    /* additional spacing between pictures helps clarify which one the caption belongs to */
-    margin-top: 25px;
-}
+/* additional spacing between pictures helps clarify which one the caption belongs to */
+figure + figure { margin-top: 25px; }
 
 figure a:link img { border: 2px solid #1C298C; }
 figure a:visited img { border: 2px solid #8D1B20; }
