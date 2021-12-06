@@ -1,7 +1,6 @@
 ---
 title: Stirring at the surface
 ---
-
 It may not be the splashiest website resurrection ever (it may even be thoroughly mediocre), but at least things are
 back on the air now. I even had a great idea for a real actual post! Then I forgot it. Maybe it will come back to me.
 
