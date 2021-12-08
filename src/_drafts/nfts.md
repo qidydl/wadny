@@ -1,0 +1,1 @@
+explain NFTs and why they're an interesting technical idea but also totally worthless and stupid
