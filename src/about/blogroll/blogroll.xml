@@ -22,7 +22,7 @@
         <outline type="rss" text="Jon Skeet's coding" title="Jon Skeet's coding" xmlUrl="http://feeds.feedburner.com/JonSkeetCodingBlog" htmlUrl="https://codeblog.jonskeet.uk"/>
         <outline type="rss" text="Julia Evans" title="Julia Evans" xmlUrl="http://jvns.ca/atom.xml" htmlUrl="http://jvns.ca"/>
         <outline type="rss" text="Last Week in AWS" title="Last Week in AWS" xmlUrl="https://www.lastweekinaws.com/feed/" htmlUrl="https://www.lastweekinaws.com/"/>
-        <outline type="rss" text="Mads Kristensen" title="Mads Kristensen" xmlUrl="http://feeds.feedburner.com/netslave" htmlUrl="https://madskristensen.net/"/>
+        <outline type="rss" text="Mads Kristensen" title="Mads Kristensen" xmlUrl="http://feeds.feedburner.com/netslave" htmlUrl="https://www.madskristensen.net/"/>
         <outline type="rss" text="Mark Brooker's Blog" title="Mark Brooker's Blog" xmlUrl="https://brooker.co.za/blog/atom.xml" htmlUrl="https://brooker.co.za/blog/"/>
         <outline type="rss" text="Martin Fowler" title="Martin Fowler" xmlUrl="http://martinfowler.com/feed.atom" htmlUrl="https://martinfowler.com"/>
         <outline type="rss" text="The Morning Brew" title="The Morning Brew" xmlUrl="http://feeds.feedburner.com/ReflectivePerspective" htmlUrl="http://blog.cwa.me.uk"/>

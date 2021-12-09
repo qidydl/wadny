@@ -12,13 +12,13 @@ Wadny.com is entirely hand-written HTML5, CSS, and JavaScript, all rendered ahea
 
 I try to make extensive use of semantic elements, including proper headings, acronyms, code markup, and the like. Tables are only used to mark up tabular data. Layout is done entirely with CSS. A standards-compliant browser such as [Mozilla Firefox](https://www.mozilla.org/){:rel='external'} is highly encouraged.
 
-Some info on understanding this site: unvisited links are blue, visited links are red. Any modern CSS-compliant browser will show some links with a little red arrow next to them ([example](# "Sample external link"){:rel='external'})—these links point to a url outside of this site, and usually open in a new browser window. There are a few cases of non-external links that open in new windows, and there might be unmarked external links if I forget, but the arrows should help.
+Some info on understanding this site: unvisited links are blue, visited links are red. Any modern CSS-compliant browser will show some links with a little red arrow next to them ([example](#code-and-standards "Sample external link"){:rel='external'})—these links point to a url outside of this site, and usually open in a new browser window. There are a few cases of non-external links that open in new windows, and there might be unmarked external links if I forget, but the arrows should help.
 
 *[HTML5]: HyperText Markup Language version 5
 *[CSS]: Cascading Style Sheets
 
 ## Typography
-Typography on the web is difficult—there’s no guarantee your readers will have even one of the fonts you want to use, and if they’re using [lynx](https://lynx.browser.org/ "The lynx web browser"){:rel='external'} you might as well not even bother. As such, I have kept wadny.com’s typography fairly simple.
+Typography on the web is difficult—there’s no guarantee your readers will have even one of the fonts you want to use, and if they’re using [lynx](https://lynx.invisible-island.net/ "The lynx web browser"){:rel='external'} you might as well not even bother. As such, I have kept wadny.com’s typography fairly simple.
 
 The body text should be a simple sans-serif font (probably Verdana on Windows, and Lucida Grande on Macintosh OS X). The headings are hopefully Palatino Linotype, which I think is absolutely gorgeous; if you’re unlucky enough not to have it, the fallback is Times New Roman (*shudder*) or plain Times (which I believe is a font on some Unixes). The images in the sidebar may be hand-rendered text; I didn’t make them, so I don’t know.
 

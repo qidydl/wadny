@@ -19,7 +19,7 @@ Like all of my later designs, the Honors Program website was built with standard
 *[CSS]: Cascading Style Sheets
 
 ## Visual design
-There was no previous website to base this design on. There was an [official, faculty-run website](http://www.rit.edu/~aep/honors/){:rel='external'}, but it was not particularly attractive, so a new design was created from scratch. I went with a fairly minimalist approach, since it felt appropriate for an educational site—simple and focused, without distractions. I did carry over some of the color scheme from the faculty site into the student site, to give them some connection, but there was little else on the faculty page that fit in.
+There was no previous website to base this design on. There was an [official, faculty-run website](https://www.rit.edu/academicaffairs/honors/){:rel='external'}, but it was not particularly attractive at the time, so a new design was created from scratch. I went with a fairly minimalist approach, since it felt appropriate for an educational site—simple and focused, without distractions. I did carry over some of the color scheme from the faculty site into the student site, to give them some connection, but there was little else on the faculty page that fit in.
 
 Also, the Honors Program website used a fixed-width design, so that the content width never grows beyond a maximum width. This helps keep line widths within a readable range, so that users with high resolutions can still read the page easily.
 
