@@ -13,12 +13,3 @@ jobs:
       working-directory: src
     - run: bundle exec jekyll build
       working-directory: src
-    - run: >
-        bundle exec htmlproofer
-        --assume-extension
-        --check-html
-        --disable-external
-        --alt-ignore "/graphics/logo.gif"
-        --file-ignore "/\/design\/summary\/.+\/.+/","/\/design\/.+\/demo\/.+/"
-        ./_site
-      working-directory: src
