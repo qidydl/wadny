@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" prefix="og: https://ogp.me/ns#">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>wadny.com - {{ include.title | strip_html }}</title>
+    <meta property="og:site_name" content="wadny.com by qid"/>
+    <meta property="og:title" content="wadny.com"/>
+    <meta property="og:image" content="{% link icons/tupperware.gif %}"/>
+    <meta property="og:type" content="website"/>
     <link rel="home" title="Return to the wadny.com front page." href="{% link index.html %}">
     <link rel="copyright license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" title="This website is Copyright (c) David Osolkowski; some rights are available under a Creative Commons license.">
     {% feed_meta %}
