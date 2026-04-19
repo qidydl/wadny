@@ -2,12 +2,15 @@
 
 source "https://rubygems.org"
 
-git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+ruby file: ".ruby-version"
 
 gem "jekyll", "~> 4.0"
-gem "jekyll-archives"
-gem "jekyll-feed"
-gem "liquid_pluralize"
 
-gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
-gem "tzinfo-data", "~> 1.2", :install_if => Gem.win_platform?
+group :jekyll_plugins do
+    gem "jekyll-archives"
+    gem "jekyll-feed"
+    gem "liquid_pluralize"
+end
+
+gem "wdm", "~> 0.1.1", platforms: :windows
+gem "tzinfo-data", "~> 1.2", platforms: :windows
