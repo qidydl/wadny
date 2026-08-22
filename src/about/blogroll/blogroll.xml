@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<opml version="1.0">
+<opml version="2.0">
     <head>
         <title>wadny.com blogroll</title>
         <ownerName>qidydl</ownerName>
@@ -10,12 +10,14 @@
         <outline type="rss" text="Andrew Lock | .NET Escapades" title="Andrew Lock | .NET Escapades" xmlUrl="https://andrewlock.net/rss.xml" htmlUrl="https://andrewlock.net/"/>
         <outline type="rss" text="Anil Dash" title="Anil Dash" xmlUrl="http://feeds.dashes.com/AnilDash" htmlUrl="https://anildash.com/"/>
         <outline type="rss" text="Astral Codex Ten" title="Astral Codex Ten" xmlUrl="https://astralcodexten.substack.com/feed" htmlUrl="https://astralcodexten.substack.com/"/>
+        <outline type="rss" text="Baldur Bjarnason" title="Baldur Bjarnason" xmlUrl="https://www.baldurbjarnason.com/feed.xml" htmlUrl="https://www.baldurbjarnason.com/"/>
         <outline type="rss" text="BitWorking" title="BitWorking" xmlUrl="http://bitworking.org/news/feed/" htmlUrl="https://bitworking.org/"/>
         <outline type="rss" text="Blogging and All that Malarkey" title="Blogging and All that Malarkey" xmlUrl="https://stuffandnonsense.co.uk/blog/feed" htmlUrl="https://stuffandnonsense.co.uk"/>
         <outline type="rss" text="brokenco.de" title="brokenco.de" xmlUrl="https://brokenco.de/atom.xml" htmlUrl="https://brokenco.de/"/>
         <outline type="rss" text="Cezary Piątek" title="Cezary Piątek" xmlUrl="https://cezarypiatek.github.io/index.xml" htmlUrl="https://cezarypiatek.github.io/"/>
         <outline type="rss" text="Chris's Wiki :: blog" title="Chris's Wiki :: blog" xmlUrl="https://utcc.utoronto.ca/~cks/space/blog/?atom" htmlUrl="https://utcc.utoronto.ca/~cks/space/blog/"/>
         <outline type="rss" text="Coding Horror" title="Coding Horror" xmlUrl="http://feeds.feedburner.com/codinghorror/" htmlUrl="https://blog.codinghorror.com/"/>
+        <outline type="rss" text="Daring Fireball" title="Daring Fireball" xmlUrl="https://daringfireball.net/feeds/main" htmlUrl="https://daringfireball.net/"/>
         <outline type="rss" text="Fabulous adventures in coding" title="Fabulous adventures in coding" xmlUrl="http://ericlippert.com/feed/" htmlUrl="https://ericlippert.com"/>
         <outline type="rss" text="Hypercritical" title="Hypercritical" xmlUrl="http://hypercritical.co/feeds/main" htmlUrl="http://hypercritical.co/"/>
         <outline type="rss" text="Joe Duffy's Blog" title="Joe Duffy's Blog" xmlUrl="http://joeduffyblog.com/feed.xml" htmlUrl="http://joeduffyblog.com/"/>
@@ -23,7 +25,9 @@
         <outline type="rss" text="Jon Skeet's coding" title="Jon Skeet's coding" xmlUrl="http://feeds.feedburner.com/JonSkeetCodingBlog" htmlUrl="https://codeblog.jonskeet.uk"/>
         <outline type="rss" text="Julia Evans" title="Julia Evans" xmlUrl="http://jvns.ca/atom.xml" htmlUrl="http://jvns.ca"/>
         <outline type="rss" text="Last Week in AWS" title="Last Week in AWS" xmlUrl="https://www.lastweekinaws.com/feed/" htmlUrl="https://www.lastweekinaws.com/"/>
+        <outline type="rss" text="Ludicity" title="Ludicity" xmlUrl="https://ludic.mataroa.blog/rss/" htmlUrl="https://ludic.mataroa.blog/"/>
         <outline type="rss" text="Mads Kristensen" title="Mads Kristensen" xmlUrl="http://feeds.feedburner.com/netslave" htmlUrl="https://www.madskristensen.net/"/>
+        <outline type="rss" text="マリウス" title="マリウス" xmlUrl="https://xn--gckvb8fzb.com/index.xml" htmlUrl="https://xn--gckvb8fzb.com/"/>
         <outline type="rss" text="Mark Brooker's Blog" title="Mark Brooker's Blog" xmlUrl="https://brooker.co.za/blog/atom.xml" htmlUrl="https://brooker.co.za/blog/"/>
         <outline type="rss" text="Martin Fowler" title="Martin Fowler" xmlUrl="http://martinfowler.com/feed.atom" htmlUrl="https://martinfowler.com"/>
         <outline type="rss" text="The Morning Brew" title="The Morning Brew" xmlUrl="http://feeds.feedburner.com/ReflectivePerspective" htmlUrl="http://blog.cwa.me.uk"/>
