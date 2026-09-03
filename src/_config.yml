@@ -9,9 +9,11 @@ title: wadny.com
 description: "it looks good in yellow-that-Kottke-used-to-use-but-it’s-mine-now"
 author:
   name: David
+  uri: "https://wadny.com"
 timezone: "America/New_York"
 url: "https://wadny.com"
 feed:
+  icon: "/icons/tupperware.gif"
   path: "/news/everything.atom"
 defaults:
   - scope:
