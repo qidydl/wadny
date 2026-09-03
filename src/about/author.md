@@ -11,7 +11,7 @@ I started out doing C++ in high school and PHP for various personal website proj
 *[UML]: Unified Modeling Language
 *[SQL]: Structured Query Language
 
-You can email me at gmail.com using the account name “qidydl” (sorry for making you assemble the address yourself, but it helps avoid spam), or [find me on Twitter](https://twitter.com/qidydl "My twitter account"){:rel='external'}.
+You can email me at gmail.com using the account name “qidydl” (sorry for making you assemble the address yourself, but it helps avoid spam), or [find me on Bluesky](https://bsky.app/profile/qid.wadny.com "My Bluesky account"){:rel='external'}.
 
 ## Desktop
 I used to be heavily into the desktop customizing scene on Windows for many years, going back to the days when Windows 98 was as good as it got. I used to use Litestep and several other programs to do some rather serious customization work, but nowadays I’ve moved on to Linux and also shifted my priorities more towards things being simple and reliable rather than looking exactly a certain way. It helps that the default UIs have gotten a lot better as well.
