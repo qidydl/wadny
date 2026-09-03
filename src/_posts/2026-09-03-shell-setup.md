@@ -1,5 +1,6 @@
 ---
 title: Shell Setup
+description: How I set up my terminal and shell and manage their configuration
 ---
 Prelude: I would love to write more on here, especially longer and more thought-out posts on complicated topics, but as is plainly evident, it's not really possible for me to find the time. So instead, maybe I can manage to post some things that are just technical info dumps. Hence: a summary of my terminal and shell setup today. I recently made some changes and improvements, so now's a good time to write it up, if nothing else for my own reference.
 

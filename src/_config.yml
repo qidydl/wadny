@@ -1,6 +1,7 @@
 plugins:
   - jekyll-archives
   - jekyll-feed
+  - jekyll-seo-tag
   - liquid_pluralize
 permalink: /:categories/:title/
 markdown: kramdown
@@ -13,6 +14,11 @@ author:
   uri: "https://wadny.com"
 timezone: "America/New_York"
 url: "https://wadny.com"
+logo: "/icons/tupperware.gif"
+social:
+  links:
+    - https://bsky.app/profile/qid.wadny.com
+    - https://github.com/qidydl/
 feed:
   icon: "/icons/tupperware.gif"
   path: "/news/everything.atom"
