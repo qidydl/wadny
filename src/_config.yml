@@ -5,6 +5,7 @@ plugins:
 permalink: /:categories/:title/
 markdown: kramdown
 highlighter: rouge
+excerpt_separator: <!--more-->
 title: wadny.com
 description: "it looks good in yellow-that-Kottke-used-to-use-but-it’s-mine-now"
 author:
