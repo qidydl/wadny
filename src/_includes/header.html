@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>wadny.com - {{ include.title | strip_html }}</title>
     {% seo title=false %}
+    <meta property="og:image" content="{% link graphics/wadny-og.jpg %}" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Masthead image for wadny.com" />
     <link rel="icon" href="{% link favicon.ico %}">
     <link rel="home" title="Return to the wadny.com front page." href="{% link index.html %}">
     <link rel="copyright license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" title="This website is Copyright (c) David Osolkowski; some rights are available under a Creative Commons license.">
