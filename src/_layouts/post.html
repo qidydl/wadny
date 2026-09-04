@@ -3,23 +3,12 @@
         <h2>― <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %-d, %Y" }}</time></h2>
 {{ content }}
         <ul id="duringnav">
-            {%- assign revposts = site.posts | reverse -%}
-            {%- assign prevPost = "start" -%}
-            {%- assign prevTitle = "start" -%}
-            {%- assign prevDate = "start" -%}
-            {%- for post in revposts -%}
-                {%- if post.url == page.url %}
-                    {%- if prevPost != "start" %}
-            <li><a href="{{ prevPost }}" rel="prev" title="View “{{ prevTitle }}” from {{ prevDate }}">← {{ prevTitle }} (<time datetime="{{ prevDateCode }}">{{ prevDate }}</time>)</a></li>
-                    {%- endif %}
+            {%- if page.previous -%}
+            <li><a href="{{ page.previous.url }}" rel="prev" title="View “{{ page.previous.title }}” from {{ page.previous.date | date: "%B %-d, %Y" }}">← {{ page.previous.title }} (<time datetime="{{ page.previous.date | date: "%Y-%m-%d" }}">{{ page.previous.date | date: "%B %-d, %Y" }}</time>)</a></li>
+            {%- endif -%}
             <li><a href="/news/during/{{ page.date | date: "%Y/%m/%d" }}/" rel="parent">&#8593; Up to <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %d, %Y" }}</time></a></li>
-                {%- elsif prevPost == page.url %}
-            <li><a href="{{ post.url }}" rel="next" title="View “{{ post.title }}” from {{ post.date | date: "%B %-d, %Y" }}">{{ post.title }} (<time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %-d, %Y" }}</time>) →</a></li>
-                {%- endif -%}
-                {%- assign prevPost = post.url -%}
-                {%- assign prevTitle = post.title -%}
-                {%- assign prevDate = post.date | date: "%B %-d, %Y" -%}
-                {%- assign prevDateCode = post.date | date: "%Y-%m-%d" -%}
-            {%- endfor %}
+            {%- if page.next -%}
+            <li><a href="{{ page.next.url }}" rel="next" title="View “{{ page.next.title }}” from {{ page.next.date | date: "%B %-d, %Y" }}">{{ page.next.title }} (<time datetime="{{ page.next.date | date: "%Y-%m-%d" }}">{{ page.next.date | date: "%B %-d, %Y" }}</time>) →</a></li>
+            {%- endif -%}
         </ul>
 {% include footer.html %}
