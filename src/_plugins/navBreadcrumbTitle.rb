@@ -17,7 +17,7 @@ module Jekyll
         end
 
         def renderText(entry, activePath)
-            ret = ""
+            ret = +""
 
             activePath.each do |segment|
                 entry = entry.children[segment]

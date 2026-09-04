@@ -17,7 +17,7 @@ module Jekyll
             pagePath = File.join(site.source, thispage["path"])
             filePath = File.join(File.dirname(pagePath), @text)
 
-            render = "<ul>\n"
+            render = +"<ul>\n"
 
             File.open(filePath) do |opmlFile|
                 opml = REXML::Document.new(opmlFile)

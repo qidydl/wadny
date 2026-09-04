@@ -27,7 +27,7 @@ module Jekyll
             # - the path we're following, or
             # - immediate children to display
             if target || entry.children.length > 0 then
-                ret = "\n<ul#{entry.url == "/" ? " id=\"mainmenu\"" : ""}>\n"
+                ret = +"\n<ul#{entry.url == "/" ? " id=\"mainmenu\"" : ""}>\n"
 
                 # sortChildren is on by default, but we disable it for in-page navigation.
                 # We're relying on the URL segment being similar enough to the page title that it can substitute for sorting
