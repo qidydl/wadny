@@ -3,12 +3,12 @@
         <h2>― <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %-d, %Y" }}</time></h2>
 {{ content }}
         <ul id="duringnav">
-            {%- if page.previous -%}
+            {%- if page.previous %}
             <li><a href="{{ page.previous.url }}" rel="prev" title="View “{{ page.previous.title }}” from {{ page.previous.date | date: "%B %-d, %Y" }}">← {{ page.previous.title }} (<time datetime="{{ page.previous.date | date: "%Y-%m-%d" }}">{{ page.previous.date | date: "%B %-d, %Y" }}</time>)</a></li>
-            {%- endif -%}
+            {%- endif %}
             <li><a href="/news/during/{{ page.date | date: "%Y/%m/%d" }}/" rel="parent">&#8593; Up to <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %d, %Y" }}</time></a></li>
-            {%- if page.next -%}
+            {%- if page.next %}
             <li><a href="{{ page.next.url }}" rel="next" title="View “{{ page.next.title }}” from {{ page.next.date | date: "%B %-d, %Y" }}">{{ page.next.title }} (<time datetime="{{ page.next.date | date: "%Y-%m-%d" }}">{{ page.next.date | date: "%B %-d, %Y" }}</time>) →</a></li>
-            {%- endif -%}
+            {%- endif %}
         </ul>
 {% include footer.html %}
