@@ -14,13 +14,13 @@ author:
   uri: "https://wadny.com"
 timezone: "America/New_York"
 url: "https://wadny.com"
-logo: "/icons/tupperware.gif"
+logo: "/graphics/tupperware.png"
 social:
   links:
     - https://bsky.app/profile/qid.wadny.com
     - https://github.com/qidydl/
 feed:
-  icon: "/icons/tupperware.gif"
+  icon: "/graphics/tupperware.png"
   path: "/news/everything.atom"
 defaults:
   - scope:
