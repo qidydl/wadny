@@ -16,7 +16,7 @@ body.winter header h2 { background-color: #faf7e6; }
 button#menuToggle {
     display: block;
     float: right;
-    font-size: 150%;
+    padding: 5px 5px 0 5px;
 }
 
 main {
