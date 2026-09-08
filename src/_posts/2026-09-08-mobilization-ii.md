@@ -1,0 +1,5 @@
+---
+title: Mobilization II
+description: Improvements on site design for mobile browsers and small screens
+---
+I [previously]({% post_url 2021-12-02-mobilization %} "Original post on mobile design for wadny.com") added support for mobile browsers (for small screens in general, really), but it turned out to be pretty lacking. Images or fixed-width content (such as the picture in [The Cloud]({% post_url 2021-12-07-cloud %} "Wadny.com post 'The Cloud'") or the code blocks in [hammer and nails]({% post_url 2021-12-08-hammer-and-nails %} "Wadny.com post 'Good thing I have a hammer to deal with all these nails'")) would blow up the layout and result in horizontal scrolling, which sucked. I finally fixed it now so that images will scale down; code blocks still require horizontal scrolling, but only within the block, rather than breaking the entire page.
