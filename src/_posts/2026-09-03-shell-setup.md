@@ -28,9 +28,7 @@ The second configuration is for my shell, which is [Bash](https://www.gnu.org/so
 
 [My Bash configuration](https://github.com/qidydl/dotfiles-bash "My configuration settings for GNU Bash"){:rel='external'} has a bunch of settings to make Bash more tolerable, especially with history and tab completion. It also uses [Oh My Posh](https://ohmyposh.dev/ "Oh My Posh prompt engine"){:rel='external'} to display prompts, which is actually supported across every shell I listed above. My prompt is pretty basic, but I don't want it to be too distracting. It looks like this:
 
-<figure>
-    <img src="{% link pictures/20260903/prompt.png %}" alt="A screenshot of my shell prompt">
-</figure>
+![A screenshot of my shell prompt]({% link pictures/20260903/prompt.png %}){:standalone}
 
 At work, I use [PowerShell](https://learn.microsoft.com/en-us/powershell/ "Microsoft PowerShell documentation"){:rel='external'}, which is actually quite powerful and cross-platform. It also uses Oh My Posh with the same prompt configuration.
 

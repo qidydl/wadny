@@ -1,7 +1,7 @@
 ---
 title: wadny.com
 ---
-<figure><img src="/design/th_wadny.com.png" width="368" height="276" title="Wadny.com" alt="Wadny.com"></figure>
+![Wadny.com]({% link design/th_wadny.com.png %}){:standalone}
 
 ## Introduction
 This is it—the big one, the crème de la crème. Wadny.com is the most advanced, complex, and experimental site in my design portfolio, incorporating lots of custom code, dynamic menus, design evolution, and much more. This page covers the history of the site and some of its design, with more technical detail available in the [colophon]({% link about/colophon.md %}).

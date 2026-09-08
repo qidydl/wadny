@@ -39,4 +39,4 @@ The site content is managed in [GitHub](https://github.com/){:rel='external'}. F
 ## Rights and Administrivia
 This site is <abbr title="Copyright">©</abbr><time datetime="2000">2000</time>-<time datetime="{{ "now" | date: "%Y" }}">{{ "now" | date: "%Y" }}</time> by myself. Some rights are reserved—see [my chosen Creative Commons license](https://creativecommons.org/licenses/by-nc-sa/4.0/){:rel='external'} for more information. You are free to link to my site however you wish. In fact, you have that right on every website, despite what some foolish companies may claim. However, please do not link directly to large (more than 100KB) files on my site; bandwidth hijacking isn’t nice. A button is provided below if you want to use it; please save your own copy.
 
-<figure><img src="{% link graphics/button.png %}" width="88" height="31" alt="The wadny.com link button"></figure>
+![The wadny.com link button]({% link graphics/button.png %}){:standalone}
