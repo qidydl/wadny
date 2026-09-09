@@ -10,9 +10,6 @@
         </ul>
 
         <ul id="buttons">
-            <li><a href="{% link news/everything.atom %}" title="Syndicate this site using Atom with full posts and summaries together">
-                <img src="{% link graphics/atom.gif %}" width="80" height="15" alt="Syndicate this site using Atom with full posts and summaries together"></a>
-            </li>
             <li><a href="https://validator.w3.org/nu/?doc={{ page.url | absolute_url | uri_escape }}" rel="external" title="W3C validator for websites">
                 <img src="{% link graphics/validhtml5.gif %}" width="80" height="15" alt="Valid HTML5" /></a>
             </li>
@@ -22,11 +19,20 @@
             <li><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external license" title="Creative Commons License">
                 <img src="{% link graphics/cclicense.gif %}" width="80" height="15" alt="Creative Commons License"></a>
             </li>
+            <li><a href="{% link news/everything.atom %}" title="Syndicate this site using Atom with full posts and summaries together">
+                <img src="{% link graphics/atom.gif %}" width="80" height="15" alt="Syndicate this site using Atom with full posts and summaries together"></a>
+            </li>
+            <li><a href="https://validator.w3.org/feed/check.cgi?url=https%3A%2F%2Fwadny.com%2Fnews%2Feverything.atom" rel="external" title="W3C validator for feeds">
+                <img src="{% link graphics/validsyndication.gif %}" width="80" height="15" alt="Valid syndication feed"></a>
+            </li>
             <li><a href="http://no-www.org/" rel="external" title="www. is deprecated">
                 <img src="{% link graphics/nowww.gif %}" width="80" height="15" alt="www. is deprecated"></a>
             </li>
             <li><a href="https://bsky.app/profile/qid.wadny.com" rel="external" title="My Bluesky account">
                 <img src="{% link graphics/bluesky.png %}" width="80" height="15" alt="My Bluesky account"></a>
+            </li>
+            <li><a href="https://github.com/qidydl" rel="external" title="My GitHub account">
+                <img src="{% link graphics/github.png %}" width="80" height="15" alt="My GitHub account"></a>
             </li>
         </ul>
     </nav>
