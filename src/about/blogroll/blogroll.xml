@@ -8,6 +8,7 @@
         <outline type="rss" text="A Whole Lotta Nothing" title="A Whole Lotta Nothing" xmlUrl="https://a.wholelottanothing.org/rss/" htmlUrl="https://a.wholelottanothing.org"/>
         <outline type="rss" text="Andrew Lock | .NET Escapades" title="Andrew Lock | .NET Escapades" xmlUrl="https://andrewlock.net/rss.xml" htmlUrl="https://andrewlock.net/"/>
         <outline type="rss" text="Anil Dash" title="Anil Dash" xmlUrl="https://www.anildash.com/feed.xml" htmlUrl="https://www.anildash.com/"/>
+        <outline type="rss" text="Anil Madhavapeddy" title="Anil Madhavapeddy" xmlUrl="https://anil.recoil.org/news.xml" htmlUrl="https://anil.recoil.org/notes"/>
         <outline type="rss" text="Astral Codex Ten" title="Astral Codex Ten" xmlUrl="https://www.astralcodexten.com/feed" htmlUrl="https://www.astralcodexten.com/"/>
         <outline type="rss" text="Baldur Bjarnason's Notes on the Web" title="Baldur Bjarnason's Notes on the Web" xmlUrl="https://www.baldurbjarnason.com/feed.xml" htmlUrl="https://www.baldurbjarnason.com/"/>
         <outline type="rss" text="Bits about Money" title="Bits about Money" xmlUrl="https://www.bitsaboutmoney.com/archive/rss/" htmlUrl="https://www.bitsaboutmoney.com/"/>
@@ -18,6 +19,7 @@
         <outline type="rss" text="Coding Horror" title="Coding Horror" xmlUrl="https://blog.codinghorror.com/rss/" htmlUrl="https://blog.codinghorror.com/"/>
         <outline type="rss" text="daniel.haxx.se" title="daniel.haxx.se" xmlUrl="https://daniel.haxx.se/blog/feed/" htmlUrl="https://daniel.haxx.se/blog/"/>
         <outline type="rss" text="Daring Fireball" title="Daring Fireball" xmlUrl="https://daringfireball.net/feeds/main" htmlUrl="https://daringfireball.net/"/>
+        <outline type="rss" text="Ethan Marcotte" title="My journal — Ethan Marcotte&apos;s website" xmlUrl="https://ethanmarcotte.com/wrote/feed.xml" htmlUrl="https://ethanmarcotte.com/wrote/"/>
         <outline type="rss" text="Fabulous adventures in coding" title="Fabulous adventures in coding" xmlUrl="https://ericlippert.com/feed/" htmlUrl="https://ericlippert.com"/>
         <outline type="rss" text="Filippo Valsorda" title="Filippo Valsorda" xmlUrl="https://words.filippo.io/rss/" htmlUrl="https://words.filippo.io/"/>
         <outline type="rss" text="Ftrain.com" title="Ftrain, by Paul Ford" xmlUrl="https://ftrain.com/xml/feed/rss.xml" htmlUrl="https://ftrain.com/"/>
@@ -45,11 +47,13 @@
         <outline type="rss" text="Newsletter - Aboard" title="Newsletter - Aboard" xmlUrl="https://aboard.com/newsletter/feed/" htmlUrl="https://aboard.com/newsletter/"/>
         <outline type="rss" text="ongoing by Tim Bray" title="ongoing by Tim Bray" xmlUrl="https://www.tbray.org/ongoing/ongoing.atom" htmlUrl="https://www.tbray.org/ongoing/"/>
         <outline type="rss" text="Paragon Initiative" title="Paragon Initiative" xmlUrl="https://paragonie.com/rss/" htmlUrl="https://paragonie.com/"/>
+        <outline type="rss" text="people.kernel.org Reader" title="people.kernel.org Reader" xmlUrl="https://people.kernel.org/read/feed/" htmlUrl="https://people.kernel.org/read"/>
         <outline type="rss" text="plasmasturm.org" title="plasmasturm.org" xmlUrl="http://plasmasturm.org/feed" htmlUrl="http://plasmasturm.org/"/>
         <outline type="rss" text="Rachel by the Bay" title="Rachel by the Bay" xmlUrl="http://rachelbythebay.com/w/atom.xml" htmlUrl="http://rachelbythebay.com/w/"/>
         <outline type="rss" text="Reasonably Polymorphic" title="Reasonably Polymorphic" xmlUrl="https://reasonablypolymorphic.com/atom.xml" htmlUrl="https://reasonablypolymorphic.com/"/>
         <outline type="rss" text="Scott Hanselman's Blog" title="Scott Hanselman's Blog" xmlUrl="https://feeds.hanselman.com/ScottHanselman" htmlUrl="https://www.hanselman.com/blog/"/>
         <outline type="rss" text="Scripting News" title="Scripting News" xmlUrl="http://scripting.com/rss.xml" htmlUrl="http://scripting.com/"/>
+        <outline type="rss" text="Simon Willison's Weblog" title="Simon Willison's Weblog" xmlUrl="https://simonwillison.net/atom/everything/" htmlUrl="https://simonwillison.net/"/>
         <outline type="rss" text="Six Colors" title="Six Colors" xmlUrl="https://feedpress.me/sixcolors" htmlUrl="https://sixcolors.com/"/>
         <outline type="rss" text="Slashdot" title="Slashdot" xmlUrl="https://rss.slashdot.org/Slashdot/slashdotMain" htmlUrl="https://slashdot.org/"/>
         <outline type="rss" text="Steve Yegge" title="Steve Yegge" xmlUrl="https://yegge.ai/feed.xml" htmlUrl="https://yegge.ai/"/>
