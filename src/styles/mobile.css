@@ -3,6 +3,13 @@
  *****************************************************************************/
 
 body {
+    grid-template:
+        "header" auto
+        "line"   11px /* include border */
+        "main"    1fr
+        "footer" auto
+        / 100vw;
+    justify-content: stretch;
     margin: 0;
 }
 
@@ -20,13 +27,13 @@ button#menuToggle {
 }
 
 main {
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 10px;
 }
 
 nav {
     display: none;
     border-width: 1px;
+    max-width: 20em;
 }
 
 nav.open {
