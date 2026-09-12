@@ -1,10 +1,22 @@
 /******************************************************************************
  * Global layout styles
  *****************************************************************************/
+/* @link https://utopia.fyi/type/calculator?c=360,14,1.125,1000,16,1.333,4,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+
+:root {
+  --step--2: clamp(0.5628rem, 0.7637rem + -0.3214vw, 0.6914rem);
+  --step--1: clamp(0.7502rem, 0.7933rem + -0.069vw, 0.7778rem);
+  --step-0: clamp(0.875rem, 0.8047rem + 0.3125vw, 1rem);
+  --step-1: clamp(0.9844rem, 0.7883rem + 0.8716vw, 1.333rem);
+  --step-2: clamp(1.1074rem, 0.7308rem + 1.6737vw, 1.7769rem);
+  --step-3: clamp(1.2458rem, 0.6143rem + 2.8069vw, 2.3686rem);
+  --step-4: clamp(1.4016rem, 0.414rem + 4.3894vw, 3.1573rem);
+}
+
 html {
     background: white url(/graphics/body_back.gif) repeat-x top;
     font-family: 'Lucida Grande', Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
-    font-size: 90%;
+    font-size: var(--step-0);
 }
 
 body {
@@ -250,16 +262,17 @@ footer {
  * Global appearance styles
  *****************************************************************************/
 h1, h2, h3, h4, h5, h6 { font-family: 'Palatino Linotype', 'Times New Roman', Times, serif; }
-h1 { font-size: 200%; }
+h1 { font-size: var(--step-4); }
 h2 {
-    font-size: 150%;
+    font-size: var(--step-3);
     margin-bottom: 5px;
     margin-top: 1em;
 }
 h3 {
-    font-size: 120%;
+    font-size: var(--step-2);
     margin-top: 0;
 }
+h4 { font-size: var(--step-1); }
 
 a { text-decoration: underline; }
 a:link {
