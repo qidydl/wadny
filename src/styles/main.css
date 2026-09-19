@@ -11,10 +11,21 @@
   --step-2: clamp(1.1074rem, 0.7308rem + 1.6737vw, 1.7769rem);
   --step-3: clamp(1.2458rem, 0.6143rem + 2.8069vw, 2.3686rem);
   --step-4: clamp(1.4016rem, 0.414rem + 4.3894vw, 3.1573rem);
+
+  color-scheme: light dark;
+
+  --link-new-light: #1C298C;
+  --link-new-dark: oklch(from var(--link-new-light) calc(l + 0.3) c h);
+  
+  --link-visited-light: #8D1B20;
+  --link-visited-dark: oklch(from var(--link-visited-light) calc(l + 0.3) c h);
+
+  --link-new: light-dark(var(--link-new-light), var(--link-new-dark));
+  --link-visited: light-dark(var(--link-visited-light), var(--link-visited-dark));
 }
 
 html {
-    background: white url(/graphics/body_back.gif) repeat-x top;
+    background: linear-gradient(to bottom, light-dark(#E5E5E5, #505050) 20px, light-dark(white, #262626) 60px);
     font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial Rounded MT', 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif;
     font-size: var(--step-0);
 }
@@ -193,7 +204,7 @@ figure {
 
 figure img {
     border: 1px solid #A9A9A9;
-    box-shadow: 5px 5px 5px #999;
+    box-shadow: 5px 5px 5px light-dark(#999, #666);
     height: auto;
     max-width: 100%;
 }
@@ -205,8 +216,8 @@ figure.clean img {
 /* additional spacing between pictures helps clarify which one the caption belongs to */
 figure + figure { margin-top: 25px; }
 
-figure a:link img { border: 2px solid #1C298C; }
-figure a:visited img { border: 2px solid #8D1B20; }
+figure a:link img { border: 2px solid var(--link-new); }
+figure a:visited img { border: 2px solid var(--link-visited); }
 figure a:hover img { border: 2px solid #A9A9A9; }
 
 aside {
@@ -275,11 +286,11 @@ h4 {
 a { text-decoration: underline; }
 a:link {
     background-color: transparent;
-    color: #1C298C;
+    color: var(--link-new);
 }
 a:visited {
     background-color: transparent;
-    color: #8D1B20;
+    color: var(--link-visited);
 }
 a:hover { text-decoration: none; }
 
@@ -310,9 +321,11 @@ blockquote {
 }
 
 code {
-    background-color: #f0f0f0;
+    background-color: light-dark(#f0f0f0, #505050);
     font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
 }
+
+.highlight pre { overflow-x: scroll; }
 
 q { quotes: '\201C' '\201D' '\2018' '\2019'; }
 q:before { content: open-quote; }
@@ -335,5 +348,5 @@ th, td {
 }
 
 tbody tr:nth-child(odd) {
-    background-color: #f0f0f0;
-  }
+    background-color: light-dark(#f0f0f0, #505050);
+}

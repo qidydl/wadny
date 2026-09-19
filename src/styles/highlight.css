@@ -1,5 +1,5 @@
-pre .hll { background-color: #ffffcc }
 pre  { background: #f0f0f0; }
+pre .hll { background-color: #ffffcc }
 pre .c { color: #60a0b0; font-style: italic } /* Comment */
 pre .err { border: 1px solid #FF0000 } /* Error */
 pre .k { color: #007020; font-weight: bold } /* Keyword */
@@ -66,7 +66,8 @@ pre .vc { color: #bb60d5 } /* Name.Variable.Class */
 pre .vg { color: #bb60d5 } /* Name.Variable.Global */
 pre .vi { color: #bb60d5 } /* Name.Variable.Instance */
 pre .vm { color: #bb60d5 } /* Name.Variable.Magic */
-pre .il { color: #40a070 } /* Literal.Number.Integer.Long */.highlight pre .hll { background-color: #ffffcc }
+pre .il { color: #40a070 } /* Literal.Number.Integer.Long */
+.highlight pre .hll { background-color: #ffffcc }
 .highlight pre  { background: #f0f3f3; overflow-x: scroll; }
 .highlight pre .c { color: #0099FF; font-style: italic } /* Comment */
 .highlight pre .err { color: #AA0000; background-color: #FFAAAA } /* Error */
