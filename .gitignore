@@ -1,5 +1,6 @@
 # Ignore the compiled site
 _site/
+_site-bak/
 
 # Ignore the Jekyll cache
 .jekyll-cache/
