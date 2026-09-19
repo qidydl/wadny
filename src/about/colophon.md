@@ -20,7 +20,7 @@ Some info on understanding this site: unvisited links are blue, visited links ar
 ## Typography
 Typography on the web is difficult—there’s no guarantee your readers will have even one of the fonts you want to use, and if they’re using [lynx](https://lynx.invisible-island.net/ "The lynx web browser"){:rel='external'} you might as well not even bother. As such, I have kept wadny.com’s typography fairly simple.
 
-The body text should be a simple sans-serif font (probably Verdana on Windows, and Lucida Grande on Macintosh OS X). The headings are hopefully Palatino Linotype, which I think is absolutely gorgeous; if you’re unlucky enough not to have it, the fallback is Times New Roman (*shudder*) or plain Times (which I believe is a font on some Unixes). The images in the sidebar may be hand-rendered text; I didn’t make them, so I don’t know.
+The body text should be a simple sans-serif font, while headings are a serif font for contrast. The font stack uses system fonts available across a variety of operating systems (both desktop and mobile) so typography should be relatively consistent without requiring custom files.
 
 I have also tried to ensure that all punctuation is correct, by using alternate Unicode characters for quotes, dashes, ellipses, and other special characters. The effect is subtle, but I believe it is a worthwhile enhancement.
 
