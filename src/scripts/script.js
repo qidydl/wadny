@@ -1,21 +1,3 @@
-// Set target for external links
-const anchors = document.querySelectorAll('a[rel~="external"]');
-
-for (const anchor of anchors) {
-  // Probably overkill check, but just in case
-  if (anchor instanceof HTMLAnchorElement && anchor.href) {
-    anchor.target = "_blank";
-    anchor.rel = anchor.rel + " noopener";
-
-    const currentTitle = anchor.title;
-    let newTitle = "Opens in a new window";
-    if (currentTitle) {
-      newTitle = newTitle + " - " + currentTitle;
-    }
-    anchor.title = newTitle;
-  }
-}
-
 // Set random quote and icon in the heading
 const quotes = [
   "purple monkey dishwasher",

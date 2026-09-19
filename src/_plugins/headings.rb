@@ -12,5 +12,18 @@ Jekyll::Hooks.register [:documents, :pages], :post_render do |page|
         end
     end
 
+    doc.css("a[rel~=\"external\"]").each do |link|
+        if link.key?("href") then
+            link["target"] = "_blank"
+            link["rel"] = link["rel"] + " noopener"
+
+            title = "Opens in a new window"
+            if link.key?("title") then
+                title = title + " - " + link["title"]
+            end
+            link["title"] = title
+        end
+    end
+
     page.output = doc.to_html
 end
