@@ -25,7 +25,7 @@
 }
 
 html {
-    background: linear-gradient(to bottom, light-dark(#E5E5E5, #505050) 20px, light-dark(white, #262626) 60px);
+    background: linear-gradient(to bottom, light-dark(#E5E5E5, #505050) 20px, light-dark(white, #262626) 60px) repeat-x top;
     font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial Rounded MT', 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif;
     font-size: var(--step-0);
 }
