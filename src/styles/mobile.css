@@ -31,14 +31,9 @@ main {
 }
 
 nav {
-    display: none;
-    border-width: 1px;
-    max-width: 20em;
-}
-
-nav.open {
-    display: block;
     position: absolute;
     right: 10px;
     top: 6em;
+    border-width: 1px; /* add on top border normally hidden because it's shared with line */
+    max-width: 20em; /* replicate max width imposed by grid */
 }

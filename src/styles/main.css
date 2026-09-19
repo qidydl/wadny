@@ -129,9 +129,18 @@ nav {
     border-color: #333;
     border-style: solid;
     border-width: 0 1px 1px 1px;
-    grid-area: nav;
+    inset: unset;
+    margin-top: 0;
     margin-bottom: 1em;
     padding: 10px;
+}
+
+@media (min-width: 65em) {
+    nav {
+        display: block;
+        grid-area: nav;
+        position: static;
+    }
 }
 
 nav h3 {

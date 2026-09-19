@@ -17,14 +17,3 @@ if (month === 2 || month === 3) {
     // December (11), January (0), February (1) = winter
     body.classList.add("winter");
 }
-
-// Support main menu toggle on mobile
-function toggleNav() {
-    const nav = document.querySelector("nav");
-
-    if (nav.classList.contains("open")) {
-        nav.classList.remove("open");
-    } else {
-        nav.classList.add("open");
-    }
-}
