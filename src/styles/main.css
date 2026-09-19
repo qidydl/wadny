@@ -48,32 +48,45 @@ body {
  *****************************************************************************/
 
 /* Default is early spring */
-header { background: #5E97CC url(/graphics/head-earlyspring.jpg) no-repeat right center; }
-/* ensures logo is readable even if screen is squished */
-header h1 { background-color: #5E97CC; }
-nav { background-color: #F6F4EC; }
+body {
+    --accent-color: #FFC700;
+    --header-bg-color: #5E97CC;
+    --header-bg-img: url(/graphics/head-earlyspring.jpg);
+    --nav-bg-color-light: oklch(from var(--accent-color) 96% 1% h);
+    --nav-bg-color-dark: oklch(from var(--accent-color) 35% 6.75% h);
+    --nav-bg-color: light-dark(var(--nav-bg-color-light), var(--nav-bg-color-dark));
+}
 
-body.spring header { background: #4f7ea8 url(/graphics/head-spring.jpg) no-repeat right center; }
-body.spring header h1 { background-color: #4f7ea8; }
-body.spring nav { background-color: #F6F4EC; }
+body.spring {
+    --header-bg-color: #4f7ea8;
+    --header-bg-img: url(/graphics/head-spring.jpg);
+    /* spring shares early-spring's nav */
+}
 
 /* TODO: summer */
 
 /* TODO: fall */
 
-body.winter header { background: #faf7e6 url(/graphics/head-winter.jpg) no-repeat right center; }
-body.winter header h1 { background-color: #faf7e6; }
-body.winter nav { background-color: #EBEFF5; }
+body.winter {
+    --header-bg-color: #faf7e6;
+    --header-bg-img: url(/graphics/head-winter.jpg);
+    --nav-bg-color-light: #EBEFF5;
+    --nav-bg-color-dark: oklch(from var(--nav-bg-color-light) 35% 6.75% h);
+    --nav-bg-color: light-dark(var(--nav-bg-color-light), var(--nav-bg-color-dark));
+}
 
 /******************************************************************************
  * Heading styles
  *****************************************************************************/
 header {
+    background: var(--header-bg-color) var(--header-bg-img) no-repeat right center;
     border: 1px solid #333;
     grid-area: header;
     padding: 25px;
 
     h1 {
+        /* ensures logo is readable even if screen is squished */
+        background-color: var(--header-bg-color);
         /* default font size will make the h1 too tall and push the h2 quote away */
         font-size: 0%;
         /* but we do want at least a small gap to the h2 quote */
@@ -125,6 +138,7 @@ div#line {
  * Sidebar styles
  *****************************************************************************/
 nav {
+    background-color: var(--nav-bg-color);
     border-color: #333;
     border-style: solid;
     border-width: 0 1px 1px 1px;
@@ -140,7 +154,7 @@ nav {
     }
 
     h3 {
-        border-top: 1px dotted #333;
+        border-top: 1px dotted light-dark(#333, #DDD);
         margin: 15px 5px 5px 5px;
         padding-top: 10px;
     }
