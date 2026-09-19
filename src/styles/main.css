@@ -15,7 +15,7 @@
 
 html {
     background: white url(/graphics/body_back.gif) repeat-x top;
-    font-family: 'Lucida Grande', Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
+    font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial Rounded MT', 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif;
     font-size: var(--step-0);
 }
 
@@ -129,8 +129,6 @@ nav h3 {
     padding-top: 10px;
 }
 
-nav ul#mainmenu { font-size: 120%; }
-
 nav ul {
     list-style: none;
     margin: 0;
@@ -160,13 +158,9 @@ nav ul#buttons a {
  *****************************************************************************/
 main {
     grid-area: main;
-    line-height: 150%;
     margin-bottom: 1em;
     padding-right: 10px;
 }
-
-main h1 { line-height: 110%; }
-main h2 + h3 { padding-top: 3px; }
 
 b.big {
     font-size: large;
@@ -261,18 +255,22 @@ footer {
 /******************************************************************************
  * Global appearance styles
  *****************************************************************************/
-h1, h2, h3, h4, h5, h6 { font-family: 'Palatino Linotype', 'Times New Roman', Times, serif; }
+h1, h2, h3, h4, h5, h6 { font-family: 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', P052, serif; }
 h1 { font-size: var(--step-4); }
 h2 {
     font-size: var(--step-3);
     margin-bottom: 5px;
-    margin-top: 1em;
+    margin-top: 0.8rem;
 }
 h3 {
     font-size: var(--step-2);
+    margin-bottom: 5px;
     margin-top: 0;
 }
-h4 { font-size: var(--step-1); }
+h4 { 
+    font-size: var(--step-1); 
+    margin-bottom: 0;
+}
 
 a { text-decoration: underline; }
 a:link {
@@ -313,8 +311,7 @@ blockquote {
 
 code {
     background-color: #f0f0f0;
-    font-family: Consolas, courier, monospace;
-    font-size: 120%;
+    font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
 }
 
 q { quotes: '\201C' '\201D' '\2018' '\2019'; }
