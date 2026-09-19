@@ -239,7 +239,7 @@ main h6[id] a.heading-anchor {
     font-size: 70%;
     margin-left: 5px;
     text-decoration: none;
-    vertical-align: top;
+    vertical-align: 20%;
     visibility: hidden;
 }
 
