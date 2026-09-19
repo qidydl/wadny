@@ -16,19 +16,6 @@ for (const anchor of anchors) {
   }
 }
 
-// Add indicator for linkable headings
-// This must be done in JS; CSS can add text using ::after with content, but only plain text, not a link
-const headings = document.querySelectorAll(
-  "main h1[id], main h2[id], main h3[id], main h4[id], main h5[id], main h6[id]"
-);
-
-for (const heading of headings) {
-  heading.insertAdjacentHTML(
-    "beforeend",
-    `<a class="heading-anchor" href="#${heading.id}" aria-labelledby="${heading.id}">🔗</a>`
-  );
-}
-
 // Set random quote and icon in the heading
 const quotes = [
   "purple monkey dishwasher",

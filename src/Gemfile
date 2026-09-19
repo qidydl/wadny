@@ -11,6 +11,7 @@ group :jekyll_plugins do
     gem "jekyll-feed", github: "jekyll/jekyll-feed"
     gem "jekyll-seo-tag"
     gem "liquid_pluralize"
+    gem "nokogiri"
 end
 
 gem "wdm", "~> 0.1.1", platforms: :windows
