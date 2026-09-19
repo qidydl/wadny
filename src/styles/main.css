@@ -1,27 +1,26 @@
 /******************************************************************************
  * Global layout styles
  *****************************************************************************/
-/* @link https://utopia.fyi/type/calculator?c=360,14,1.125,1000,16,1.333,4,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
-
 :root {
-  --step--2: clamp(0.5628rem, 0.7637rem + -0.3214vw, 0.6914rem);
-  --step--1: clamp(0.7502rem, 0.7933rem + -0.069vw, 0.7778rem);
-  --step-0: clamp(0.875rem, 0.8047rem + 0.3125vw, 1rem);
-  --step-1: clamp(0.9844rem, 0.7883rem + 0.8716vw, 1.333rem);
-  --step-2: clamp(1.1074rem, 0.7308rem + 1.6737vw, 1.7769rem);
-  --step-3: clamp(1.2458rem, 0.6143rem + 2.8069vw, 2.3686rem);
-  --step-4: clamp(1.4016rem, 0.414rem + 4.3894vw, 3.1573rem);
+    /* @link https://utopia.fyi/type/calculator?c=360,14,1.125,1000,16,1.333,4,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+    --step--2: clamp(0.5628rem, 0.7637rem + -0.3214vw, 0.6914rem);
+    --step--1: clamp(0.7502rem, 0.7933rem + -0.069vw, 0.7778rem);
+    --step-0: clamp(0.875rem, 0.8047rem + 0.3125vw, 1rem);
+    --step-1: clamp(0.9844rem, 0.7883rem + 0.8716vw, 1.333rem);
+    --step-2: clamp(1.1074rem, 0.7308rem + 1.6737vw, 1.7769rem);
+    --step-3: clamp(1.2458rem, 0.6143rem + 2.8069vw, 2.3686rem);
+    --step-4: clamp(1.4016rem, 0.414rem + 4.3894vw, 3.1573rem);
 
-  color-scheme: light dark;
+    color-scheme: light dark;
 
-  --link-new-light: #1C298C;
-  --link-new-dark: oklch(from var(--link-new-light) calc(l + 0.3) c h);
-  
-  --link-visited-light: #8D1B20;
-  --link-visited-dark: oklch(from var(--link-visited-light) calc(l + 0.3) c h);
+    --link-new-light: #1C298C;
+    --link-new-dark: oklch(from var(--link-new-light) calc(l + 0.3) c h);
 
-  --link-new: light-dark(var(--link-new-light), var(--link-new-dark));
-  --link-visited: light-dark(var(--link-visited-light), var(--link-visited-dark));
+    --link-visited-light: #8D1B20;
+    --link-visited-dark: oklch(from var(--link-visited-light) calc(l + 0.3) c h);
+
+    --link-new: light-dark(var(--link-new-light), var(--link-new-dark));
+    --link-visited: light-dark(var(--link-visited-light), var(--link-visited-dark));
 }
 
 html {
@@ -73,41 +72,41 @@ header {
     border: 1px solid #333;
     grid-area: header;
     padding: 25px;
-}
 
-header h1 {
-    /* default font size will make the h1 too tall and push the h2 quote away */
-    font-size: 0%;
-    /* but we do want at least a small gap to the h2 quote */
-    margin-bottom: 5px;
-    /* ensures background doesn't go beyond logo - image sizes are fixed so this can be fixed */
-    width: 230px;
-}
+    h1 {
+        /* default font size will make the h1 too tall and push the h2 quote away */
+        font-size: 0%;
+        /* but we do want at least a small gap to the h2 quote */
+        margin-bottom: 5px;
+        /* ensures background doesn't go beyond logo - image sizes are fixed so this can be fixed */
+        width: 230px;
 
-/* push the icon up to align more with the logo test baseline */
-header h1 img#icon { margin-bottom: 5px; }
+        /* push the icon up to align more with the logo test baseline */
+        img#icon { margin-bottom: 5px; }
 
-/* space logo away from icon */
-header h1 img#logo { margin-left: 10px; }
+        /* space logo away from icon */
+        img#logo { margin-left: 10px; }
 
-header h1 span {
-    /* this mess hides the text without removing it from the document, so hopefully it is there for text and readers */
-    height: 1px;
-    width: 1px;
+        span {
+            /* this mess hides the text without removing it from the document, so hopefully it is there for text and readers */
+            height: 1px;
+            width: 1px;
 
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    white-space: nowrap;
-}
+            margin: -1px;
+            overflow: hidden;
+            padding: 0;
+            position: absolute;
+            white-space: nowrap;
+        }
+    }
 
-header h2 {
-    color: black;
-    font-size: medium;
-    font-weight: normal;
-    margin: 0;
-    width: fit-content;
+    h2 {
+        color: black;
+        font-size: medium;
+        font-weight: normal;
+        margin: 0;
+        width: fit-content;
+    }
 }
 
 /* only used for mobile */
@@ -133,44 +132,47 @@ nav {
     margin-top: 0;
     margin-bottom: 1em;
     padding: 10px;
-}
 
-@media (min-width: 65em) {
-    nav {
+    @media (min-width: 65em) {
         display: block;
         grid-area: nav;
         position: static;
     }
-}
 
-nav h3 {
-    border-top: 1px dotted #333;
-    margin: 15px 5px 5px 5px;
-    padding-top: 10px;
-}
+    h3 {
+        border-top: 1px dotted #333;
+        margin: 15px 5px 5px 5px;
+        padding-top: 10px;
+    }
 
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding-left: 5px;
-}
+    ul {
+        list-style: none;
+        margin: 0;
+        padding-left: 5px;
 
-nav ul ul {
-    border-left: 1px solid gray;
-    margin-left: 8px;
-    padding-left: 8px;
-}
+        ul {
+            border-left: 1px solid gray;
+            margin-left: 8px;
+            padding-left: 8px;
+        }
+    }
 
-nav a.currentpage { font-weight: bold; }
+    a.currentpage { font-weight: bold; }
 
-/* Fix buttons so they just look like buttons */
-nav ul#buttons { margin-top: 10px; }
-nav ul#buttons li { display: inline; }
-nav ul#buttons a img { border: 0; }
-nav ul#buttons a {
-    /* undo external decorations */
-    background: none;
-    padding-left: 0;
+    /* Fix buttons so they just look like buttons */
+    ul#buttons { 
+        margin-top: 10px;
+
+        li { display: inline; }
+
+        a {
+            /* undo external decorations */
+            background: none;
+            padding-left: 0;
+
+            img { border: 0; }
+        }
+    }
 }
 
 /******************************************************************************
@@ -192,15 +194,17 @@ ul#duringnav {
     list-style: none;
     padding: 3px 0 0 0;
     text-align: center;
-}
-ul#duringnav li {
-    border-left: 1px solid black;
-    display: inline;
-    padding: 0 1px 0 4px;
-}
-ul#duringnav li:first-child {
-    border-left: 0;
-    padding-left: 0;
+
+    li {
+        border-left: 1px solid black;
+        display: inline;
+        padding: 0 1px 0 4px;
+
+        &:first-child {
+            border-left: 0;
+            padding-left: 0;
+        }
+    }
 }
 
 figure {
@@ -209,25 +213,26 @@ figure {
     margin-right: 0;
     max-width: 100%;
     text-align: center;
-}
 
-figure img {
-    border: 1px solid #A9A9A9;
-    box-shadow: 5px 5px 5px light-dark(#999, #666);
-    height: auto;
-    max-width: 100%;
-}
-figure.clean img {
-    border: 0 !important;
-    box-shadow: 0 0 0;
+    img {
+        border: 1px solid #A9A9A9;
+        box-shadow: 5px 5px 5px light-dark(#999, #666);
+        height: auto;
+        max-width: 100%;
+    }
+
+    &.clean img {
+        border: 0 !important;
+        box-shadow: 0 0 0;
+    }
+
+    a:link img { border: 2px solid var(--link-new); }
+    a:visited img { border: 2px solid var(--link-visited); }
+    a:hover img { border: 2px solid #A9A9A9; }
 }
 
 /* additional spacing between pictures helps clarify which one the caption belongs to */
 figure + figure { margin-top: 25px; }
-
-figure a:link img { border: 2px solid var(--link-new); }
-figure a:visited img { border: 2px solid var(--link-visited); }
-figure a:hover img { border: 2px solid #A9A9A9; }
 
 aside {
     border-top: 1px solid #555555;
