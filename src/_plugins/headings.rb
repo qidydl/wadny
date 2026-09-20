@@ -37,5 +37,10 @@ Jekyll::Hooks.register [:documents, :pages], :post_render do |page|
         end
     end
 
+    doc.css("table").each do |table|
+        puts "Wrapping table in " + page.inspect
+        table.wrap("<div class=\"table\"></div>")
+    end
+
     page.output = doc.to_html
 end

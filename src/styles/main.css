@@ -225,14 +225,14 @@ figure {
     height: auto;
     margin-left: 0;
     margin-right: 0;
-    max-width: 100%;
+    max-width: 99%;
     text-align: center;
 
     img {
         border: 1px solid #A9A9A9;
         box-shadow: 5px 5px 5px light-dark(#999, #666);
         height: auto;
-        max-width: 100%;
+        max-width: 99%;
     }
 
     &.clean img {
@@ -360,6 +360,11 @@ q:before { content: open-quote; }
 q:after { content: close-quote; }
 
 .center { text-align: center; }
+
+div.table {
+    max-width: 98vw;
+    overflow-x: scroll;
+}
 
 table {
     border-collapse: collapse;
