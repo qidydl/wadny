@@ -8,6 +8,7 @@
         <outline type="rss" text="A Whole Lotta Nothing" title="A Whole Lotta Nothing" xmlUrl="https://a.wholelottanothing.org/rss/" htmlUrl="https://a.wholelottanothing.org"/>
         <outline type="rss" text="abyss.fish thoughts" title="abyss.fish thoughts" xmlUrl="https://abyss.fish/thoughts.atom" htmlUrl="https://abyss.fish/thoughts"/>
         <outline type="rss" text="Adactio" title="Adactio: Jeremy Keith" xmlUrl="https://adactio.com/rss/" htmlUrl="https://adactio.com/"/>
+        <outline type="rss" text="Andrew Kelley" title="Andrew Kelley" xmlUrl="https://andrewkelley.me/rss.xml" htmlUrl="https://andrewkelley.me/"/>
         <outline type="rss" text="Andrew Lock | .NET Escapades" title="Andrew Lock | .NET Escapades" xmlUrl="https://andrewlock.net/rss.xml" htmlUrl="https://andrewlock.net/"/>
         <outline type="rss" text="Anil Dash" title="Anil Dash" xmlUrl="https://www.anildash.com/feed.xml" htmlUrl="https://www.anildash.com/"/>
         <outline type="rss" text="Anil Madhavapeddy" title="Anil Madhavapeddy" xmlUrl="https://anil.recoil.org/news.xml" htmlUrl="https://anil.recoil.org/notes"/>
@@ -40,6 +41,7 @@
         <outline type="rss" text="kottke.org" title="kottke.org" xmlUrl="https://feeds.kottke.org/main" htmlUrl="https://kottke.org/"/>
         <outline type="rss" text="Last Week in AWS" title="Last Week in AWS" xmlUrl="https://www.lastweekinaws.com/feed/" htmlUrl="https://www.lastweekinaws.com/"/>
         <outline type="rss" text="Liss is More" title="Liss is More by Casey Liss" xmlUrl="https://www.caseyliss.com/rss" htmlUrl="https://caseyliss.com/"/>
+        <outline type="rss" text="Loris Cro" title="Loris Cro's Personal Website" xmlUrl="https://kristoff.it/index.xml" htmlUrl="https://kristoff.it/blog/"/>
         <outline type="rss" text="Ludicity" title="Ludicity" xmlUrl="https://ludic.mataroa.blog/rss/" htmlUrl="https://ludic.mataroa.blog/"/>
         <outline type="rss" text="Mads Kristensen" title="Mads Kristensen" xmlUrl="https://www.madskristensen.net/feed/rss" htmlUrl="https://www.madskristensen.net/"/>
         <outline type="rss" text="Manton Reece" title="Manton Reece" xmlUrl="https://www.manton.org/feed.xml" htmlUrl="https://www.manton.org/"/>
@@ -59,6 +61,7 @@
         <outline type="rss" text="Reasonably Polymorphic" title="Reasonably Polymorphic" xmlUrl="https://reasonablypolymorphic.com/atom.xml" htmlUrl="https://reasonablypolymorphic.com/"/>
         <outline type="rss" text="Ronalds Vilciņš" title="Ronalds Vilciņš" xmlUrl="https://ronaldsvilcins.com/atom.xml" htmlUrl="https://ronaldsvilcins.com/blog/"/>
         <outline type="rss" text="Scott Hanselman's Blog" title="Scott Hanselman's Blog" xmlUrl="https://feeds.hanselman.com/ScottHanselman" htmlUrl="https://www.hanselman.com/blog/"/>
+        <outline type="rss" text="Scott O&apos;Hara" title="Scott O&apos;Hara" xmlUrl="https://www.scottohara.me/feed.xml" htmlUrl="https://www.scottohara.me/writing/"/>
         <outline type="rss" text="Scripting News" title="Scripting News" xmlUrl="http://scripting.com/rss.xml" htmlUrl="http://scripting.com/"/>
         <outline type="rss" text="Simon Willison's Weblog" title="Simon Willison's Weblog" xmlUrl="https://simonwillison.net/atom/everything/" htmlUrl="https://simonwillison.net/"/>
         <outline type="rss" text="SimpleBits" title="SimpleBits" xmlUrl="https://simplebits.com/newsletter/rss/" htmlUrl="https://simplebits.com/newsletter/"/>
@@ -73,6 +76,7 @@
         <outline type="rss" text="Thoughts From Eric" title="Thoughts From Eric" xmlUrl="https://meyerweb.com/eric/thoughts/rss2/full" htmlUrl="https://meyerweb.com/eric/thoughts"/>
         <outline type="rss" text="Timothy McSweeney&apos;s Internet Tendency" title="Timothy McSweeney&apos;s Internet Tendency" xmlUrl="https://feeds.feedburner.com/mcsweeneys" htmlUrl="https://www.mcsweeneys.net/"/>
         <outline type="rss" text="Troy Hunt" title="Troy Hunt" xmlUrl="https://www.troyhunt.com/rss/" htmlUrl="https://www.troyhunt.com/"/>
+        <outline type="rss" text="Unsung" title="Unsung by Marcin Wichary" xmlUrl="https://unsung.aresluna.org/feed.xml" htmlUrl="https://unsung.aresluna.org/"/>
         <outline type="rss" text="Waxy.org" title="Waxy.org - Andy Baio lives here" xmlUrl="https://waxy.org/feed/" htmlUrl="https://waxy.org/"/>
     </body>
 </opml>
